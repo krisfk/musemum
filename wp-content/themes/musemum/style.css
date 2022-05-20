@@ -107,3 +107,30 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     width: 5760px;
     height: 1080px;
 }
+
+.cal-pos-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1920px;
+    height: 1080px;
+    background: #4f4f4f00;
+}
+
+.cal-pos-2 {
+    position: absolute;
+    top: 0;
+    left: 1920px;
+    width: 1920px;
+    height: 1080px;
+    background: #2e2b5e2c;
+}
+
+.cal-pos-3 {
+    position: absolute;
+    top: 0;
+    left: 3840px;
+    width: 1920px;
+    height: 1080px;
+    background: #55181864;
+}

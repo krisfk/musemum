@@ -12,6 +12,11 @@
 get_header();
 
 ?>
+
+<div class="cal-pos-1"></div>
+<div class="cal-pos-2"></div>
+<div class="cal-pos-3"></div>
+
 <div class="main-container">
 
     <img class="h-100" src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/page-1-bg.jpg" alt="">
