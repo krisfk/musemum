@@ -20,22 +20,6 @@
 
 <footer id="colophon" class="site-footer">
 
-    <?php //if ( has_nav_menu( 'footer' ) ) : ?>
-
-
-    <?php //endif; ?>
-    <div class="site-info">
-
-
-        <?php
-			// if ( function_exists( 'the_privacy_policy_link' ) ) {
-			// 	the_privacy_policy_link( '<div class="privacy-policy">', '</div>' );
-			// }
-			?>
-
-
-
-    </div><!-- .site-info -->
 </footer><!-- #colophon -->
 
 </div><!-- #page -->
