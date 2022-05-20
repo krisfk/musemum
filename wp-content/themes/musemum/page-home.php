@@ -14,6 +14,7 @@ get_header();
 ?>
 <div class="main-container">
 
+    <img class="h-100" src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/page-1-bg.jpg" alt="">
 </div>
 <?php
 get_footer();
