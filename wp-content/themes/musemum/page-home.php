@@ -12,6 +12,8 @@
 get_header();
 
 ?>
-fdsf
+<div class="main-container">
+
+</div>
 <?php
 get_footer();
