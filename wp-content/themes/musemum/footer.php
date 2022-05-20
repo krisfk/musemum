@@ -20,12 +20,10 @@
 
 <footer id="colophon" class="site-footer">
 
-    <?php if ( has_nav_menu( 'footer' ) ) : ?>
-    <nav aria-label="<?php esc_attr_e( 'Secondary menu', 'twentytwentyone' ); ?>" class="footer-navigation">
+    <?php //if ( has_nav_menu( 'footer' ) ) : ?>
 
 
-    </nav><!-- .footer-navigation -->
-    <?php endif; ?>
+    <?php //endif; ?>
     <div class="site-info">
 
 
