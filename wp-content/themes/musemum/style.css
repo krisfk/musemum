@@ -260,3 +260,11 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     height: 1080px;
     background: #5ea6a6;
 }
+
+.bg-behind-phone-1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    z-index: 100;
+}

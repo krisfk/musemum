@@ -84,6 +84,9 @@ get_header();
             <span> Explore your interest, Plan your trip</span>
         </div>
 
+        <img class="bg-behind-phone-1"
+            src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/bg-behind-phone-1-scaled.jpg" alt="">
+
 
     </div>
 
