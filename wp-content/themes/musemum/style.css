@@ -198,3 +198,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 .roboto {
     font-family: 'Roboto Condensed', sans-serif;
 }
+
+.app-icon {
+    position: absolute;
+}
