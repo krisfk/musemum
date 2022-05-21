@@ -233,6 +233,12 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     position: absolute;
     top: 318px;
     left: 321px;
+    line-height: normal;
 }
 
-.scene-1-txt-4 {}
+.scene-1-txt-4 {
+    position: absolute;
+    top: 318px;
+    left: 321px;
+    line-height: normal;
+}
