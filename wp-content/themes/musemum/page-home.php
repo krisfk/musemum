@@ -93,7 +93,7 @@ $(function() {
 
 
         setTimeout(() => {
-            $('.app-icon').fadeIn(0);
+            $('.app-icon').fadeIn(200);
         }, 800);
 
         $('.white-big-mcd-logo').animate({
