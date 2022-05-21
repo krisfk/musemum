@@ -48,6 +48,8 @@ get_header();
                     style="font-size: 85px;margin-left: 0rem;margin-right:1rem;font-weight:bold;">Pass
                     Counter</span></span>
         </div>
+
+        <img class="app-icon" src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/app-icon.png" alt="">
     </div>
 
     <!--scene-1 end-->
