@@ -209,11 +209,12 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 
 .qr-code-group-1 {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100px;
+    top: 441px;
+    left: 1078px;
+    width: 197px;
 }
 
 .qr-code-group-1 img {
     width: 100%;
+    margin: 0 0 20px 0;
 }
