@@ -147,6 +147,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     position: absolute;
     left: 1920px;
     top: 0;
+    z-index: 10;
 }
 
 .musemum-card {
@@ -201,6 +202,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     top: 441px;
     left: 1463px;
     display: none;
+    z-index: 100;
 }
 
 .qr-code-group-1 {
@@ -209,6 +211,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     left: 980px;
     width: 197px;
     display: none;
+    z-index: 100;
 }
 
 .qr-code-group-1 img {
@@ -222,6 +225,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     left: 1219px;
     width: 197px;
     display: none;
+    z-index: 100;
 }
 
 .qr-code-group-2 img {
@@ -235,6 +239,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     left: 300px;
     line-height: normal;
     display: none;
+    z-index: 100;
 }
 
 .scene-1-txt-4 {
@@ -242,6 +247,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     top: 431px;
     left: 300px;
     line-height: normal;
+    z-index: 100;
     display: none;
 }
 
