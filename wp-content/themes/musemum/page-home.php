@@ -79,7 +79,7 @@ get_header();
                 mobile application</span>
         </div>
 
-        <div class="scene-1-txt-5">
+        <div class="scene-1-txt-5" style="font-size: 100px;">
             <span> 隨意行 隨處賞</span> <br>
             <span> Explore your interest, Plan your trip</span>
         </div>
