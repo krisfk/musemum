@@ -62,6 +62,24 @@ get_header();
 
         </div>
 
+        <div>海防<span>智博行</span> <br>
+            <span class="roboto">MCD <span>iM Guide</span></span>
+        </div>
+
+        <div> <span>免費下載「智博行」流動應用程式</span> <br>
+            <span class="roboto">Free download of "MCD iM Guide" <br>
+                mobile application</span>
+
+
+
+
+
+
+
+
+
+        </div>
+
 
     </div>
 
