@@ -43,8 +43,8 @@ get_header();
         </div>
 
         <div class="scene-1-txt-2">
-            博物館<span class="big-font">通行證</span>辦理處 <br>
-            <span class="roboto">Museum Pass Counter</span>
+            博物館<span class="big-font fw-bold">通行證</span>辦理處 <br>
+            <span class="roboto">Museum <span class="fw-bold">Pass Counter</span></span>
         </div>
     </div>
 
