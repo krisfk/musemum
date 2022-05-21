@@ -58,12 +58,15 @@ get_header();
 </div>
 </div>
 
-<script type=" text/javascript">
+<script type="text/javascript">
 $(function() {
 
     //start
     setTimeout(() => {
-
+        // 202px
+        $('.white-big-mcd-logo').animate({
+            'left': '202px'
+        }, 1000);
     }, 3000);
 })
 </script>
