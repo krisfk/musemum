@@ -116,6 +116,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     width: 1920px;
     height: 1080px;
     background: #4f4f4f00;
+    z-index: -100;
 }
 
 .cal-pos-2 {
@@ -125,6 +126,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     width: 1920px;
     height: 1080px;
     background: #2e2b5e2c;
+    z-index: -100;
 }
 
 .cal-pos-3 {
@@ -134,6 +136,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     width: 1920px;
     height: 1080px;
     background: #55181864;
+    z-index: -100;
 }
 
 .page-1-bg {}
@@ -169,4 +172,13 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 
 .scene-1-txt-2 .big-font {
     font-size: 60px;
+}
+
+.scene-1-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #dfdfdf;
+    width: 5760px;
+    height: 1080px;
 }

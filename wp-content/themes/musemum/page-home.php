@@ -38,6 +38,9 @@ get_header();
         博物館<span class="big-font">通行證</span>辦理處 <br>
         Museum Pass Counter
     </div>
+    <div classs="scene-1-bg">
+
+    </div>
 
 </div>
 </div>
