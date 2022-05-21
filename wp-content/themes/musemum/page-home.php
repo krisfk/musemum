@@ -38,13 +38,13 @@ get_header();
 
         <div class="scene-1-txt-1">
             帶你體驗康文署博物館精彩的藝術 • 歷史 • <br>科學旅程！<br>
-            Enjoy the visit by inspiring experiences in Art • History • <br>
-            Science under the LCSD Museums
+            <span class="roboto">Enjoy the visit by inspiring experiences in Art • History • <br>
+                Science under the LCSD Museums</span>
         </div>
 
         <div class="scene-1-txt-2">
             博物館<span class="big-font">通行證</span>辦理處 <br>
-            Museum Pass Counter
+            <span class="roboto">Museum Pass Counter</span>
         </div>
     </div>
 
@@ -55,5 +55,15 @@ get_header();
 
 </div>
 </div>
+
+<script type="text/javascript">
+$(function() {
+
+    //start
+    setTimeout(() => {
+
+    }, 3000);
+})
+</script>
 <?php
 get_footer();

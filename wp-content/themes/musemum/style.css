@@ -194,3 +194,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     width: 4920px;
     height: 1080px;
 }
+
+.roboto {
+    font-family: 'Roboto Condensed', sans-serif;
+}
