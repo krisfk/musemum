@@ -166,11 +166,12 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 
 .scene-1-txt-2 {
     position: absolute;
-    top: 391px;
+    top: 411px;
     color: #394d64;
     left: 4620px;
     text-align: center;
     font-size: 66px;
+    line-height: normal;
     width: fit-content;
 }
 
