@@ -43,8 +43,9 @@ get_header();
         </div>
 
         <div class="scene-1-txt-2">
-            博物館<span>通行證</span>辦理處 <br>
-            <span class="roboto">Museum <span>Pass Counter</span></span>
+            博物館<span style="font-size:104px;margin-left:1rem;margin-right:1rem;font-weight:bold;">通行證</span>辦理處 <br>
+            <span class="roboto">Museum <span
+                    style="font-size:104px;margin-left:1rem;margin-right:1rem;font-weight:bold;"">Pass Counter</span></span>
         </div>
     </div>
 
@@ -56,14 +57,14 @@ get_header();
 </div>
 </div>
 
-<script type="text/javascript">
-$(function() {
+<script type=" text/javascript">
+                    $(function() {
 
-    //start
-    setTimeout(() => {
+                    //start
+                    setTimeout(() => {
 
-    }, 3000);
-})
-</script>
-<?php
+                    }, 3000);
+                    })
+                    </script>
+                    <?php
 get_footer();
