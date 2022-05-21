@@ -83,6 +83,8 @@ $(function() {
     setTimeout(() => {
 
         $('.app-icon').fadeOut(0);
+        $('.qr-code-group-1').fadeOut(0);
+        $('.qr-code-group-2').fadeOut(0);
 
 
         setTimeout(() => {
