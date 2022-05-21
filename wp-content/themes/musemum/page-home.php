@@ -97,7 +97,7 @@ $(function() {
 
 
         setTimeout(() => {
-            $('.qr-code-group-1,.qr-code-group-2').fadeIn(200);
+            $('.qr-code-group-1,.qr-code-group-2,.scene-1-txt-3,.scene-1-txt-4').fadeIn(200);
         }, 800);
 
 

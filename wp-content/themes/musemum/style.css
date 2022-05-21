@@ -234,6 +234,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     top: 318px;
     left: 321px;
     line-height: normal;
+    display: none;
 }
 
 .scene-1-txt-4 {
@@ -241,4 +242,5 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     top: 436px;
     left: 324px;
     line-height: normal;
+    display: none;
 }
