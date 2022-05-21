@@ -274,6 +274,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 .scene-1-txt-5 {
     position: absolute;
     color: #fff;
+    display: none;
     top: 400px;
     right: 0;
     display: none;
