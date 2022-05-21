@@ -64,7 +64,7 @@ get_header();
 
 
 
-        <div class="scene-1-txt-3" style="font-size: 40px; display: block;">海防<span
+        <div class="scene-1-txt-3" style="font-size: 40px;">海防<span
                 style="font-size: 67px;font-weight: bold;margin: 0 0 0 9px;">智博行</span> <br>
             <span class="roboto" style="margin: 0 0 0 50px;">MCD <span style="font-size: 50px;font-weight: bold;">iM
                     Guide</span></span>
