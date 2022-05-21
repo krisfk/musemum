@@ -23,7 +23,7 @@ get_header();
         alt="">
 
 
-    <img class="white-big-mcd-logo" src="h-100" src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/c.png"
+    <img class="white-big-mcd-logo" class="h-100" src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/c.png"
         alt="">
 </div>
 <?php
