@@ -79,11 +79,11 @@ get_header();
                 mobile application</span>
         </div>
 
-        <div class="scene-1-txt-5" style="font-size: 100px;">
+        <div class="scene-1-txt-5" style="font-size: 100px; display: block;">
             <span> 隨意行 隨處賞</span> <br>
-            <span class="roboto"> Explore your interest, Plan your trip</span>
+            <span class="roboto" style="font-size: 84px;margin: 0 0 0 70px;"> Explore your interest, Plan your
+                trip</span>
         </div>
-
         <img class="bg-behind-phone-1"
             src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/bg-behind-phone-1-scaled.jpg" alt="">
 
