@@ -130,6 +130,7 @@ $(function() {
         });
         $('.scene-1-green-bg').fadeIn(500);
         $('.bg-behind-phone-1').fadeIn(500);
+        $('.scene-1-txt-5').fadeIn(500);
 
 
         $('.musemum-card,.scene-1-txt-1,.scene-1-txt-2').fadeOut(200);
