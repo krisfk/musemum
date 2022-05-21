@@ -49,6 +49,9 @@ get_header();
                     Counter</span></span>
         </div>
 
+        <div class="scene-1-green-bg">
+
+        </div>
         <img class="app-icon" src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/app-icon.png" alt="">
 
         <div class="qr-code-group-1">
@@ -74,6 +77,11 @@ get_header();
         <div class="scene-1-txt-4" style="font-size:40px;"> <span>免費下載「智博行」流動應用程式</span> <br>
             <span class="roboto">Free download of "MCD iM Guide" <br>
                 mobile application</span>
+        </div>
+
+        <div class="scene-1-txt-5">
+            <span> 隨意行 隨處賞</span> <br>
+            <span> Explore your interest, Plan your trip</span>
         </div>
 
 
