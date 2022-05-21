@@ -28,6 +28,13 @@ get_header();
 
     <img class="musemum-card" src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/card.png" alt="">
 
+    <div class="scene-1-txt-1">
+        帶你體驗康文署博物館精彩的藝術 • 歷史 • <br>科學旅程！<br>
+        Enjoy the visit by inspiring experiences in Art • History • <br>
+        Science under the LCSD Museums
+    </div>
+
+</div>
 </div>
 <?php
 get_footer();

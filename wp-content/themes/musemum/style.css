@@ -147,7 +147,14 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 .musemum-card {
     height: 460px;
     position: absolute;
-    left: 1920px;
     top: 210px;
     left: 2188px;
+}
+
+.scene-1-txt-1 {
+    position: absolute;
+    top: 210px;
+    color: #394d64;
+    left: 2188px;
+    font-size: 40px;
 }
