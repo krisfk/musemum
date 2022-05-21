@@ -111,7 +111,6 @@ $(function() {
 
         setTimeout(() => {
             $('.qr-code-group-1,.qr-code-group-2,.scene-1-txt-3,.scene-1-txt-4').fadeIn(200);
-            $('.scene-1-green-bg').fadeIn(200);
         }, 800);
 
 
@@ -126,6 +125,9 @@ $(function() {
                 'left': '2172px'
             }, 500);
         });
+        $('.scene-1-green-bg').fadeIn(500);
+
+
 
         $('.musemum-card,.scene-1-txt-1,.scene-1-txt-2').fadeOut(200);
 
