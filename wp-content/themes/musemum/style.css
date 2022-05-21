@@ -263,6 +263,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 }
 
 .bg-behind-phone-1 {
+    display: none;
     position: absolute;
     top: 0;
     right: 0;
