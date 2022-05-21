@@ -63,10 +63,12 @@ get_header();
 <script type="text/javascript">
 $(function() {
 
+    $('.app-icon').fadeOut(0);
+
+
     //start
     setTimeout(() => {
 
-        $('.app-icon').fadeOut(0);
 
         setTimeout(() => {
             $('.app-icon').fadeIn(300);
