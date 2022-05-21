@@ -27,6 +27,7 @@ get_header();
         src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/white-big-mcd-logo.png" alt="">
 
     <img class="card" src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/card.png" alt="">
+
 </div>
 <?php
 get_footer();
