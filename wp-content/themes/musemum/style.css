@@ -139,7 +139,9 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     z-index: -100;
 }
 
-.page-1-bg {}
+.page-1-bg {
+    position: relative;
+}
 
 .white-big-mcd-logo {
     position: absolute;
