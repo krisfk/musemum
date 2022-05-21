@@ -143,3 +143,10 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     left: 1920px;
     top: 0;
 }
+
+.card {
+    height: 460px;
+    position: absolute;
+    left: 1920px;
+    top: 0;
+}
