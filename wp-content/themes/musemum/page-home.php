@@ -63,10 +63,14 @@ $(function() {
 
     //start
     setTimeout(() => {
-        // 202px
+
+
         $('.white-big-mcd-logo').animate({
             'left': '202px'
         }, 1000);
+
+        $('.musemum-card').fadeOut(200);
+
     }, 3000);
 })
 </script>
