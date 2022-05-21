@@ -62,7 +62,7 @@ get_header();
 
         </div>
 
-        <div class="scene-1-txt-3">海防<span>智博行</span> <br>
+        <div class="scene-1-txt-3" style="font-size:40px;">海防<span>智博行</span> <br>
             <span class="roboto">MCD <span>iM Guide</span></span>
         </div>
 
