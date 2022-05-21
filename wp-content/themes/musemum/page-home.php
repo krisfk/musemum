@@ -16,7 +16,9 @@ get_header();
 <div class="cal-pos-1"></div>
 <div class="cal-pos-2"></div>
 <div class="cal-pos-3"></div>
+<div classs="scene-1-bg">
 
+</div>
 <div class="main-container">
 
     <img class="page-1-bg" class="h-100" src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/page-1-bg.jpg"
@@ -38,9 +40,7 @@ get_header();
         博物館<span class="big-font">通行證</span>辦理處 <br>
         Museum Pass Counter
     </div>
-    <div classs="scene-1-bg">
 
-    </div>
 
 </div>
 </div>
