@@ -66,6 +66,11 @@ $(function() {
     //start
     setTimeout(() => {
 
+        $('.app-icon').fadeOut(0);
+
+        setTimeout(() => {
+            $('.app-icon').fadeIn(300);
+        }, 800);
 
         $('.white-big-mcd-logo').animate({
             'left': '202px'
