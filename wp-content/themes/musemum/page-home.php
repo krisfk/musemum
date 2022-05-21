@@ -23,8 +23,8 @@ get_header();
         alt="">
 
 
-    <img class="white-big-mcd-logo" class="h-100" src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/c.png"
-        alt="">
+    <img class="white-big-mcd-logo" class="h-100"
+        src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/white-big-mcd-logo.png" alt="">
 </div>
 <?php
 get_footer();
