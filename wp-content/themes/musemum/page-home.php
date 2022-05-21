@@ -88,12 +88,12 @@ $(function() {
 
 
         setTimeout(() => {
-            $('.qr-code-group-1,.qr-code-group-2').fadeIn(0);
+            $('.qr-code-group-1,.qr-code-group-2').fadeIn(200);
         }, 800);
 
 
         setTimeout(() => {
-            $('.app-icon').fadeIn(200);
+            $('.app-icon').fadeIn(0);
         }, 800);
 
         $('.white-big-mcd-logo').animate({
