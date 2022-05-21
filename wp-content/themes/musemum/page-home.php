@@ -71,7 +71,7 @@ $(function() {
 
         $('.musemum-card').fadeOut(200);
 
-    }, 3000);
+    }, 1000);
 })
 </script>
 <?php
