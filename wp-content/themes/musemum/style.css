@@ -154,6 +154,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     height: 495px;
     position: absolute;
     top: 210px;
+    z-index: 100;
     left: 2170px;
 }
 
