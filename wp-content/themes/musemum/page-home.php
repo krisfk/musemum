@@ -83,8 +83,13 @@ $(function() {
     setTimeout(() => {
 
         $('.app-icon').fadeOut(0);
-        $('.qr-code-group-1').fadeOut(0);
-        $('.qr-code-group-2').fadeOut(0);
+        $('.qr-code-group-1,.qr-code-group-2').fadeOut(0);
+        // $('.qr-code-group-2').fadeOut(0);
+
+
+        setTimeout(() => {
+            $('.qr-code-group-1,.qr-code-group-2').fadeIn(0);
+        }, 800);
 
 
         setTimeout(() => {
