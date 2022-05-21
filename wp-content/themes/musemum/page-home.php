@@ -69,7 +69,8 @@ $(function() {
             'left': '202px'
         }, 1000);
 
-        $('.musemum-card').fadeOut(200);
+        $('.musemum-card,.scene-1-txt-1,.scene-1-txt-2').fadeOut(200);
+
 
     }, 1000);
 })
