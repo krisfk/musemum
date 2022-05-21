@@ -64,10 +64,10 @@ get_header();
 
 
 
-
-        <div class="scene-1-txt-3" style="font-size: 40px;">海防<span
-                style="font-size: 75px;font-weight: bold;margin: 0 0 0 9px;">智博行</span> <br>
-            <span class="roboto" style="margin: 0 0 0 50px;">MCD <span style="font-size: 50px;font-weight: bold;">iM
+        <div class="scene-1-txt-3" style="font-size: 42px; display: block;">
+            <span>海防</span>
+            <span style="font-size: 90px;font-weight: bold;margin: 0 0 0 9px;">智博行</span> <br>
+            <span class="roboto" style="margin: 0 0 0 99px;">MCD <span style="font-size: 50px;font-weight: bold;">iM
                     Guide</span></span>
         </div>
 
