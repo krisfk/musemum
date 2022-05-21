@@ -282,4 +282,6 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     background-size: 100% 100%;
     width: 1598px;
     padding: 35px;
+    line-height: normal;
+    font-style: italic;
 }
