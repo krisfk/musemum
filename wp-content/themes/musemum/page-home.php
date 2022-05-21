@@ -50,6 +50,19 @@ get_header();
         </div>
 
         <img class="app-icon" src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/app-icon.png" alt="">
+
+        <div class="qr-code-group-1">
+
+            <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/qr-1.png" alt="">
+            <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/app-store-icon-1.png" alt="">
+        </div>
+        <div class="qr-code-group-2">
+            <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/qr-2.png" alt="">
+            <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/app-store-icon-2.png" alt="">
+
+        </div>
+
+
     </div>
 
     <!--scene-1 end-->
