@@ -69,7 +69,9 @@ $(function() {
 
         $('.white-big-mcd-logo').animate({
             'left': '202px'
-        }, 1000);
+        }, 1000, function() {
+            alert(6);
+        });
 
         $('.musemum-card,.scene-1-txt-1,.scene-1-txt-2').fadeOut(200);
 
