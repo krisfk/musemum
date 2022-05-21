@@ -66,7 +66,7 @@ get_header();
             <span class="roboto">MCD <span>iM Guide</span></span>
         </div>
 
-        <div class="scene-1-txt-4"> <span>免費下載「智博行」流動應用程式</span> <br>
+        <div class="scene-1-txt-4" style="font-size:40px;"> <span>免費下載「智博行」流動應用程式</span> <br>
             <span class="roboto">Free download of "MCD iM Guide" <br>
                 mobile application</span>
         </div>
