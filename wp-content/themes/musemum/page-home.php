@@ -62,9 +62,14 @@ get_header();
 
         </div>
 
-        <div class="scene-1-txt-3" style="font-size:40px;">海防<span>智博行</span> <br>
-            <span class="roboto">MCD <span>iM Guide</span></span>
+
+
+        <div class="scene-1-txt-3" style="font-size: 40px; display: block;">海防<span
+                style="font-size: 67px;font-weight: bold;margin: 0 0 0 9px;">智博行</span> <br>
+            <span class="roboto" style="margin: 0 0 0 50px;">MCD <span style="font-size: 50px;font-weight: bold;">iM
+                    Guide</span></span>
         </div>
+
 
         <div class="scene-1-txt-4" style="font-size:40px;"> <span>免費下載「智博行」流動應用程式</span> <br>
             <span class="roboto">Free download of "MCD iM Guide" <br>
