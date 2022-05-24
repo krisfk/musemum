@@ -88,10 +88,10 @@ get_header();
             src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/bg-behind-phone-1-scaled.jpg" alt="">
 
         <div class="iphone-div">
-            <video autoplay class="iphone-video">
+            <!-- <video autoplay class="iphone-video">
                 <source src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/AR_UI.mp4" type="video/mp4">
 
-            </video>
+            </video> -->
             <img class="iphone-img" src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/iphone.png" alt="">
         </div>
 
