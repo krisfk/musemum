@@ -87,6 +87,9 @@ get_header();
         <img class="bg-behind-phone-1"
             src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/bg-behind-phone-1-scaled.jpg" alt="">
 
+        <div class="iphone-div">
+            <img class="iphone-img" src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/iphone.png" alt="">
+        </div>
 
     </div>
 

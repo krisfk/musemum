@@ -289,3 +289,12 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     line-height: normal;
     font-style: italic;
 }
+
+.iphone-img-div {
+    position: absolute;
+}
+
+.iphone-img {
+    position: relative;
+    width: 385px;
+}
