@@ -292,8 +292,9 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 
 .iphone-div {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 150px;
+    left: 2700px;
+    z-index: 100;
 }
 
 .iphone-img {
