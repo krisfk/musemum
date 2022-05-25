@@ -142,7 +142,7 @@ $(function() {
             }, 500, function() {
 
 
-                $('.iphone-div').fadeIn(500);
+                $('.iphone-div').fadeIn(800);
                 // $('.iphone-div').animate({
                 //     'left': '2662px'
                 // }, 500);
