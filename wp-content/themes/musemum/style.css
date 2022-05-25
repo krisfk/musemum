@@ -296,6 +296,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     left: 2389px;
     display: none;
     z-index: 100;
+    transform: rotate(0deg);
 }
 
 .iphone-img {
