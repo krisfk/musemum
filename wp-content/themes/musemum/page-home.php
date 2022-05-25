@@ -167,9 +167,9 @@ $(function() {
                 //     'left': '2662px'
                 // }, 500);
                 $('.iphone-div').addClass('rotate1');
-                $('.iphone-div').prepend(
-                    '<video class="iphone-video" autoplay muted> <source src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/Checkpoint11_UI.mp4" type="video/mp4"> </video>'
-                );
+                // $('.iphone-div').prepend(
+                //     '<video class="iphone-video" autoplay muted> <source src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/Checkpoint11_UI.mp4" type="video/mp4"> </video>'
+                // );
                 //             position: absolute;
                 // top: 150px;
                 // left: 2662px;
