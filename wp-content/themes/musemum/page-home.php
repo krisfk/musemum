@@ -109,11 +109,18 @@ get_header();
 </div>
 </div>
 
-<video id="test-video" width="320" height="240" controls autoplay>
+<!-- <video id="test-video" width="320" height="240" controls autoplay>
     <source src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/5_Animation_13_FinalRender.mp4"
         type="video/mp4">
 
-</video>
+</video> -->
+
+
+<iframe src=”https://olafwempe.com/mp3/silence/silence.mp3″ type=”audio/mp3″ allow=”autoplay” id=”audio”
+    style=”display:none”></iframe>
+<audio autoplay>
+    <source src=”https://olafwempe.com/mp3/Septium.mp3″ type=”audio/mp3″>
+</audio>
 
 <script type="text/javascript">
 $(function() {
