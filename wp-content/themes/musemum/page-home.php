@@ -91,7 +91,12 @@ get_header();
             <!-- <video class="iphone-video" autoplay muted>
                 <source src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/AR_UI.mp4" type="video/mp4">
             </video> -->
-            <img class="iphone-img" src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/iphone.png" alt="">
+            <video class="iphone-img">
+                <source src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/Checkpoint11_UI.mp4"
+                    type="video/mp4">
+            </video>
+
+            <!-- <img class="iphone-img" src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/iphone.png" alt=""> -->
         </div>
 
     </div>
