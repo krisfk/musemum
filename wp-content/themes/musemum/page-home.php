@@ -91,7 +91,7 @@ get_header();
             <!-- <video class="iphone-video" autoplay muted>
                 <source src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/AR_UI.mp4" type="video/mp4">
             </video> -->
-            <video class="iphone-img" controls>
+            <video class="iphone-video" controls>
                 <source src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/Checkpoint11_UI.mp4"
                     type="video/mp4">
             </video>
