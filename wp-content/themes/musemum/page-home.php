@@ -91,10 +91,10 @@ get_header();
             <!-- <video class="iphone-video" autoplay muted>
                 <source src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/AR_UI.mp4" type="video/mp4">
             </video> -->
-            <!-- <video class="iphone-img">
+            <video class="iphone-img" controls>
                 <source src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/Checkpoint11_UI.mp4"
                     type="video/mp4">
-            </video> -->
+            </video>
 
             <img class="iphone-img" src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/iphone.png" alt="">
         </div>
@@ -115,14 +115,9 @@ get_header();
 
 </video>
 
-<!-- <video id="test-video2" width="320" height="240" controls autoplay>
-    <source src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/5_Animation_13_FinalRender.mp4"
-        type="video/mp4">
-</video> -->
+
 
 <div class="test2">
-
-
 </div>
 <!-- <iframe src=”https://olafwempe.com/mp3/silence/silence.mp3″ type=”audio/mp3″ allow=”autoplay” id=”audio”
     style=”display:none”></iframe>
