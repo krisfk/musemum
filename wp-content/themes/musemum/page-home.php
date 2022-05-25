@@ -143,7 +143,17 @@ $(function() {
 
 
                 $('.iphone-div').fadeIn(500);
+                $('.iphone-div').animate({
+                    'left': '2662px',
+                    'transform': 'rotate(15deg)'
+                }, 500);
 
+                //             position: absolute;
+                // top: 150px;
+                // left: 2662px;
+                // display: none;
+                // z-index: 100;
+                // transform: rotate(15deg);
             });
 
 
