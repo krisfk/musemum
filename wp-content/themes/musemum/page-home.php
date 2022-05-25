@@ -144,9 +144,9 @@ $(function() {
 
                 $('.iphone-div').fadeIn(500);
                 $('.iphone-div').animate({
-                    'left': '2662px',
-                    'transform': 'rotate(15deg)'
+                    'left': '2662px'
                 }, 500);
+                $('.iphone-div').addClass('rotate1');
 
                 //             position: absolute;
                 // top: 150px;
