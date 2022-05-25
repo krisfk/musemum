@@ -112,13 +112,10 @@ get_header();
 <video id="test-video" width="320" height="240" controls autoplay>
     <source src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/5_Animation_13_FinalRender.mp4"
         type="video/mp4">
-
 </video>
+<a href="javascript:void(0);" class="start-btn">START</a>
 
 
-
-<div class="test2">
-</div>
 <!-- <iframe src=”https://olafwempe.com/mp3/silence/silence.mp3″ type=”audio/mp3″ allow=”autoplay” id=”audio”
     style=”display:none”></iframe>
 <audio autoplay>
@@ -133,10 +130,7 @@ $(function() {
 
 
 
-    // $('.app-icon').fadeOut(0);
 
-
-    //start
     setTimeout(() => {
 
         $('.app-icon').fadeOut(0);
