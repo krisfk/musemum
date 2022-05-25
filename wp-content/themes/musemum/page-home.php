@@ -136,9 +136,17 @@ $(function() {
         $('.white-big-mcd-logo').animate({
             'left': '202px'
         }, 1000, function() {
+
             $('.app-icon').animate({
                 'left': '2172px'
-            }, 500);
+            }, 500, function() {
+
+
+                $('.iphone-div').fadeIn(500);
+
+            });
+
+
         });
         $('.scene-1-green-bg').fadeIn(500);
         $('.bg-behind-phone-1').fadeIn(500);
