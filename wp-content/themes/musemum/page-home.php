@@ -88,9 +88,9 @@ get_header();
             src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/bg-behind-phone-1-scaled.jpg" alt="">
 
         <div class="iphone-div">
-            <video id="iphone-video" class="iphone-video" autoplay muted>
-                <source src="" type="video/mp4">
-            </video>
+            <!-- <video class="iphone-video" autoplay muted>
+                <source src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/AR_UI.mp4" type="video/mp4">
+            </video> -->
             <img class="iphone-img" src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/iphone.png" alt="">
         </div>
 
@@ -146,14 +146,9 @@ $(function() {
                 //     'left': '2662px'
                 // }, 500);
                 $('.iphone-div').addClass('rotate1');
-                $('.iphone-div video source').attr('src',
-                    'http://64.227.13.14/musemum/wp-content/uploads/2022/05/AR_UI.mp4'
-                );
-
-                var vid = document.getElementById("iphone-video");
-                vid.play();
-
-
+                $('.iphone-div').prepend(
+                    '<video class="iphone-video" autoplay muted> <source src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/AR_UI.mp4" type="video/mp4"> </video>'
+                    );
                 //             position: absolute;
                 // top: 150px;
                 // left: 2662px;
