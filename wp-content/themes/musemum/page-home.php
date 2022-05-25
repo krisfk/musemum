@@ -109,10 +109,11 @@ get_header();
 </div>
 </div>
 
-<!-- <video width="320" height="240" controls autoplay muted>
-    <source src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/AR_UI.mp4" type="video/mp4">
+<video width="320" height="240" controls autoplay muted>
+    <source src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/5_Animation_13_FinalRender.mp4"
+        type="video/mp4">
 
-</video> -->
+</video>
 
 <script type="text/javascript">
 $(function() {
