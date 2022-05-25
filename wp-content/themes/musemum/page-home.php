@@ -125,64 +125,74 @@ get_header();
 <script type="text/javascript">
 $(function() {
 
-    var vid = document.getElementById("test-video");
-    vid.play();
+    // var vid = document.getElementById("test-video");
+    // vid.play();
 
+    $('.start-btn').click(function() {
+        $(this).fadeOut(0);
+        $('#test-video').fadeOut(0);
+        all_start();
+    })
 
-
-
-    setTimeout(() => {
-
-        $('.app-icon').fadeOut(0);
-        $('.qr-code-group-1,.qr-code-group-2').fadeOut(0);
-        // $('.qr-code-group-2').fadeOut(0);
-
-
+    function all_start() {
         setTimeout(() => {
-            $('.qr-code-group-1,.qr-code-group-2,.scene-1-txt-3,.scene-1-txt-4').fadeIn(200);
-        }, 800);
+
+            $('.app-icon').fadeOut(0);
+            $('.qr-code-group-1,.qr-code-group-2').fadeOut(0);
+            // $('.qr-code-group-2').fadeOut(0);
 
 
-        setTimeout(() => {
-            $('.app-icon').fadeIn(0);
-        }, 800);
-
-        $('.white-big-mcd-logo').animate({
-            'left': '202px'
-        }, 1000, function() {
-
-            $('.app-icon').animate({
-                'left': '2172px'
-            }, 500, function() {
+            setTimeout(() => {
+                $('.qr-code-group-1,.qr-code-group-2,.scene-1-txt-3,.scene-1-txt-4').fadeIn(
+                200);
+            }, 800);
 
 
-                $('.iphone-div').fadeIn(0);
-                // $('.iphone-div').animate({
-                //     'left': '2662px'
-                // }, 500);
-                $('.iphone-div').addClass('rotate1');
-                // $('.iphone-div').prepend(
-                //     '<video class="iphone-video" autoplay muted> <source src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/Checkpoint11_UI.mp4" type="video/mp4"> </video>'
-                // );
-                //             position: absolute;
-                // top: 150px;
-                // left: 2662px;
-                // display: none;
-                // z-index: 100;
-                // transform: rotate(15deg);
+            setTimeout(() => {
+                $('.app-icon').fadeIn(0);
+            }, 800);
+
+            $('.white-big-mcd-logo').animate({
+                'left': '202px'
+            }, 1000, function() {
+
+                $('.app-icon').animate({
+                    'left': '2172px'
+                }, 500, function() {
+
+
+                    $('.iphone-div').fadeIn(0);
+                    // $('.iphone-div').animate({
+                    //     'left': '2662px'
+                    // }, 500);
+                    $('.iphone-div').addClass('rotate1');
+                    // $('.iphone-div').prepend(
+                    //     '<video class="iphone-video" autoplay muted> <source src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/Checkpoint11_UI.mp4" type="video/mp4"> </video>'
+                    // );
+                    //             position: absolute;
+                    // top: 150px;
+                    // left: 2662px;
+                    // display: none;
+                    // z-index: 100;
+                    // transform: rotate(15deg);
+                });
+
+
             });
+            $('.scene-1-green-bg').fadeIn(500);
+            $('.bg-behind-phone-1').fadeIn(500);
+            $('.scene-1-txt-5').fadeIn(500);
 
 
-        });
-        $('.scene-1-green-bg').fadeIn(500);
-        $('.bg-behind-phone-1').fadeIn(500);
-        $('.scene-1-txt-5').fadeIn(500);
+            $('.musemum-card,.scene-1-txt-1,.scene-1-txt-2').fadeOut(200);
 
 
-        $('.musemum-card,.scene-1-txt-1,.scene-1-txt-2').fadeOut(200);
+        }, 1000);
+    }
 
 
-    }, 1000);
+
+
 })
 </script>
 <?php
