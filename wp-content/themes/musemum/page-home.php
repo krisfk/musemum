@@ -144,7 +144,7 @@ $(function() {
 
             setTimeout(() => {
                 $('.qr-code-group-1,.qr-code-group-2,.scene-1-txt-3,.scene-1-txt-4').fadeIn(
-                200);
+                    200);
             }, 800);
 
 
@@ -166,6 +166,9 @@ $(function() {
                     //     'left': '2662px'
                     // }, 500);
                     $('.iphone-div').addClass('rotate1');
+                    $('.iphone-video').trigger('play');
+
+
                     // $('.iphone-div').prepend(
                     //     '<video class="iphone-video" autoplay muted> <source src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/Checkpoint11_UI.mp4" type="video/mp4"> </video>'
                     // );
