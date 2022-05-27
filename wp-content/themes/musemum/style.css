@@ -428,3 +428,10 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     height: 1080px;
     float: left;
 }
+
+.event-title-div {
+    display: block;
+    height: 400px;
+    width: 100%;
+    color: #fff;
+}

@@ -151,7 +151,12 @@ get_header();
         <div class="scene-2-screen scene-2-screen scene-2-screen-2">
 
             <div class="event-div one-col-width">
-                fdsaf
+                <div class="event-title-div" style="background:#394d64;">
+                    <div>
+                        免費公眾導賞
+                        Free Public Guide Tours
+                    </div>
+                </div>
             </div>
 
             <div class="event-div one-col-width">
