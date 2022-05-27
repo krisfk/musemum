@@ -135,6 +135,11 @@ get_header();
 
     <div class="scene-div scene-div-2">
 
+
+        <div class="scene-2-screen scene-2-screen scene-2-screen-1"></div>
+        <div class="scene-2-screen scene-2-screen scene-2-screen-2"></div>
+        <div class="scene-2-screen scene-2-screen scene-2-screen-3"></div>
+
     </div>
     <!--scene-2 end-->
 
