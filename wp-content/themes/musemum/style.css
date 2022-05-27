@@ -423,7 +423,8 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 }
 
 .event-div.one-col-width {
-    display: block;
+    display: inline-block;
     width: 50%;
     height: 1080px;
+    float: left;
 }
