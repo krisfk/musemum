@@ -84,8 +84,15 @@ get_header();
             <span class="roboto" style="font-size: 84px;margin: 0 0 0 70px;"> Explore your interest, Plan your
                 trip</span>
         </div>
-        <img class="bg-behind-phone-1"
+
+        <img class="bg-behind-phone bg-behind-phone-1"
             src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/bg-behind-phone-1-scaled.jpg" alt="">
+
+        <img class="bg-behind-phone bg-behind-phone-2"
+            src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/bg-2.jpg" alt="">
+
+        <img class="bg-behind-phone bg-behind-phone-3"
+            src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/bg-3.jpg" alt="">
 
         <div class="iphone-div">
             <!-- <video class="iphone-video" autoplay muted>
@@ -174,9 +181,7 @@ $(function() {
 
 
                     $('.iphone-div').fadeIn(0);
-                    // $('.iphone-div').animate({
-                    //     'left': '2662px'
-                    // }, 500);
+
                     $('.iphone-div').addClass('rotate1');
 
                     $('.iphone-div .iphone-video').on('ended', function() {
@@ -184,6 +189,16 @@ $(function() {
                         $('.iphone-div').addClass('rotate2');
                         $('.ar-videos-div').delay(500).fadeIn(0);
                         $('.ar-videos-div .ar-video-1').trigger('play');
+
+
+                        $('.iphone-div .iphone-video-1').on('ended',
+                            function() {
+
+                                $('.bg-behind-phone').fadeOut(0);
+                                $('.bg-behind-phone-2').fadeIn(500);
+
+                            })
+
                     });
 
 
