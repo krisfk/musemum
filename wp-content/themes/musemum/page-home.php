@@ -204,16 +204,25 @@ $(function() {
 
 
                         var v_idx = 1;
+                        var total_video = $('.bg-behind-phone').length();
                         $('.ar-videos-div .ar-video').on('ended',
                             function() {
 
-                                $('.ar-video-' + v_idx).fadeOut(0);
-                                $('.bg-behind-phone-' + v_idx).fadeOut(500);
-                                v_idx++;
-                                $('.ar-video-' + v_idx).fadeIn(0);
-                                $('.ar-video-' + v_idx).trigger(
-                                    'play');
-                                $('.bg-behind-phone-' + v_idx).fadeIn(500);
+                                if (v_idx == total_video) {
+                                    alert('finish');
+                                } else {
+                                    $('.ar-video-' + v_idx).fadeOut(500);
+                                    $('.bg-behind-phone-' + v_idx).fadeOut(
+                                        500);
+                                    v_idx++;
+                                    $('.ar-video-' + v_idx).fadeIn(500);
+                                    $('.ar-video-' + v_idx).trigger(
+                                        'play');
+                                    $('.bg-behind-phone-' + v_idx).fadeIn(
+                                        500);
+                                }
+
+
                             })
 
                     });
