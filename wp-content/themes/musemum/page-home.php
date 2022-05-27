@@ -99,6 +99,15 @@ get_header();
             <img class="iphone-img" src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/iphone.png" alt="">
         </div>
 
+        <div class="ar-videos-div">
+
+            <video class="ar-video ar-video-1" controls>
+                <source src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/5_Animation_13_FinalRender-1.mp4"
+                    type="video/mp4">
+            </video>
+
+        </div>
+
     </div>
 
     <!--scene-1 end-->
@@ -173,8 +182,6 @@ $(function() {
                     $('.iphone-div .iphone-video').on('ended', function() {
                         $('.iphone-div').removeClass('rotate1');
                         $('.iphone-div').addClass('rotate2');
-
-                        // console.log('Video has ended!');
                     });
 
                     // iphone-div
@@ -194,7 +201,7 @@ $(function() {
     }
 
 
-
+    // http://64.227.13.14/musemum/wp-content/uploads/2022/05/5_Animation_13_FinalRender-1.mp4
 
 })
 </script>
