@@ -341,7 +341,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 
 .ar-videos-div {
     position: absolute;
-    top: 350px;
+    top: 349px;
     left: 2538px;
     width: 727px;
     height: 342px;
@@ -353,11 +353,11 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 }
 
 .ar-videos-div .ar-video {
-    width: 569px;
+    width: 606px;
     /* position: absolute; */
     /* top: 0; */
     /* left: 0; */
-    height: 321px;
+    height: 354px;
     /* z-index: 2000000; */
     margin: 0 0 0 64px;
 }
