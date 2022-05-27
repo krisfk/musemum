@@ -129,14 +129,13 @@ get_header();
 
     </div>
 
-    <div></div>
-
     <!--scene-1 end-->
 
 
+    <div class="scene-div scene-div-2">
+    </div>
 
 
-</div>
 </div>
 
 <video id="test-video" width="320" height="240" controls autoplay>
@@ -204,6 +203,7 @@ $(function() {
                             function() {
 
                                 if (v_idx == total_video) {
+
                                     scene2();
                                 } else {
                                     $('.ar-video-' + v_idx).fadeOut(500);
