@@ -410,6 +410,22 @@ $(function() {
             }, 1000);
 
             $('.scene-2-screen-2-slide').fadeOut(0);
+            $('.scene-2-screen-2-slide').eq(0).fadeIn(0);
+
+            var scene_2_slide_idx = 0;
+            var scene_2_screen_2_slide_num = $('.scene-2-screen-2-slide').length;
+
+            var interval = setInterval(() => {
+
+                $('.scene-2-screen-2-slide').eq(scene_2_slide_idx).fadeOut(500);
+                if (scene_2_slide_idx + 1 == scene_2_screen_2_slide_num - 1) {
+                    scene_2_slide_idx = 0;
+                } else {
+                    scene_2_slide_idx++;
+                }
+                $('.scene-2-screen-2-slide').eq(scene_2_slide_idx).fadeIn(500);
+            }, 1000);
+
 
 
 
