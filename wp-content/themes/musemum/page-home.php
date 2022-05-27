@@ -421,6 +421,9 @@ $(function() {
             $('.scene-2-screen-2-slide').fadeOut(0);
             $('.scene-2-screen-2-slide').eq(0).fadeIn(0);
 
+            $('.scene-2-screen-3-slide').fadeOut(0);
+            $('.scene-2-screen-3-slide').eq(0).fadeIn(0);
+
             var scene_2_screen_2_slide_idx = 0;
             var scene_2_screen_3_slide_idx = 0;
 
