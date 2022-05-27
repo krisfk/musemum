@@ -206,7 +206,8 @@ get_header();
                         </div>
                     </div>
                     <div class="event-content-div" style="background:#dfdfdf">
-                        <div> <span style="font-size: 55px;">同暢遊 齊共賞</span><br> <span style="font-size: 45px;">Enjoy the
+                        <div> <span style="font-size: 55px;">同暢遊 齊共賞testing</span><br> <span
+                                style="font-size: 45px;">Enjoy the
                                 visit by inspiring experiences in Art • History • Science under the LCSD Museums </span>
                             <br><br><br> <span style="font-size: 70px;">11 :00</span><span
                                 style="font-size:35px;margin-left:5px;">AM</span>
@@ -231,7 +232,7 @@ get_header();
 
 
                     <div class="event-content-div" style="background:#ced0d3">
-                        <div> <span style="font-size: 55px;">嘗探索、享體驗</span><br> <span style="font-size: 45px;">To
+                        <div> <span style="font-size: 55px;">嘗探索、享體驗testing</span><br> <span style="font-size: 45px;">To
                                 Explore,
                                 To Learn</span>
                             <br><br><br> <span style="font-size: 70px;">10:00</span><span
