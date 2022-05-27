@@ -164,8 +164,10 @@ get_header();
                             Science under the LCSD
                             Museums
                         </span> <br><br><br>
-                        <span style="font-size: 70px;">11 :00</span><span style="font-size:40px;">AM</span> <span
-                            style="font-size:10px">|</span>
+                        <span style="font-size: 70px;">11 :00</span><span style="font-size:40px;">AM</span> <span style="font-size: 50px;
+    margin: 0 10px 0 10px;
+    position: relative;
+    top: -10px;">|</span>
                         <span style="font-size:70px;">15:00</span>
                         <span style="font-size:40px;">PM</span>
                         </span>
