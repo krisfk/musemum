@@ -22,9 +22,9 @@ get_header();
     <!--scene-1 start-->
 
     <div class="scene-div scene-div-1">
-        <!-- <div class="scene-1-bg">
+        <div class="scene-1-bg">
 
-        </div> -->
+        </div>
 
 
         <img class="page-1-bg" class="h-100" src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/page-1-bg.jpg"
