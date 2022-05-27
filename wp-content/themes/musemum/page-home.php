@@ -409,6 +409,10 @@ $(function() {
                 'left': '0px'
             }, 1000);
 
+            $('.scene-2-screen-2-slide').fadeOut(0);
+
+
+
 
         }
 
