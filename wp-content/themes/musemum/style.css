@@ -200,10 +200,11 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     top: 0;
     left: 0;
     display: block;
-    width: 4920px;
+    width: 5760px;
     height: 1080px;
-    background: #000000;
+    /* background: #000000; */
     z-index: 100;
+    display: none;
 }
 
 .roboto {

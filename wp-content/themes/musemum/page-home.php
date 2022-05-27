@@ -134,6 +134,7 @@ get_header();
     <!--scene-2 start-->
 
     <div class="scene-div scene-div-2">
+
     </div>
     <!--scene-2 end-->
 
@@ -243,6 +244,9 @@ $(function() {
         //scene2
 
         function scene2() {
+
+            $('.scene-div-2').fadeIn(0);
+
 
         }
 
