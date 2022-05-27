@@ -163,13 +163,13 @@ get_header();
                         <span style="font-size: 45px;">Enjoy the visit by inspiring experiences in Art • History •
                             Science under the LCSD
                             Museums
-                        </span> <br>
+                        </span> <br><br><br>
                         <span style="font-size: 70px;">11 :00<span style="font-size:20px;">AM</span> <span
                                 style="font-size:10px">|</span>
                             <span style="font-size:70px;"> 15:00</span>
                             <span style="font-size:20px;">PM</span>
                         </span>
-                        <br>
+                        <br><br><br>
                         <span style="font-size: 45px;">逢周末及公眾假期 <br>
                             Weekends &amp; Public Holidays</span>
 
