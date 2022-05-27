@@ -153,8 +153,8 @@ get_header();
             <div class="event-div one-col-width">
                 <div class="event-title-div" style="background:#394d64;">
                     <div>
-                        <span style="font-size: 100px;">免費公眾導賞</span> <br>
-                        <span style="font-size: 84px;">Free Public Guide Tours</span>
+                        <span style="font-size: 90px;">免費公眾導賞</span> <br>
+                        <span style="font-size: 70px;">Free Public Guide Tours</span>
                     </div>
                 </div>
             </div>
