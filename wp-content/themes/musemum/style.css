@@ -431,7 +431,8 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 
 .event-title-div {
     display: block;
-    height: 400px;
+    height: 288px;
     width: 100%;
     color: #fff;
+    line-height: normal;
 }
