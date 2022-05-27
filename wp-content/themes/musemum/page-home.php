@@ -200,14 +200,20 @@ $(function() {
                         $('.iphone-div').removeClass('rotate1');
                         $('.iphone-div').addClass('rotate2');
                         $('.ar-videos-div').delay(500).fadeIn(0);
-                        $('.ar-videos-div .ar-video-1').trigger('play');
+                        $('.ar-video-1').trigger('play');
 
 
+                        var v_idx = 1;
                         $('.ar-videos-div .ar-video').on('ended',
                             function() {
-                                // alert(5);
-                                $('.bg-behind-phone').fadeOut(0);
-                                $('.bg-behind-phone-2').fadeIn(500);
+
+                                $('.ar-video-' + v_idx).fadeOut(0);
+                                $('.bg-behind-phone-' + v_idx).fadeOut(500);
+                                v_idx++;
+                                $('.ar-video-' + v_idx).fadeIn(0);
+                                $('.ar-video-' + v_idx).trigger(
+                                    'play');
+                                $('.bg-behind-phone-' + v_idx).fadeIn(500);
                             })
 
                     });
