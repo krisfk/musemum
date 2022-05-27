@@ -159,8 +159,8 @@ get_header();
                 </div>
                 <div class="event-content-div" style="background:#dfdfdf">
                     <div>
-                        <span style="font-size: 70px;">同暢遊 齊共賞</span><br>
-                        <span style="font-size: 70px;">Enjoy the visit by inspiring experiences in Art • History •
+                        <span style="font-size: 55px;">同暢遊 齊共賞</span><br>
+                        <span style="font-size: 45px;">Enjoy the visit by inspiring experiences in Art • History •
                             Science under the LCSD
                             Museums
                         </span> <br>
@@ -170,8 +170,8 @@ get_header();
                             <span style="font-size:20px;">PM</span>
                         </span>
                         <br>
-                        <span style="font-size:70px;">逢周末及公眾假期 <br>
-                            Weekends & Public Holidays</span>
+                        <span style="font-size: 45px;">逢周末及公眾假期 <br>
+                            Weekends &amp; Public Holidays</span>
 
 
 
