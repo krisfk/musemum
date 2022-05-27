@@ -139,6 +139,12 @@ get_header();
         <div class="scene-2-screen scene-2-screen scene-2-screen-1">
 
 
+            <div class="scene-2-txt-1" style="font-size: 100px; display: block;">
+                <span> 隨意行 隨處賞</span> <br>
+                <span class="roboto" style="font-size: 84px;margin: 0 0 0 70px;"> Explore your interest, Plan your
+                    trip</span>
+            </div>
+
             <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/inside-1.jpg" alt="">
 
         </div>

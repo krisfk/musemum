@@ -403,3 +403,10 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     left: 3840px;
     background: #095353;
 }
+
+.scene-2-txt-1 {
+    position: absolute;
+    top: 670px;
+    z-index: 100;
+    left: 2560px;
+}
