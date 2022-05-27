@@ -166,7 +166,7 @@ get_header();
                         </span> <br><br><br>
                         <span style="font-size: 70px;">11 :00<span style="font-size:40px;">AM</span> <span
                                 style="font-size:10px">|</span>
-                            <span style="font-size:70px;"> 15:00</span>
+                            <span style="font-size:70px;">15:00</span>
                             <span style="font-size:40px;">PM</span>
                         </span>
                         <br><br><br>
