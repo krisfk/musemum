@@ -408,5 +408,8 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     position: absolute;
     top: 670px;
     z-index: 100;
-    left: 2560px;
+    left: 0;
+    background: url(./assets/images/white-gradient-bg-2.png);
+    background-size: 100% 100%;
+    font-style: italic;
 }
