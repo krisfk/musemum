@@ -131,12 +131,13 @@ get_header();
 
     <!--scene-1 end-->
 
+    <!--scene-2 start-->
 
     <div class="scene-div scene-div-2">
     </div>
+    <!--scene-2 end-->
 
 
-</div>
 </div>
 
 <video id="test-video" width="320" height="240" controls autoplay>
