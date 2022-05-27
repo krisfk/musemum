@@ -440,6 +440,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 
 .event-content-div {
     color: #394d64;
+    line-height: normal;
     height: 792px;
     padding: 3rem 0 0 4rem;
 }
