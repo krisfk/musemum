@@ -353,7 +353,9 @@ $(function() {
 
         function scene2() {
 
-            $('.scene-div-2').fadeIn(0);
+            $('.scene-div-2').animate({
+                'left': '0px'
+            }, 500);
 
 
         }
