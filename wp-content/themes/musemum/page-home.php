@@ -159,15 +159,19 @@ get_header();
                 </div>
                 <div class="event-content-div" style="background:#dfdfdf">
                     <div>
-                        <span>同暢遊 齊共賞</span><br>
-                        <span>Enjoy the visit by inspiring experiences in Art • History • Science under the LCSD
+                        <span style="font-size: 70px;">同暢遊 齊共賞</span><br>
+                        <span style="font-size: 70px;">Enjoy the visit by inspiring experiences in Art • History •
+                            Science under the LCSD
                             Museums
                         </span> <br>
-                        <span>11 :00<span>AM</span> <span>|</span> 15:00 <span>PM</span>
+                        <span style="font-size: 70px;">11 :00<span style="font-size:20px;">AM</span> <span
+                                style="font-size:10px">|</span>
+                            <span style="font-size:70px;"> 15:00</span>
+                            <span style="font-size:20px;">PM</span>
                         </span>
                         <br>
-                        <div>逢周末及公眾假期
-                            Weekends & Public Holidays</div>
+                        <span style="font-size:70px;">逢周末及公眾假期 <br>
+                            Weekends & Public Holidays</span>
 
 
 
@@ -184,7 +188,7 @@ get_header();
                 </div>
             </div>
 
-            <div class="event-div one-col-width">
+            <div class=" event-div one-col-width">
                 fdsaf
             </div>
 
@@ -226,8 +230,9 @@ $(function() {
             $('.app-icon').fadeOut(0);
             $('.qr-code-group-1,.qr-code-group-2').fadeOut(0);
             setTimeout(() => {
-                $('.qr-code-group-1,.qr-code-group-2,.scene-1-txt-3,.scene-1-txt-4').fadeIn(
-                    200);
+                $('.qr-code-group-1,.qr-code-group-2,.scene-1-txt-3,.scene-1-txt-4')
+                    .fadeIn(
+                        200);
             }, 800);
 
 
@@ -267,15 +272,19 @@ $(function() {
 
                                     scene2();
                                 } else {
-                                    $('.ar-video-' + v_idx).fadeOut(500);
-                                    $('.bg-behind-phone-' + v_idx).fadeOut(
+                                    $('.ar-video-' + v_idx).fadeOut(
                                         500);
+                                    $('.bg-behind-phone-' + v_idx)
+                                        .fadeOut(
+                                            500);
                                     v_idx++;
-                                    $('.ar-video-' + v_idx).fadeIn(500);
+                                    $('.ar-video-' + v_idx).fadeIn(
+                                        500);
                                     $('.ar-video-' + v_idx).trigger(
                                         'play');
-                                    $('.bg-behind-phone-' + v_idx).fadeIn(
-                                        500);
+                                    $('.bg-behind-phone-' + v_idx)
+                                        .fadeIn(
+                                            500);
                                 }
 
 
