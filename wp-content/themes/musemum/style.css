@@ -406,11 +406,13 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 
 .scene-2-txt-1 {
     position: absolute;
-    top: 670px;
+    top: 372px;
     z-index: 100;
     left: 0;
     background: url(./assets/images/white-gradient-bg-2.png);
     background-size: 100% 100%;
     font-style: italic;
     color: #fff;
+    padding: 20px 0px 20px 209px;
+    text-shadow: -1px 9px 16px #000, 1px 0px 1px #000, 1px 0px 1px #000, 1px 0px 3px #000, 1px 0px 1px #000, 1px 0px 1px #000, 1px 0px 1px #000;
 }
