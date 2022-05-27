@@ -141,8 +141,9 @@ get_header();
 
             <div class="scene-2-txt-1" style="font-size: 100px; display: block;">
                 <span> 融教於樂 知性體驗</span> <br>
-                <span class="roboto" style="font-size: 84px;margin: 0 0 0 70px;"> Get different learning experience <br>
-                    through the programmes</span>
+                <span class="roboto" style="font-size: 84px;margin: 0 0 0 70px;">Get different learning
+                    experience</span><br>
+                <span class="roboto" style="font-size: 84px;margin: 0 0 0 70px;"> through the programmes</span>
 
 
 
