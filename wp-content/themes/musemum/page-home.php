@@ -197,7 +197,7 @@ get_header();
         <div class="scene-2-screen scene-2-screen scene-2-screen-3">
 
             <div class="event-div one-col-width">
-                <div class="event-title-div" style="background:#394d64;">
+                <div class="event-title-div" style="background:#5ea6a6;">
                     <div>
                         <span style="font-size: 90px;">公眾活動
                         </span> <br>
@@ -221,10 +221,10 @@ get_header();
                 </div>
             </div>
             <div class="event-div one-col-width">
-                <div class="event-title-div" style="background:#394d64;">
+                <div class="event-title-div" style="background:#5ea6a6;">
 
                 </div>
-                <div class="event-content-div" style="background:#dfdfdf">
+                <div class="event-content-div" style="background:#c8d4d4">
                     <div> <span style="font-size: 55px;">香港軍事遺蹟考察
                         </span><br> <span style="font-size: 45px;">Hong Kong military relics investigation
                             <br>2022.11.20</span>
