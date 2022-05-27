@@ -337,6 +337,8 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     text-decoration: none;
 }
 
-.ar-video {}
+.ar-videos-div {}
 
-.ar-video .ar-video-1 {}
+.ar-videos-div .ar-video {}
+
+.ar-videos-div .ar-video .ar-video-1 {}
