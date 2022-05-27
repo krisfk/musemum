@@ -22,9 +22,9 @@ get_header();
     <!--scene-1 start-->
 
     <div class="scene-div scene-div-1">
-        <div class="scene-1-bg">
+        <!-- <div class="scene-1-bg">
 
-        </div>
+        </div> -->
 
 
         <img class="page-1-bg" class="h-100" src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/page-1-bg.jpg"
@@ -129,6 +129,8 @@ get_header();
 
     </div>
 
+    <div></div>
+
     <!--scene-1 end-->
 
 
@@ -144,17 +146,11 @@ get_header();
 <a href="javascript:void(0);" class="start-btn">START</a>
 
 
-<!-- <iframe src=”https://olafwempe.com/mp3/silence/silence.mp3″ type=”audio/mp3″ allow=”autoplay” id=”audio”
-    style=”display:none”></iframe>
-<audio autoplay>
-    <source src=”https://olafwempe.com/mp3/Septium.mp3″ type=”audio/mp3″>
-</audio> -->
 
 <script type="text/javascript">
 $(function() {
 
-    // var vid = document.getElementById("test-video");
-    // vid.play();
+
 
     $('.start-btn').click(function() {
         $(this).fadeOut(0);
@@ -163,13 +159,12 @@ $(function() {
     })
 
     function all_start() {
+
+        //scene1
         setTimeout(() => {
 
             $('.app-icon').fadeOut(0);
             $('.qr-code-group-1,.qr-code-group-2').fadeOut(0);
-            // $('.qr-code-group-2').fadeOut(0);
-
-
             setTimeout(() => {
                 $('.qr-code-group-1,.qr-code-group-2,.scene-1-txt-3,.scene-1-txt-4').fadeIn(
                     200);
@@ -209,7 +204,7 @@ $(function() {
                             function() {
 
                                 if (v_idx == total_video) {
-                                    alert('finish');
+                                    scene2();
                                 } else {
                                     $('.ar-video-' + v_idx).fadeOut(500);
                                     $('.bg-behind-phone-' + v_idx).fadeOut(
@@ -242,10 +237,16 @@ $(function() {
 
 
         }, 1000);
+
+        //scene2
+
+        function scene2() {
+
+        }
+
     }
 
 
-    // http://64.227.13.14/musemum/wp-content/uploads/2022/05/5_Animation_13_FinalRender-1.mp4
 
 })
 </script>
