@@ -295,7 +295,7 @@ get_header();
                     </div>
                 </div>
             </div>
-            <div class="scene-2-screen-3-slide">
+            <!-- <div class="scene-2-screen-3-slide">
                 <div class="event-div one-col-width">
                     <div class="event-title-div" style="background:#5ea6a6;">
                         <div>
@@ -340,7 +340,7 @@ get_header();
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
 
 
