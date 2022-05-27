@@ -172,7 +172,7 @@ $(function() {
 
                     $('.iphone-div .iphone-video').on('ended', function() {
                         $('.iphone-div').removeClass('rotate1');
-                        $('.iphone-div').removeClass('rotate2');
+                        $('.iphone-div').addClass('rotate2');
 
                         // console.log('Video has ended!');
                     });
