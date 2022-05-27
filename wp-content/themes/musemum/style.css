@@ -350,6 +350,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     transform: rotate(-2deg);
     border-radius: 40px;
     overflow: hidden;
+    display: none;
 }
 
 .ar-videos-div .ar-video {

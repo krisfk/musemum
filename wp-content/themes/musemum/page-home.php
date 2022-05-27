@@ -184,6 +184,8 @@ $(function() {
                         $('.iphone-div').addClass('rotate2');
                     });
 
+                    $('.ar-videos-div').delay(500).fadeIn(0);
+
                     // iphone-div
                 });
 
