@@ -182,9 +182,10 @@ $(function() {
                     $('.iphone-div .iphone-video').on('ended', function() {
                         $('.iphone-div').removeClass('rotate1');
                         $('.iphone-div').addClass('rotate2');
+                        $('.ar-videos-div').delay(500).fadeIn(0);
+
                     });
 
-                    $('.ar-videos-div').delay(500).fadeIn(0);
 
                     // iphone-div
                 });
