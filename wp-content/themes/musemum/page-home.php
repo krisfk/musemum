@@ -224,7 +224,7 @@ get_header();
                 <div class="event-content-div" style="background:#dfdfdf">
                     <div> <span style="font-size: 55px;">同暢遊 齊共賞</span><br> <span style="font-size: 45px;">Enjoy the
                             visit by inspiring experiences in Art • History • Science under the LCSD Museums </span>
-                        <br><br><br> <span style="font-size: 70px;">11 :00</span><span style="font-size:40px;">AM</span>
+                        <br><br><br> <span style="font-size: 70px;">11 :00</span><span style="font-size:35px;">AM</span>
                         <span style="font-size: 50px; margin: 0 10px 0 10px; position: relative; top: -10px;">|</span>
                         <span style="font-size:70px;">15:00</span> <span style="font-size:35px;">PM</span> </span>
                         <br><br><br> <span style="font-size: 45px;">逢周末及公眾假期 <br> Weekends &amp; Public Holidays</span>
