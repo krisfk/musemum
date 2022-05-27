@@ -170,16 +170,14 @@ $(function() {
                     // }, 500);
                     $('.iphone-div').addClass('rotate1');
 
+                    $('.iphone-div .iphone-video').on('ended', function() {
+                        $('.iphone-div').removeClass('rotate1');
+                        $('.iphone-div').removeClass('rotate2');
 
-                    // $('.iphone-div').prepend(
-                    //     '<video class="iphone-video" autoplay muted> <source src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/Checkpoint11_UI.mp4" type="video/mp4"> </video>'
-                    // );
-                    //             position: absolute;
-                    // top: 150px;
-                    // left: 2662px;
-                    // display: none;
-                    // z-index: 100;
-                    // transform: rotate(15deg);
+                        // console.log('Video has ended!');
+                    });
+
+                    // iphone-div
                 });
 
 
