@@ -294,6 +294,52 @@ get_header();
                     </div>
                 </div>
             </div>
+            <div class="scene-2-screen-3-slide">
+                <div class="event-div one-col-width">
+                    <div class="event-title-div" style="background:#5ea6a6;">
+                        <div>
+                            <span style="font-size: 90px;">公眾活動test
+                            </span> <br>
+                            <span style="font-size: 70px;">Public Activity
+                            </span>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="event-content-div" style="background:#dfdfdf">
+                        <div> <span style="font-size: 55px;">軍事防衛的鯉魚門test</span><br> <span
+                                style="font-size: 45px;">Liyumen
+                                for
+                                military defense<br>2022.11.23</span>
+                            <br><br><br> <span style="font-size: 70px;">15 :00</span><span
+                                style="font-size:35px;margin-left:5px;">PM</span>
+                            <span
+                                style="font-size: 50px; margin: 0 10px 0 10px; position: relative; top: -10px;">-</span>
+                            <span style="font-size:70px;">16:30</span> <span
+                                style="font-size:35px;margin-left:5px;">PM</span> </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="event-div one-col-width">
+                    <div class="event-title-div" style="background:#5ea6a6;">
+
+                    </div>
+                    <div class="event-content-div" style="background:#c8d4d4">
+                        <div> <span style="font-size: 55px;">香港軍事遺蹟考察test
+                            </span><br> <span style="font-size: 45px;">Hong Kong military relics investigation
+                                <br>2022.11.20</span>
+                            <br><br><br> <span style="font-size: 70px;">15 :00</span><span
+                                style="font-size:35px;margin-left:5px;">PM</span>
+                            <span
+                                style="font-size: 50px; margin: 0 10px 0 10px; position: relative; top: -10px;">-</span>
+                            <span style="font-size:70px;">16:30</span> <span
+                                style="font-size:35px;margin-left:5px;">PM</span> </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
 
 
