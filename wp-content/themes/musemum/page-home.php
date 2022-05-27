@@ -191,12 +191,10 @@ $(function() {
                         $('.ar-videos-div .ar-video-1').trigger('play');
 
 
-                        $('.iphone-div .iphone-video-1').on('ended',
+                        $('.ar-videos-div .ar-video').on('ended',
                             function() {
-
                                 $('.bg-behind-phone').fadeOut(0);
                                 $('.bg-behind-phone-2').fadeIn(500);
-
                             })
 
                     });
