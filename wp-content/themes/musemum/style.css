@@ -445,3 +445,11 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     height: 792px;
     padding: 6.5rem 4rem 0 4rem;
 }
+
+.scene-2-screen-2-slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
