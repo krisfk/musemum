@@ -137,6 +137,7 @@ get_header();
 
 
 </div>
+</div>
 
 <video id="test-video" width="320" height="240" controls autoplay>
     <source src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/5_Animation_13_FinalRender.mp4"
