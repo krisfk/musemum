@@ -204,7 +204,7 @@ $(function() {
 
 
                         var v_idx = 1;
-                        var total_video = $('.bg-behind-phone').length();
+                        var total_video = $('.bg-behind-phone').length;
                         $('.ar-videos-div .ar-video').on('ended',
                             function() {
 
