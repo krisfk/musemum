@@ -248,46 +248,55 @@ get_header();
         </div>
         <div class="scene-2-screen scene-2-screen scene-2-screen-3">
 
-            <div class="event-div one-col-width">
-                <div class="event-title-div" style="background:#5ea6a6;">
-                    <div>
-                        <span style="font-size: 90px;">公眾活動
-                        </span> <br>
-                        <span style="font-size: 70px;">Public Activity
-                        </span>
+
+            <div class="scene-2-screen-3-slide">
+                <div class="event-div one-col-width">
+                    <div class="event-title-div" style="background:#5ea6a6;">
+                        <div>
+                            <span style="font-size: 90px;">公眾活動
+                            </span> <br>
+                            <span style="font-size: 70px;">Public Activity
+                            </span>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="event-content-div" style="background:#dfdfdf">
+                        <div> <span style="font-size: 55px;">軍事防衛的鯉魚門</span><br> <span style="font-size: 45px;">Liyumen
+                                for
+                                military defense<br>2022.11.23</span>
+                            <br><br><br> <span style="font-size: 70px;">15 :00</span><span
+                                style="font-size:35px;margin-left:5px;">PM</span>
+                            <span
+                                style="font-size: 50px; margin: 0 10px 0 10px; position: relative; top: -10px;">-</span>
+                            <span style="font-size:70px;">16:30</span> <span
+                                style="font-size:35px;margin-left:5px;">PM</span> </span>
+                        </div>
                     </div>
                 </div>
+                <div class="event-div one-col-width">
+                    <div class="event-title-div" style="background:#5ea6a6;">
 
-
-
-
-                <div class="event-content-div" style="background:#dfdfdf">
-                    <div> <span style="font-size: 55px;">軍事防衛的鯉魚門</span><br> <span style="font-size: 45px;">Liyumen for
-                            military defense<br>2022.11.23</span>
-                        <br><br><br> <span style="font-size: 70px;">15 :00</span><span
-                            style="font-size:35px;margin-left:5px;">PM</span>
-                        <span style="font-size: 50px; margin: 0 10px 0 10px; position: relative; top: -10px;">-</span>
-                        <span style="font-size:70px;">16:30</span> <span
-                            style="font-size:35px;margin-left:5px;">PM</span> </span>
+                    </div>
+                    <div class="event-content-div" style="background:#c8d4d4">
+                        <div> <span style="font-size: 55px;">香港軍事遺蹟考察
+                            </span><br> <span style="font-size: 45px;">Hong Kong military relics investigation
+                                <br>2022.11.20</span>
+                            <br><br><br> <span style="font-size: 70px;">15 :00</span><span
+                                style="font-size:35px;margin-left:5px;">PM</span>
+                            <span
+                                style="font-size: 50px; margin: 0 10px 0 10px; position: relative; top: -10px;">-</span>
+                            <span style="font-size:70px;">16:30</span> <span
+                                style="font-size:35px;margin-left:5px;">PM</span> </span>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="event-div one-col-width">
-                <div class="event-title-div" style="background:#5ea6a6;">
 
-                </div>
-                <div class="event-content-div" style="background:#c8d4d4">
-                    <div> <span style="font-size: 55px;">香港軍事遺蹟考察
-                        </span><br> <span style="font-size: 45px;">Hong Kong military relics investigation
-                            <br>2022.11.20</span>
-                        <br><br><br> <span style="font-size: 70px;">15 :00</span><span
-                            style="font-size:35px;margin-left:5px;">PM</span>
-                        <span style="font-size: 50px; margin: 0 10px 0 10px; position: relative; top: -10px;">-</span>
-                        <span style="font-size:70px;">16:30</span> <span
-                            style="font-size:35px;margin-left:5px;">PM</span> </span>
-                    </div>
-                </div>
-            </div>
+
+
         </div>
 
     </div>
@@ -412,18 +421,32 @@ $(function() {
             $('.scene-2-screen-2-slide').fadeOut(0);
             $('.scene-2-screen-2-slide').eq(0).fadeIn(0);
 
-            var scene_2_slide_idx = 0;
+            var scene_2_screen_2_slide_idx = 0;
+            var scene_2_screen_3_slide_idx = 0;
+
             var scene_2_screen_2_slide_num = $('.scene-2-screen-2-slide').length;
+            var scene_2_screen_3_slide_num = $('.scene-2-screen-3-slide').length;
 
             var interval = setInterval(() => {
-
-                $('.scene-2-screen-2-slide').eq(scene_2_slide_idx).fadeOut(500);
-                if (scene_2_slide_idx + 1 > scene_2_screen_2_slide_num - 1) {
-                    scene_2_slide_idx = 0;
+                $('.scene-2-screen-2-slide').eq(scene_2_screen_2_slide_idx).fadeOut(500);
+                if (scene_2_screen_2_slide_idx + 1 > scene_2_screen_2_slide_num - 1) {
+                    scene_2_screen_2_slide_idx = 0;
                 } else {
-                    scene_2_slide_idx++;
+                    scene_2_screen_2_slide_idx++;
                 }
-                $('.scene-2-screen-2-slide').eq(scene_2_slide_idx).fadeIn(500);
+                $('.scene-2-screen-2-slide').eq(scene_2_screen_2_slide_idx).fadeIn(500);
+
+
+                $('.scene-2-screen-3-slide').eq(scene_2_screen_3_slide_idx).fadeOut(500);
+                if (scene_2_screen_3_slide_idx + 1 > scene_2_screen_3_slide_num - 1) {
+                    scene_2_screen_3_slide_idx = 0;
+                } else {
+                    scene_2_screen_3_slide_idx++;
+                }
+                $('.scene-2-screen-3-slide').eq(scene_2_screen_3_slide_idx).fadeIn(500);
+
+
+
             }, 5000);
 
 
