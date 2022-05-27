@@ -157,6 +157,31 @@ get_header();
                         <span style="font-size: 70px;">Free Public Guide Tours</span>
                     </div>
                 </div>
+                <div class="event-content-div" style="background:#dfdfdf">
+                    <div>
+                        <span>同暢遊 齊共賞</span><br>
+                        <span>Enjoy the visit by inspiring experiences in Art • History • Science under the LCSD
+                            Museums
+                        </span> <br>
+                        <span>11 :00<span>AM</span> <span>|</span> 15:00 <span>PM</span>
+                        </span>
+                        <br>
+                        <div>逢周末及公眾假期
+                            Weekends & Public Holidays</div>
+
+
+
+
+
+
+
+
+
+
+
+                    </div>
+
+                </div>
             </div>
 
             <div class="event-div one-col-width">
