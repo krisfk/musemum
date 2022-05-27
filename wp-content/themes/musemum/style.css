@@ -407,6 +407,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 .scene-2-txt-1 {
     position: absolute;
     top: 372px;
+    line-height: normal;
     z-index: 100;
     left: 0;
     background: url(./assets/images/white-gradient-bg-2.png);
