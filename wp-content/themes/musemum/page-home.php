@@ -138,8 +138,6 @@ get_header();
 
         <div class="scene-2-screen scene-2-screen scene-2-screen-1">
 
-
-
             <div class="scene-2-txt-1" style="font-size: 100px; display: block;">
                 <span> 融教於樂 知性體驗</span> <br>
                 <span class="roboto" style="font-size: 84px;margin: 0 0 0 70px;">Get different learning
@@ -150,7 +148,19 @@ get_header();
             <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/inside-1.jpg" alt="">
 
         </div>
-        <div class="scene-2-screen scene-2-screen scene-2-screen-2"></div>
+        <div class="scene-2-screen scene-2-screen scene-2-screen-2">
+
+            <div class="event-div one-col-width">
+                fdsaf
+            </div>
+
+            <div class="event-div one-col-width">
+                fdsaf
+            </div>
+
+
+
+        </div>
         <div class="scene-2-screen scene-2-screen scene-2-screen-3"></div>
 
     </div>
