@@ -153,8 +153,8 @@ get_header();
             <div class="event-div one-col-width">
                 <div class="event-title-div" style="background:#394d64;">
                     <div>
-                        免費公眾導賞
-                        Free Public Guide Tours
+                        <span style="font-size: 100px;">免費公眾導賞</span> <br>
+                        <span style="font-size: 84px;">Free Public Guide Tours</span>
                     </div>
                 </div>
             </div>
