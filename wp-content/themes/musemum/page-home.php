@@ -355,7 +355,7 @@ $(function() {
 
             $('.scene-div-2').animate({
                 'left': '0px'
-            }, 500);
+            }, 1000);
 
 
         }
