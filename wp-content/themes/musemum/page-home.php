@@ -156,6 +156,9 @@ $(function() {
                 'left': '202px'
             }, 1000, function() {
 
+                $('.iphone-video').trigger('play');
+
+
                 $('.app-icon').animate({
                     'left': '2172px'
                 }, 500, function() {
@@ -166,7 +169,6 @@ $(function() {
                     //     'left': '2662px'
                     // }, 500);
                     $('.iphone-div').addClass('rotate1');
-                    $('.iphone-video').trigger('play');
 
 
                     // $('.iphone-div').prepend(
