@@ -183,7 +183,7 @@ $(function() {
                         $('.iphone-div').removeClass('rotate1');
                         $('.iphone-div').addClass('rotate2');
                         $('.ar-videos-div').delay(500).fadeIn(0);
-                        $('.ar-videos-div .ar-video-1').fadeIn(0);
+                        $('.ar-videos-div .ar-video-1').trigger('play');
                     });
 
 
