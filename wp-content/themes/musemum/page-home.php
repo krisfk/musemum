@@ -113,6 +113,18 @@ get_header();
                     type="video/mp4">
             </video>
 
+            <video class="ar-video ar-video-2" controls>
+                <source src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/video_preview_h264.mp4"
+                    type="video/mp4">
+            </video>
+
+            <video class="ar-video ar-video-3" controls>
+                <source src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/video_preview_h264-1.mp4"
+                    type="video/mp4">
+            </video>
+
+
+
         </div>
 
     </div>
@@ -193,7 +205,7 @@ $(function() {
 
                         $('.ar-videos-div .ar-video').on('ended',
                             function() {
-                                alert(5);
+                                // alert(5);
                                 $('.bg-behind-phone').fadeOut(0);
                                 $('.bg-behind-phone-2').fadeIn(500);
                             })
