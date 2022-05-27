@@ -136,7 +136,12 @@ get_header();
     <div class="scene-div scene-div-2">
 
 
-        <div class="scene-2-screen scene-2-screen scene-2-screen-1"></div>
+        <div class="scene-2-screen scene-2-screen scene-2-screen-1">
+
+
+            <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/inside-1.jpg" alt="">
+
+        </div>
         <div class="scene-2-screen scene-2-screen scene-2-screen-2"></div>
         <div class="scene-2-screen scene-2-screen scene-2-screen-3"></div>
 
