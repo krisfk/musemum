@@ -171,16 +171,16 @@ get_header();
             </div>
 
             <div class="event-div one-col-width">
-                <div class="event-title-div" style="background:#394d64;">
+                <div class="event-title-div" style="background:#313e4e;">
                     <div>
-                        <span style="font-size: 90px;">免費公眾導賞</span> <br>
+                        <span style="font-size: 90px;">海防角樂</span> <br>
                         <span style="font-size: 70px;">Fun Corner</span>
                     </div>
                 </div>
 
 
 
-                <div class="event-content-div" style="background:#dfdfdf">
+                <div class="event-content-div" style="background:#ced0d3">
                     <div> <span style="font-size: 55px;">嘗探索、享體驗</span><br> <span style="font-size: 45px;">To Explore,
                             To Learn</span>
                         <br><br><br> <span style="font-size: 70px;">10:00</span><span
