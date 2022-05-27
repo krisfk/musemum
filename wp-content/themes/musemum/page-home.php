@@ -193,6 +193,7 @@ $(function() {
 
                         $('.ar-videos-div .ar-video').on('ended',
                             function() {
+                                alert(5);
                                 $('.bg-behind-phone').fadeOut(0);
                                 $('.bg-behind-phone-2').fadeIn(500);
                             })
