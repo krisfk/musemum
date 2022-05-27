@@ -188,7 +188,43 @@ get_header();
 
 
         </div>
-        <div class="scene-2-screen scene-2-screen scene-2-screen-3"></div>
+        <div class="scene-2-screen scene-2-screen scene-2-screen-3">
+
+            <div class="event-div one-col-width">
+                <div class="event-title-div" style="background:#394d64;">
+                    <div>
+                        <span style="font-size: 90px;">免費公眾導賞</span> <br>
+                        <span style="font-size: 70px;">Free Public Guide Tours</span>
+                    </div>
+                </div>
+                <div class="event-content-div" style="background:#dfdfdf">
+                    <div> <span style="font-size: 55px;">同暢遊 齊共賞</span><br> <span style="font-size: 45px;">Enjoy the
+                            visit by inspiring experiences in Art • History • Science under the LCSD Museums </span>
+                        <br><br><br> <span style="font-size: 70px;">11 :00</span><span style="font-size:40px;">AM</span>
+                        <span style="font-size: 50px; margin: 0 10px 0 10px; position: relative; top: -10px;">|</span>
+                        <span style="font-size:70px;">15:00</span> <span style="font-size:40px;">PM</span> </span>
+                        <br><br><br> <span style="font-size: 45px;">逢周末及公眾假期 <br> Weekends &amp; Public Holidays</span>
+                    </div>
+                </div>
+            </div>
+            <div class="event-div one-col-width">
+                <div class="event-title-div" style="background:#394d64;">
+                    <div>
+                        <span style="font-size: 90px;">免費公眾導賞</span> <br>
+                        <span style="font-size: 70px;">Free Public Guide Tours</span>
+                    </div>
+                </div>
+                <div class="event-content-div" style="background:#dfdfdf">
+                    <div> <span style="font-size: 55px;">同暢遊 齊共賞</span><br> <span style="font-size: 45px;">Enjoy the
+                            visit by inspiring experiences in Art • History • Science under the LCSD Museums </span>
+                        <br><br><br> <span style="font-size: 70px;">11 :00</span><span style="font-size:40px;">AM</span>
+                        <span style="font-size: 50px; margin: 0 10px 0 10px; position: relative; top: -10px;">|</span>
+                        <span style="font-size:70px;">15:00</span> <span style="font-size:40px;">PM</span> </span>
+                        <br><br><br> <span style="font-size: 45px;">逢周末及公眾假期 <br> Weekends &amp; Public Holidays</span>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </div>
     <!--scene-2 end-->
