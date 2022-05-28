@@ -661,5 +661,8 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 }
 
 .weather-icon {
-    width: 100px;
+    width: 250px;
+    display: block;
+    text-align: center;
+    margin: 1rem auto 0 auto;
 }
