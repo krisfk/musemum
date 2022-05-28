@@ -522,18 +522,9 @@ get_header();
 
 
 
-            <div class="scene-4-screen-1-txt">
-
-
-
-                <span style="font-size:50px;">現在</span><span style="font-size:50px;">天氣</span> <br>
-                <span style="font-size:50px;">Current Weather</span>
-
-
-
-
-
-            </div>
+            <div class="scene-4-screen-1-txt"> <span style="font-size: 70px;">現在</span><span
+                    style="font-size: 100px;margin-left: 24px;">天氣</span> <br> <span
+                    style="font-size:50px;margin-left: 200px;">Current Weather</span> </div>
 
         </div>
         <div class="scene-4-screen scene-4-screen-2">
