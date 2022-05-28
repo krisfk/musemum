@@ -895,12 +895,12 @@ $(function() {
             $('.weekday-weather-icon').fadeOut(0);
             $('.degree-div').fadeOut(0);
 
-            for (i = 0; i < 1; i++) {
+            for (i = 0; i < $('.degree-div').length; i++) {
 
-                $('.weekday-title-div').delay(100).eq(i).slideDown(300);
-                $('.weekday-degree-div').delay(100).eq(i).delay(300).slideDown(400);
-                $('.weekday-weather-icon').delay(100).eq(i).delay(700).fadeIn(400)
-                $('.degree-div').delay(100).eq(i).delay(700).fadeIn(400)
+                $('.weekday-title-div').eq(i).slideDown(300);
+                $('.weekday-degree-div').eq(i).delay(300).slideDown(400);
+                $('.weekday-weather-icon').eq(i).delay(700).fadeIn(400)
+                $('.degree-div').eq(i).delay(700).fadeIn(400)
 
             }
 
