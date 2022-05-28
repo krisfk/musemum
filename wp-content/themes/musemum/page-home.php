@@ -551,8 +551,9 @@ get_header();
 
 
                     <div class="weather-msg">
-                        <span style="font-size:70px;">240</span><sup style="font-size:70px;">o</sup><span
-                            style="font-size:70px;">C</span>
+                        <span style="font-size: 270px;">240</span><sup
+                            style="font-size: 114px;position: relative;top: -170px;">o</sup><span
+                            style="font-size: 270px;">C</span>
 
                     </div>
                 </div>
