@@ -349,6 +349,11 @@ get_header();
     </div>
     <!--scene-2 end-->
 
+    <!--scene-3 start-->
+    <div class="scene-div scene-div-3">
+    </div>
+    <!--scene-3 end-->
+
 
 </div>
 
