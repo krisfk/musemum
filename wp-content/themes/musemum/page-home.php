@@ -503,8 +503,8 @@ get_header();
 
 
             <div class="scene-3-screen-3-txt"> <span style=" font-size: 120px; ">好書</span> <span
-                    style=" font-size: 70px; margin-left: 20px; ">伴回家</span> <br> <span
-                    style=" font-size: 50px; margin-left: 158px; ">Joyful</span> <span
+                    style=" font-size: 70px; margin-left: 20px; ">伴回家</span> <br> <span class="roboto"
+                    style=" font-size: 50px; margin-left: 158px; ">Joyful</span> <span class="roboto"
                     style=" font-size: 80px; margin-left: 20px; ">Readings</span> </div>
 
             <img class="scene-3-screen-right-img"
