@@ -365,8 +365,10 @@ get_header();
                 <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/book-1.png" alt="" class="book">
 
                 <div>
-                    香港在英治時期的海防歷史： <br>
-                    鯉魚門的防禦工事 <br><br>
+                    <span>
+                        香港在英治時期的海防歷史： <br>
+                        鯉魚門的防禦工事 </span>
+                    <br><br>
 
                     <span class="roboto"> Notes on the History of Hong Kong's Coastal Defences during the British
                         Administration, with
