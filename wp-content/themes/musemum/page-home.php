@@ -531,33 +531,22 @@ get_header();
         <div class="scene-4-screen scene-4-screen-2">
 
             <div class="weather-center-blk">
-
                 <div class="scene-4-screen-2-block scene-4-screen-2-block-1">
-
-                    <div class="weather-msg">
-                        <img class="weather-icon" src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/pic51.png"
-                            alt="">
-
-                        <div class="weekday-txt">
-                            <span>星期一</span> <br>
-                            <span class="roboto">MONDAY</span>
-                        </div>
+                    <div class="weather-msg"> <img class="weather-icon"
+                            src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/pic51.png" alt="">
+                        <div class="weekday-txt"> <span>星期一</span> <br> <span class="roboto">MONDAY</span> </div>
                     </div>
-
-
-
                 </div>
                 <div class="scene-4-screen-2-block scene-4-screen-2-block-2">
                     <div class="weather-msg roboto" style=" display: block; width: 100%; text-align: center; ">
                         <div style=" display: inline-block; /* text-align: left; */ "> <span
-                                style="font-size: 270px;">24</span><sup
-                                style="font-size: 114px;position: relative;top: -170px;">o</sup><span
-                                style="font-size: 270px;">C</span> </div>
+                                style="font-size: 400px;">24</span><sup
+                                style="font-size: 114px;position: relative;top: -264px;">o</sup><span
+                                style="font-size: 400px;">C</span> </div>
                         <div class="weather-place">筲箕灣 <br> Shau Kei Wan </div>
                     </div>
                 </div>
                 <div class="scene-4-screen-2-block scene-4-screen-2-block-3"></div>
-
             </div>
 
         </div>
