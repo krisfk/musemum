@@ -479,6 +479,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 .scene-3-screen-1 .publication-div {
     /* z-index: 100; */
     position: relative;
+    color: #394d64;
 }
 
 .scene-3-screen-1 .publication-div:nth-child(2n) {
@@ -522,4 +523,8 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     top: 0;
     left: 3840px;
     background: #095353;
+}
+
+.book {
+    height: 350px;
 }

@@ -357,8 +357,34 @@ get_header();
             <img class="scene-3-screen-left-img"
                 src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/publication-left-img-1.jpg" alt="">
 
-            <div class="publication-div"></div>
-            <div class="publication-div"></div>
+            <div class="publication-div">
+
+            </div>
+            <div class="publication-div">
+
+                <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/book-1.png" alt="" class="book">
+
+                <div>
+                    香港在英治時期的海防歷史： <br>
+                    鯉魚門的防禦工事 <br><br>
+
+                    <span class="roboto"> Notes on the History of Hong Kong's Coastal Defences during the British
+                        Administration, with
+                        Special
+                        Reference to Lei Yue Mun
+                    </span>
+
+                    <br><br>
+                    <span>
+                        <span>
+                            港幣HK
+                        </span>
+                        <span>$165</span>
+                    </span>
+
+                </div>
+
+            </div>
             <!-- <div class="publication-div"></div> -->
 
         </div>
