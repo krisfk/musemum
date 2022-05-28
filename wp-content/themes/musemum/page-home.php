@@ -600,6 +600,23 @@ get_header();
 
                     </div>
                 </div>
+                <div class="weekday-div">
+                    <div class="weekday-title-div">二 TUE</div>
+                    <div class="weekday-degree-div">
+
+                        <div class="weekday-weather-icon">
+                            <img class="w-100" src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/pic51.png"
+                                alt="">
+                        </div>
+
+                        <div class="degree-div roboto">
+                            <span>18</span>
+                            <sup style="font-size: 43px;position: relative;top: 31px;">o</sup>
+                            <span>C</span>
+                        </div>
+
+                    </div>
+                </div>
 
             </div>
 
