@@ -627,7 +627,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     left: 0;
     width: 100%;
     height: 100%;
-    transition: 300s all;
+    transition: 150s all;
 }
 
 .weather-bg.scaling {
