@@ -736,7 +736,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     justify-content: center;
 }
 
-.weekday-div:nth-child(2n) .weekday-title-div {
+.weekday-div:nth-child(2n-1) .weekday-title-div {
     color: #394d64;
     background: #d1ddee;
     height: 110px;
@@ -748,7 +748,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     width: 260px;
 }
 
-.weekday-div:nth-child(2n-1) .weekday-title-div {
+.weekday-div:nth-child(2n) .weekday-title-div {
     color: #394d64;
     background: #bac5d6;
     height: 110px;
