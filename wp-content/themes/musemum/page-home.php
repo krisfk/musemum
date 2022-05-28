@@ -923,12 +923,16 @@ $(function() {
             $('.scene-div-3').animate({
                 'left': '0px'
             }, 1000);
+            setTimeout(() => {
+                scene4();
+            }, 3000);
+        }
+
+        function scene4() {
+
+
             $('.scene-4-screen-2-block').fadeOut(0);
 
-
-            $('.scene-4-screen-2-block').eq(0).slideDown(500);
-            $('.scene-4-screen-2-block').eq(1).slideDown(500);
-            $('.scene-4-screen-2-block').delay(400).eq(2).slideDown(600);
 
             $('.weekday-title-div').fadeOut(0);
             $('.weekday-degree-div').fadeOut(0);
@@ -936,21 +940,35 @@ $(function() {
             $('.degree-div').fadeOut(0);
 
 
-            for (i = 0; i < $('.degree-div').length; i++) {
+            $('.scene-div-4').animate({
+                'left': '0px'
+            }, 1000, function() {
 
-                $('.weekday-title-div').eq(i).delay(100 + i * 30).slideDown(500);
-                $('.weekday-degree-div').eq(i).delay(700 + i * 30).slideDown(500);
-                $('.weekday-weather-icon').eq(i).delay(700 + i * 30).fadeIn(400)
-                $('.degree-div').eq(i).delay(700 + i * 30).fadeIn(400)
 
-            }
+                $('.scene-4-screen-2-block').eq(0).slideDown(500);
+                $('.scene-4-screen-2-block').eq(1).slideDown(500);
 
+                $('.scene-4-screen-2-block').delay(400).eq(2).slideDown(600);
+
+
+
+                for (i = 0; i < $('.degree-div').length; i++) {
+
+                    $('.weekday-title-div').eq(i).delay(100 + i * 30).slideDown(500);
+                    $('.weekday-degree-div').eq(i).delay(700 + i * 30).slideDown(500);
+                    $('.weekday-weather-icon').eq(i).delay(700 + i * 30).fadeIn(400)
+                    $('.degree-div').eq(i).delay(700 + i * 30).fadeIn(400)
+
+                }
+
+            });
 
 
 
 
 
         }
+
 
     }
 
