@@ -775,15 +775,15 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 
 .weekday-div:nth-child(2n-1) .weekday-degree-div {
     /* background: rgb(0 0 0 / 10%); */
-    display: hei;
     height: 640px;
+    overflow: hidden;
     background: rgb(0 0 0 / 10%);
 }
 
 .weekday-div:nth-child(2n) .weekday-degree-div {
     /* background: rgb(0 0 0 / 10%); */
-    display: hei;
     height: 640px;
+    overflow: hidden;
     background: rgb(0 0 0 / 20%);
 }
 
