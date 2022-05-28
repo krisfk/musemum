@@ -359,7 +359,7 @@ get_header();
 
             <div class="publication-div"></div>
             <div class="publication-div"></div>
-            <div class="publication-div"></div>
+            <!-- <div class="publication-div"></div> -->
 
         </div>
 
