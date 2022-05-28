@@ -517,6 +517,7 @@ get_header();
 
     <!--scene-4-start-->
     <div class="scene-div scene-div-4">
+        <img class="weather-bg" src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/sunny-bg-scaled.jpg" alt="">
         <div class="scene-4-screen scene-4-screen-1">
         </div>
         <div class="scene-4-screen scene-4-screen-2">
