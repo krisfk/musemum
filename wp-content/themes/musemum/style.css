@@ -734,10 +734,13 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 .weekday-title-div {
     color: #394d64;
     background: #d1ddee;
-    height: 88px;
+    height: 110px;
     font-size: 45px;
     /* line-height: 45px; */
     text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    width: 208px;
 }
 
 .weekdays-div {
