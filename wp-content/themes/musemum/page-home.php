@@ -359,6 +359,28 @@ get_header();
 
             <div class="publication-div">
 
+                <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/book-2.png" alt="" class="book">
+
+                <div class="publication-div-text-content">
+                    <span style="font-size:35px;">
+                        我武維揚 - <br>
+                        近代中國海軍史新論 </span>
+                    <br><br>
+
+                    <span class="roboto" style="font-size: 30px;"> Modern Chinese Naval History: New Perspectives
+
+                    </span>
+
+                    <br><br>
+                    <span>
+                        <span style="font-size:25px;">
+                            港幣HK
+                        </span>
+                        <span style="font-size:50px;">$165</span>
+                    </span>
+
+                </div>
+
             </div>
             <div class="publication-div">
 
