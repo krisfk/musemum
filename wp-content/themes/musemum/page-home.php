@@ -584,7 +584,10 @@ get_header();
             <div class="weekdays-div">
 
                 <div class="weekday-div">
-                    <div class="weekday-title-div">一 MON</div>
+
+                    <div class="weekday-title-div-wrapper">
+                        <div class="weekday-title-div">一 MON</div>
+                    </div>
                     <div class="weekday-degree-div">
 
                         <div class="weekday-weather-icon">
@@ -601,7 +604,10 @@ get_header();
                     </div>
                 </div>
                 <div class="weekday-div">
-                    <div class="weekday-title-div">二 TUE</div>
+                    <div class="weekday-title-div-wrapper">
+
+                        <div class="weekday-title-div">二 TUE</div>
+                    </div>
                     <div class="weekday-degree-div">
 
                         <div class="weekday-weather-icon">
@@ -619,7 +625,10 @@ get_header();
                 </div>
 
                 <div class="weekday-div">
-                    <div class="weekday-title-div">三 WED</div>
+                    <div class="weekday-title-div-wrapper">
+
+                        <div class="weekday-title-div">三 WED</div>
+                    </div>
                     <div class="weekday-degree-div">
 
                         <div class="weekday-weather-icon">
@@ -636,7 +645,10 @@ get_header();
                     </div>
                 </div>
                 <div class="weekday-div">
-                    <div class="weekday-title-div">四 THU</div>
+                    <div class="weekday-title-div-wrapper">
+
+                        <div class="weekday-title-div">四 THU</div>
+                    </div>
                     <div class="weekday-degree-div">
 
                         <div class="weekday-weather-icon">
@@ -654,7 +666,10 @@ get_header();
                 </div>
 
                 <div class="weekday-div">
-                    <div class="weekday-title-div">五 FRI</div>
+                    <div class="weekday-title-div-wrapper">
+
+                        <div class="weekday-title-div">五 FRI</div>
+                    </div>
                     <div class="weekday-degree-div">
 
                         <div class="weekday-weather-icon">
@@ -671,7 +686,10 @@ get_header();
                     </div>
                 </div>
                 <div class="weekday-div">
-                    <div class="weekday-title-div">六 SAT</div>
+                    <div class="weekday-title-div-wrapper">
+
+                        <div class="weekday-title-div">六 SAT</div>
+                    </div>
                     <div class="weekday-degree-div">
 
                         <div class="weekday-weather-icon">
@@ -688,7 +706,10 @@ get_header();
                     </div>
                 </div>
                 <div class="weekday-div">
-                    <div class="weekday-title-div">日 SUN</div>
+                    <div class="weekday-title-div-wrapper">
+
+                        <div class="weekday-title-div">日 SUN</div>
+                    </div>
                     <div class="weekday-degree-div">
 
                         <div class="weekday-weather-icon">

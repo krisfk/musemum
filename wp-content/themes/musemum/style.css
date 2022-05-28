@@ -726,7 +726,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     height: 100px;
 }
 
-.weekday-div .weekday-title-div::before {
+.weekday-div .weekday-title-div-wrapper {
     height: 110px;
     width: 205px;
     display: block;
