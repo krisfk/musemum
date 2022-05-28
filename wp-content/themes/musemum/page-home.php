@@ -416,7 +416,7 @@ get_header();
         </div>
 
         <div class="scene-3-screen scene-3-screen-2">
-            <div class="publication-div two-books">
+            <div class="publication-div three-books">
 
                 <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/book-5.png" alt="" class="book">
 
@@ -441,7 +441,7 @@ get_header();
                 </div>
 
             </div>
-            <div class="publication-div two-books">
+            <div class="publication-div three-books">
 
                 <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/book-4.png" alt="" class="book">
 
@@ -466,7 +466,7 @@ get_header();
                 </div>
 
             </div>
-            <!-- <div class="publication-div three-books">
+            <div class="publication-div three-books">
 
                 <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/book-3.png" alt="" class="book">
 
@@ -496,7 +496,7 @@ get_header();
 
                 </div>
 
-            </div> -->
+            </div>
         </div>
 
         <div class="scene-3-screen scene-3-screen-3">
