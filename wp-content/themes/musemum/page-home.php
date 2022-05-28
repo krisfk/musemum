@@ -370,7 +370,8 @@ get_header();
                         鯉魚門的防禦工事 </span>
                     <br><br>
 
-                    <span class="roboto" style="font-size:35px;"> Notes on the History of Hong Kong's Coastal Defences
+                    <span class="roboto" style="font-size: 30px;"> Notes on the History of Hong Kong's
+                        Coastal Defences
                         during the British
                         Administration, with
                         Special
