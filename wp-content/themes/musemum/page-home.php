@@ -961,7 +961,13 @@ $(function() {
 
                 }
 
-                $('.weather-bg').addClass('scaling')
+                $('.weather-bg').addClass('scaling');
+
+
+                setTimeout(() => {
+
+                    scene5();
+                }, 4000);
 
             });
 
@@ -969,6 +975,13 @@ $(function() {
 
 
 
+        }
+
+        function scene5() {
+
+            $('.scene-div-5').animate({
+                'left': '0px'
+            }, 1000, function() {})
         }
 
 
