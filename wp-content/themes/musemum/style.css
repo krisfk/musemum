@@ -775,7 +775,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 
 .weekday-div:nth-child(2n) .weekday-degree-div .weekday-weather-icon {
     position: absolute;
-    bottom: 200px;
+    top: 239px;
 }
 
 .weekday-div:nth-child(2n-1) .degree-div {
@@ -792,7 +792,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     color: #fff;
     font-size: 118px;
     position: absolute;
-    bottom: 32px;
+    top: 123px;
     width: 260px;
     display: flex;
     justify-content: center;
