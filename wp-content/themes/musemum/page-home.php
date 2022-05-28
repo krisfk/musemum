@@ -580,6 +580,29 @@ get_header();
 
         </div>
         <div class="scene-4-screen scene-4-screen-3">
+
+            <div class="weekdays-div">
+
+                <div class="weekday-div">
+                    <div class="weekday-title-div">一 MON</div>
+                    <div class="weekday-degree-div">
+
+                        <div class="weekday-weather-icon">
+                            <img class="w-100" src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/pic51.png"
+                                alt="">
+                        </div>
+
+                        <div class="degree-div">
+                            <span>24</span>
+                            <span>o</span>
+                            <span>C</span>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
         </div>
 
     </div>
