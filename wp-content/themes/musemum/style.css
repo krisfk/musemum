@@ -734,3 +734,8 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     color: #394d64;
     background: #d1ddee;
 }
+
+.weekday-div {
+    width: 200px;
+    height: 800px;
+}
