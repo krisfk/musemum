@@ -365,12 +365,13 @@ get_header();
                 <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/book-1.png" alt="" class="book">
 
                 <div>
-                    <span>
+                    <span style="font-size:35px;">
                         香港在英治時期的海防歷史： <br>
                         鯉魚門的防禦工事 </span>
                     <br><br>
 
-                    <span class="roboto"> Notes on the History of Hong Kong's Coastal Defences during the British
+                    <span class="roboto" style="font-size:35px;"> Notes on the History of Hong Kong's Coastal Defences
+                        during the British
                         Administration, with
                         Special
                         Reference to Lei Yue Mun
@@ -378,10 +379,10 @@ get_header();
 
                     <br><br>
                     <span>
-                        <span>
+                        <span style="font-size:25px;">
                             港幣HK
                         </span>
-                        <span>$165</span>
+                        <span style="font-size:50px;">$165</span>
                     </span>
 
                 </div>
