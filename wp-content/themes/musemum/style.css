@@ -661,12 +661,16 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 }
 
 .weather-icon {
-    width: 250px;
+    width: 211px;
     display: block;
     text-align: center;
-    margin: 1rem auto 0 auto;
+    margin: 0rem auto 0 auto;
 }
 
 .weekday-txt {
     color: #fff;
+    text-align: center;
+    font-size: 43px;
+    line-height: normal;
+    line-height: normal;
 }
