@@ -534,3 +534,26 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 .publication-div-text-content {
     padding: 2rem 3rem 3rem 3rem;
 }
+
+.scene-3-screen-2 .publication-div {
+    /* z-index: 100; */
+    position: relative;
+    color: #394d64;
+    line-height: 1.4;
+}
+
+.scene-3-screen-2 .publication-div:nth-child(2n) {
+    float: right;
+    display: block;
+    width: 640px;
+    height: 100%;
+    background: #dadcde;
+}
+
+.scene-3-screen-2 .publication-div:nth-child(2n-1) {
+    float: right;
+    display: block;
+    width: 640px;
+    height: 100%;
+    background: #ececec;
+}
