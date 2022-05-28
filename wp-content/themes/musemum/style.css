@@ -529,3 +529,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 .book {
     height: 350px;
 }
+
+.publication-div-text-content {
+    padding: 3rem;
+}

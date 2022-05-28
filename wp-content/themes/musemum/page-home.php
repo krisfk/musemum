@@ -364,7 +364,7 @@ get_header();
 
                 <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/book-1.png" alt="" class="book">
 
-                <div>
+                <div class="publication-div-text-content">
                     <span style="font-size:35px;">
                         香港在英治時期的海防歷史： <br>
                         鯉魚門的防禦工事 </span>
