@@ -668,9 +668,20 @@ $(function() {
 
             }, 5000);
 
+            setTimeout(() => {
+                scene3();
+            }, 10000);
 
 
 
+
+
+        }
+
+        function scene3() {
+            $('.scene-div-3').animate({
+                'left': '0px'
+            }, 1000);
 
         }
 
