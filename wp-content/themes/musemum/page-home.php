@@ -887,7 +887,7 @@ $(function() {
 
             $('.scene-4-screen-2-block').eq(0).slideDown(500);
             $('.scene-4-screen-2-block').eq(1).slideDown(500);
-            $('.scene-4-screen-2-block').delay(500).eq(2).slideDown(500);
+            $('.scene-4-screen-2-block').delay(500).eq(2).slideDown(200);
 
         }
 
