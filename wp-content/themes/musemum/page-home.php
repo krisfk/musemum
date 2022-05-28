@@ -551,10 +551,12 @@ get_header();
 
 
                     <div class="weather-msg roboto">
-                        <span style="font-size: 270px;">240</span><sup
-                            style="font-size: 114px;position: relative;top: -170px;">o</sup><span
-                            style="font-size: 270px;">C</span>
 
+                        <div>
+                            <span style="font-size: 270px;">240</span><sup
+                                style="font-size: 114px;position: relative;top: -170px;">o</sup><span
+                                style="font-size: 270px;">C</span>
+                        </div>
                         <div class="weather-place">筲箕灣 <br>
                             Shau Kei Wan
                         </div>
