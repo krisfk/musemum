@@ -555,6 +555,10 @@ get_header();
                             style="font-size: 114px;position: relative;top: -170px;">o</sup><span
                             style="font-size: 270px;">C</span>
 
+                        <div class="weather-place">筲箕灣 <br>
+                            Shau Kei Wan
+                        </div>
+
                     </div>
                 </div>
                 <div class="scene-4-screen-2-block scene-4-screen-2-block-3"></div>
