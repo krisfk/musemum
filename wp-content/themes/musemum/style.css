@@ -107,6 +107,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     width: 5760px;
     height: 1080px;
     position: relative;
+    overflow: hidden;
 }
 
 .cal-pos-1 {
@@ -626,6 +627,11 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     left: 0;
     width: 100%;
     height: 100%;
+    transition: 0.2s all;
+}
+
+.weather-bg.scaling {
+    transform: scale(2);
 }
 
 .scene-4-screen-1-txt {
