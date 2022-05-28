@@ -731,7 +731,9 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     font-size: 118px;
     position: absolute;
     bottom: 0;
-    width: 100%;
+    width: 260px;
+    display: flex;
+    justify-content: center;
 }
 
 .weekday-title-div {
