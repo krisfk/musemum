@@ -744,12 +744,14 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     width: 205px;
     text-align: center;
     line-height: 110px;
+    overflow: hidden;
 }
 
 .weekday-div:nth-child(2n) .weekday-title-div {
     color: #394d64;
     background: #bac5d6;
     height: 110px;
+    overflow: hidden;
     font-size: 45px;
     /* line-height: 45px; */
     text-align: center;
