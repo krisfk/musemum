@@ -540,12 +540,12 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     position: relative;
     color: #394d64;
     line-height: 1.4;
+    width: 640px;
 }
 
 .scene-3-screen-2 .publication-div:nth-child(2n) {
     float: right;
     display: block;
-    width: 640px;
     height: 100%;
     background: #dadcde;
 }
@@ -553,7 +553,6 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 .scene-3-screen-2 .publication-div:nth-child(2n-1) {
     float: right;
     display: block;
-    width: 640px;
     height: 100%;
     background: #ececec;
 }
