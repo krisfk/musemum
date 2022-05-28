@@ -764,3 +764,5 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     display: block;
     /* background: rgb(0 0 0 / 10%); */
 }
+
+.weekday-degree-div .weekday-weather-icon {}
