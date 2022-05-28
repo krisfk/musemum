@@ -426,12 +426,8 @@ get_header();
                         鯉魚門的防禦工事 </span>
                     <br><br>
 
-                    <span class="roboto" style="font-size: 30px;"> Notes on the History of Hong Kong's
-                        Coastal Defences
-                        during the British
-                        Administration, with
-                        Special
-                        Reference to Lei Yue Mun
+                    <span class="roboto" style="font-size: 30px;"> The Defence of Hong Kong -
+                        Collected Essays on the Hong Kong-Kowloon Brigade of the East River Column
                     </span>
 
                     <br><br>
@@ -439,7 +435,7 @@ get_header();
                         <span style="font-size:25px;">
                             港幣HK
                         </span>
-                        <span style="font-size:50px;">$165</span>
+                        <span style="font-size:50px;">$130</span>
                     </span>
 
                 </div>
@@ -451,16 +447,12 @@ get_header();
 
                 <div class="publication-div-text-content">
                     <span style="font-size:35px;">
-                        香港在英治時期的海防歷史： <br>
-                        鯉魚門的防禦工事 </span>
+                        我的海防手帳
+                    </span>
                     <br><br>
 
-                    <span class="roboto" style="font-size: 30px;"> Notes on the History of Hong Kong's
-                        Coastal Defences
-                        during the British
-                        Administration, with
-                        Special
-                        Reference to Lei Yue Mun
+                    <span class="roboto" style="font-size: 30px;"> My Coastal Defence Notes
+
                     </span>
 
                     <br><br>
@@ -468,7 +460,7 @@ get_header();
                         <span style="font-size:25px;">
                             港幣HK
                         </span>
-                        <span style="font-size:50px;">$165</span>
+                        <span style="font-size:50px;">$88</span>
                     </span>
 
                 </div>
@@ -480,16 +472,18 @@ get_header();
 
                 <div class="publication-div-text-content">
                     <span style="font-size:35px;">
-                        香港在英治時期的海防歷史： <br>
-                        鯉魚門的防禦工事 </span>
+                        近代中國海防 - <br>
+                        軍事與經濟 </span>
                     <br><br>
 
-                    <span class="roboto" style="font-size: 30px;"> Notes on the History of Hong Kong's
-                        Coastal Defences
-                        during the British
-                        Administration, with
-                        Special
-                        Reference to Lei Yue Mun
+
+
+
+
+
+                    <span class="roboto" style="font-size: 30px;"> Modern Chinese Coastal Defense - military and
+                        economics
+
                     </span>
 
                     <br><br>
