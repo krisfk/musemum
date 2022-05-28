@@ -519,6 +519,22 @@ get_header();
     <div class="scene-div scene-div-4">
         <img class="weather-bg" src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/sunny-bg-scaled.jpg" alt="">
         <div class="scene-4-screen scene-4-screen-1">
+
+
+
+            <div class="scene-4-screen-1-txt">
+
+
+
+                <span style="font-size:50px;">現在</span><span style="font-size:50px;">天氣</span> <br>
+                <span style="font-size:50px;">Current Weather</span>
+
+
+
+
+
+            </div>
+
         </div>
         <div class="scene-4-screen scene-4-screen-2">
         </div>
