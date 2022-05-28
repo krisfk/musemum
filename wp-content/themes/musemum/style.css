@@ -637,6 +637,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 
 .scene-4-screen-2-block {
     float: left;
+    position: relative;
     background: url(./assets/images/weather-gradient-bg.png);
     background-size: 100% 100%;
 }
@@ -679,4 +680,8 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     /* position: absolute;
     top: 50%;
     transform: translate(0, -50%); */
+    position: absolute;
+    top: 45%;
+    transform: translate(-50%, -50%);
+    left: 50%;
 }
