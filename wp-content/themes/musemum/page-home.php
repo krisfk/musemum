@@ -546,7 +546,31 @@ get_header();
                         <div class="weather-place">筲箕灣 <br> Shau Kei Wan </div>
                     </div>
                 </div>
-                <div class="scene-4-screen-2-block scene-4-screen-2-block-3"></div>
+                <div class="scene-4-screen-2-block scene-4-screen-2-block-3">
+
+
+                    <div class="">
+                        <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/wind-icon.png" alt="">
+                        60 mph
+                    </div>
+                    <div class="weather-sep">|</div>
+                    <div class="">
+                        <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/wet-icon.png" alt="">
+                        60%
+
+                    </div>
+
+                    <div class="weather-sep">|</div>
+
+                    <div>
+                        <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/umbrella-icon.png" alt="">
+
+                        10%
+                    </div>
+
+
+
+                </div>
             </div>
 
         </div>
