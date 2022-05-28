@@ -654,6 +654,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 
 .scene-4-screen-2-block.scene-4-screen-2-block-3 {
     width: 1920px;
+    text-align: center;
     height: 160px;
     color: #fff;
 }
@@ -709,6 +710,18 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     line-height: normal;
 }
 
-.weather-bottom-div {}
+.weather-bottom-div {
+    width: 460px;
+    display: inline-block;
+    font-size: 68px;
+    margin: 21px 0 0 0;
+}
 
-.weather-sep {}
+.weather-sep {
+    display: inline-block;
+    font-size: 70px;
+}
+
+.weather-bottom-icon {
+    height: 100px;
+}
