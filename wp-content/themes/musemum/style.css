@@ -736,9 +736,9 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     justify-content: center;
 }
 
-.weekday-div .weekday-title-div:nth-child(2n) {
+.weekday-div:nth-child(2n) .weekday-title-div {
     color: #394d64;
-    background: #b9c5d5;
+    background: #d1ddee;
     height: 110px;
     font-size: 45px;
     /* line-height: 45px; */
@@ -748,7 +748,17 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     width: 260px;
 }
 
-.weekday-div .weekday-title-div:nth-child(2n-1) {}
+.weekday-div:nth-child(2n-1) .weekday-title-div {
+    color: #394d64;
+    background: #bac5d6;
+    height: 110px;
+    font-size: 45px;
+    /* line-height: 45px; */
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    width: 260px;
+}
 
 .weekdays-div {
     margin: 140px 0 0 0;
