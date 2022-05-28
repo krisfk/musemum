@@ -550,7 +550,7 @@ get_header();
                 <div class="scene-4-screen-2-block scene-4-screen-2-block-2">
 
 
-                    <div class="weather-msg">
+                    <div class="weather-msg roboto">
                         <span style="font-size: 270px;">240</span><sup
                             style="font-size: 114px;position: relative;top: -170px;">o</sup><span
                             style="font-size: 270px;">C</span>
