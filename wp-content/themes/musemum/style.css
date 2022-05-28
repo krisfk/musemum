@@ -660,7 +660,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 }
 
 .weather-center-blk {
-    margin: 200px 0 0 0;
+    margin: 220px 0 0 0;
 }
 
 .weather-icon {
@@ -766,6 +766,8 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 .weekday-div .weekday-degree-div {
     display: block;
     /* background: rgb(0 0 0 / 10%); */
+    display: hei;
+    height: 640px;
 }
 
 .weekday-div:nth-child(2n-1) .weekday-degree-div .weekday-weather-icon {
