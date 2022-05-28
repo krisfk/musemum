@@ -530,7 +530,7 @@ get_header();
         </div>
         <div class="scene-4-screen scene-4-screen-2">
 
-            <div>
+            <div class="weather-center-blk">
 
                 <div class="scene-4-screen-2-block scene-4-screen-2-block-1"></div>
                 <div class="scene-4-screen-2-block scene-4-screen-2-block-2"></div>

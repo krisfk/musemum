@@ -655,3 +655,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     width: 1920px;
     height: 130px;
 }
+
+.weather-center-blk {
+    margin: 100px 0 0 0;
+}
