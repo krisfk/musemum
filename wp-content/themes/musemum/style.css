@@ -733,9 +733,11 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     font-size: 45px;
     /* line-height: 45px; */
     text-align: center;
-    display: table-cell;
+    display: table;
     vertical-align: middle;
-    width: 260px;
+    width: 205px;
+    text-align: center;
+    line-height: 110px;
 }
 
 .weekday-div:nth-child(2n) .weekday-title-div {
@@ -745,9 +747,10 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     font-size: 45px;
     /* line-height: 45px; */
     text-align: center;
-    display: table-cell;
+    display: table;
     vertical-align: middle;
-    width: 260px;
+    width: 205px;
+    line-height: 110px;
 }
 
 .weekdays-div {
