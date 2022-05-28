@@ -890,6 +890,13 @@ $(function() {
             $('.scene-4-screen-2-block').eq(1).slideDown(400);
             $('.scene-4-screen-2-block').delay(400).eq(2).slideDown(500);
 
+            $('.weekday-title-div').fadeOut(0);
+            $('.weekday-degree-div').fadeOut(0);
+            $('.weekday-title-div').slideDown(300);
+            $('.weekday-degree-div').delay(300).slideDown(400);
+
+
+
         }
 
     }
