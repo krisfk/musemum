@@ -704,4 +704,6 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     font-size: 40px;
     display: inline-block;
     text-align: left;
+    margin-left: 40px;
+    line-height: normal;
 }
