@@ -961,6 +961,8 @@ $(function() {
 
                 }
 
+                $('.weather-bg').addClass('scaling')
+
             });
 
 
