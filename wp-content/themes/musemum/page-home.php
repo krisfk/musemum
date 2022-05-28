@@ -869,6 +869,7 @@ $(function() {
 
             setTimeout(() => {
                 scene3();
+                00
             }, 10000);
 
 
@@ -884,6 +885,9 @@ $(function() {
 
             $('.scene-4-screen-2-block').fadeOut(0);
 
+            $('.scene-4-screen-2-block').eq(0).slideDown(500);
+            $('.scene-4-screen-2-block').eq(1).slideDown(500);
+            $('.scene-4-screen-2-block').delay(500).eq(2).slideDown(500);
 
         }
 
