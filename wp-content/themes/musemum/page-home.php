@@ -882,6 +882,9 @@ $(function() {
                 'left': '0px'
             }, 1000);
 
+            $('.scene-4-screen-2-block').fadeOut(0);
+
+
         }
 
     }
