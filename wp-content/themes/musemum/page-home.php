@@ -936,16 +936,16 @@ $(function() {
             $('.weekday-weather-icon').fadeOut(0);
             $('.degree-div').fadeOut(0);
 
-            setTimeout(() => {
-                for (i = 0; i < $('.degree-div').length; i++) {
 
-                    $('.weekday-title-div').eq(i).delay(100 + i * 30).slideDown(500);
-                    $('.weekday-degree-div').eq(i).delay(700 + i * 30).slideDown(400);
-                    $('.weekday-weather-icon').eq(i).delay(700 + i * 30).fadeIn(400)
-                    $('.degree-div').eq(i).delay(700 + i * 30).fadeIn(400)
+            for (i = 0; i < $('.degree-div').length; i++) {
 
-                }
-            }, 5000);
+                $('.weekday-title-div').eq(i).delay(100 + i * 30).slideDown(500);
+                $('.weekday-degree-div').eq(i).delay(700 + i * 30).slideDown(400);
+                $('.weekday-weather-icon').eq(i).delay(700 + i * 30).fadeIn(400)
+                $('.degree-div').eq(i).delay(700 + i * 30).fadeIn(400)
+
+            }
+
 
 
 
