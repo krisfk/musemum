@@ -549,7 +549,7 @@ get_header();
                 <div class="scene-4-screen-2-block scene-4-screen-2-block-3">
 
 
-                    <div class="weather-bottom-div">
+                    <div class="weather-bottom-div" style="margin-right: 62px;">
                         <img class="weather-bottom-icon"
                             src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/wind-icon.png" alt="">
                         60 mph
