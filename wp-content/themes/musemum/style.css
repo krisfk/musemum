@@ -733,7 +733,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     font-size: 45px;
     /* line-height: 45px; */
     text-align: center;
-    display: table;
+    /* display: table; */
     vertical-align: middle;
     width: 205px;
     text-align: center;
@@ -747,7 +747,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     font-size: 45px;
     /* line-height: 45px; */
     text-align: center;
-    display: table;
+    /* display: table; */
     vertical-align: middle;
     width: 205px;
     line-height: 110px;
