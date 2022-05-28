@@ -594,9 +594,7 @@ get_header();
 
                         <div class="degree-div roboto">
                             <span>24</span>
-                            <sup style="font-size: 43px;
-    position: relative;
-    top: 31px;">o</sup>
+                            <sup style="font-size: 43px;position: relative;top: 31px;">o</sup>
                             <span>C</span>
                         </div>
 
