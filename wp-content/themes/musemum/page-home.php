@@ -895,7 +895,7 @@ $(function() {
             $('.weekday-weather-icon').fadeOut(0);
             $('.degree-div').fadeOut(0);
 
-            for (i = 0; i < $('.degree-div').length; i++) {
+            for (i = 0; i < 1; i++) {
 
                 $('.weekday-title-div').delay(100).eq(i).slideDown(300);
                 $('.weekday-degree-div').delay(100).eq(i).delay(300).slideDown(400);
