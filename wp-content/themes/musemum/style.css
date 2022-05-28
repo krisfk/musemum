@@ -726,16 +726,6 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     height: 100px;
 }
 
-.weekday-div .degree-div {
-    color: #fff;
-    font-size: 118px;
-    position: absolute;
-    bottom: 32px;
-    width: 260px;
-    display: flex;
-    justify-content: center;
-}
-
 .weekday-div:nth-child(2n-1) .weekday-title-div {
     color: #394d64;
     background: #d1ddee;
@@ -778,7 +768,27 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     /* background: rgb(0 0 0 / 10%); */
 }
 
-.weekday-div .weekday-degree-div .weekday-weather-icon {
+.weekday-div:nth-child(2n-1) .weekday-degree-div .weekday-weather-icon {
     position: absolute;
     bottom: 200px;
+}
+
+.weekday-div:nth-child(2n-1) .degree-div {
+    color: #fff;
+    font-size: 118px;
+    position: absolute;
+    bottom: 32px;
+    width: 260px;
+    display: flex;
+    justify-content: center;
+}
+
+.weekday-div:nth-child(2n) .degree-div {
+    color: #fff;
+    font-size: 118px;
+    position: absolute;
+    bottom: 32px;
+    width: 260px;
+    display: flex;
+    justify-content: center;
 }
