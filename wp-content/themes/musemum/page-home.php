@@ -548,19 +548,12 @@ get_header();
 
                 </div>
                 <div class="scene-4-screen-2-block scene-4-screen-2-block-2">
-
-
-                    <div class="weather-msg roboto">
-
-                        <div>
-                            <span style="font-size: 270px;">240</span><sup
+                    <div class="weather-msg roboto" style=" display: block; width: 100%; text-align: center; ">
+                        <div style=" display: inline-block; /* text-align: left; */ "> <span
+                                style="font-size: 270px;">240</span><sup
                                 style="font-size: 114px;position: relative;top: -170px;">o</sup><span
-                                style="font-size: 270px;">C</span>
-                        </div>
-                        <div class="weather-place">筲箕灣 <br>
-                            Shau Kei Wan
-                        </div>
-
+                                style="font-size: 270px;">C</span> </div>
+                        <div class="weather-place">筲箕灣 <br> Shau Kei Wan </div>
                     </div>
                 </div>
                 <div class="scene-4-screen-2-block scene-4-screen-2-block-3"></div>
