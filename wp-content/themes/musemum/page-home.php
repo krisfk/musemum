@@ -539,7 +539,7 @@ get_header();
 
                     <div class="weekday-txt">
                         <span>星期一</span> <br>
-                        <span>MONDAY</span>
+                        <span class="roboto">MONDAY</span>
                     </div>
                 </div>
                 <div class="scene-4-screen-2-block scene-4-screen-2-block-2"></div>
