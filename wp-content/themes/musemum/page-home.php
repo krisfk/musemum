@@ -502,6 +502,20 @@ get_header();
         <div class="scene-3-screen scene-3-screen-3">
 
 
+            <div class="scene-3-screen-3-txt">
+
+                <span>好書</span> <span>伴回家</span> <br>
+                <span>Joyful</span> <span>Readings</span>
+
+
+
+
+
+
+
+
+            </div>
+
             <img class="scene-3-screen-right-img"
                 src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/publication-right-img-1.png" alt="">
         </div>
