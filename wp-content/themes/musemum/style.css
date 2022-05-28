@@ -676,7 +676,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 }
 
 .weather-msg {
-    position: absolute;
+    /* position: absolute;
     top: 50%;
-    transform: translate(0, -50%);
+    transform: translate(0, -50%); */
 }
