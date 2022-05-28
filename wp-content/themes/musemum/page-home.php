@@ -529,6 +529,15 @@ get_header();
 
         </div>
         <div class="scene-4-screen scene-4-screen-2">
+
+            <div>
+
+                <div class="scene-4-screen-2-block scene-4-screen-2-block-1"></div>
+                <div class="scene-4-screen-2-block scene-4-screen-2-block-2"></div>
+                <div class="scene-4-screen-2-block scene-4-screen-2-block-3"></div>
+
+            </div>
+
         </div>
         <div class="scene-4-screen scene-4-screen-3">
         </div>
