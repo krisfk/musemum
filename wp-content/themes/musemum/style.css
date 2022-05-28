@@ -733,9 +733,18 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 .weekday-title-div {
     color: #394d64;
     background: #d1ddee;
+    height: 88px;
+    font-size: 45px;
+    /* line-height: 45px; */
+    text-align: center;
 }
 
 .weekday-div {
     width: 200px;
     height: 800px;
+}
+
+.weekday-degree-div {
+    display: block;
+    background: #0000001a;
 }
