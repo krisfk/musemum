@@ -605,19 +605,19 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 .scene-4-screen-1 {
     top: 0;
     left: 0;
-    background: #5ea6a6;
+    /* background: #5ea6a6; */
 }
 
 .scene-4-screen-2 {
     top: 0;
     left: 1920px;
-    background: #165959;
+    /* background: #165959; */
 }
 
 .scene-4-screen-3 {
     top: 0;
     left: 3840px;
-    background: #095353;
+    /* background: #095353; */
 }
 
 .weather-bg {
