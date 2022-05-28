@@ -630,4 +630,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 
 .scene-4-screen-1-txt {
     color: #fff;
+    position: absolute;
+    top: 432px;
+    right: 206px;
 }
