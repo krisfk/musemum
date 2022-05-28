@@ -725,3 +725,12 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 .weather-bottom-icon {
     height: 100px;
 }
+
+.degree-div {
+    color: #fff;
+}
+
+.weekday-title-div {
+    color: #394d64;
+    background: #d1ddee;
+}
