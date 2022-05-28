@@ -594,7 +594,7 @@ get_header();
 
                         <div class="degree-div">
                             <span>24</span>
-                            <span>o</span>
+                            <span style="position: relative;top: -37px;font-size: 43px;">o</span>
                             <span>C</span>
                         </div>
 
