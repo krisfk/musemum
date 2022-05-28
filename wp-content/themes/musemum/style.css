@@ -666,3 +666,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     text-align: center;
     margin: 1rem auto 0 auto;
 }
+
+.weekday-txt {
+    color: #fff;
+}

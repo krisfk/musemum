@@ -536,6 +536,11 @@ get_header();
 
                     <img class="weather-icon" src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/pic51.png"
                         alt="">
+
+                    <div class="weekday-txt">
+                        <span>星期一</span> <br>
+                        <span>MONDAY</span>
+                    </div>
                 </div>
                 <div class="scene-4-screen-2-block scene-4-screen-2-block-2"></div>
                 <div class="scene-4-screen-2-block scene-4-screen-2-block-3"></div>
