@@ -352,14 +352,16 @@ get_header();
     <!--scene-3 start-->
     <div class="scene-div scene-div-3">
 
-        <div class="scene-2-screen scene-2-screen-1">
+        <div class="scene-3-screen scene-3-screen-1">
 
+            <img class="scene-3-screen-left-img"
+                src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/publication-left-img-1.jpg" alt="">
         </div>
 
-        <div class="scene-2-screen scene-2-screen-2">
+        <div class="scene-3-screen scene-3-screen-2">
         </div>
 
-        <div class="scene-2-screen scene-2-screen-3">
+        <div class="scene-3-screen scene-3-screen-3">
         </div>
 
 
