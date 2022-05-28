@@ -592,7 +592,7 @@ get_header();
                                 alt="">
                         </div>
 
-                        <div class="degree-div">
+                        <div class="degree-div roboto">
                             <span>24</span>
                             <span style="position: relative;top: -37px;font-size: 43px;">o</span>
                             <span>C</span>
