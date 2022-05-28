@@ -729,6 +729,8 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 .degree-div {
     color: #fff;
     font-size: 70px;
+    position: absolute;
+    bottom: 0;
 }
 
 .weekday-title-div {
@@ -752,6 +754,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     width: 200px;
     height: 800px;
     background: rgb(0 0 0 / 10%);
+    position: relative;
 }
 
 .weekday-degree-div {
