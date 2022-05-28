@@ -532,7 +532,10 @@ get_header();
 
             <div class="weather-center-blk">
 
-                <div class="scene-4-screen-2-block scene-4-screen-2-block-1"></div>
+                <div class="scene-4-screen-2-block scene-4-screen-2-block-1">
+
+                    <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/pic51.png" alt="">
+                </div>
                 <div class="scene-4-screen-2-block scene-4-screen-2-block-2"></div>
                 <div class="scene-4-screen-2-block scene-4-screen-2-block-3"></div>
 
