@@ -477,7 +477,8 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 }
 
 .scene-3-screen-1 .publication-div {
-    z-index: 100;
+    /* z-index: 100; */
+    position: relative;
 }
 
 .scene-3-screen-1 .publication-div:nth-child(2n) {
