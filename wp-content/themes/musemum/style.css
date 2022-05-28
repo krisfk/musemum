@@ -730,7 +730,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     color: #fff;
     font-size: 118px;
     position: absolute;
-    bottom: 0;
+    bottom: 32px;
     width: 260px;
     display: flex;
     justify-content: center;
@@ -765,4 +765,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     /* background: rgb(0 0 0 / 10%); */
 }
 
-.weekday-degree-div .weekday-weather-icon {}
+.weekday-degree-div .weekday-weather-icon {
+    position: absolute;
+    bottom: 200px;
+}
