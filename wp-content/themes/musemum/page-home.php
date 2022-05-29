@@ -1057,7 +1057,17 @@ $(function() {
 
 
                         if (sec % 1000 == 0) {
-                            console.log(67);
+
+                            idx_a++;
+
+                            if (idx_a > $('.disc-a-div img').length) {
+                                idx_a = 0;
+                            }
+
+                            $('.disc-a-div img').fadeOut(0);
+                            $('.disc-a-div img').eq(idx_a).fadeIn(0);
+
+
                         }
 
 
