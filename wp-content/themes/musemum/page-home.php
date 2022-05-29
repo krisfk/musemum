@@ -753,7 +753,7 @@ get_header();
     </div>
     <!--scene-4-end-->
 
-    <!--scene-4-start-->
+    <!--scene-5-start-->
     <div class="scene-div scene-div-5">
 
         <img class="white-big-mcd-logo h-100"
@@ -795,7 +795,20 @@ get_header();
         </div>
 
     </div>
-    <!--scene-4-end-->
+    <!--scene-5-end-->
+
+
+    <!--scene-6-start-->
+    <div class="scene-div scene-div-6">
+
+        <div class="scene-6-screen scene-6-screen-1">
+        </div>
+        <div class="scene-6-screen scene-6-screen-2">
+        </div>
+        <div class="scene-6-screen scene-6-screen-3">
+        </div>
+    </div>
+    <!--scene-6-end-->
 
 
 </div>
@@ -811,323 +824,341 @@ get_header();
 <script type="text/javascript">
 $(function() {
 
-    var first = true;
+            var first = true;
 
 
-    $('.start-btn').click(function() {
-        $(this).fadeOut(0);
-        $('#test-video').fadeOut(0);
-        all_start();
-    })
+            $('.start-btn').click(function() {
+                $(this).fadeOut(0);
+                $('#test-video').fadeOut(0);
+                all_start();
+            })
 
-    function all_start() {
+            function all_start() {
 
-        //scene1
-        setTimeout(() => {
+                //scene1
+                setTimeout(() => {
 
-            $('.app-icon').fadeOut(0);
-            $('.qr-code-group-1,.qr-code-group-2').fadeOut(0);
-            setTimeout(() => {
-                $('.qr-code-group-1,.qr-code-group-2,.scene-1-txt-3,.scene-1-txt-4')
-                    .fadeIn(
-                        200);
-            }, 800);
-
-
-            setTimeout(() => {
-                $('.app-icon').fadeIn(0);
-            }, 800);
-
-            $('.white-big-mcd-logo').animate({
-                'left': '202px'
-            }, 1000, function() {
-
-                $('.iphone-video').trigger('play');
+                    $('.app-icon').fadeOut(0);
+                    $('.qr-code-group-1,.qr-code-group-2').fadeOut(0);
+                    setTimeout(() => {
+                        $('.qr-code-group-1,.qr-code-group-2,.scene-1-txt-3,.scene-1-txt-4')
+                            .fadeIn(
+                                200);
+                    }, 800);
 
 
-                $('.app-icon').animate({
-                    'left': '2172px'
-                }, 500, function() {
+                    setTimeout(() => {
+                        $('.app-icon').fadeIn(0);
+                    }, 800);
+
+                    $('.white-big-mcd-logo').animate({
+                        'left': '202px'
+                    }, 1000, function() {
+
+                        $('.iphone-video').trigger('play');
 
 
-                    $('.iphone-div').fadeIn(0);
-
-                    $('.iphone-div').addClass('rotate1');
-
-                    $('.iphone-div .iphone-video').on('ended', function() {
-
-                        if (first) {
-                            first = false;
-                            $('.iphone-div').removeClass('rotate1');
-                            $('.iphone-div').addClass('rotate2');
-                            $('.ar-videos-div').delay(500).fadeIn(0);
-                            $('.ar-video-1').trigger('play');
+                        $('.app-icon').animate({
+                            'left': '2172px'
+                        }, 500, function() {
 
 
+                            $('.iphone-div').fadeIn(0);
 
-                            var v_idx = 1;
-                            var total_video = $('.bg-behind-phone').length;
-                            console.log('play video' + v_idx);
+                            $('.iphone-div').addClass('rotate1');
 
-                            $('.ar-videos-div .ar-video').on('ended',
-                                function() {
+                            $('.iphone-div .iphone-video').on('ended', function() {
 
-                                    console.log('video' + v_idx);
-                                    if (v_idx == total_video) {
-
-                                        scene2();
-                                    } else {
-                                        $('.ar-video-' + v_idx).fadeOut(
-                                            500);
-                                        $('.bg-behind-phone-' + v_idx)
-                                            .fadeOut(
-                                                500);
-                                        v_idx++;
-                                        $('.ar-video-' + v_idx).fadeIn(
-                                            500);
-                                        $('.ar-video-' + v_idx).trigger(
-                                            'play');
-                                        $('.bg-behind-phone-' + v_idx)
-                                            .fadeIn(500);
-                                    }
+                                if (first) {
+                                    first = false;
+                                    $('.iphone-div').removeClass('rotate1');
+                                    $('.iphone-div').addClass('rotate2');
+                                    $('.ar-videos-div').delay(500).fadeIn(0);
+                                    $('.ar-video-1').trigger('play');
 
 
-                                })
-                        }
+
+                                    var v_idx = 1;
+                                    var total_video = $('.bg-behind-phone').length;
+                                    console.log('play video' + v_idx);
+
+                                    $('.ar-videos-div .ar-video').on('ended',
+                                        function() {
+
+                                            console.log('video' + v_idx);
+                                            if (v_idx == total_video) {
+
+                                                scene2();
+                                            } else {
+                                                $('.ar-video-' + v_idx).fadeOut(
+                                                    500);
+                                                $('.bg-behind-phone-' + v_idx)
+                                                    .fadeOut(
+                                                        500);
+                                                v_idx++;
+                                                $('.ar-video-' + v_idx).fadeIn(
+                                                    500);
+                                                $('.ar-video-' + v_idx).trigger(
+                                                    'play');
+                                                $('.bg-behind-phone-' + v_idx)
+                                                    .fadeIn(500);
+                                            }
+
+
+                                        })
+                                }
+
+
+                            });
+
+
+                            // iphone-div
+                        });
 
 
                     });
+                    $('.scene-1-green-bg').fadeIn(500);
+                    $('.bg-behind-phone-1').fadeIn(500);
+                    $('.scene-1-txt-5').fadeIn(500);
 
 
-                    // iphone-div
-                });
+                    $('.musemum-card,.scene-1-txt-1,.scene-1-txt-2').fadeOut(200);
 
 
-            });
-            $('.scene-1-green-bg').fadeIn(500);
-            $('.bg-behind-phone-1').fadeIn(500);
-            $('.scene-1-txt-5').fadeIn(500);
+                }, 1000);
 
+                //scene2
 
-            $('.musemum-card,.scene-1-txt-1,.scene-1-txt-2').fadeOut(200);
+                function scene2() {
+                    console.log('scene2');
 
+                    $('.scene-div-2').animate({
+                        'left': '0px'
+                    }, 1000);
 
-        }, 1000);
+                    $('.scene-2-screen-2-slide').fadeOut(0);
+                    $('.scene-2-screen-2-slide').eq(0).fadeIn(0);
 
-        //scene2
+                    $('.scene-2-screen-3-slide').fadeOut(0);
+                    $('.scene-2-screen-3-slide').eq(0).fadeIn(0);
 
-        function scene2() {
-            console.log('scene2');
+                    var scene_2_screen_2_slide_idx = 0;
+                    var scene_2_screen_3_slide_idx = 0;
 
-            $('.scene-div-2').animate({
-                'left': '0px'
-            }, 1000);
+                    var scene_2_screen_2_slide_num = $('.scene-2-screen-2-slide').length;
+                    var scene_2_screen_3_slide_num = $('.scene-2-screen-3-slide').length;
 
-            $('.scene-2-screen-2-slide').fadeOut(0);
-            $('.scene-2-screen-2-slide').eq(0).fadeIn(0);
+                    var interval = setInterval(() => {
 
-            $('.scene-2-screen-3-slide').fadeOut(0);
-            $('.scene-2-screen-3-slide').eq(0).fadeIn(0);
-
-            var scene_2_screen_2_slide_idx = 0;
-            var scene_2_screen_3_slide_idx = 0;
-
-            var scene_2_screen_2_slide_num = $('.scene-2-screen-2-slide').length;
-            var scene_2_screen_3_slide_num = $('.scene-2-screen-3-slide').length;
-
-            var interval = setInterval(() => {
-
-                // console.log(sec);
-                if (scene_2_screen_2_slide_num > 1) {
-                    $('.scene-2-screen-2-slide').eq(scene_2_screen_2_slide_idx).fadeOut(500);
-                    if (scene_2_screen_2_slide_idx + 1 > scene_2_screen_2_slide_num - 1) {
-                        scene_2_screen_2_slide_idx = 0;
-                    } else {
-                        scene_2_screen_2_slide_idx++;
-                    }
-                    $('.scene-2-screen-2-slide').eq(scene_2_screen_2_slide_idx).fadeIn(500);
-                }
-                if (scene_2_screen_3_slide_num > 1) {
-
-                    $('.scene-2-screen-3-slide').eq(scene_2_screen_3_slide_idx).fadeOut(500);
-                    if (scene_2_screen_3_slide_idx + 1 > scene_2_screen_3_slide_num - 1) {
-                        scene_2_screen_3_slide_idx = 0;
-                    } else {
-                        scene_2_screen_3_slide_idx++;
-                    }
-                    $('.scene-2-screen-3-slide').eq(scene_2_screen_3_slide_idx).fadeIn(500);
-                }
-
-
-            }, 1000);
-
-            setTimeout(() => {
-                clearInterval(interval);
-                scene3();
-
-            }, 10000);
-
-
-
-
-
-        }
-
-        function scene3() {
-            console.log('scene3');
-            $('.scene-div-3').animate({
-                'left': '0px'
-            }, 1000);
-            setTimeout(() => {
-                scene4();
-            }, 3000);
-        }
-
-        function scene4() {
-            console.log('scene4');
-
-
-            $('.scene-4-screen-2-block').fadeOut(0);
-
-
-            $('.weekday-title-div').fadeOut(0);
-            $('.weekday-degree-div').fadeOut(0);
-            $('.weekday-weather-icon').fadeOut(0);
-            $('.degree-div').fadeOut(0);
-
-
-            $('.scene-div-4').animate({
-                'left': '0px'
-            }, 1000, function() {
-
-
-                $('.scene-4-screen-2-block').eq(0).slideDown(500);
-                $('.scene-4-screen-2-block').eq(1).slideDown(500);
-
-                $('.scene-4-screen-2-block').delay(400).eq(2).slideDown(600);
-
-
-
-                for (i = 0; i < $('.degree-div').length; i++) {
-
-                    $('.weekday-title-div').eq(i).delay(100 + i * 30).slideDown(500);
-                    $('.weekday-degree-div').eq(i).delay(700 + i * 30).slideDown(500);
-                    $('.weekday-weather-icon').eq(i).delay(700 + i * 30).fadeIn(400)
-                    $('.degree-div').eq(i).delay(700 + i * 30).fadeIn(400)
-
-                }
-
-                $('.weather-bg').addClass('scaling');
-
-
-                setTimeout(() => {
-
-                    scene5();
-                }, 4000);
-
-            });
-
-
-
-
-
-        }
-
-        function scene5() {
-            console.log('scene5');
-
-
-            $('.disc-a-div img').fadeOut(0);
-            $('.disc-a-div img').eq(0).fadeIn(0);
-
-            $('.disc-b-div img').fadeOut(0);
-            $('.disc-b-div img').eq(0).fadeIn(0);
-
-            $('.disc-c-div img').fadeOut(0);
-            $('.disc-c-div img').eq(0).fadeIn(0);
-
-            $('.scene-div-5 .white-big-mcd-logo').css({
-                'left': '901px'
-            });
-            $('.scene-div-5').animate({
-                'left': '0px'
-            }, 1000, function() {
-
-
-                setTimeout(() => {
-                    $('.disc-a-div').addClass('bounce');
-
-                    setTimeout(() => {
-                        $('.disc-a-div').addClass('rotatemove');
-                    }, 500);
-                }, 500);
-
-
-                setTimeout(() => {
-                    $('.disc-b-div').addClass('bounce')
-                }, 1700);
-
-
-                setTimeout(() => {
-                    $('.disc-c-div').addClass('bounce')
-
-
-                    var sec = 1000;
-
-                    idx_a = 0;
-                    idx_b = 0;
-                    idx_c = 0;
-
-                    var interval2 = setInterval(() => {
-                        sec += 1000;
-
-                        console.log(sec);
-                        console.log('sec/1000' + Number.isInteger(sec / 1000));
-                        if (Number.isInteger(sec / 1000)) {
-                            idx_a++;
-                            if (idx_a >= $('.disc-a-div img').length) {
-                                idx_a = 0;
+                        // console.log(sec);
+                        if (scene_2_screen_2_slide_num > 1) {
+                            $('.scene-2-screen-2-slide').eq(scene_2_screen_2_slide_idx).fadeOut(500);
+                            if (scene_2_screen_2_slide_idx + 1 > scene_2_screen_2_slide_num - 1) {
+                                scene_2_screen_2_slide_idx = 0;
+                            } else {
+                                scene_2_screen_2_slide_idx++;
                             }
-                            $('.disc-a-div img').fadeOut(0);
-                            $('.disc-a-div img').eq(idx_a).fadeIn(0);
+                            $('.scene-2-screen-2-slide').eq(scene_2_screen_2_slide_idx).fadeIn(500);
                         }
-                        console.log('sec/2000' + Number.isInteger(sec / 2000));
-                        if (Number.isInteger(sec / 2000)) {
-                            idx_b++;
-                            if (idx_b >= $('.disc-b-div img').length) {
-                                idx_b = 0;
+                        if (scene_2_screen_3_slide_num > 1) {
+
+                            $('.scene-2-screen-3-slide').eq(scene_2_screen_3_slide_idx).fadeOut(500);
+                            if (scene_2_screen_3_slide_idx + 1 > scene_2_screen_3_slide_num - 1) {
+                                scene_2_screen_3_slide_idx = 0;
+                            } else {
+                                scene_2_screen_3_slide_idx++;
                             }
-                            $('.disc-b-div img').fadeOut(0);
-                            $('.disc-b-div img').eq(idx_b).fadeIn(0);
+                            $('.scene-2-screen-3-slide').eq(scene_2_screen_3_slide_idx).fadeIn(500);
                         }
-                        console.log('sec/3000' + Number.isInteger(sec / 3000));
-
-                        if (Number.isInteger(sec / 3000)) {
-                            idx_c++;
-                            if (idx_c >= $('.disc-c-div img').length) {
-                                idx_c = 0;
-                            }
-                            $('.disc-c-div img').fadeOut(0);
-                            $('.disc-c-div img').eq(idx_c).fadeIn(0);
-                        }
-
-
 
 
                     }, 1000);
 
+                    setTimeout(() => {
+                        clearInterval(interval);
+                        scene3();
 
-                }, 2000);
+                    }, 10000);
+
+
+
+
+
+                }
+
+                function scene3() {
+                    console.log('scene3');
+                    $('.scene-div-3').animate({
+                        'left': '0px'
+                    }, 1000);
+                    setTimeout(() => {
+                        scene4();
+                    }, 3000);
+                }
+
+                function scene4() {
+                    console.log('scene4');
+
+
+                    $('.scene-4-screen-2-block').fadeOut(0);
+
+
+                    $('.weekday-title-div').fadeOut(0);
+                    $('.weekday-degree-div').fadeOut(0);
+                    $('.weekday-weather-icon').fadeOut(0);
+                    $('.degree-div').fadeOut(0);
+
+
+                    $('.scene-div-4').animate({
+                        'left': '0px'
+                    }, 1000, function() {
+
+
+                        $('.scene-4-screen-2-block').eq(0).slideDown(500);
+                        $('.scene-4-screen-2-block').eq(1).slideDown(500);
+
+                        $('.scene-4-screen-2-block').delay(400).eq(2).slideDown(600);
+
+
+
+                        for (i = 0; i < $('.degree-div').length; i++) {
+
+                            $('.weekday-title-div').eq(i).delay(100 + i * 30).slideDown(500);
+                            $('.weekday-degree-div').eq(i).delay(700 + i * 30).slideDown(500);
+                            $('.weekday-weather-icon').eq(i).delay(700 + i * 30).fadeIn(400)
+                            $('.degree-div').eq(i).delay(700 + i * 30).fadeIn(400)
+
+                        }
+
+                        $('.weather-bg').addClass('scaling');
+
+
+                        setTimeout(() => {
+
+                            scene5();
+                        }, 4000);
+
+                    });
+
+
+
+
+
+                }
+
+                function scene5() {
+                    console.log('scene5');
+
+
+                    $('.disc-a-div img').fadeOut(0);
+                    $('.disc-a-div img').eq(0).fadeIn(0);
+
+                    $('.disc-b-div img').fadeOut(0);
+                    $('.disc-b-div img').eq(0).fadeIn(0);
+
+                    $('.disc-c-div img').fadeOut(0);
+                    $('.disc-c-div img').eq(0).fadeIn(0);
+
+                    $('.scene-div-5 .white-big-mcd-logo').css({
+                        'left': '901px'
+                    });
+                    $('.scene-div-5').animate({
+                        'left': '0px'
+                    }, 1000, function() {
+
+
+                        setTimeout(() => {
+                            $('.disc-a-div').addClass('bounce');
+
+                            setTimeout(() => {
+                                $('.disc-a-div').addClass('rotatemove');
+                            }, 500);
+                        }, 500);
+
+
+                        setTimeout(() => {
+                            $('.disc-b-div').addClass('bounce')
+                        }, 1700);
+
+
+                        setTimeout(() => {
+                            $('.disc-c-div').addClass('bounce')
+
+
+                            var sec = 1000;
+
+                            idx_a = 0;
+                            idx_b = 0;
+                            idx_c = 0;
+
+                            var interval2 = setInterval(() => {
+                                sec += 1000;
+
+                                console.log(sec);
+                                console.log('sec/1000' + Number.isInteger(sec / 1000));
+                                if (Number.isInteger(sec / 1000)) {
+                                    idx_a++;
+                                    if (idx_a >= $('.disc-a-div img').length) {
+                                        idx_a = 0;
+                                    }
+                                    $('.disc-a-div img').fadeOut(0);
+                                    $('.disc-a-div img').eq(idx_a).fadeIn(0);
+                                }
+                                console.log('sec/2000' + Number.isInteger(sec / 2000));
+                                if (Number.isInteger(sec / 2000)) {
+                                    idx_b++;
+                                    if (idx_b >= $('.disc-b-div img').length) {
+                                        idx_b = 0;
+                                    }
+                                    $('.disc-b-div img').fadeOut(0);
+                                    $('.disc-b-div img').eq(idx_b).fadeIn(0);
+                                }
+                                console.log('sec/3000' + Number.isInteger(sec / 3000));
+
+                                if (Number.isInteger(sec / 3000)) {
+                                    idx_c++;
+                                    if (idx_c >= $('.disc-c-div img').length) {
+                                        idx_c = 0;
+                                    }
+                                    $('.disc-c-div img').fadeOut(0);
+                                    $('.disc-c-div img').eq(idx_c).fadeIn(0);
+                                }
+
+
+
+
+                            }, 1000);
+
+
+
+
+                            setTimeout(() => {
+                                scene6();
+                            }, 6000);
+
+
+                        }, 2000);
+
+                    })
+                }
+
+
+                function scene6() {
+
+                    $('.scene-div-6').animate({
+                            'left': '0px'
+                        }, 1000, function() {
+
+                        }
+
+                    }
+
+
+                }
+
+
 
             })
-        }
-
-
-    }
-
-
-
-})
 </script>
 <?php
 get_footer();
