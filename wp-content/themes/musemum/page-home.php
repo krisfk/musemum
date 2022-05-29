@@ -1060,7 +1060,7 @@ $(function() {
 
                             idx_a++;
 
-                            if (idx_a > $('.disc-a-div img').length) {
+                            if (idx_a >= $('.disc-a-div img').length) {
                                 idx_a = 0;
                             }
 
