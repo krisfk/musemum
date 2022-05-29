@@ -776,6 +776,7 @@ get_header();
 
             <div class="disc-a-div">
                 <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/disc-a.png" alt="">
+                <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/disc-b.png" alt="">
             </div>
         </div>
         <div class="scene-5-screen scene-5-screen-3">
@@ -798,10 +799,6 @@ get_header();
 <script type="text/javascript">
 $(function() {
 
-    var sec = 1000;
-    var mainInterval = setInterval(() => {
-        sec++;
-    }, 1000);
 
     $('.start-btn').click(function() {
         $(this).fadeOut(0);
@@ -1014,6 +1011,15 @@ $(function() {
         function scene5() {
 
 
+            $('.disc-a-div img').fadeOut(0);
+            $('.disc-a-div').eq(0).find('img').fadeIn(0);
+
+            $('.disc-b-div img').fadeOut(0);
+            $('.disc-b-div').eq(0).find('img').fadeIn(0);
+
+            $('.disc-c-div img').fadeOut(0);
+            $('.disc-c-div').eq(0).find('img').fadeIn(0);
+
             $('.scene-div-5 .white-big-mcd-logo').css({
                 'left': '901px'
             });
@@ -1038,6 +1044,17 @@ $(function() {
 
                 setTimeout(() => {
                     $('.disc-c-div').addClass('bounce')
+
+
+                    var sec = 1000;
+                    var interval2 = setInterval(() => {
+                        sec += 1000;
+
+
+
+                    }, 1000);
+
+
                 }, 2000);
 
             })
