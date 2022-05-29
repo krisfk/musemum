@@ -879,10 +879,33 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 
 .disc-a-div {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 373px;
+    left: 49px;
+    z-index: 1000;
 }
 
 .disc-a-div img {
-    width: 100px;
+    width: 319px;
+}
+
+.disc-b-div {
+    position: absolute;
+    top: 710px;
+    left: 652px;
+    z-index: 1000;
+}
+
+.disc-b-div img {
+    width: 470px;
+}
+
+.disc-c-div {
+    position: absolute;
+    top: 141px;
+    left: 271px;
+    z-index: 1000;
+}
+
+.disc-c-div img {
+    width: 319px;
 }
