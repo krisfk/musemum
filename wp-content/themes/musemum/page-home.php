@@ -760,7 +760,7 @@ get_header();
             src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/white-big-mcd-logo.png" alt="">
 
 
-        <img clas="scene-6-right-img-bg"
+        <img clas="scene-5-right-img-bg"
             src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/scene-5-right-img-scaled.jpg" alt="">
 
         <div class="scene-5-screen scene-5-screen-1">
