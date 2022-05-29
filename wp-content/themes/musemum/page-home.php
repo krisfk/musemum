@@ -767,9 +767,14 @@ get_header();
 
             <div class="disc-c-div">
                 <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/disc-c.png" alt="">
+                <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/disc-a.png" alt="">
+                <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/disc-b.png" alt="">
+
             </div>
             <div class="disc-b-div">
                 <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/disc-b.png" alt="">
+                <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/disc-c.png" alt="">
+                <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/disc-a.png" alt="">
             </div>
         </div>
         <div class="scene-5-screen scene-5-screen-2">
@@ -777,6 +782,8 @@ get_header();
             <div class="disc-a-div">
                 <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/disc-a.png" alt="">
                 <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/disc-b.png" alt="">
+                <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/disc-c.png" alt="">
+
             </div>
         </div>
         <div class="scene-5-screen scene-5-screen-3">
