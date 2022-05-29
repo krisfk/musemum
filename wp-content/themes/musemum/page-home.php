@@ -788,20 +788,10 @@ get_header();
         </div>
         <div class="scene-5-screen scene-5-screen-3">
 
-            <div class="scene-5-screen-3-txt">
-
-                <span style="font-size:50px;">博物館</span> <span style="font-size:50px;">餐廳</span> <br>
-                <span class="roboto" style="font-size:50px;">Museum</span><span class="roboto"
-                    style="font-size:50px;">Cafe</span>
-
-
-
-
-
-
-
-
-            </div>
+            <div class="scene-5-screen-3-txt"> <span style="font-size: 84px;">博物館</span> <span
+                    style="font-size: 150px;margin-left: 19px;">餐廳</span> <br> <span class="roboto"
+                    style="font-size: 92px;margin-left: 308px;">Museum</span><span class="roboto"
+                    style="font-size: 128px;margin-left: 15px;">Cafe</span> </div>
         </div>
 
     </div>

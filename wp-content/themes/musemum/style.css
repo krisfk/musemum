@@ -964,8 +964,8 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     color: #fff;
     position: absolute;
     z-index: 100;
-    line-height: 1.3;
+    line-height: 1;
     top: 400px;
-    left: 100px;
+    right: 277px;
     text-shadow: -1px 9px 16px #000;
 }
