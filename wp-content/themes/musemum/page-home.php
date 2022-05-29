@@ -1014,7 +1014,11 @@ $(function() {
 
 
                 setTimeout(() => {
-                    $('.disc-a-div').addClass('bounce')
+                    $('.disc-a-div').addClass('bounce');
+
+                    setTimeout(() => {
+                        $('.disc-a-div').addClass('rotatemove');
+                    }, 500);
                 }, 500);
 
 

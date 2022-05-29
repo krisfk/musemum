@@ -887,6 +887,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 
 .disc-a-div img {
     width: 319px;
+    transform: rotate(0deg);
 }
 
 .disc-b-div {
