@@ -1012,7 +1012,7 @@ $(function() {
 
 
             $('.disc-a-div img').fadeOut(0);
-            $('.disc-a-dif img').eq(0).fadeIn(0);
+            $('.disc-a-div img').eq(0).fadeIn(0);
 
             $('.disc-b-div img').fadeOut(0);
             $('.disc-b-div img').eq(0).fadeIn(0);
