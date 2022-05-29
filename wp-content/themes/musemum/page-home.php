@@ -1012,6 +1012,10 @@ $(function() {
 
         function scene5() {
 
+
+            $('.scene-div-5 .white-big-mcd-logo').css({
+                'left': '901px'
+            });
             $('.scene-div-5').animate({
                 'left': '0px'
             }, 1000, function() {
