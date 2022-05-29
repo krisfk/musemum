@@ -907,6 +907,7 @@ $(function() {
         //scene2
 
         function scene2() {
+            console.log('scene2');
 
             $('.scene-div-2').animate({
                 'left': '0px'
@@ -963,6 +964,7 @@ $(function() {
         }
 
         function scene3() {
+            console.log('scene3');
             $('.scene-div-3').animate({
                 'left': '0px'
             }, 1000);
@@ -972,6 +974,7 @@ $(function() {
         }
 
         function scene4() {
+            console.log('scene4');
 
 
             $('.scene-4-screen-2-block').fadeOut(0);
@@ -1021,6 +1024,7 @@ $(function() {
         }
 
         function scene5() {
+            console.log('scene5');
 
 
             $('.disc-a-div img').fadeOut(0);
