@@ -894,6 +894,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     top: 710px;
     left: 652px;
     z-index: 1000;
+    transform: scale(0);
 }
 
 .disc-b-div img {
@@ -904,6 +905,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     position: absolute;
     top: 141px;
     left: 271px;
+    transform: scale(0);
     z-index: 1000;
 }
 

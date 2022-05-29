@@ -1010,7 +1010,26 @@ $(function() {
 
             $('.scene-div-5').animate({
                 'left': '0px'
-            }, 1000, function() {})
+            }, 1000, function() {
+
+
+                setTimeout(() => {
+                    $('.disc-a-div').addClass('bounce')
+                }, 500);
+
+
+                setTimeout(() => {
+                    $('.disc-b-div').addClass('bounce')
+                }, 1000);
+
+
+                setTimeout(() => {
+                    $('.disc-c-div').addClass('bounce')
+                }, 1500);
+
+
+
+            })
         }
 
 
