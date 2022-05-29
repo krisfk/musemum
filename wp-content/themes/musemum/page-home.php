@@ -1067,7 +1067,7 @@ $(function() {
                     var interval2 = setInterval(() => {
                         sec += 1000;
 
-                        // console.log(sec);
+                        console.log(sec);
                         console.log('sec/1000' + Number.isInteger(sec / 1000));
                         if (Number.isInteger(sec / 1000)) {
                             idx_a++;
