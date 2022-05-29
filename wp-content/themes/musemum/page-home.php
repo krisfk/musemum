@@ -1020,14 +1020,12 @@ $(function() {
 
                 setTimeout(() => {
                     $('.disc-b-div').addClass('bounce')
-                }, 1000);
+                }, 800);
 
 
                 setTimeout(() => {
                     $('.disc-c-div').addClass('bounce')
-                }, 1500);
-
-
+                }, 1100);
 
             })
         }
