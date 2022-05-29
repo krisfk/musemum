@@ -759,6 +759,10 @@ get_header();
         <img class="white-big-mcd-logo h-100"
             src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/white-big-mcd-logo.png" alt="">
 
+
+        <img clas="scene-6-right-img-bg"
+            src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/scene-6-right-img-scaled.jpg" alt="">
+
         <div class="scene-5-screen scene-5-screen-1">
 
 
