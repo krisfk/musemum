@@ -913,7 +913,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 
 .bounce {
     animation: bounce 0.3s;
-    /* transform: scale(0); */
+    transform: scale(1);
 }
 
 @keyframes bounce {
