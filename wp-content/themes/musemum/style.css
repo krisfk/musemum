@@ -876,3 +876,13 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     top: 0;
     z-index: 100;
 }
+
+.disc-a-div {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.disc-a-div img {
+    width: 100px;
+}
