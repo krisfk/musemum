@@ -765,13 +765,13 @@ get_header();
 
         <div class="scene-5-screen scene-5-screen-1">
 
-            <div class="disc-b-div">
+            <div class="disc-c-div">
                 <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/disc-c.png" alt="">
                 <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/disc-a.png" alt="">
                 <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/disc-b.png" alt="">
 
             </div>
-            <div class="disc-c-div">
+            <div class="disc-b-div">
                 <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/disc-b.png" alt="">
                 <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/disc-c.png" alt="">
                 <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/disc-a.png" alt="">
@@ -1072,7 +1072,7 @@ $(function() {
                             $('.disc-a-div img').fadeOut(0);
                             $('.disc-a-div img').eq(idx_a).fadeIn(0);
                         }
-                        console.log('sec/1500' + Number.isInteger(sec / 1500));
+                        console.log('sec/2000' + Number.isInteger(sec / 1500));
                         if (Number.isInteger(sec / 1500)) {
                             idx_b++;
                             if (idx_b >= $('.disc-b-div img').length) {
@@ -1081,7 +1081,7 @@ $(function() {
                             $('.disc-b-div img').fadeOut(0);
                             $('.disc-b-div img').eq(idx_b).fadeIn(0);
                         }
-                        console.log('sec/2000' + Number.isInteger(sec / 2000));
+                        console.log('sec/3000' + Number.isInteger(sec / 2000));
 
                         if (Number.isInteger(sec / 2000)) {
                             idx_c++;
