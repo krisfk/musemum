@@ -1057,18 +1057,32 @@ $(function() {
 
 
                         if (sec % 1000 == 0) {
-
                             idx_a++;
-
                             if (idx_a >= $('.disc-a-div img').length) {
                                 idx_a = 0;
                             }
-
                             $('.disc-a-div img').fadeOut(0);
                             $('.disc-a-div img').eq(idx_a).fadeIn(0);
-
-
                         }
+
+                        if (sec % 1500 == 0) {
+                            idx_b++;
+                            if (idx_b >= $('.disc-b-div img').length) {
+                                idx_b = 0;
+                            }
+                            $('.disc-b-div img').fadeOut(0);
+                            $('.disc-b-div img').eq(idx_b).fadeIn(0);
+                        }
+
+                        if (sec % 2000 == 0) {
+                            idx_c++;
+                            if (idx_c >= $('.disc-c-div img').length) {
+                                idx_c = 0;
+                            }
+                            $('.disc-c-div img').fadeOut(0);
+                            $('.disc-c-div img').eq(idx_c).fadeIn(0);
+                        }
+
 
 
 
