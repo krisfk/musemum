@@ -1012,13 +1012,13 @@ $(function() {
 
 
             $('.disc-a-div img').fadeOut(0);
-            $('.disc-a-div').eq(0).find('img').fadeIn(0);
+            $('.disc-a-dif img').eq(0).fadeIn(0);
 
             $('.disc-b-div img').fadeOut(0);
-            $('.disc-b-div').eq(0).find('img').fadeIn(0);
+            $('.disc-b-div img').eq(0).fadeIn(0);
 
             $('.disc-c-div img').fadeOut(0);
-            $('.disc-c-div').eq(0).find('img').fadeIn(0);
+            $('.disc-c-div img').eq(0).fadeIn(0);
 
             $('.scene-div-5 .white-big-mcd-logo').css({
                 'left': '901px'
