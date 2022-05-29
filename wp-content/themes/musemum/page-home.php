@@ -864,6 +864,7 @@ $(function() {
                         $('.ar-videos-div .ar-video').on('ended',
                             function() {
 
+                                console.log('video' + v_idx);
                                 if (v_idx == total_video) {
 
                                     scene2();
