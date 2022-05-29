@@ -1062,8 +1062,8 @@ $(function() {
                     var interval2 = setInterval(() => {
                         sec += 1000;
 
-
-                        if (Number.isInteger(sec / 1000)) {
+                        console.log('sec/1000' + Number.is_integer(sec / 1000));
+                        if (sec / 1000) {
                             idx_a++;
                             if (idx_a >= $('.disc-a-div img').length) {
                                 idx_a = 0;
@@ -1071,8 +1071,8 @@ $(function() {
                             $('.disc-a-div img').fadeOut(0);
                             $('.disc-a-div img').eq(idx_a).fadeIn(0);
                         }
-
-                        if (Number.isInteger(sec / 1500)) {
+                        console.log('sec/1500' + Number.is_integer(sec / 1500));
+                        if (sec / 1500 === 1) {
                             idx_b++;
                             if (idx_b >= $('.disc-b-div img').length) {
                                 idx_b = 0;
@@ -1080,8 +1080,9 @@ $(function() {
                             $('.disc-b-div img').fadeOut(0);
                             $('.disc-b-div img').eq(idx_b).fadeIn(0);
                         }
+                        console.log('sec/2000' + Number.is_integer(sec / 2000));
 
-                        if (Number.isInteger(sec / 2000)) {
+                        if (sec / 2000 === 1) {
                             idx_c++;
                             if (idx_c >= $('.disc-c-div img').length) {
                                 idx_c = 0;
