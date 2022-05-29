@@ -1080,6 +1080,7 @@ $(function() {
                             $('.disc-b-div img').fadeOut(0);
                             $('.disc-b-div img').eq(idx_b).fadeIn(0);
                         }
+                        console.log(sec + '%1500=' + sec % 1500);
 
                         if (sec % 1500 == 0) {
                             idx_c++;
