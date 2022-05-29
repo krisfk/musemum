@@ -1073,7 +1073,7 @@ $(function() {
                             $('.disc-a-div img').eq(idx_a).fadeIn(0);
                         }
                         console.log('sec/2000' + Number.isInteger(sec / 2000));
-                        if (Number.isInteger(sec / 1500)) {
+                        if (Number.isInteger(sec / 2000)) {
                             idx_b++;
                             if (idx_b >= $('.disc-b-div img').length) {
                                 idx_b = 0;
@@ -1083,7 +1083,7 @@ $(function() {
                         }
                         console.log('sec/3000' + Number.isInteger(sec / 3000));
 
-                        if (Number.isInteger(sec / 2000)) {
+                        if (Number.isInteger(sec / 3000)) {
                             idx_c++;
                             if (idx_c >= $('.disc-c-div img').length) {
                                 idx_c = 0;
