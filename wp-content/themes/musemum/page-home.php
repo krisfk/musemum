@@ -798,7 +798,10 @@ get_header();
 <script type="text/javascript">
 $(function() {
 
-
+    var sec = 1000;
+    var mainInterval = setInterval(() => {
+        sec++;
+    }, 1000);
 
     $('.start-btn').click(function() {
         $(this).fadeOut(0);
@@ -914,6 +917,7 @@ $(function() {
 
             var interval = setInterval(() => {
 
+                console.log(sec);
                 if (scene_2_screen_2_slide_num > 1) {
                     $('.scene-2-screen-2-slide').eq(scene_2_screen_2_slide_idx).fadeOut(500);
                     if (scene_2_screen_2_slide_idx + 1 > scene_2_screen_2_slide_num - 1) {
@@ -935,7 +939,7 @@ $(function() {
                 }
 
 
-            }, 5000);
+            }, 1000);
 
             setTimeout(() => {
                 scene3();
