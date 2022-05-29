@@ -517,7 +517,7 @@ get_header();
 
     <!--scene-4-start-->
     <div class="scene-div scene-div-4">
-        <img class="weather-bg" src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/sunny-bg-scaled.jpg" alt="">
+        <img class="weather-bg" src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/sunny-bg.jpg" alt="">
         <div class="scene-4-screen scene-4-screen-1">
 
 
@@ -761,7 +761,7 @@ get_header();
 
 
         <img class="scene-5-right-img-bg"
-            src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/scene-5-right-img-scaled.jpg" alt="">
+            src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/scene-5-right-bg.jpg" alt="">
 
         <div class="scene-5-screen scene-5-screen-1">
 
