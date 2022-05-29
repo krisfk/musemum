@@ -1047,8 +1047,18 @@ $(function() {
 
 
                     var sec = 1000;
+
+                    idx_a = 0;
+                    idx_b = 0;
+                    idx_c = 0;
+
                     var interval2 = setInterval(() => {
                         sec += 1000;
+
+
+                        if (sec % 1000 == 0) {
+                            console.log(67);
+                        }
 
 
 
