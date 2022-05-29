@@ -883,11 +883,21 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     left: 49px;
     z-index: 1000;
     transform: scale(0);
+    transition: 0.5s all;
+}
+
+.disc-a-div.rotatemove {
+    left: 890px;
+}
+
+.disc-a-div.rotatemove img {
+    /* left: 890px; */
 }
 
 .disc-a-div img {
     width: 319px;
     transform: rotate(0deg);
+    transition: 0.5s all;
 }
 
 .disc-b-div {
