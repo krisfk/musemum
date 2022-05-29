@@ -920,13 +920,13 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     0% {
         transform: scale(0);
     }
-    70% {
+    60% {
         transform: scale(1.05);
     }
-    80% {
+    75% {
         transform: scale(0.95);
     }
-    90% {
+    85% {
         transform: scale(1.02);
     }
     100% {
