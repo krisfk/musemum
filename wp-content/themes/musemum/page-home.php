@@ -1063,7 +1063,7 @@ $(function() {
                         sec += 1000;
 
 
-                        if (sec / 1000 === 1) {
+                        if (Number.isInteger(sec / 1000)) {
                             idx_a++;
                             if (idx_a >= $('.disc-a-div img').length) {
                                 idx_a = 0;
@@ -1072,7 +1072,7 @@ $(function() {
                             $('.disc-a-div img').eq(idx_a).fadeIn(0);
                         }
 
-                        if (sec / 1500 === 1) {
+                        if (Number.isInteger(sec / 1500)) {
                             idx_b++;
                             if (idx_b >= $('.disc-b-div img').length) {
                                 idx_b = 0;
@@ -1081,7 +1081,7 @@ $(function() {
                             $('.disc-b-div img').eq(idx_b).fadeIn(0);
                         }
 
-                        if (sec / 2000 === 1) {
+                        if (Number.isInteger(sec / 2000)) {
                             idx_c++;
                             if (idx_c >= $('.disc-c-div img').length) {
                                 idx_c = 0;
