@@ -942,8 +942,9 @@ $(function() {
             }, 1000);
 
             setTimeout(() => {
+                clearInterval(interval);
                 scene3();
-                00
+
             }, 10000);
 
 
