@@ -859,9 +859,12 @@ $(function() {
                         $('.ar-video-1').trigger('play');
 
 
+
                         var v_idx = 1;
                         var total_video = $('.bg-behind-phone').length;
-                        $('.ar-videos-div .ar-video' + v_idx).on('ended',
+                        console.log('play video' + v_idx);
+
+                        $('.ar-videos-div .ar-video').on('ended',
                             function() {
 
                                 console.log('video' + v_idx);
@@ -880,8 +883,7 @@ $(function() {
                                     $('.ar-video-' + v_idx).trigger(
                                         'play');
                                     $('.bg-behind-phone-' + v_idx)
-                                        .fadeIn(
-                                            500);
+                                        .fadeIn(500);
                                 }
 
 
