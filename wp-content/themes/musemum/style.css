@@ -1036,7 +1036,9 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 .scene-6-screen-2-txt {
     color: #394d64;
     position: absolute;
-    top: 10px;
-    left: 10px;
-    font-size: 40px;
+    top: 139px;
+    left: 642px;
+    font-size: 30px;
+    width: 654px;
+    z-index: 200;
 }
