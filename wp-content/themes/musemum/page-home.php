@@ -819,8 +819,7 @@ get_header();
                     <li>預防新型冠狀病毒在社區傳播</li>
                     <li>本博物館採取以下防疫措施以保障公眾健康</li>
                     <li>訪客進館前須佩戴口罩，以保障公眾及員工健康</li>
-                    <li>我們為所有進入博物館的人士及工作人員量度體溫 <br>
-                        多謝合作</li>
+                    <li>我們為所有進入博物館的人士及工作人員量度體溫，多謝合作</li>
                     <li>Help prevent the Novel Coronavirus from spreading in the community</li>
                     <li>Our museum implements the following precaution measures</li>
                     <li>It is essential for visitor to wear masks upon entry the museum to safeguard the health of
