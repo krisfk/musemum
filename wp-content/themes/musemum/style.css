@@ -1018,3 +1018,8 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     height: 100%;
     width: auto;
 }
+
+.scene-div-6 .white-big-mcd-logo {
+    position: absolute;
+    left: 1920px;
+}

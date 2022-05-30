@@ -801,6 +801,11 @@ get_header();
     <!--scene-6-start-->
     <div class="scene-div scene-div-6">
 
+
+        <img class="white-big-mcd-logo h-100" class="h-100"
+            src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/white-big-mcd-logo.png" alt="">
+
+
         <div class="scene-6-screen scene-6-screen-1">
 
             <img class="scene-6-left-bg"
