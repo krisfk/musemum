@@ -1024,3 +1024,9 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     left: 1920px;
     z-index: 100;
 }
+
+.scene-6-screen-2-img {
+    position: absolute;
+    top: 100px;
+    width: 500px;
+}

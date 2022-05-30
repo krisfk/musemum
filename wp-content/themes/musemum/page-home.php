@@ -812,6 +812,10 @@ get_header();
                 src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/scene-6-left-bg.jpg" alt="">
         </div>
         <div class="scene-6-screen scene-6-screen-2">
+
+
+            <img class="scene-6-screen-2-img" src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/mask-img.png"
+                alt="">
         </div>
         <div class="scene-6-screen scene-6-screen-3">
         </div>
