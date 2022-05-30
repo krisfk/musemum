@@ -802,6 +802,9 @@ get_header();
     <div class="scene-div scene-div-6">
 
         <div class="scene-6-screen scene-6-screen-1">
+
+            <img class="scene-6-left-bg"
+                src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/scene-6-left-bg.jpg" alt="">
         </div>
         <div class="scene-6-screen scene-6-screen-2">
         </div>
