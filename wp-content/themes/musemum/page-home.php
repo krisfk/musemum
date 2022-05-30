@@ -834,6 +834,19 @@ get_header();
                 alt="">
         </div>
         <div class="scene-6-screen scene-6-screen-3">
+
+            <div class="scene-6-screen-3-txt">
+
+                <span style="font-size:50px;">防疫</span><span style="font-size:50px;">資訊</span> <br>
+                <span class="roboto" style="font-size:50px;">Epidemic Prevention</span> <span style="font-size:50px;"
+                    class="roboto">Information</span>
+
+
+
+
+
+
+            </div>
         </div>
     </div>
     <!--scene-6-end-->
