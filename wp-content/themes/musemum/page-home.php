@@ -835,18 +835,10 @@ get_header();
         </div>
         <div class="scene-6-screen scene-6-screen-3">
 
-            <div class="scene-6-screen-3-txt">
-
-                <span style="font-size:50px;">防疫</span><span style="font-size:50px;">資訊</span> <br>
-                <span class="roboto" style="font-size:50px;">Epidemic Prevention</span> <span style="font-size:50px;"
-                    class="roboto">Information</span>
-
-
-
-
-
-
-            </div>
+            <div class="scene-6-screen-3-txt"> <span style="font-size: 70px;">防疫</span><span
+                    style="font-size: 130px;margin-left: 20px;">資訊</span> <br> <span class="roboto"
+                    style="font-size: 60px;margin-left: 74px;">Epidemic Prevention</span> <span
+                    style="font-size: 80px;margin-left: 20px;" class="roboto">Information</span> </div>
         </div>
     </div>
     <!--scene-6-end-->
