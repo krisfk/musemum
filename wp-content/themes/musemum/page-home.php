@@ -873,7 +873,11 @@ $(function() {
         $('.qr-code-group-1,.qr-code-group-2').fadeIn(0);
         $('.qr-code-group-1,.qr-code-group-2,.scene-1-txt-3,.scene-1-txt-4').fadeOut(0);
         $('.app-icon').fadeOut(0);
-
+        $('.app-icon').css({
+            'left': '1463px'
+        });
+        // left: 1463px;
+        // 
         //scene1
         $('.scene-div.scene-div-1').fadeIn(0);
 
