@@ -867,7 +867,7 @@ $(function() {
     });
 
     function all_start() {
-
+        first = true;
         $('.scene-div').fadeOut(0);
         $('.app-icon').fadeIn(0);
         $('.qr-code-group-1,.qr-code-group-2').fadeIn(0);
