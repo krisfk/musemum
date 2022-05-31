@@ -900,7 +900,7 @@ $(function() {
         // left: 1463px;
         // 
         //scene1
-        $('.scene-div.scene-div-1').fadeIn(0);
+        $('.scene-div.scene-div-1').fadeIn(500);
 
 
         setTimeout(() => {
