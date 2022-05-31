@@ -881,6 +881,8 @@ $(function() {
         });
         $('.scene-1-green-bg').fadeOut(0);
         $('.bg-behind-phone').fadeOut(0);
+        $('.iphone-div').fadeOut(0);
+
         $('.scene-1-txt-5').fadeOut(0);
         $('.ar-videos-div').fadeOut(0);
 
