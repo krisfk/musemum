@@ -934,59 +934,61 @@ $(function() {
 
                     $('.iphone-div').addClass('rotate1');
 
-                    $('.iphone-div .iphone-video').on('ended', function() {
+                    $('.iphone-div .iphone-video').unbind('ended').on('ended',
+                        function() {
 
-                        if (first) {
-                            console.log('first');
-                            first = false;
-                            $('.iphone-div').removeClass('rotate1');
-                            $('.iphone-div').addClass('rotate2');
-                            $('.ar-videos-div').delay(500).fadeIn(0);
-                            $('.ar-video').fadeOut(0);
-                            $('.ar-video.ar-video-1').fadeIn(0);
+                            if (first) {
+                                console.log('first');
+                                first = false;
+                                $('.iphone-div').removeClass('rotate1');
+                                $('.iphone-div').addClass('rotate2');
+                                $('.ar-videos-div').delay(500).fadeIn(0);
+                                $('.ar-video').fadeOut(0);
+                                $('.ar-video.ar-video-1').fadeIn(0);
 
-                            $('.ar-video-1').trigger('play');
-
-
-
-                            v_idx = 1;
-                            var total_video = $('.bg-behind-phone').length;
-                            // console.log('play video' + v_idx);
-                            console.log('playing video' + v_idx);
-                            $('.ar-videos-div .ar-video').on('ended',
-                                function() {
-
-                                    console.log('ended');
-
-                                    if (v_idx == total_video) {
-
-                                        scene2();
-                                    } else {
+                                $('.ar-video-1').trigger('play');
 
 
-                                        $('.ar-video-' + v_idx).fadeOut(
-                                            500);
-                                        $('.bg-behind-phone-' + v_idx)
-                                            .fadeOut(
+
+                                v_idx = 1;
+                                var total_video = $('.bg-behind-phone').length;
+                                // console.log('play video' + v_idx);
+                                console.log('playing video' + v_idx);
+                                $('.ar-videos-div .ar-video').unbind('ended').on(
+                                    'ended',
+                                    function() {
+
+                                        console.log('ended');
+
+                                        if (v_idx == total_video) {
+
+                                            scene2();
+                                        } else {
+
+
+                                            $('.ar-video-' + v_idx).fadeOut(
                                                 500);
-                                        v_idx++;
-                                        $('.ar-video-' + v_idx).fadeIn(
-                                            500);
-                                        $('.ar-video-' + v_idx).trigger(
-                                            'play');
-                                        $('.bg-behind-phone-' + v_idx)
-                                            .fadeIn(500);
-                                        console.log('playing video' +
-                                            v_idx);
+                                            $('.bg-behind-phone-' + v_idx)
+                                                .fadeOut(
+                                                    500);
+                                            v_idx++;
+                                            $('.ar-video-' + v_idx).fadeIn(
+                                                500);
+                                            $('.ar-video-' + v_idx).trigger(
+                                                'play');
+                                            $('.bg-behind-phone-' + v_idx)
+                                                .fadeIn(500);
+                                            console.log('playing video' +
+                                                v_idx);
 
-                                    }
+                                        }
 
 
-                                })
-                        }
+                                    })
+                            }
 
 
-                    });
+                        });
 
 
                     // iphone-div
