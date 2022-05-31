@@ -1018,6 +1018,11 @@ $(function() {
 
         console.log('scene2');
 
+        $('.scene-div-2').css({
+            'left': '-5760px'
+        })
+
+
         $('.scene-div-2').animate({
             'left': '0px'
         }, 1000, function() {
