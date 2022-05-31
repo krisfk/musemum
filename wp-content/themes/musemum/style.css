@@ -351,6 +351,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     padding: 2rem;
     border-radius: 2rem;
     text-decoration: none;
+    font-size: 40px;
 }
 
 .ar-videos-div {
@@ -1048,4 +1049,14 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     position: absolute;
     top: 336px;
     right: 132px;
+}
+
+.stage-btn {
+    display: inline-block;
+    background: #5ea6a6;
+    color: #fff;
+    padding: 2rem;
+    border-radius: 2rem;
+    text-decoration: none;
+    font-size: 40px;
 }
