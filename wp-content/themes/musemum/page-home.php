@@ -868,12 +868,14 @@ $(function() {
 
     function all_start() {
 
-        //scene1
-
+        $('.scene-div').fadeOut(0);
         $('.app-icon').fadeIn(0);
         $('.qr-code-group-1,.qr-code-group-2').fadeIn(0);
         $('.qr-code-group-1,.qr-code-group-2,.scene-1-txt-3,.scene-1-txt-4').fadeOut(0);
         $('.app-icon').fadeOut(0);
+
+        //scene1
+        $('.scene-div.scene-div-1').fadeIn(0);
 
 
         setTimeout(() => {
@@ -970,6 +972,8 @@ $(function() {
         //scene2
 
         function scene2() {
+            $('.scene-div.scene-div-2').fadeIn(0);
+
             console.log('scene2');
 
             $('.scene-div-2').animate({
@@ -1027,6 +1031,8 @@ $(function() {
         }
 
         function scene3() {
+            $('.scene-div.scene-div-3').fadeIn(0);
+
             console.log('scene3');
             $('.scene-div-3').animate({
                 'left': '0px'
@@ -1037,6 +1043,8 @@ $(function() {
         }
 
         function scene4() {
+            $('.scene-div.scene-div-4').fadeIn(0);
+
             console.log('scene4');
 
 
@@ -1087,6 +1095,8 @@ $(function() {
         }
 
         function scene5() {
+            $('.scene-div.scene-div-5').fadeIn(0);
+
             console.log('scene5');
 
 
@@ -1184,6 +1194,7 @@ $(function() {
 
 
         function scene6() {
+            $('.scene-div.scene-div-6').fadeIn(0);
 
             $('.scene-div-6').animate({
                 'left': '0px'
