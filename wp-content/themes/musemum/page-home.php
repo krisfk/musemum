@@ -1105,6 +1105,10 @@ $(function() {
         console.log('scene4');
 
 
+        $('.weather-bg').css({
+            'transform': 'scale(1)'
+        })
+
         $('.scene-4-screen-2-block').fadeOut(0);
 
 
