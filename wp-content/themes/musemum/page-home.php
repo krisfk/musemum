@@ -1004,7 +1004,12 @@ $(function() {
 
         $('.scene-div-2').animate({
             'left': '0px'
-        }, 1000);
+        }, 1000, function() {
+            $('.iphone-div').removeClass('rotate1');
+            $('.iphone-div').removeClass('rotate2');
+
+
+        });
 
         $('.scene-2-screen-2-slide').fadeOut(0);
         $('.scene-2-screen-2-slide').eq(0).fadeIn(0);
