@@ -956,7 +956,7 @@ $(function() {
                             $('.ar-videos-div .ar-video').on('ended',
                                 function() {
 
-
+                                    console.log('ended');
 
                                     if (v_idx == total_video) {
 
