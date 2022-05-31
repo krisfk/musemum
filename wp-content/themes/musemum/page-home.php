@@ -1100,6 +1100,8 @@ $(function() {
     function scene4() {
         $('.scene-div.scene-div-4').fadeIn(0);
 
+        $('.weather-bg').removeClass('scaling');
+
         console.log('scene4');
 
 
@@ -1175,6 +1177,11 @@ $(function() {
         $('.scene-div-5').css({
             'left': '-5760px'
         })
+        $('.disc-a-div').removeClass('bounce');
+        $('.disc-a-div').removeClass('rotatemove');
+        $('.disc-b-div').removeClass('bounce');
+        $('.disc-c-div').removeClass('bounce');
+
 
         $('.scene-div-5').animate({
             'left': '0px'
