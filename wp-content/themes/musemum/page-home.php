@@ -950,7 +950,7 @@ $(function() {
 
                             v_idx = 1;
                             var total_video = $('.bg-behind-phone').length;
-                            console.log('play video' + v_idx);
+                            // console.log('play video' + v_idx);
 
                             $('.ar-videos-div .ar-video').on('ended',
                                 function() {
@@ -960,6 +960,8 @@ $(function() {
 
                                         scene2();
                                     } else {
+                                        console.log('play video' + v_idx);
+
                                         $('.ar-video-' + v_idx).fadeOut(
                                             500);
                                         $('.bg-behind-phone-' + v_idx)
