@@ -876,6 +876,11 @@ $(function() {
 
 
         first = true;
+        $('.scene-1-green-bg').fadeOut(0);
+        $('.bg-behind-phone-1').fadeOut(0);
+        $('.scene-1-txt-5').fadeOut(0);
+
+
         $('.scene-div').fadeOut(0);
         $('.app-icon').fadeIn(0);
         $('.qr-code-group-1,.qr-code-group-2').fadeIn(0);
