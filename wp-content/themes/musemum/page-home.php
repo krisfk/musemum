@@ -937,6 +937,7 @@ $(function() {
                     $('.iphone-div .iphone-video').on('ended', function() {
 
                         if (first) {
+                            console.log('first');
                             first = false;
                             $('.iphone-div').removeClass('rotate1');
                             $('.iphone-div').addClass('rotate2');
@@ -976,7 +977,7 @@ $(function() {
                                         $('.bg-behind-phone-' + v_idx)
                                             .fadeIn(500);
                                         console.log('playing video' +
-                                        v_idx);
+                                            v_idx);
 
                                     }
 
