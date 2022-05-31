@@ -862,13 +862,20 @@ $(function() {
 
     $('.start-btn').click(function() {
         $(this).fadeOut(0);
-        $('#test-video').fadeOut(0);
+        // $('#test-video').fadeOut(0);
         all_start();
     });
 
     function all_start() {
 
         //scene1
+
+        $('.app-icon').fadeIn(0);
+        $('.qr-code-group-1,.qr-code-group-2').fadeIn(0);
+        $('.qr-code-group-1,.qr-code-group-2,.scene-1-txt-3,.scene-1-txt-4').fadeOut(0);
+        $('.app-icon').fadeOut(0);
+
+
         setTimeout(() => {
 
             $('.app-icon').fadeOut(0);
@@ -1182,6 +1189,12 @@ $(function() {
                 'left': '0px'
             }, 1000, function() {
 
+
+
+
+                setTimeout(() => {
+                    all_start();
+                }, 5000);
             })
 
         }
