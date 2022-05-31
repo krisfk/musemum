@@ -869,10 +869,10 @@ $(function() {
     $('.start-btn').click(function() {
         // $(this).fadeOut(0);
         $('#test-video').fadeOut(0);
-        all_start();
+        scene1();
     });
-
-    function all_start() {
+    //scene1
+    function scene1() {
 
 
         first = true;
@@ -1221,7 +1221,7 @@ $(function() {
 
 
             setTimeout(() => {
-                all_start();
+                scene1();
             }, 5000);
         })
 
