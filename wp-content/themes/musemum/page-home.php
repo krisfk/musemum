@@ -864,6 +864,7 @@ get_header();
 $(function() {
 
     var first = true;
+    var v_idx = 1;
 
 
     $('.start-btn').click(function() {
@@ -947,7 +948,6 @@ $(function() {
 
 
 
-                            var v_idx = 1;
                             v_idx = 1;
                             var total_video = $('.bg-behind-phone').length;
                             console.log('play video' + v_idx);
