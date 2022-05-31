@@ -861,8 +861,8 @@ $(function() {
 
 
     $('.start-btn').click(function() {
-        $(this).fadeOut(0);
-        // $('#test-video').fadeOut(0);
+        // $(this).fadeOut(0);
+        $('#test-video').fadeOut(0);
         all_start();
     });
 
