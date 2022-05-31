@@ -1233,6 +1233,7 @@ $(function() {
 
 
                 setTimeout(() => {
+                    clearInterval(interval2);
                     scene6();
                 }, 6000);
 
