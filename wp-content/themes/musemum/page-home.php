@@ -880,8 +880,9 @@ $(function() {
             'left': '1920px'
         });
         $('.scene-1-green-bg').fadeOut(0);
-        $('.bg-behind-phone-1').fadeOut(0);
+        $('.bg-behind-phone').fadeOut(0);
         $('.scene-1-txt-5').fadeOut(0);
+        $('.ar-videos-div').fadeOut(0);
 
         $('.musemum-card,.scene-1-txt-1,.scene-1-txt-2').fadeIn(0);
 
