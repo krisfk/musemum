@@ -880,6 +880,7 @@ $(function() {
         $('.bg-behind-phone-1').fadeOut(0);
         $('.scene-1-txt-5').fadeOut(0);
 
+        $('.musemum-card,.scene-1-txt-1,.scene-1-txt-2').fadeIn(0);
 
         $('.scene-div').fadeOut(0);
         $('.app-icon').fadeIn(0);
