@@ -876,6 +876,9 @@ $(function() {
 
 
         first = true;
+        $('.scene-div-1 .white-big-mcd-logo').css({
+            'left': '1920px'
+        });
         $('.scene-1-green-bg').fadeOut(0);
         $('.bg-behind-phone-1').fadeOut(0);
         $('.scene-1-txt-5').fadeOut(0);
