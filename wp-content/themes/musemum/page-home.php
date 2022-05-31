@@ -948,6 +948,7 @@ $(function() {
 
 
                             var v_idx = 1;
+                            v_idx = 1;
                             var total_video = $('.bg-behind-phone').length;
                             console.log('play video' + v_idx);
 
@@ -1071,6 +1072,9 @@ $(function() {
         $('.scene-div.scene-div-3').fadeIn(0);
 
         console.log('scene3');
+        $('.scene-div-3').css({
+            'left': '-5760px'
+        })
         $('.scene-div-3').animate({
             'left': '0px'
         }, 1000);
@@ -1092,6 +1096,10 @@ $(function() {
         $('.weekday-degree-div').fadeOut(0);
         $('.weekday-weather-icon').fadeOut(0);
         $('.degree-div').fadeOut(0);
+
+        $('.scene-div-4').css({
+            'left': '-5760px'
+        })
 
 
         $('.scene-div-4').animate({
@@ -1149,6 +1157,11 @@ $(function() {
         $('.scene-div-5 .white-big-mcd-logo').css({
             'left': '901px'
         });
+
+        $('.scene-div-5').css({
+            'left': '-5760px'
+        })
+
         $('.scene-div-5').animate({
             'left': '0px'
         }, 1000, function() {
@@ -1232,6 +1245,10 @@ $(function() {
 
     function scene6() {
         $('.scene-div.scene-div-6').fadeIn(0);
+
+        $('.scene-div-6').css({
+            'left': '-5760px'
+        })
 
         $('.scene-div-6').animate({
             'left': '0px'
