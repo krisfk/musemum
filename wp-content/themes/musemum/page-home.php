@@ -955,12 +955,13 @@ $(function() {
                             $('.ar-videos-div .ar-video').on('ended',
                                 function() {
 
-                                    console.log('video' + v_idx);
+                                    // console.log('video' + v_idx);
                                     if (v_idx == total_video) {
 
                                         scene2();
                                     } else {
-                                        console.log('play video' + v_idx);
+                                        console.log('playing video' +
+                                        v_idx);
 
                                         $('.ar-video-' + v_idx).fadeOut(
                                             500);
