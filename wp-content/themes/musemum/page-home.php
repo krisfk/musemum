@@ -1228,6 +1228,35 @@ $(function() {
     }
 
 
+    $('.stage-btn-1').click(function() {
+        scene1();
+    })
+
+    $('.stage-btn-2').click(function() {
+        scene2();
+
+    })
+
+    $('.stage-btn-3').click(function() {
+        scene3();
+
+    })
+
+    $('.stage-btn-4').click(function() {
+        scene4();
+
+    })
+
+    $('.stage-btn-5').click(function() {
+        scene5();
+
+    })
+
+    $('.stage-btn-6').click(function() {
+        scene6();
+
+    })
+
 
 
 
