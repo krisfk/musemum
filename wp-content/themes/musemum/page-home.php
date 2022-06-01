@@ -532,8 +532,7 @@ get_header();
 
             <div class="weather-center-blk">
                 <div class="scene-4-screen-2-block scene-4-screen-2-block-1">
-                    <div class="weather-msg"> <img class="weather-icon"
-                            src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/pic51.png" alt="">
+                    <div class="weather-msg"> <img class="weather-icon today-weather-icon" src="" alt="">
 
                         <div class="weekday-txt">
                             <!-- <span>星期一</span> <br> <span class="roboto">MONDAY</span>  -->
@@ -872,6 +871,7 @@ $(function() {
 
     var first = true;
     var v_idx = 1;
+    var site_url = '<?php echo get_site_url();?>';
     //    var current_week_day_num = <?php //echo date('w');?>;
 
 
@@ -905,6 +905,9 @@ $(function() {
 
                 var today_weather_icon_idx = result.icon[0];
                 // console.log(result.icon[]);
+                $('.today-weather-icon').attr('src', today_weather_icon_idx + '/weather-icon/pic' +
+                    today_weather_icon_idx + '.png')
+
 
             })
 
