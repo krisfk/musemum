@@ -541,8 +541,8 @@ get_header();
                 </div>
                 <div class="scene-4-screen-2-block scene-4-screen-2-block-2">
                     <div class="weather-msg roboto" style=" display: block; width: 100%; text-align: center; ">
-                        <div style=" display: inline-block; /* text-align: left; */ "> <span
-                                style="font-size: 400px;">24</span><sup
+                        <div style=" display: inline-block; /* text-align: left; */ "> <span style="font-size: 400px;"
+                                class="current-temperature">24</span><sup
                                 style="font-size: 114px;position: relative;top: -264px;">o</sup><span
                                 style="font-size: 400px;">C</span> </div>
                         <div class="weather-place">筲箕灣 <br> Shau Kei Wan </div>
@@ -904,9 +904,12 @@ $(function() {
             function(result) {
 
                 var today_weather_icon_idx = result.icon[0];
-                // console.log(result.icon[]);
+                var current_temperature = result.data[1].value;
+
                 $('.today-weather-icon').attr('src', site_url + '/weather-icon/pic' +
-                    today_weather_icon_idx + '.png')
+                    today_weather_icon_idx + '.png');
+
+                $('.current-temperature').html(current_temperature);
 
 
             })
