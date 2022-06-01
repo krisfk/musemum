@@ -517,7 +517,7 @@ get_header();
 
     <!--scene-4-start-->
     <div class="scene-div scene-div-4">
-        <img class="weather-bg" src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/sunny-bg.jpg" alt="">
+        <img class="weather-bg" src="" alt="">
         <div class="scene-4-screen scene-4-screen-1">
 
 
@@ -936,6 +936,20 @@ $(function() {
                 var current_humidity = result.humidity.data[0].value;
                 // console.log(current_humidity);
                 // console.log(55);
+
+
+                // weather-bg
+                const dark_bg_idx_arr = [53, 54, 62, 63, 64, 65];
+                if (dark_bg_idx_arr.includes(today_weather_icon_idx)) {
+                    $('.weather-bg').attr('src', site_url + '/weather-icon/pic/dark-bg.png');
+                } else {
+                    $('.weather-bg').attr('src', site_url + '/weather-icon/pic/sunny-bg.png');
+                }
+
+
+                // if (today_weather_icon_idx)
+                // $('.weather-bg').attr('src', site_url + '/weather-icon/pic/sunny-bg.png');
+
 
                 $('.today-weather-icon').attr('src', site_url + '/weather-icon/pic' +
                     today_weather_icon_idx + '.png');
