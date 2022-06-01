@@ -542,7 +542,7 @@ get_header();
                 <div class="scene-4-screen-2-block scene-4-screen-2-block-2">
                     <div class="weather-msg roboto" style=" display: block; width: 100%; text-align: center; ">
                         <div style=" display: inline-block; /* text-align: left; */ "> <span style="font-size: 400px;"
-                                class="current-temperature">24</span><sup
+                                class="current-temperature"></span><sup
                                 style="font-size: 114px;position: relative;top: -264px;">o</sup><span
                                 style="font-size: 400px;">C</span> </div>
                         <div class="weather-place">筲箕灣 <br> Shau Kei Wan </div>
