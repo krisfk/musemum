@@ -894,6 +894,7 @@ $(function() {
                 let day_chi = weekday_chi[d.getDay()];
 
                 var display_day_num_order = [];
+                var display_day_chi_order = [];
 
 
                 var idx = d.getDay();
@@ -907,7 +908,15 @@ $(function() {
                     }
                     display_day_num_order.push(idx);
                 }
-                console.log(display_day_num_order);
+
+                for (i = 0; i < display_day_num_order.length; i++) {
+                    display_day_chi_order[i] = weekday_chi[display_day_num_order[i]];
+                }
+
+                console.log(display_day_chi_order);
+
+
+
 
 
 
