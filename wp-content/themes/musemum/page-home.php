@@ -859,7 +859,9 @@ get_header();
 <a href="javascript:void(0);" class="stage-btn stage-btn-6">6</a>
 
 
-
+<?php
+date_default_timezone_set('Asia/Hong_Kong');
+?>
 <script type="text/javascript">
 $(function() {
 
