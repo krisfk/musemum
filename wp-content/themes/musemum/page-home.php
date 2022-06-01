@@ -888,6 +888,9 @@ $(function() {
                 const weekday_chi = ["星期日", "星期一", "星期二", "星期三", "星期四", "星期五",
                     "星期六"
                 ];
+                const weekday_display = ["日 SUN", "一 MON", "二 TUE", "三 WED", "四 THUR", "五 FRI",
+                    "六 SAT"
+                ];
 
                 const d = new Date();
                 let day = weekday[d.getDay()];
@@ -910,10 +913,13 @@ $(function() {
                 }
 
                 for (i = 0; i < display_day_num_order.length; i++) {
-                    display_day_chi_order[i] = weekday_chi[display_day_num_order[i]];
+                    display_day_chi_order[i] = weekday_display[display_day_num_order[i]];
                 }
 
-                console.log(display_day_chi_order);
+
+                for (i = 0; i < display_day_num_order.length; i++) {
+                    $('.weekday-title-div').eq(i).html(display_day_chi_order[i]);
+                }
 
 
 
