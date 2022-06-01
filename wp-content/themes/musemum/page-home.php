@@ -901,7 +901,7 @@ $(function() {
 
 
                 var idx = d.getDay();
-                var total_display_day = 6;
+                var total_display_day = 7;
                 display_day_num_order.push(d.getDay());
 
                 while (display_day_num_order.length < 6) {
@@ -956,11 +956,22 @@ $(function() {
                 $('.weekday-div').eq(0).find('.weekday-weather-icon img').attr('src', site_url +
                     '/weather-icon/pic' +
                     today_weather_icon_idx + '.png');
-                // weekday-weather-icon
-
-
-
             })
+
+
+        // https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=fnd&lang=tc
+
+
+
+        $.get("https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=fnd&lang=tc",
+            function(result) {
+
+                for (i = )
+
+
+            });
+
+
 
     }, 1000);
 
