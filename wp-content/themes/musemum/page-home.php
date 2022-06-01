@@ -872,10 +872,24 @@ $(function() {
     var v_idx = 1;
     //    var current_week_day_num = <?php //echo date('w');?>;
 
-    $.get("https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=fnd&lang=tc", function(result) {
-        console.log(result);
-        // $("div").html(result);
-    });
+    setInterval(() => {
+        $.get("https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=fnd&lang=tc",
+            function(result) {
+                console.log(result);
+
+                const weekday = ["SUNDAY", "MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY",
+                    "SATURDAY"
+                ];
+
+                const d = new Date();
+                let day = weekday[d.getDay()];
+                console.log(day);
+
+
+            });
+    }, 5000);
+
+
 
 
 
