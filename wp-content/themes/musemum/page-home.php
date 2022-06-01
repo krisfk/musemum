@@ -952,7 +952,7 @@ $(function() {
                 $('.current-humidity').html(current_humidity);
 
 
-                $('.weekday-div').eq(0).find('degree').html('current_temperature');
+                $('.weekday-div').eq(0).find('.degree').html(current_temperature);
 
 
 
