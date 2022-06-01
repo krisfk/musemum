@@ -908,6 +908,7 @@ $(function() {
                 var current_temperature = result.temperature.data[1].value;
                 var current_humidity = result.humidity.data.value;
                 console.log(result.humidity);
+                console.log(55);
 
                 $('.today-weather-icon').attr('src', site_url + '/weather-icon/pic' +
                     today_weather_icon_idx + '.png');
