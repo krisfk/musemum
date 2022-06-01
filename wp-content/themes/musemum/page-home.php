@@ -1314,7 +1314,7 @@ $(function() {
             }
 
 
-        }, 1000);
+        }, 10000);
 
 
 
@@ -1360,9 +1360,9 @@ $(function() {
 
 
             setTimeout(() => {
-
+                clearInterval(weather_interval);
                 scene5();
-            }, 4000);
+            }, 50000);
 
         });
 
@@ -1498,7 +1498,7 @@ $(function() {
 
             setTimeout(() => {
                 scene1();
-            }, 5000);
+            }, 50000);
         })
 
     }
