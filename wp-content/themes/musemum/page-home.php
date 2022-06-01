@@ -534,6 +534,7 @@ get_header();
                 <div class="scene-4-screen-2-block scene-4-screen-2-block-1">
                     <div class="weather-msg"> <img class="weather-icon"
                             src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/pic51.png" alt="">
+
                         <div class="weekday-txt"> <span>星期一</span> <br> <span class="roboto">MONDAY</span> </div>
                     </div>
                 </div>
@@ -869,11 +870,16 @@ $(function() {
 
     var first = true;
     var v_idx = 1;
-    var current_week_day_num = <?php echo date('w');?>;
+    //    var current_week_day_num = <?php //echo date('w');?>;
+
+    $.get("https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=fnd&lang=tc", function(result) {
+        console.log(result);
+        // $("div").html(result);
+    });
+
 
 
     $('.start-btn').click(function() {
-        // $(this).fadeOut(0);
         $('#test-video').fadeOut(0);
         scene1();
     });
