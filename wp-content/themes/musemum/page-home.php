@@ -1180,7 +1180,7 @@ $(function() {
             $('.musemum-card,.scene-1-txt-1,.scene-1-txt-2').fadeOut(200);
 
 
-        }, 1000);
+        }, 20000);
 
 
 
