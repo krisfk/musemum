@@ -958,7 +958,14 @@ $(function() {
         $.get("https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=fnd&lang=tc",
             function(result) {
 
-                // for
+                for (i = 0; i < 7; i++) {
+
+                    var degree = Math.floor((result.weatherForecast[i].forecastMaxtemp.value +
+                        result
+                        .weatherForecast[i].forecastMintemp.value) / 2);
+
+                    $('.weekday-div').eq(i + 1).find('.degree').html(degree);
+                }
 
 
             });
