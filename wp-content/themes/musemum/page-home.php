@@ -601,7 +601,7 @@ get_header();
                             </div>
 
                             <div class="degree-div roboto">
-                                <span>24</span>
+                                <span class="degree">24</span>
                                 <sup style="font-size: 43px;position: relative;top: 31px;">o</sup>
                                 <span>C</span>
                             </div>
@@ -926,6 +926,9 @@ $(function() {
 
 
 
+
+
+
                 $('.weekday-txt').html('<span>' + day_chi +
                     '</span> <br> <span class="roboto">' +
                     day + '</span>');
@@ -947,6 +950,9 @@ $(function() {
 
                 $('.current-temperature').html(current_temperature);
                 $('.current-humidity').html(current_humidity);
+
+
+                $('.weekday-div').eq(0)
 
 
 
