@@ -1243,13 +1243,13 @@ $(function() {
             }
 
 
-        }, 5000);
+        }, 10000);
 
         setTimeout(() => {
             clearInterval(interval);
             scene3();
 
-        }, 20000);
+        }, 40000);
 
 
 
