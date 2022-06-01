@@ -946,7 +946,7 @@ $(function() {
                     }
                     display_day_num_order.push(idx);
                 }
-                console.log(display_day_num_order);
+                // console.log(display_day_num_order);
 
                 for (i = 0; i < display_day_num_order.length; i++) {
                     display_day_chi_order[i] = weekday_display[display_day_num_order[i]];
