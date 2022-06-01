@@ -941,7 +941,7 @@ $(function() {
 
                 while (display_day_num_order.length < total_display_day) {
                     idx++;
-                    if (idx > total_display_day) {
+                    if (idx > total_display_day - 1) {
                         idx = 0;
                     }
                     display_day_num_order.push(idx);
