@@ -554,7 +554,7 @@ get_header();
                     <div class="weather-bottom-div" style="margin-right: 62px;">
                         <img class="weather-bottom-icon"
                             src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/wind-icon.png" alt="">
-                        60 mph
+                        XX mph
                     </div>
 
                     <div class="weather-sep">|</div>
@@ -573,7 +573,7 @@ get_header();
                         <img class="weather-bottom-icon"
                             src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/umbrella-icon.png" alt="">
 
-                        10%
+                        XX%
                     </div>
 
 
