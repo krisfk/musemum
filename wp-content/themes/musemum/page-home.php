@@ -624,7 +624,7 @@ get_header();
                             </div>
 
                             <div class="degree-div roboto">
-                                <span>18</span>
+                                <span class="degree">18</span>
                                 <sup style="font-size: 43px;position: relative;top: 31px;">o</sup>
                                 <span>C</span>
                             </div>
@@ -647,7 +647,7 @@ get_header();
                             </div>
 
                             <div class="degree-div roboto">
-                                <span>18</span>
+                                <span class="degree">18</span>
                                 <sup style="font-size: 43px;position: relative;top: 31px;">o</sup>
                                 <span>C</span>
                             </div>
@@ -670,7 +670,7 @@ get_header();
                             </div>
 
                             <div class="degree-div roboto">
-                                <span>18</span>
+                                <span class="degree">18</span>
                                 <sup style="font-size: 43px;position: relative;top: 31px;">o</sup>
                                 <span>C</span>
                             </div>
@@ -694,7 +694,7 @@ get_header();
                             </div>
 
                             <div class="degree-div roboto">
-                                <span>18</span>
+                                <span class="degree">18</span>
                                 <sup style="font-size: 43px;position: relative;top: 31px;">o</sup>
                                 <span>C</span>
                             </div>
@@ -717,7 +717,7 @@ get_header();
                             </div>
 
                             <div class="degree-div roboto">
-                                <span>18</span>
+                                <span class="degree">18</span>
                                 <sup style="font-size: 43px;position: relative;top: 31px;">o</sup>
                                 <span>C</span>
                             </div>
@@ -740,7 +740,7 @@ get_header();
                             </div>
 
                             <div class="degree-div roboto">
-                                <span>18</span>
+                                <span class="degree">18</span>
                                 <sup style="font-size: 43px;position: relative;top: 31px;">o</sup>
                                 <span>C</span>
                             </div>
@@ -963,7 +963,7 @@ $(function() {
                     var degree = Math.floor((result.weatherForecast[i].forecastMaxtemp.value +
                         result
                         .weatherForecast[i].forecastMintemp.value) / 2);
-                    console.log(degree);
+                    // console.log(degree);
                     $('.weekday-div').eq(i + 1).find('.degree').html(degree);
                 }
 
