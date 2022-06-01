@@ -869,6 +869,7 @@ $(function() {
 
     var first = true;
     var v_idx = 1;
+    var current_week_day_num = <?php echo date('w');?>;
 
 
     $('.start-btn').click(function() {
