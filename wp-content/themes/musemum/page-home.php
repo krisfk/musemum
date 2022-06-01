@@ -953,7 +953,7 @@ $(function() {
 
 
                 $('.weekday-div').eq(0).find('.degree').html(current_temperature);
-                $('.weekday-div').eq(0).find('.weekday-weather-icon').attr('src', site_url +
+                $('.weekday-div').eq(0).find('.weekday-weather-icon img').attr('src', site_url +
                     '/weather-icon/pic' +
                     today_weather_icon_idx + '.png');
                 // weekday-weather-icon
