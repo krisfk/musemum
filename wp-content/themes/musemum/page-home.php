@@ -905,7 +905,7 @@ $(function() {
 
                 var today_weather_icon_idx = result.icon[0];
                 // console.log(result.icon[]);
-                $('.today-weather-icon').attr('src', today_weather_icon_idx + '/weather-icon/pic' +
+                $('.today-weather-icon').attr('src', site_url + '/weather-icon/pic' +
                     today_weather_icon_idx + '.png')
 
 
