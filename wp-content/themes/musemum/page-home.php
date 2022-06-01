@@ -539,7 +539,8 @@ get_header();
                         </div>
                     </div>
                     <!--  -->
-                    <div class="weather-msg" style="left: 0;transform: translate(0px, -50%);padding: 0 77px;top: 50%;">
+                    <div class="weather-msg roboto"
+                        style="left: 0;transform: translate(0px, -50%);padding: 0 77px;top: 50%;">
                         <span style="font-size:50px">
                             史蹟徑暫時關閉 <br>
                             Historic Trail is temporarily closed
@@ -556,7 +557,8 @@ get_header();
                     </div>
 
 
-                    <div class="weather-msg" style="left: 0;transform: translate(0px, -50%);padding: 0 77px;top: 50%;">
+                    <div class="weather-msg roboto"
+                        style="left: 0;transform: translate(0px, -50%);padding: 0 77px;top: 50%;">
                         <span style="font-size:50px">
 
                             <table>
