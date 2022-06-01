@@ -1044,6 +1044,7 @@ $(function() {
 
     $('.start-btn').click(function() {
         $('#test-video').fadeOut(0);
+        $(this).fadeOut(0);
         scene1();
     });
     //scene1
