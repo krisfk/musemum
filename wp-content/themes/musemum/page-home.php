@@ -907,6 +907,7 @@ $(function() {
     var first = true;
     var v_idx = 1;
     var site_url = '<?php echo get_site_url();?>';
+    var main_sec = 0;
     //    var current_week_day_num = <?php //echo date('w');?>;
 
 
@@ -1027,6 +1028,8 @@ $(function() {
 
 
             });
+        main_sec++;
+        console.log('second:' + main_sec);
 
 
 
@@ -1239,13 +1242,13 @@ $(function() {
             }
 
 
-        }, 1000);
+        }, 5000);
 
         setTimeout(() => {
             clearInterval(interval);
             scene3();
 
-        }, 10000);
+        }, 20000);
 
 
 
@@ -1265,7 +1268,7 @@ $(function() {
         }, 1000);
         setTimeout(() => {
             scene4();
-        }, 3000);
+        }, 20000);
     }
 
     function scene4() {
@@ -1473,7 +1476,7 @@ $(function() {
                 setTimeout(() => {
                     clearInterval(interval2);
                     scene6();
-                }, 6000);
+                }, 20000);
 
 
             }, 2000);
