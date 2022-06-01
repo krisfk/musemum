@@ -890,6 +890,9 @@ $(function() {
                 let day = weekday[d.getDay()];
                 let day_chi = weekday_chi[d.getDay()];
 
+                console.log(day);
+                console.log(day_chi);
+
                 // console.log(day);
                 $('.weekday-txt').html('<span>' + day_chi + '</span> <br> <span class="roboto">' +
                     day + '</span>');
