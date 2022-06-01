@@ -562,7 +562,8 @@ get_header();
                     <div class="weather-bottom-div">
                         <img class="weather-bottom-icon"
                             src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/wet-icon.png" alt="">
-                        60%
+                        <span class="current-humidity"></span>%
+
 
                     </div>
 
@@ -905,11 +906,14 @@ $(function() {
 
                 var today_weather_icon_idx = result.icon[0];
                 var current_temperature = result.temperature.data[1].value;
+                var current_humidity = result.humidity.data.value;
 
                 $('.today-weather-icon').attr('src', site_url + '/weather-icon/pic' +
                     today_weather_icon_idx + '.png');
 
                 $('.current-temperature').html(current_temperature);
+                $('.current-humidity').html(current_humidity);
+
 
 
             })
