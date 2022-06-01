@@ -535,7 +535,9 @@ get_header();
                     <div class="weather-msg"> <img class="weather-icon"
                             src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/pic51.png" alt="">
 
-                        <div class="weekday-txt"> <span>星期一</span> <br> <span class="roboto">MONDAY</span> </div>
+                        <div class="weekday-txt">
+                            <!-- <span>星期一</span> <br> <span class="roboto">MONDAY</span>  -->
+                        </div>
                     </div>
                 </div>
                 <div class="scene-4-screen-2-block scene-4-screen-2-block-2">
@@ -880,10 +882,17 @@ $(function() {
                 const weekday = ["SUNDAY", "MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY",
                     "SATURDAY"
                 ];
+                const weekday_chi = ["星期日", "星期一", "星期二", "星期三", "星期四", "星期五",
+                    "星期六"
+                ];
 
                 const d = new Date();
                 let day = weekday[d.getDay()];
-                console.log(day);
+                let day_chi = weekday_chi[d.getDay()];
+
+                // console.log(day);
+                $('.weekday-txt').html('<span>' + day_chi + '</span> <br> <span class="roboto">' +
+                    day + '</span>');
 
 
             });
