@@ -538,6 +538,13 @@ get_header();
                             <!-- <span>星期一</span> <br> <span class="roboto">MONDAY</span>  -->
                         </div>
                     </div>
+
+                    <div class="weather-msg">
+                        <span style="font-size:40px;">
+                            史蹟徑暫時關閉 <br>
+                            Historic Trail is temporarily closed
+                        </span>
+                    </div>
                 </div>
                 <div class="scene-4-screen-2-block scene-4-screen-2-block-2">
                     <div class="weather-msg roboto" style=" display: block; width: 100%; text-align: center; ">
