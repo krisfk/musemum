@@ -858,6 +858,8 @@ get_header();
 <a href="javascript:void(0);" class="stage-btn stage-btn-5">5</a>
 <a href="javascript:void(0);" class="stage-btn stage-btn-6">6</a>
 
+<!-- 0 (for Sunday) through 6 (for Saturday) -->
+
 <div style="font-size:100px"><?php echo date('w');?></div>
 <?php
 date_default_timezone_set('Asia/Hong_Kong');
