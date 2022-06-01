@@ -963,7 +963,7 @@ $(function() {
                     var degree = Math.floor((result.weatherForecast[i].forecastMaxtemp.value +
                         result
                         .weatherForecast[i].forecastMintemp.value) / 2);
-                    console.log(111);
+                    console.log(degree);
                     $('.weekday-div').eq(i + 1).find('.degree').html(degree);
                 }
 
