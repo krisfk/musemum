@@ -554,6 +554,26 @@ get_header();
                                 style="font-size: 400px;">C</span> </div>
                         <div class="weather-place">筲箕灣 <br> Shau Kei Wan </div>
                     </div>
+
+
+                    <div class="weather-msg" style="left: 0;transform: translate(0px, -50%);padding: 0 77px;top: 50%;">
+                        <span style="font-size:50px">
+
+                            <table>
+                                <tr>
+                                    <td><img src="http://64.227.13.14/musemum/wp-content/uploads/2022/06/signal3.png"
+                                            alt=""></td>
+                                    <td rowspan="2">3</td>
+                                </tr>
+                                <tr>
+                                    <td>三號強風信號</td>
+                                </tr>
+                            </table>
+
+
+                        </span>
+                    </div>
+
                 </div>
                 <div class="scene-4-screen-2-block scene-4-screen-2-block-3">
 
@@ -1252,6 +1272,8 @@ $(function() {
         $('.scene-4-screen-2-block-1 .weather-msg').fadeOut(0);
         $('.scene-4-screen-2-block-1 .weather-msg').eq(0).fadeIn(0);
 
+        $('.scene-4-screen-2-block-2 .weather-msg').fadeOut(0);
+        $('.scene-4-screen-2-block-2 .weather-msg').eq(0).fadeIn(0);
 
 
 
