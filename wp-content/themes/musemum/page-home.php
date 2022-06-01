@@ -1492,6 +1492,9 @@ $(function() {
         $('.scene-div-6').css({
             'left': '-5760px'
         })
+        $('.scene-div-6 .white-big-mcd-logo').css({
+            'left': '1920px'
+        });
 
         $('.scene-div-6').animate({
             'left': '0px'
