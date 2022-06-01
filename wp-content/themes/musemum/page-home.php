@@ -904,7 +904,7 @@ $(function() {
             function(result) {
 
                 var today_weather_icon_idx = result.icon[0];
-                var current_temperature = result.data[1].value;
+                var current_temperature = result.temperature.data[1].value;
 
                 $('.today-weather-icon').attr('src', site_url + '/weather-icon/pic' +
                     today_weather_icon_idx + '.png');
