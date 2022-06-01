@@ -888,12 +888,12 @@ get_header();
         type="video/mp4">
 </video>
 <a href="javascript:void(0);" class="start-btn">START</a>
-<a href="javascript:void(0);" class="stage-btn stage-btn-1">1</a>
+<!-- <a href="javascript:void(0);" class="stage-btn stage-btn-1">1</a>
 <a href="javascript:void(0);" class="stage-btn stage-btn-2">2</a>
 <a href="javascript:void(0);" class="stage-btn stage-btn-3">3</a>
 <a href="javascript:void(0);" class="stage-btn stage-btn-4">4</a>
 <a href="javascript:void(0);" class="stage-btn stage-btn-5">5</a>
-<a href="javascript:void(0);" class="stage-btn stage-btn-6">6</a>
+<a href="javascript:void(0);" class="stage-btn stage-btn-6">6</a> -->
 
 <!-- 0 (for Sunday) through 6 (for Saturday) -->
 
