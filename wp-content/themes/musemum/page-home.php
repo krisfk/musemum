@@ -1253,6 +1253,42 @@ $(function() {
         $('.scene-4-screen-2-block-1 .weather-msg').eq(0).fadeIn(0);
 
 
+
+
+        var slide_idx_1 = 0;
+        var slide_idx_2 = 0;
+
+        var slide_num_1 = $('.scene-4-screen-2-block-1 .weather-msg').length;
+        var slide_num_2 = $('.scene-4-screen-2-block-2 .weather-msg').length;
+
+        var weather_interval = setInterval(() => {
+
+            // console.log(sec);
+            if (slide_num_1 > 1) {
+                $('.scene-4-screen-2-block-1 .weather-msg').eq(slide_idx_1).fadeOut(500);
+                if (slide_idx_1 + 1 > slide_num_1 - 1) {
+                    slide_idx_1 = 0;
+                } else {
+                    slide_idx_1++;
+                }
+                $('.scene-4-screen-2-block-1 .weather-msg').eq(slide_idx_1).fadeIn(500);
+            }
+            if (slide_num_2 > 1) {
+
+                $('.scene-4-screen-2-block-2 .weather-msg').eq(slide_idx_2).fadeOut(500);
+                if (slide_idx_2 + 1 > slide_num_2 - 1) {
+                    slide_idx_2 = 0;
+                } else {
+                    slide_idx_2++;
+                }
+                $('.scene-4-screen-2-block-2 .weather-msg').eq(slide_idx_2).fadeIn(500);
+            }
+
+
+        }, 1000);
+
+
+
         $('.weather-bg').css({
             'transform': 'scale(1)'
         })
