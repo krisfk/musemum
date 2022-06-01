@@ -893,12 +893,29 @@ $(function() {
                 let day = weekday[d.getDay()];
                 let day_chi = weekday_chi[d.getDay()];
 
-                // console.log(day);
-                // console.log(day_chi);
+                var display_day_num_order = [];
 
-                // console.log(day);
-                $('.weekday-txt').html('<span>' + day_chi + '</span> <br> <span class="roboto">' +
+
+                var idx = d.getDay();
+                var total_display_day = 6;
+                display_day_num_order.push(d.getDay());
+
+                while (display_day_num_order.length < 6) {
+                    idx++;
+                    if (idx > 6) {
+                        idx = 0;
+                    }
+                    display_day_num_order.push(idx);
+                }
+                console.log(display_day_num_order);
+
+
+
+                $('.weekday-txt').html('<span>' + day_chi +
+                    '</span> <br> <span class="roboto">' +
                     day + '</span>');
+
+
             });
 
         $.get("https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=rhrread&lang=tc",
