@@ -897,7 +897,7 @@ get_header();
 
 <!-- 0 (for Sunday) through 6 (for Saturday) -->
 
-<div style="font-size:100px"><?php echo date('w');?></div>
+<!-- <div style="font-size:100px"><?php echo date('w');?></div> -->
 <?php
 date_default_timezone_set('Asia/Hong_Kong');
 ?>
