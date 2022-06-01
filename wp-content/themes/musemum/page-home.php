@@ -883,11 +883,13 @@ get_header();
 
 </div>
 
-<video id="test-video" width="320" height="240" controls autoplay>
-    <source src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/5_Animation_13_FinalRender.mp4"
-        type="video/mp4">
-</video>
-<a href="javascript:void(0);" class="start-btn">START</a>
+<div class="start-panel">
+    <video id="test-video" width="320" height="240" controls autoplay>
+        <source src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/5_Animation_13_FinalRender.mp4"
+            type="video/mp4">
+    </video>
+    <a href="javascript:void(0);" class="start-btn">START</a>
+</div>
 <!-- <a href="javascript:void(0);" class="stage-btn stage-btn-1">1</a>
 <a href="javascript:void(0);" class="stage-btn stage-btn-2">2</a>
 <a href="javascript:void(0);" class="stage-btn stage-btn-3">3</a>
