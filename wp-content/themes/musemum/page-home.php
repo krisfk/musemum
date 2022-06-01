@@ -903,7 +903,8 @@ $(function() {
         $.get("https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=rhrread&lang=tc",
             function(result) {
 
-                console.log(result.icon);
+                var today_weather_icon_idx = result.icon[0];
+                // console.log(result.icon[]);
 
             })
 
