@@ -879,7 +879,7 @@ $(function() {
 
         $.get("https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=fnd&lang=tc",
             function(result) {
-                console.log(result);
+                // console.log(result);
 
                 const weekday = ["SUNDAY", "MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY",
                     "SATURDAY"
