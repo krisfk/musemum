@@ -874,7 +874,9 @@ $(function() {
     var v_idx = 1;
     //    var current_week_day_num = <?php //echo date('w');?>;
 
+
     setInterval(() => {
+
         $.get("https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=fnd&lang=tc",
             function(result) {
                 console.log(result);
@@ -890,16 +892,25 @@ $(function() {
                 let day = weekday[d.getDay()];
                 let day_chi = weekday_chi[d.getDay()];
 
-                console.log(day);
-                console.log(day_chi);
+                // console.log(day);
+                // console.log(day_chi);
 
                 // console.log(day);
                 $('.weekday-txt').html('<span>' + day_chi + '</span> <br> <span class="roboto">' +
                     day + '</span>');
-
-
             });
+
+        $.get("https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=rhrread&lang=tc",
+            function(result) {
+
+                console.log(result);
+
+            })
+
     }, 1000);
+
+
+
 
 
 
