@@ -1246,7 +1246,11 @@ $(function() {
 
         $('.weather-bg').removeClass('scaling');
 
+
         console.log('scene4');
+
+        $('.scene-4-screen-2-block-1 .weather-msg').fadeOut(0);
+        $('.scene-4-screen-2-block-1 .weather-msg').eq(0).fadeIn(0);
 
 
         $('.weather-bg').css({
