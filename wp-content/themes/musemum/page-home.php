@@ -888,12 +888,12 @@ get_header();
         type="video/mp4">
 </video>
 <a href="javascript:void(0);" class="start-btn">START</a>
-<!-- <a href="javascript:void(0);" class="stage-btn stage-btn-1">1</a>
+<a href="javascript:void(0);" class="stage-btn stage-btn-1">1</a>
 <a href="javascript:void(0);" class="stage-btn stage-btn-2">2</a>
 <a href="javascript:void(0);" class="stage-btn stage-btn-3">3</a>
 <a href="javascript:void(0);" class="stage-btn stage-btn-4">4</a>
 <a href="javascript:void(0);" class="stage-btn stage-btn-5">5</a>
-<a href="javascript:void(0);" class="stage-btn stage-btn-6">6</a> -->
+<a href="javascript:void(0);" class="stage-btn stage-btn-6">6</a>
 
 <!-- 0 (for Sunday) through 6 (for Saturday) -->
 
@@ -951,7 +951,7 @@ $(function() {
                     display_day_chi_order[i] = weekday_display[display_day_num_order[i]];
                 }
 
-
+                console.log(display_day_chi_order);
                 for (i = 0; i < display_day_num_order.length; i++) {
                     $('.weekday-title-div').eq(i).html(display_day_chi_order[i]);
                 }
