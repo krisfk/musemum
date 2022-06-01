@@ -538,7 +538,7 @@ get_header();
                             <!-- <span>星期一</span> <br> <span class="roboto">MONDAY</span>  -->
                         </div>
                     </div>
-
+                    <!--  -->
                     <div class="weather-msg">
                         <span style="left: 0;transform: translate(0px, -50%);padding: 0 77px;top: 50%;">
                             史蹟徑暫時關閉 <br>
