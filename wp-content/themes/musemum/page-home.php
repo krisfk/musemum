@@ -963,8 +963,18 @@ $(function() {
                     var degree = Math.floor((result.weatherForecast[i].forecastMaxtemp.value +
                         result
                         .weatherForecast[i].forecastMintemp.value) / 2);
+
+                    var weather_icon_idx = result.weatherForecast[i].ForecastIcon;
+                    // 
+
                     // console.log(degree);
                     $('.weekday-div').eq(i + 1).find('.degree').html(degree);
+                    $('.weekday-div').eq(i + 1).find('.weekday-weather-icon img').attr('src',
+                        site_url +
+                        '/weather-icon/pic' +
+                        weather_icon_idx + '.png');
+
+
                 }
 
 
