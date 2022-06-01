@@ -904,9 +904,9 @@ $(function() {
                 var total_display_day = 7;
                 display_day_num_order.push(d.getDay());
 
-                while (display_day_num_order.length < 6) {
+                while (display_day_num_order.length < total_display_day) {
                     idx++;
-                    if (idx > 6) {
+                    if (idx > total_display_day) {
                         idx = 0;
                     }
                     display_day_num_order.push(idx);
@@ -920,14 +920,6 @@ $(function() {
                 for (i = 0; i < display_day_num_order.length; i++) {
                     $('.weekday-title-div').eq(i).html(display_day_chi_order[i]);
                 }
-
-
-
-
-
-
-
-
 
                 $('.weekday-txt').html('<span>' + day_chi +
                     '</span> <br> <span class="roboto">' +
@@ -966,7 +958,7 @@ $(function() {
         $.get("https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=fnd&lang=tc",
             function(result) {
 
-                for (i = )
+                // for
 
 
             });
