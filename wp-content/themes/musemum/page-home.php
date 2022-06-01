@@ -560,14 +560,19 @@ get_header();
                         <span style="font-size:50px">
 
                             <table>
-                                <tr>
-                                    <td><img src="http://64.227.13.14/musemum/wp-content/uploads/2022/06/signal3.png"
-                                            alt=""></td>
-                                    <td rowspan="2">3</td>
-                                </tr>
-                                <tr>
-                                    <td>三號強風信號</td>
-                                </tr>
+                                <tbody>
+                                    <tr>
+                                        <td style=" "><img
+                                                src="http://64.227.13.14/musemum/wp-content/uploads/2022/06/signal3.png"
+                                                alt="" style=" width: 371px;"></td>
+                                        <td rowspan="2"
+                                            style=" font-size: 400px; padding-left: 50px;line-height: 1.1; ">
+                                            3</td>
+                                    </tr>
+                                    <tr>
+                                        <td style=" font-size: 61px; ">三號強風信號</td>
+                                    </tr>
+                                </tbody>
                             </table>
 
 
