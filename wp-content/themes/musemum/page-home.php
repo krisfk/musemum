@@ -941,9 +941,9 @@ $(function() {
                 // weather-bg
                 const dark_bg_idx_arr = [53, 54, 62, 63, 64, 65];
                 if (dark_bg_idx_arr.includes(today_weather_icon_idx)) {
-                    $('.weather-bg').attr('src', site_url + '/weather-icon/pic/dark-bg.jpg');
+                    $('.weather-bg').attr('src', site_url + '/weather-icon/dark-bg.jpg');
                 } else {
-                    $('.weather-bg').attr('src', site_url + '/weather-icon/pic/sunny-bg.jpg');
+                    $('.weather-bg').attr('src', site_url + '/weather-icon/sunny-bg.jpg');
                 }
 
 
