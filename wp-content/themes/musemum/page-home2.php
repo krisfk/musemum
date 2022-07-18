@@ -87,7 +87,7 @@
                                     Science under the LCSD Museums</span>
                             </div>
 
-                            <div class="scene-1-txt-2" style="color: #394d64;font-size: 66px;">
+                            <!-- <div class="scene-1-txt-2" style="color: #394d64;font-size: 66px;">
                                 博物館<span
                                     style="font-size:104px;margin-left:1rem;margin-right:1rem;font-weight:bold;">通行證</span>辦理處
                                 <br>
@@ -95,7 +95,7 @@
                                         style="font-size: 58px;">Museum</span> <span
                                         style="font-size: 85px;margin-left: 0rem;margin-right:1rem;font-weight:bold;">Pass
                                         Counter</span></span>
-                            </div>
+                            </div> -->
 
                             <div class="scene-1-green-bg">
 
