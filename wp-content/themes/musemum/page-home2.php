@@ -73,10 +73,10 @@
                             <img class="page-1-bg" class="h-100"
                                 src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/page-1-bg.jpg" alt="">
 
-
+                            <!-- 
                             <img class="white-big-mcd-logo h-100" class="h-100"
                                 src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/white-big-mcd-logo.png"
-                                alt="">
+                                alt=""> -->
 
                             <img class="musemum-card"
                                 src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/card.png" alt="">
@@ -1060,7 +1060,7 @@ date_default_timezone_set('Asia/Hong_Kong');
                                     // console.log(display_day_chi_order);
                                     for (i = 0; i < display_day_num_order.length; i++) {
                                         $('.weekday-title-div').eq(i).html(display_day_chi_order[
-                                        i]);
+                                            i]);
                                     }
 
                                     $('.weekday-txt').html('<span>' + day_chi +
@@ -1243,7 +1243,7 @@ date_default_timezone_set('Asia/Hong_Kong');
                                                             .fadeIn(0);
 
                                                         $('.ar-video-1').trigger(
-                                                        'play');
+                                                            'play');
 
 
 
@@ -1260,7 +1260,7 @@ date_default_timezone_set('Asia/Hong_Kong');
                                                                 function() {
 
                                                                     console.log(
-                                                                    'ended');
+                                                                        'ended');
 
                                                                     if (v_idx ==
                                                                         total_video) {
@@ -1289,7 +1289,7 @@ date_default_timezone_set('Asia/Hong_Kong');
                                                                         $('.bg-behind-phone-' +
                                                                                 v_idx)
                                                                             .fadeIn(
-                                                                            500);
+                                                                                500);
                                                                         console.log(
                                                                             'playing video' +
                                                                             v_idx);
