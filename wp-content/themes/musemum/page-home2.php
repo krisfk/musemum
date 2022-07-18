@@ -1170,10 +1170,10 @@ date_default_timezone_set('Asia/Hong_Kong');
 
 
                             first = true;
-                            $('.scene-div-1 .white-big-mcd-logo').css({
-                                'left': '1920px'
-                            });
-                            $('.scene-1-green-bg').fadeOut(0);
+                            // $('.scene-div-1 .white-big-mcd-logo').css({
+                            //     'left': '1920px'
+                            // });
+                            // $('.scene-1-green-bg').fadeOut(0);
                             $('.bg-behind-phone').fadeOut(0);
                             $('.iphone-div').fadeOut(0);
 
