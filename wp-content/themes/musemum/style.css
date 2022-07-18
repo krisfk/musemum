@@ -155,11 +155,11 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 }
 
 .musemum-card {
-    height: 495px;
+    height: 1056px;
     position: absolute;
-    top: 210px;
+    top: -3px;
     z-index: 100;
-    left: 2170px;
+    left: 2120px;
 }
 
 .scene-1-txt-1 {
