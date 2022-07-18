@@ -89,6 +89,10 @@
                                     Science under the LCSD Museums</span>
                             </div>
 
+                            <img class="scene-1-musemum-pass-txt"
+                                src="http://64.227.13.14/musemum/wp-content/uploads/2022/07/scene-1-pass-txt.png"
+                                alt="">
+
                             <!-- <div class="scene-1-txt-2" style="color: #394d64;font-size: 66px;">
                                 博物館<span
                                     style="font-size:104px;margin-left:1rem;margin-right:1rem;font-weight:bold;">通行證</span>辦理處
