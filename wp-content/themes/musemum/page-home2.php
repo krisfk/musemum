@@ -67,9 +67,9 @@
                         <div class="scene-div scene-div-1">
 
                             <div class="scene-1-green-bg"></div>
-                            <div class="scene-1-bg">
+                            <!-- <div class="scene-1-bg">
 
-                            </div>
+                            </div> -->
 
 
                             <img class="page-1-bg" class="h-100"
