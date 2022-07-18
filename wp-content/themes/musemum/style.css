@@ -149,7 +149,8 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 .scene-div-1 .white-big-mcd-logo {
     position: absolute;
     left: 1920px;
-    bottom: 0;
+    /* bottom: 108px; */
+    bottom: -857px;
     z-index: 10;
     height: 857px;
 }
