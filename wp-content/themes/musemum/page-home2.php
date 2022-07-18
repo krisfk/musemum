@@ -1195,7 +1195,7 @@ date_default_timezone_set('Asia/Hong_Kong');
                             // left: 1463px;
                             // 
                             //scene1
-                            // $('.scene-div.scene-div-1').fadeIn(500);
+                            $('.scene-div.scene-div-1').fadeIn(0);
 
 
 
