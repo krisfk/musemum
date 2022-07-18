@@ -1100,6 +1100,9 @@ body {
 
 .scene-1-musemum-pass-txt {
     position: absolute;
-    top: 100px;
-    right: 100px;
+    top: 264px;
+    z-index: 100;
+    right: 178px;
+    height: 255px;
+    display: none;
 }
