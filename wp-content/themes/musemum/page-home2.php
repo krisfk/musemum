@@ -1216,7 +1216,7 @@ date_default_timezone_set('Asia/Hong_Kong');
                                 }, 500);
 
                                 setTimeout(() => {
-                                    $('.scene-1-txt-5').fadeIn(500);
+                                    $('.scene-1-txt-1').fadeIn(500);
                                 }, 500);
 
 
