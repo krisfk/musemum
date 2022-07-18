@@ -165,6 +165,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     top: 670px;
     z-index: 100;
     left: 2560px;
+    display: none;
 }
 
 .scene-1-txt-2 {
