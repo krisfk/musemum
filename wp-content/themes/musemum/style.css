@@ -149,8 +149,9 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 .scene-div-1 .white-big-mcd-logo {
     position: absolute;
     left: 1920px;
-    top: 0;
+    bottom: 0;
     z-index: 10;
+    height: 857px;
 }
 
 .musemum-card {
