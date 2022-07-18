@@ -75,10 +75,10 @@
                             <img class="page-1-bg" class="h-100"
                                 src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/page-1-bg.jpg" alt="">
 
-                            <!-- 
-                            <img class="white-big-mcd-logo h-100" class="h-100"
-                                src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/white-big-mcd-logo.png"
-                                alt=""> -->
+
+                            <img class="white-big-mcd-logo"
+                                src="http://64.227.13.14/musemum/wp-content/uploads/2022/07/scene-1-mcd-logo.png"
+                                alt="">
 
                             <!-- <img class="musemum-card"
                                 src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/card.png" alt=""> -->
