@@ -1201,7 +1201,7 @@ date_default_timezone_set('Asia/Hong_Kong');
 
                             $('.scene-1-green-bg').animate({
                                 'height': '100%'
-                            }, 1000, function() {
+                            }, 500, function() {
 
 
                             })
