@@ -1,0 +1,1082 @@
+@charset "UTF-8";
+
+/*
+Theme Name: Musemum
+Theme URI: https://wordpress.org/themes/twentytwentyone/
+Author: the WordPress team
+Author URI: https://wordpress.org/
+Description: Twenty Twenty-One is a blank canvas for your ideas and it makes the block editor your best brush. With new block patterns, which allow you to create a beautiful layout in a matter of seconds, this theme’s soft colors and eye-catching — yet timeless — design will let your work shine. Take it for a spin! See how Twenty Twenty-One elevates your portfolio, business website, or personal blog.
+Requires at least: 5.3
+Tested up to: 5.9
+Requires PHP: 5.6
+Version: 1.5
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: twentytwentyone
+Tags: one-column, accessibility-ready, custom-colors, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, block-patterns, rtl-language-support, sticky-post, threaded-comments, translation-ready
+
+Twenty Twenty-One WordPress Theme, (C) 2020 WordPress.org
+Twenty Twenty-One is distributed under the terms of the GNU GPL.
+*/
+
+
+/**
+ * SETTINGS
+ * File-header..........The file header for the themes style.css file.
+ * Fonts................Any font files, if the project needs specific fonts.
+ * Global...............Project-specific, globally available variables.
+ *
+ * TOOLS
+ * Functions............Global functions.
+ * Mixins...............Global mixins.
+ *
+ * GENERIC
+ * Normalize.css........Normalise browser defaults.
+ * Breakpoints..........Mixins and variables for responsive styles
+ * Vertical-margins.....Vertical spacing for the main components.
+ * Reset................Reset specific elements to make them easier to style in other contexts.
+ * Clearings............Clearings for the main components.
+ *
+ * ELEMENTS
+ * Blockquote...........Default blockquote.
+ * Forms................Element-level form styling.
+ * Headings.............H1–H6
+ * Links................Default links.
+ * Lists................Default lists.
+ * Media................Images, Figure, Figcaption, Embed, iFrame, Objects, Video.
+ *
+ * BLOCKS
+ * Audio................Specific styles for the audio block.
+ * Button...............Specific styles for the button block.
+ * Code.................Specific styles for the code block.
+ * Columns..............Specific styles for the columns block.
+ * Cover................Specific styles for the cover block.
+ * File.................Specific styles for the file block.
+ * Gallery..............Specific styles for the gallery block.
+ * Group................Specific styles for the group block.
+ * Heading..............Specific styles for the heading block.
+ * Image................Specific styles for the image block.
+ * Latest comments......Specific styles for the latest comments block.
+ * Latest posts.........Specific styles for the latest posts block.
+ * Legacy...............Specific styles for the legacy gallery.
+ * List.................Specific styles for the list block.
+ * Media text...........Specific styles for the media and text block.
+ * Navigation...........Specific styles for the navigation block.
+ * Paragraph............Specific styles for the paragraph block.
+ * Pullquote............Specific styles for the pullquote block.
+ * Quote................Specific styles for the quote block.
+ * Search...............Specific styles for the search block.
+ * Separator............Specific styles for the separator block.
+ * Spacer...............Specific styles for the spacer block.
+ * Table................Specific styles for the table block.
+ * Verse................Specific styles for the verse block.
+ * Video................Specific styles for the video block.
+ * Utilities............Block alignments.
+ *
+ * COMPONENTS
+ * Header...............Header styles.
+ * Footer...............Footer styles.
+ * Comments.............Comment styles.
+ * Archives.............Archive styles.
+ * 404..................404 styles.
+ * Search...............Search styles.
+ * Navigation...........Navigation styles.
+ * Footer Navigation....Footer Navigation styles.
+ * Pagination...........Pagination styles.
+ * Single...............Single page and post styles.
+ * Posts and pages......Misc, sticky post styles.
+ * Entry................Entry, author biography.
+ * Widget...............Widget styles.
+ * Editor...............Editor styles.
+ *
+ * UTILITIES
+ * A11y.................Screen reader text, prefers reduced motion etc.
+ * Color Palette........Classes for the color palette colors.
+ * Editor Font Sizes....Editor Font Sizes.
+ * Measure..............The width of a line of text, in characters.
+ */
+
+
+/* Categories 01 to 03 are the basics. */
+
+
+/* Variables */
+
+.main-container {
+    display: block;
+    width: 5760px;
+    height: 1080px;
+    position: relative;
+    overflow: hidden;
+}
+
+.cal-pos-1 {
+    position: absolute;
+    top: 1100px;
+    left: 0;
+    width: 1920px;
+    height: 1080px;
+    background: #5f5f5f;
+    z-index: -100;
+}
+
+.cal-pos-2 {
+    position: absolute;
+    top: 1100px;
+    left: 1920px;
+    width: 1920px;
+    height: 1080px;
+    background: #2e2b5e2c;
+    z-index: -100;
+}
+
+.cal-pos-3 {
+    position: absolute;
+    top: 1100px;
+    left: 3840px;
+    width: 1920px;
+    height: 1080px;
+    background: #55181864;
+    z-index: -100;
+}
+
+.page-1-bg {
+    position: relative;
+}
+
+.scene-div-1 .white-big-mcd-logo {
+    position: absolute;
+    left: 1920px;
+    top: 0;
+    z-index: 10;
+}
+
+.musemum-card {
+    height: 495px;
+    position: absolute;
+    top: 210px;
+    z-index: 100;
+    left: 2170px;
+}
+
+.scene-1-txt-1 {
+    position: absolute;
+    top: 670px;
+    z-index: 100;
+    left: 2560px;
+}
+
+.scene-1-txt-2 {
+    position: absolute;
+    top: 433px;
+    left: 4620px;
+    z-index: 100;
+    text-align: center;
+    line-height: normal;
+    width: fit-content;
+}
+
+.scene-1-txt-2 .big-font {
+    font-size: 105px;
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+.scene-1-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #dfdfdf;
+    width: 5760px;
+    height: 1080px;
+}
+
+.scene-div {
+    width: 4920px;
+    height: 1080px;
+}
+
+.scene-div-2 {
+    position: absolute;
+    top: 0;
+    left: -5760px;
+    /* left: 0; */
+    display: block;
+    width: 5760px;
+    height: 1080px;
+    /* background: #000000; */
+    z-index: 100;
+    /* display: none; */
+}
+
+.roboto {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.app-icon {
+    height: 197px;
+    position: absolute;
+    top: 441px;
+    left: 1463px;
+    display: none;
+    z-index: 100;
+}
+
+.qr-code-group-1 {
+    position: absolute;
+    top: 441px;
+    left: 980px;
+    width: 197px;
+    display: none;
+    z-index: 100;
+}
+
+.qr-code-group-1 img {
+    width: 100%;
+    margin: 0 0 20px 0;
+}
+
+.qr-code-group-2 {
+    position: absolute;
+    top: 441px;
+    left: 1219px;
+    width: 197px;
+    display: none;
+    z-index: 100;
+}
+
+.qr-code-group-2 img {
+    width: 100%;
+    margin: 0 0 20px 0;
+}
+
+.scene-1-txt-3 {
+    position: absolute;
+    top: 209px;
+    left: 300px;
+    line-height: normal;
+    display: none;
+    z-index: 100;
+}
+
+.scene-1-txt-4 {
+    position: absolute;
+    top: 431px;
+    left: 300px;
+    line-height: normal;
+    z-index: 100;
+    display: none;
+}
+
+.scene-1-green-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2521px;
+    display: none;
+    height: 1080px;
+    background: #5ea6a6;
+    display: none;
+}
+
+.bg-behind-phone {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    z-index: 0;
+}
+
+.scene-1-txt-5 {
+    position: absolute;
+    color: #fff;
+    display: none;
+    top: 400px;
+    right: 0;
+    display: none;
+    z-index: 100;
+    background: url(./assets/images/white-gradient-bg.png);
+    background-size: 100% 100%;
+    width: 1598px;
+    padding: 35px;
+    line-height: normal;
+    font-style: italic;
+}
+
+.iphone-div {
+    position: absolute;
+    top: 150px;
+    left: 2389px;
+    display: none;
+    z-index: 100;
+    transform: rotate(0deg);
+    transition: 0.5s all;
+}
+
+.iphone-div.rotate1 {
+    transform: rotate(15deg);
+    left: 2662px;
+}
+
+.iphone-div.rotate2 {
+    transform: rotate(88deg);
+    left: 2711px;
+    top: 133px;
+    /* background: #000; */
+    z-index: 100;
+}
+
+.iphone-img {
+    position: relative;
+    width: 385px;
+}
+
+.iphone-video {
+    position: absolute;
+    width: 331px;
+    height: 733px;
+    z-index: 30;
+    top: 18px;
+    display: block;
+    left: 26px;
+    border-radius: 48px;
+    overflow: hidden;
+}
+
+.start-btn {
+    display: inline-block;
+    background: #5ea6a6;
+    color: #fff;
+    padding: 2rem;
+    border-radius: 2rem;
+    text-decoration: none;
+    font-size: 40px;
+    display: block;
+    margin: 21px 0 0 0;
+    text-align: center;
+}
+
+.ar-videos-div {
+    position: absolute;
+    top: 349px;
+    left: 2538px;
+    width: 727px;
+    height: 342px;
+    z-index: 100;
+    background: #000000;
+    transform: rotate(-2deg);
+    border-radius: 40px;
+    overflow: hidden;
+    display: none;
+}
+
+.ar-videos-div .ar-video {
+    width: 606px;
+    /* position: absolute; */
+    /* top: 0; */
+    /* left: 0; */
+    height: 354px;
+    /* z-index: 2000000; */
+    margin: 0 0 0 59px;
+}
+
+.ar-videos-div .ar-video .ar-video-1 {}
+
+.scene-2-screen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1920px;
+    height: 1080px;
+    background: #5ea6a6;
+}
+
+.scene-2-screen-1 {
+    top: 0;
+    left: 0;
+    background: #5ea6a6;
+}
+
+.scene-2-screen-2 {
+    top: 0;
+    left: 1920px;
+    background: #fff;
+}
+
+.scene-2-screen-3 {
+    top: 0;
+    left: 3840px;
+    background: #095353;
+}
+
+.scene-2-txt-1 {
+    position: absolute;
+    top: 372px;
+    line-height: normal;
+    z-index: 100;
+    left: 0;
+    background: url(./assets/images/white-gradient-bg-2.png);
+    background-size: 100% 100%;
+    font-style: italic;
+    color: #fff;
+    padding: 20px 0px 20px 209px;
+    text-shadow: -1px 9px 16px #000;
+}
+
+.event-div {
+    display: block;
+}
+
+.event-div.one-col-width {
+    display: inline-block;
+    width: 50%;
+    height: 1080px;
+    float: left;
+}
+
+.event-title-div {
+    display: block;
+    height: 288px;
+    width: 100%;
+    color: #fff;
+    line-height: normal;
+    padding: 3rem 0 0 4rem;
+}
+
+.event-content-div {
+    color: #394d64;
+    line-height: 1.4;
+    height: 792px;
+    padding: 6.5rem 4rem 0 4rem;
+}
+
+.scene-2-screen-2-slide,
+.scene-2-screen-3-slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.scene-div-3 {
+    position: absolute;
+    top: 0;
+    left: -5760px;
+    /* left: 0; */
+    display: block;
+    width: 5760px;
+    height: 1080px;
+    /* background: #000000; */
+    z-index: 100;
+    /* display: none; */
+}
+
+.scene-3-screen-left-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: auto;
+}
+
+.scene-3-screen-1 .publication-div {
+    /* z-index: 100; */
+    position: relative;
+    color: #394d64;
+    line-height: 1.4;
+}
+
+.scene-3-screen-1 .publication-div:nth-child(2n) {
+    float: right;
+    display: block;
+    width: 640px;
+    height: 100%;
+    background: #dadcde;
+}
+
+.scene-3-screen-1 .publication-div:nth-child(2n-1) {
+    float: right;
+    display: block;
+    width: 640px;
+    height: 100%;
+    background: #ececec;
+}
+
+.scene-3-screen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1920px;
+    height: 1080px;
+    /* background: #5ea6a6; */
+}
+
+.scene-3-screen-1 {
+    top: 0;
+    left: 0;
+    background: #5ea6a6;
+}
+
+.scene-3-screen-2 {
+    top: 0;
+    left: 1920px;
+    background: #165959;
+}
+
+.scene-3-screen-3 {
+    top: 0;
+    left: 3840px;
+    background: #095353;
+}
+
+.book {
+    height: 350px;
+    margin: 11rem 0 0 0;
+}
+
+.publication-div-text-content {
+    padding: 2rem 3rem 3rem 3rem;
+}
+
+.scene-3-screen-2 .publication-div {
+    position: relative;
+    color: #394d64;
+    line-height: 1.4;
+}
+
+.scene-3-screen-2 .publication-div.three-books {
+    width: 640px;
+}
+
+.scene-3-screen-2 .publication-div.two-books {
+    width: 960px;
+}
+
+.scene-3-screen-2 .publication-div:nth-child(2n) {
+    float: right;
+    display: block;
+    height: 100%;
+    background: #dadcde;
+}
+
+.scene-3-screen-2 .publication-div:nth-child(2n-1) {
+    float: right;
+    display: block;
+    height: 100%;
+    background: #ececec;
+}
+
+.scene-3-screen-right-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: auto;
+}
+
+.scene-3-screen-3-txt {
+    color: #fff;
+    position: absolute;
+    z-index: 100;
+    line-height: 1.3;
+    top: 400px;
+    left: 100px;
+}
+
+.scene-div-4 {
+    position: absolute;
+    top: 0;
+    /* left: 0; */
+    left: -5760px;
+    display: block;
+    width: 5760px;
+    height: 1080px;
+    /* background: #000000; */
+    z-index: 100;
+    /* display: none; */
+}
+
+.scene-4-screen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1920px;
+    height: 1080px;
+    /* background: #5ea6a6; */
+}
+
+.scene-4-screen-1 {
+    top: 0;
+    left: 0;
+    /* background: #5ea6a6; */
+}
+
+.scene-4-screen-2 {
+    top: 0;
+    left: 1920px;
+    /* background: #165959; */
+}
+
+.scene-4-screen-3 {
+    top: 0;
+    left: 3840px;
+    /* background: #095353; */
+}
+
+.weather-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: linear 150s all;
+}
+
+.weather-bg.scaling {
+    transform: scale(2);
+}
+
+.scene-4-screen-1-txt {
+    color: #fff;
+    position: absolute;
+    top: 432px;
+    right: 206px;
+}
+
+.scene-4-screen-2-block {
+    float: left;
+    position: relative;
+    background: url(./assets/images/weather-gradient-bg.png);
+    background-size: 100% 100%;
+}
+
+.scene-4-screen-2-block.scene-4-screen-2-block-1 {
+    width: 640px;
+    height: 500px;
+}
+
+.scene-4-screen-2-block.scene-4-screen-2-block-2 {
+    width: 1280px;
+    height: 500px;
+}
+
+.scene-4-screen-2-block.scene-4-screen-2-block-3 {
+    width: 1920px;
+    text-align: center;
+    height: 160px;
+    color: #fff;
+}
+
+.weather-center-blk {
+    margin: 220px 0 0 0;
+}
+
+.weather-icon {
+    width: 415px;
+    display: block;
+    text-align: center;
+    margin: 0rem auto 0 auto;
+}
+
+.weekday-txt {
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    line-height: normal;
+    line-height: normal;
+    position: relative;
+    top: -23px;
+}
+
+.scene-4-screen-2-block-1 .weather-msg {
+    /* position: absolute;
+    top: 50%;
+    transform: translate(0, -50%); */
+    position: absolute;
+    top: 47%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    color: #fff;
+}
+
+.scene-4-screen-2-block-2 .weather-msg {
+    /* position: absolute;
+    top: 50%;
+    transform: translate(0, -50%); */
+    position: absolute;
+    top: 53%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    color: #fff;
+}
+
+.weather-place {
+    font-size: 40px;
+    display: inline-block;
+    text-align: left;
+    margin-left: 64px;
+    line-height: normal;
+}
+
+.weather-bottom-div {
+    width: 460px;
+    display: inline-block;
+    font-size: 68px;
+    margin: 21px 0 0 0;
+}
+
+.weather-sep {
+    display: inline-block;
+    font-size: 70px;
+}
+
+.weather-bottom-icon {
+    height: 100px;
+}
+
+.weekday-div .weekday-title-div-wrapper {
+    height: 110px;
+    width: 205px;
+    float: left;
+    display: block;
+}
+
+.weekday-div:nth-child(2n-1) .weekday-title-div {
+    color: #394d64;
+    background: #d1ddee;
+    height: 110px;
+    font-size: 45px;
+    /* line-height: 45px; */
+    text-align: center;
+    /* display: table; */
+    vertical-align: middle;
+    width: 205px;
+    text-align: center;
+    line-height: 110px;
+    overflow: hidden;
+}
+
+.weekday-div:nth-child(2n) .weekday-title-div {
+    color: #394d64;
+    background: #bac5d6;
+    height: 110px;
+    overflow: hidden;
+    font-size: 45px;
+    /* line-height: 45px; */
+    text-align: center;
+    /* display: table; */
+    vertical-align: middle;
+    width: 205px;
+    line-height: 110px;
+}
+
+.weekdays-div {
+    margin: 151px 0 0 0;
+    text-align: center;
+}
+
+.weekday-div {
+    width: 205px;
+    height: 750px;
+    position: relative;
+    display: inline-block;
+}
+
+.weekday-div:nth-child(2n-1) .weekday-degree-div {
+    /* background: rgb(0 0 0 / 10%); */
+    height: 640px;
+    overflow: hidden;
+    background: rgb(0 0 0 / 10%);
+}
+
+.weekday-div:nth-child(2n) .weekday-degree-div {
+    /* background: rgb(0 0 0 / 10%); */
+    height: 640px;
+    overflow: hidden;
+    background: rgb(0 0 0 / 20%);
+}
+
+.weekday-div:nth-child(2n-1) .weekday-degree-div .weekday-weather-icon {
+    position: absolute;
+    bottom: 165px;
+}
+
+.weekday-div:nth-child(2n) .weekday-degree-div .weekday-weather-icon {
+    position: absolute;
+    top: 228px;
+}
+
+.weekday-div:nth-child(2n-1) .degree-div {
+    color: #fff;
+    font-size: 100px;
+    position: absolute;
+    bottom: 32px;
+    width: 205px;
+    display: flex;
+    justify-content: center;
+}
+
+.weekday-div:nth-child(2n) .degree-div {
+    color: #fff;
+    font-size: 100px;
+    position: absolute;
+    top: 123px;
+    width: 205px;
+    display: flex;
+    justify-content: center;
+}
+
+.weekday-degree-div-wrapper {
+    display: block;
+    height: 640px;
+    width: 205px;
+    float: left;
+}
+
+.scene-div-5 {
+    position: absolute;
+    top: 0;
+    left: -5760px;
+    /* left: 0; */
+    display: block;
+    width: 5760px;
+    height: 1080px;
+    /* background: #000000; */
+    z-index: 100;
+    /* display: none; */
+}
+
+.scene-5-screen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1920px;
+    height: 1080px;
+    /* background: #5ea6a6; */
+}
+
+.scene-5-screen-1 {
+    top: 0;
+    left: 0;
+    background: #5ea6a6;
+    /* background: #5ea6a6; */
+}
+
+.scene-5-screen-2 {
+    top: 0;
+    left: 1920px;
+    /* background: #165959; */
+}
+
+.scene-5-screen-3 {
+    top: 0;
+    left: 3840px;
+    /* background: #095353; */
+}
+
+.scene-div-5 .white-big-mcd-logo {
+    position: absolute;
+    left: 901px;
+    top: 0;
+    z-index: 1000;
+    opacity: 0.5;
+}
+
+
+/*  */
+
+.scene-5-right-img-bg {
+    position: absolute;
+    right: 0;
+    top: 0;
+    top: 0;
+    z-index: 100;
+}
+
+.disc-a-div {
+    position: absolute;
+    top: 373px;
+    left: 49px;
+    z-index: 1000;
+    transform: scale(0);
+    transition: 0.5s all;
+}
+
+.disc-a-div.rotatemove {
+    left: 890px;
+}
+
+.disc-a-div.rotatemove img {
+    transform: rotate(0deg);
+}
+
+.disc-a-div img {
+    width: 319px;
+    transform: rotate(-180deg);
+    transition: 0.8s all;
+}
+
+.disc-b-div {
+    position: absolute;
+    top: 710px;
+    left: 652px;
+    z-index: 1000;
+    transform: scale(0);
+}
+
+.disc-b-div img {
+    width: 470px;
+}
+
+.disc-c-div {
+    position: absolute;
+    top: 141px;
+    left: 271px;
+    transform: scale(0);
+    z-index: 1000;
+}
+
+.disc-c-div img {
+    width: 319px;
+}
+
+.bounce {
+    animation: bounce 0.5s;
+    transform: scale(1);
+}
+
+@keyframes bounce {
+    0% {
+        transform: scale(0);
+    }
+    60% {
+        transform: scale(1.05);
+    }
+    75% {
+        transform: scale(0.95);
+    }
+    85% {
+        transform: scale(1.02);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.scene-5-screen-3-txt {
+    color: #fff;
+    position: absolute;
+    z-index: 100;
+    line-height: 1;
+    top: 400px;
+    right: 277px;
+    text-shadow: -1px 9px 16px #000;
+}
+
+.scene-div-6 {
+    position: absolute;
+    top: 0;
+    left: -5760px;
+    /* left: 0; */
+    display: block;
+    width: 5760px;
+    height: 1080px;
+    /* background: #000000; */
+    z-index: 100;
+    /* display: none; */
+}
+
+.scene-6-screen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1920px;
+    height: 1080px;
+    background: #5ea6a6;
+}
+
+.scene-6-screen-1 {
+    top: 0;
+    left: 0;
+    background: #5ea6a6;
+    background: #5ea6a6;
+}
+
+.scene-6-screen-2 {
+    top: 0;
+    left: 1920px;
+    background: #dfdfdf;
+}
+
+.scene-6-screen-3 {
+    top: 0;
+    left: 3840px;
+    background: #dfdfdf;
+}
+
+.scene-6-left-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: auto;
+}
+
+.scene-div-6 .white-big-mcd-logo {
+    position: absolute;
+    left: 1920px;
+    opacity: 0.85;
+    z-index: 100;
+}
+
+.scene-6-screen-2-img {
+    position: absolute;
+    z-index: 200;
+    top: 187px;
+    width: 500px;
+    left: 72px;
+}
+
+.scene-6-screen-2-txt {
+    color: #394d64;
+    position: absolute;
+    top: 139px;
+    left: 642px;
+    font-size: 30px;
+    width: 654px;
+    z-index: 200;
+}
+
+.scene-6-screen-3-txt {
+    position: absolute;
+    top: 336px;
+    right: 132px;
+}
+
+.stage-btn {
+    display: inline-block;
+    background: #5ea6a6;
+    color: #fff;
+    padding: 2rem;
+    border-radius: 2rem;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+.start-panel {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+    background: rgb(0 0 0 / 84%);
+    padding: 50px;
+    border-radius: 60px;
+    margin: 40px;
+}
+
+html,
+body {
+    overflow: hidden;
+}
