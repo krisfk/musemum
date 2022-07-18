@@ -1208,6 +1208,10 @@ date_default_timezone_set('Asia/Hong_Kong');
                                     'top': '0'
                                 }, 500);
 
+                                $('.scene-div-1 .white-big-mcd-logo').animate({
+                                    'bottom': '108px'
+                                }, 500);
+
                                 setTimeout(() => {
 
 
