@@ -65,6 +65,8 @@
                         <!--scene-1 start-->
 
                         <div class="scene-div scene-div-1">
+
+                            <div class="scene-1-green-bg"></div>
                             <div class="scene-1-bg">
 
                             </div>
