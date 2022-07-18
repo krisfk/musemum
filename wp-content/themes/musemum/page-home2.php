@@ -1173,7 +1173,8 @@ date_default_timezone_set('Asia/Hong_Kong');
                             // $('.scene-div-1 .white-big-mcd-logo').css({
                             //     'left': '1920px'
                             // });
-                            $('.scene-1-green-bg').fadeOut(0);
+                            // $('.scene-1-green-bg').fadeOut(0);
+
 
                             $('.bg-behind-phone').fadeOut(0);
                             $('.iphone-div').fadeOut(0);
@@ -1196,6 +1197,14 @@ date_default_timezone_set('Asia/Hong_Kong');
                             //scene1
                             $('.scene-div.scene-div-1').fadeIn(500);
 
+
+
+                            $('.scene-1-green-bg').animate({
+                                'height': '100%'
+                            }, 1000, function() {
+
+
+                            })
 
                             setTimeout(() => {
 
@@ -1228,18 +1237,21 @@ date_default_timezone_set('Asia/Hong_Kong');
 
                                         $('.iphone-div').addClass('rotate1');
 
-                                        $('.iphone-div .iphone-video').unbind('ended')
+                                        $('.iphone-div .iphone-video').unbind(
+                                                'ended')
                                             .on('ended',
                                                 function() {
 
                                                     if (first) {
                                                         console.log('first');
                                                         first = false;
-                                                        $('.iphone-div').removeClass(
-                                                            'rotate1');
+                                                        $('.iphone-div')
+                                                            .removeClass(
+                                                                'rotate1');
                                                         $('.iphone-div').addClass(
                                                             'rotate2');
-                                                        $('.ar-videos-div').delay(500)
+                                                        $('.ar-videos-div').delay(
+                                                                500)
                                                             .fadeIn(0);
                                                         $('.ar-video').fadeOut(0);
                                                         $('.ar-video.ar-video-1')
@@ -1255,7 +1267,8 @@ date_default_timezone_set('Asia/Hong_Kong');
                                                                 '.bg-behind-phone')
                                                             .length;
                                                         // console.log('play video' + v_idx);
-                                                        console.log('playing video' +
+                                                        console.log(
+                                                            'playing video' +
                                                             v_idx);
                                                         $('.ar-videos-div .ar-video')
                                                             .unbind('ended').on(
@@ -1266,36 +1279,48 @@ date_default_timezone_set('Asia/Hong_Kong');
                                                                         'ended');
 
                                                                     if (v_idx ==
-                                                                        total_video) {
+                                                                        total_video
+                                                                    ) {
 
                                                                         scene2();
                                                                     } else {
 
 
                                                                         $('.ar-video-' +
-                                                                                v_idx)
+                                                                                v_idx
+                                                                            )
                                                                             .fadeOut(
-                                                                                500);
+                                                                                500
+                                                                            );
                                                                         $('.bg-behind-phone-' +
-                                                                                v_idx)
+                                                                                v_idx
+                                                                            )
                                                                             .fadeOut(
-                                                                                500);
+                                                                                500
+                                                                            );
                                                                         v_idx++;
                                                                         $('.ar-video-' +
-                                                                                v_idx)
+                                                                                v_idx
+                                                                            )
                                                                             .fadeIn(
-                                                                                500);
+                                                                                500
+                                                                            );
                                                                         $('.ar-video-' +
-                                                                                v_idx)
+                                                                                v_idx
+                                                                            )
                                                                             .trigger(
-                                                                                'play');
+                                                                                'play'
+                                                                            );
                                                                         $('.bg-behind-phone-' +
-                                                                                v_idx)
+                                                                                v_idx
+                                                                            )
                                                                             .fadeIn(
-                                                                                500);
+                                                                                500
+                                                                            );
                                                                         console.log(
                                                                             'playing video' +
-                                                                            v_idx);
+                                                                            v_idx
+                                                                        );
 
                                                                     }
 
@@ -1364,29 +1389,35 @@ date_default_timezone_set('Asia/Hong_Kong');
 
                                 // console.log(sec);
                                 if (scene_2_screen_2_slide_num > 1) {
-                                    $('.scene-2-screen-2-slide').eq(scene_2_screen_2_slide_idx).fadeOut(
-                                        500);
-                                    if (scene_2_screen_2_slide_idx + 1 > scene_2_screen_2_slide_num -
+                                    $('.scene-2-screen-2-slide').eq(scene_2_screen_2_slide_idx)
+                                        .fadeOut(
+                                            500);
+                                    if (scene_2_screen_2_slide_idx + 1 >
+                                        scene_2_screen_2_slide_num -
                                         1) {
                                         scene_2_screen_2_slide_idx = 0;
                                     } else {
                                         scene_2_screen_2_slide_idx++;
                                     }
-                                    $('.scene-2-screen-2-slide').eq(scene_2_screen_2_slide_idx).fadeIn(
-                                        500);
+                                    $('.scene-2-screen-2-slide').eq(scene_2_screen_2_slide_idx)
+                                        .fadeIn(
+                                            500);
                                 }
                                 if (scene_2_screen_3_slide_num > 1) {
 
-                                    $('.scene-2-screen-3-slide').eq(scene_2_screen_3_slide_idx).fadeOut(
-                                        500);
-                                    if (scene_2_screen_3_slide_idx + 1 > scene_2_screen_3_slide_num -
+                                    $('.scene-2-screen-3-slide').eq(scene_2_screen_3_slide_idx)
+                                        .fadeOut(
+                                            500);
+                                    if (scene_2_screen_3_slide_idx + 1 >
+                                        scene_2_screen_3_slide_num -
                                         1) {
                                         scene_2_screen_3_slide_idx = 0;
                                     } else {
                                         scene_2_screen_3_slide_idx++;
                                     }
-                                    $('.scene-2-screen-3-slide').eq(scene_2_screen_3_slide_idx).fadeIn(
-                                        500);
+                                    $('.scene-2-screen-3-slide').eq(scene_2_screen_3_slide_idx)
+                                        .fadeIn(
+                                            500);
                                 }
 
 
@@ -1445,27 +1476,31 @@ date_default_timezone_set('Asia/Hong_Kong');
 
                                 // console.log(sec);
                                 if (slide_num_1 > 1) {
-                                    $('.scene-4-screen-2-block-1 .weather-msg').eq(slide_idx_1).fadeOut(
-                                        500);
+                                    $('.scene-4-screen-2-block-1 .weather-msg').eq(slide_idx_1)
+                                        .fadeOut(
+                                            500);
                                     if (slide_idx_1 + 1 > slide_num_1 - 1) {
                                         slide_idx_1 = 0;
                                     } else {
                                         slide_idx_1++;
                                     }
-                                    $('.scene-4-screen-2-block-1 .weather-msg').eq(slide_idx_1).fadeIn(
-                                        500);
+                                    $('.scene-4-screen-2-block-1 .weather-msg').eq(slide_idx_1)
+                                        .fadeIn(
+                                            500);
                                 }
                                 if (slide_num_2 > 1) {
 
-                                    $('.scene-4-screen-2-block-2 .weather-msg').eq(slide_idx_2).fadeOut(
-                                        500);
+                                    $('.scene-4-screen-2-block-2 .weather-msg').eq(slide_idx_2)
+                                        .fadeOut(
+                                            500);
                                     if (slide_idx_2 + 1 > slide_num_2 - 1) {
                                         slide_idx_2 = 0;
                                     } else {
                                         slide_idx_2++;
                                     }
-                                    $('.scene-4-screen-2-block-2 .weather-msg').eq(slide_idx_2).fadeIn(
-                                        500);
+                                    $('.scene-4-screen-2-block-2 .weather-msg').eq(slide_idx_2)
+                                        .fadeIn(
+                                            500);
                                 }
 
 
@@ -1504,8 +1539,10 @@ date_default_timezone_set('Asia/Hong_Kong');
 
                                 for (i = 0; i < $('.degree-div').length; i++) {
 
-                                    $('.weekday-title-div').eq(i).delay(100 + i * 30).slideDown(500);
-                                    $('.weekday-degree-div').eq(i).delay(700 + i * 30).slideDown(500);
+                                    $('.weekday-title-div').eq(i).delay(100 + i * 30).slideDown(
+                                        500);
+                                    $('.weekday-degree-div').eq(i).delay(700 + i * 30).slideDown(
+                                        500);
                                     $('.weekday-weather-icon').eq(i).delay(700 + i * 30).fadeIn(400)
                                     $('.degree-div').eq(i).delay(700 + i * 30).fadeIn(400)
 
@@ -1588,36 +1625,45 @@ date_default_timezone_set('Asia/Hong_Kong');
                                         sec += 1000;
 
                                         console.log(sec);
-                                        console.log('sec/1000' + Number.isInteger(sec /
+                                        console.log('sec/1000' + Number.isInteger(
+                                            sec /
                                             1000));
                                         if (Number.isInteger(sec / 1000)) {
                                             idx_a++;
-                                            if (idx_a >= $('.disc-a-div img').length) {
+                                            if (idx_a >= $('.disc-a-div img')
+                                                .length) {
                                                 idx_a = 0;
                                             }
                                             $('.disc-a-div img').fadeOut(0);
-                                            $('.disc-a-div img').eq(idx_a).fadeIn(0);
+                                            $('.disc-a-div img').eq(idx_a).fadeIn(
+                                                0);
                                         }
-                                        console.log('sec/2000' + Number.isInteger(sec /
+                                        console.log('sec/2000' + Number.isInteger(
+                                            sec /
                                             2000));
                                         if (Number.isInteger(sec / 2000)) {
                                             idx_b++;
-                                            if (idx_b >= $('.disc-b-div img').length) {
+                                            if (idx_b >= $('.disc-b-div img')
+                                                .length) {
                                                 idx_b = 0;
                                             }
                                             $('.disc-b-div img').fadeOut(0);
-                                            $('.disc-b-div img').eq(idx_b).fadeIn(0);
+                                            $('.disc-b-div img').eq(idx_b).fadeIn(
+                                                0);
                                         }
-                                        console.log('sec/3000' + Number.isInteger(sec /
+                                        console.log('sec/3000' + Number.isInteger(
+                                            sec /
                                             3000));
 
                                         if (Number.isInteger(sec / 3000)) {
                                             idx_c++;
-                                            if (idx_c >= $('.disc-c-div img').length) {
+                                            if (idx_c >= $('.disc-c-div img')
+                                                .length) {
                                                 idx_c = 0;
                                             }
                                             $('.disc-c-div img').fadeOut(0);
-                                            $('.disc-c-div img').eq(idx_c).fadeIn(0);
+                                            $('.disc-c-div img').eq(idx_c).fadeIn(
+                                                0);
                                         }
 
 
