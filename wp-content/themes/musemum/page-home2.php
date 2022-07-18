@@ -1203,12 +1203,15 @@ date_default_timezone_set('Asia/Hong_Kong');
                                 'height': '100%'
                             }, 500, function() {
 
+
+                                $('.page-1-bg').animate({
+                                    'top': '0'
+                                }, 500);
+
                                 setTimeout(() => {
 
 
-                                    $('.page-1-bg').animate({
-                                        'top': '0'
-                                    }, 500);
+
 
 
 
