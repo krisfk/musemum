@@ -1221,7 +1221,10 @@ date_default_timezone_set('Asia/Hong_Kong');
 
                                 setTimeout(() => {
                                     $('.scene-1-txt-1').fadeIn(500);
+                                    $('.scene-1-musemum-pass-txt').fadeIn(500);
                                 }, 500);
+
+
 
 
                                 // setTimeout(() => {
