@@ -1211,6 +1211,9 @@ date_default_timezone_set('Asia/Hong_Kong');
                                 $('.scene-div-1 .white-big-mcd-logo').animate({
                                     'bottom': '0px'
                                 }, 500);
+                                $('.scene-div-1 .musemum-card').animate({
+                                    'top': '0px'
+                                }, 500);
 
                                 setTimeout(() => {
 
