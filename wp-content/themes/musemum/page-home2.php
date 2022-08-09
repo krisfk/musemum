@@ -217,7 +217,6 @@
                             </div>
 
                             <div class="scene-2-screen scene-2-screen-2">
-                                <!--  -->
                                 <div class="screen-2-bg"></div>
                                 <!-- <div class="screen-"></div> -->
                             </div>
