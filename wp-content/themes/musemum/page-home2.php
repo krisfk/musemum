@@ -972,6 +972,8 @@
                         <a href="javascript:void(0);" class="start-btn">START</a>
                     </div>
                     <a href="javascript:void(0);" class="stage-btn stage-btn-1">1</a>
+                    <a href="javascript:void(0);" class="stage-btn stage-btn-1_5">1.5</a>
+
                     <a href="javascript:void(0);" class="stage-btn stage-btn-2">2</a>
                     <a href="javascript:void(0);" class="stage-btn stage-btn-3">3</a>
                     <a href="javascript:void(0);" class="stage-btn stage-btn-4">4</a>
@@ -1765,6 +1767,9 @@ date_default_timezone_set('Asia/Hong_Kong');
 
                         $('.stage-btn-1').click(function() {
                             scene1();
+                        })
+                        $('.stage-btn-1_5').click(function() {
+                            scene1_5();
                         })
 
                         $('.stage-btn-2').click(function() {
