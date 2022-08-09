@@ -196,6 +196,15 @@
 
                         <!--scene-1 end-->
 
+                        <!--scene-1_5 start-->
+                        <div class="scene-div scene-div-1_5">
+
+                        </div>
+
+                        <!--scene-1_5 end-->
+
+
+
                         <!--scene-2 start-->
 
                         <div class="scene-div scene-div-2">
@@ -218,9 +227,7 @@
 
                             <div class="scene-2-screen scene-2-screen-2">
                                 <div class="screen-2-bg"></div>
-                                <!-- <div class="screen-"></div> -->
                             </div>
-                            <!--  -->
                             <!-- <div class="scene-2-screen scene-2-screen-2">
 
                                 <div class="scene-2-screen-2-slide">
@@ -1362,9 +1369,7 @@ date_default_timezone_set('Asia/Hong_Kong');
                                     // $('.musemum-card,.scene-1-txt-1,.scene-1-txt-2').fadeOut(
                                     //     200);
 
-                                    scene2() {
-
-                                    }
+                                    scene1_5();
 
                                 }, 15000);
 
@@ -1378,91 +1383,109 @@ date_default_timezone_set('Asia/Hong_Kong');
 
                         }
 
-                        function scene2() {
+                        //scene1_5
+
+                        function scene1_5() {
+
+
+                            $('.scene-div.scene-div-1_5').fadeIn(0);
+
+                            console.log('scene1_5');
+
+                            $('.scene-div-1_5').animate({
+                                'left': '0px'
+                            }, 1000, function() {
+                                // $('.iphone-div').removeClass('rotate1');
+                                // $('.iphone-div').removeClass('rotate2');
+                            });
+
+                            // $('.scene-div-2').css({
+                            //     'left': '-5760px'
+                            // })
 
                         }
+
                         //scene2
+                        function scene2() {
+                            $('.scene-div.scene-div-2').fadeIn(0);
 
-                        // function scene2() {
-                        //     $('.scene-div.scene-div-2').fadeIn(0);
+                            console.log('scene2');
 
-                        //     console.log('scene2');
-
-                        //     $('.scene-div-2').css({
-                        //         'left': '-5760px'
-                        //     })
-
-
-                        //     $('.scene-div-2').animate({
-                        //         'left': '0px'
-                        //     }, 1000, function() {
-                        //         $('.iphone-div').removeClass('rotate1');
-                        //         $('.iphone-div').removeClass('rotate2');
+                            $('.scene-div-2').css({
+                                'left': '-5760px'
+                            })
 
 
-                        //     });
-
-                        //     $('.scene-2-screen-2-slide').fadeOut(0);
-                        //     $('.scene-2-screen-2-slide').eq(0).fadeIn(0);
-
-                        //     $('.scene-2-screen-3-slide').fadeOut(0);
-                        //     $('.scene-2-screen-3-slide').eq(0).fadeIn(0);
-
-                        //     var scene_2_screen_2_slide_idx = 0;
-                        //     var scene_2_screen_3_slide_idx = 0;
-
-                        //     var scene_2_screen_2_slide_num = $('.scene-2-screen-2-slide').length;
-                        //     var scene_2_screen_3_slide_num = $('.scene-2-screen-3-slide').length;
-
-                        //     var interval = setInterval(() => {
-
-                        //         // console.log(sec);
-                        //         if (scene_2_screen_2_slide_num > 1) {
-                        //             $('.scene-2-screen-2-slide').eq(scene_2_screen_2_slide_idx)
-                        //                 .fadeOut(
-                        //                     500);
-                        //             if (scene_2_screen_2_slide_idx + 1 >
-                        //                 scene_2_screen_2_slide_num -
-                        //                 1) {
-                        //                 scene_2_screen_2_slide_idx = 0;
-                        //             } else {
-                        //                 scene_2_screen_2_slide_idx++;
-                        //             }
-                        //             $('.scene-2-screen-2-slide').eq(scene_2_screen_2_slide_idx)
-                        //                 .fadeIn(
-                        //                     500);
-                        //         }
-                        //         if (scene_2_screen_3_slide_num > 1) {
-
-                        //             $('.scene-2-screen-3-slide').eq(scene_2_screen_3_slide_idx)
-                        //                 .fadeOut(
-                        //                     500);
-                        //             if (scene_2_screen_3_slide_idx + 1 >
-                        //                 scene_2_screen_3_slide_num -
-                        //                 1) {
-                        //                 scene_2_screen_3_slide_idx = 0;
-                        //             } else {
-                        //                 scene_2_screen_3_slide_idx++;
-                        //             }
-                        //             $('.scene-2-screen-3-slide').eq(scene_2_screen_3_slide_idx)
-                        //                 .fadeIn(
-                        //                     500);
-                        //         }
+                            $('.scene-div-2').animate({
+                                'left': '0px'
+                            }, 1000, function() {
+                                $('.iphone-div').removeClass('rotate1');
+                                $('.iphone-div').removeClass('rotate2');
 
 
-                        //     }, 10000);
+                            });
 
-                        //     setTimeout(() => {
-                        //         clearInterval(interval);
-                        //         scene3();
+                            $('.scene-2-screen-2-slide').fadeOut(0);
+                            $('.scene-2-screen-2-slide').eq(0).fadeIn(0);
 
-                        //     }, 40000);
+                            $('.scene-2-screen-3-slide').fadeOut(0);
+                            $('.scene-2-screen-3-slide').eq(0).fadeIn(0);
 
+                            var scene_2_screen_2_slide_idx = 0;
+                            var scene_2_screen_3_slide_idx = 0;
+
+                            var scene_2_screen_2_slide_num = $('.scene-2-screen-2-slide').length;
+                            var scene_2_screen_3_slide_num = $('.scene-2-screen-3-slide').length;
+
+                            var interval = setInterval(() => {
+
+                                // console.log(sec);
+                                if (scene_2_screen_2_slide_num > 1) {
+                                    $('.scene-2-screen-2-slide').eq(scene_2_screen_2_slide_idx)
+                                        .fadeOut(
+                                            500);
+                                    if (scene_2_screen_2_slide_idx + 1 >
+                                        scene_2_screen_2_slide_num -
+                                        1) {
+                                        scene_2_screen_2_slide_idx = 0;
+                                    } else {
+                                        scene_2_screen_2_slide_idx++;
+                                    }
+                                    $('.scene-2-screen-2-slide').eq(scene_2_screen_2_slide_idx)
+                                        .fadeIn(
+                                            500);
+                                }
+                                if (scene_2_screen_3_slide_num > 1) {
+
+                                    $('.scene-2-screen-3-slide').eq(scene_2_screen_3_slide_idx)
+                                        .fadeOut(
+                                            500);
+                                    if (scene_2_screen_3_slide_idx + 1 >
+                                        scene_2_screen_3_slide_num -
+                                        1) {
+                                        scene_2_screen_3_slide_idx = 0;
+                                    } else {
+                                        scene_2_screen_3_slide_idx++;
+                                    }
+                                    $('.scene-2-screen-3-slide').eq(scene_2_screen_3_slide_idx)
+                                        .fadeIn(
+                                            500);
+                                }
+
+
+                            }, 10000);
+
+                            setTimeout(() => {
+                                clearInterval(interval);
+                                scene3();
+
+                            }, 40000);
 
 
 
 
-                        // }
+
+                        }
 
                         function scene3() {
                             $('.scene-div.scene-div-3').fadeIn(0);
