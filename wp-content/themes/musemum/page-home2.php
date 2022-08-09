@@ -215,7 +215,14 @@
                                 <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/inside-1.jpg" alt="">
 
                             </div>
+
                             <div class="scene-2-screen scene-2-screen-2">
+
+                                <div class="screen-2-bg"></div>
+                                <!-- <div class="screen-"></div> -->
+                            </div>
+
+                            <!-- <div class="scene-2-screen scene-2-screen-2">
 
                                 <div class="scene-2-screen-2-slide">
                                     <div class="event-div one-col-width">
@@ -320,7 +327,7 @@
                                     </div>
                                 </div>
 
-                            </div>
+                            </div> -->
                             <div class="scene-2-screen scene-2-screen-3">
 
 
@@ -371,52 +378,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <!-- <div class="scene-2-screen-3-slide">
-                <div class="event-div one-col-width">
-                    <div class="event-title-div" style="background:#5ea6a6;">
-                        <div>
-                            <span style="font-size: 90px;">公眾活動test
-                            </span> <br>
-                            <span style="font-size: 70px;">Public Activity
-                            </span>
-                        </div>
-                    </div>
 
-
-
-
-                    <div class="event-content-div" style="background:#dfdfdf">
-                        <div> <span style="font-size: 55px;">軍事防衛的鯉魚門test</span><br> <span
-                                style="font-size: 45px;">Liyumen
-                                for
-                                military defense<br>2022.11.23</span>
-                            <br><br><br> <span style="font-size: 70px;">15 :00</span><span
-                                style="font-size:35px;margin-left:5px;">PM</span>
-                            <span
-                                style="font-size: 50px; margin: 0 10px 0 10px; position: relative; top: -10px;">-</span>
-                            <span style="font-size:70px;">16:30</span> <span
-                                style="font-size:35px;margin-left:5px;">PM</span> </span>
-                        </div>
-                    </div>
-                </div>
-                <div class="event-div one-col-width">
-                    <div class="event-title-div" style="background:#5ea6a6;">
-
-                    </div>
-                    <div class="event-content-div" style="background:#c8d4d4">
-                        <div> <span style="font-size: 55px;">香港軍事遺蹟考察test
-                            </span><br> <span style="font-size: 45px;">Hong Kong military relics investigation
-                                <br>2022.11.20</span>
-                            <br><br><br> <span style="font-size: 70px;">15 :00</span><span
-                                style="font-size:35px;margin-left:5px;">PM</span>
-                            <span
-                                style="font-size: 50px; margin: 0 10px 0 10px; position: relative; top: -10px;">-</span>
-                            <span style="font-size:70px;">16:30</span> <span
-                                style="font-size:35px;margin-left:5px;">PM</span> </span>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
 
 
 
@@ -509,7 +471,8 @@
                                         <br><br>
 
                                         <span class="roboto" style="font-size: 30px;"> The Defence of Hong Kong -
-                                            Collected Essays on the Hong Kong-Kowloon Brigade of the East River Column
+                                            Collected Essays on the Hong Kong-Kowloon Brigade of the East River
+                                            Column
                                         </span>
 
                                         <br><br>
@@ -565,7 +528,8 @@
 
 
 
-                                        <span class="roboto" style="font-size: 30px;"> Modern Chinese Coastal Defense -
+                                        <span class="roboto" style="font-size: 30px;"> Modern Chinese Coastal
+                                            Defense -
                                             military and
                                             economics
 
@@ -612,7 +576,8 @@
                                 <div class="scene-4-screen-1-txt"> <span style="font-size: 70px;">現在</span><span
                                         style="font-size: 100px;margin-left: 12px;">天氣</span> <br> <span class="roboto"
                                         style="font-size:50px;margin-left: 200px;">Current</span><span class="roboto"
-                                        style="font-size: 60px;margin-left: 10px;">Weather</span> </div>
+                                        style="font-size: 60px;margin-left: 10px;">Weather</span>
+                                </div>
 
                             </div>
                             <div class="scene-4-screen scene-4-screen-2">
@@ -929,7 +894,8 @@
                                 <div class="scene-5-screen-3-txt"> <span style="font-size: 84px;">博物館</span> <span
                                         style="font-size: 150px;margin-left: 19px;">餐廳</span> <br> <span class="roboto"
                                         style="font-size: 92px;margin-left: 308px;">Museum</span><span class="roboto"
-                                        style="font-size: 128px;margin-left: 15px;">Cafe</span> </div>
+                                        style="font-size: 128px;margin-left: 15px;">Cafe</span>
+                                </div>
                             </div>
 
                         </div>
@@ -962,11 +928,13 @@
                                         <li>我們為所有進入博物館的人士及工作人員量度體溫，多謝合作</li>
                                         <li>Help prevent the Novel Coronavirus from spreading in the community</li>
                                         <li>Our museum implements the following precaution measures</li>
-                                        <li>It is essential for visitor to wear masks upon entry the museum to safeguard
+                                        <li>It is essential for visitor to wear masks upon entry the museum to
+                                            safeguard
                                             the health of
                                             visitors
                                             and staff members</li>
-                                        <li>We arrange temperature check for all visitors and staff who enter the museum
+                                        <li>We arrange temperature check for all visitors and staff who enter the
+                                            museum
                                             Thank you for your cooperation</li>
                                     </ul>
                                 </div>
@@ -978,8 +946,9 @@
 
                                 <div class="scene-6-screen-3-txt"> <span style="font-size: 70px;">防疫</span><span
                                         style="font-size: 130px;margin-left: 20px;">資訊</span> <br> <span class="roboto"
-                                        style="font-size: 60px;margin-left: 74px;">Epidemic Prevention</span> <span
-                                        style="font-size: 80px;margin-left: 20px;" class="roboto">Information</span>
+                                        style="font-size: 60px;margin-left: 74px;">Epidemic
+                                        Prevention</span> <span style="font-size: 80px;margin-left: 20px;"
+                                        class="roboto">Information</span>
                                 </div>
                             </div>
                         </div>
@@ -1029,7 +998,8 @@ date_default_timezone_set('Asia/Hong_Kong');
                                         "THURSDAY", "FRIDAY",
                                         "SATURDAY"
                                     ];
-                                    const weekday_chi = ["星期日", "星期一", "星期二", "星期三", "星期四", "星期五",
+                                    const weekday_chi = ["星期日", "星期一", "星期二", "星期三", "星期四",
+                                        "星期五",
                                         "星期六"
                                     ];
                                     const weekday_display = ["日 SUN", "一 MON", "二 TUE", "三 WED",
@@ -1065,8 +1035,9 @@ date_default_timezone_set('Asia/Hong_Kong');
 
                                     // console.log(display_day_chi_order);
                                     for (i = 0; i < display_day_num_order.length; i++) {
-                                        $('.weekday-title-div').eq(i).html(display_day_chi_order[
-                                            i]);
+                                        $('.weekday-title-div').eq(i).html(
+                                            display_day_chi_order[
+                                                i]);
                                     }
 
                                     $('.weekday-txt').html('<span>' + day_chi +
@@ -1111,10 +1082,11 @@ date_default_timezone_set('Asia/Hong_Kong');
 
                                     $('.weekday-div').eq(0).find('.degree').html(
                                         current_temperature);
-                                    $('.weekday-div').eq(0).find('.weekday-weather-icon img').attr(
-                                        'src', site_url +
-                                        '/weather-icon/pic' +
-                                        today_weather_icon_idx + '.png');
+                                    $('.weekday-div').eq(0).find('.weekday-weather-icon img')
+                                        .attr(
+                                            'src', site_url +
+                                            '/weather-icon/pic' +
+                                            today_weather_icon_idx + '.png');
                                 })
 
 
@@ -1128,16 +1100,18 @@ date_default_timezone_set('Asia/Hong_Kong');
                                     for (i = 0; i < 7; i++) {
 
                                         var degree = Math.floor((result.weatherForecast[i]
-                                            .forecastMaxtemp.value +
-                                            result
-                                            .weatherForecast[i].forecastMintemp.value) / 2);
+                                                .forecastMaxtemp.value +
+                                                result
+                                                .weatherForecast[i].forecastMintemp.value) /
+                                            2);
 
                                         var weather_icon_idx = result.weatherForecast[i]
                                             .ForecastIcon;
                                         // 
 
                                         // console.log(degree);
-                                        $('.weekday-div').eq(i + 1).find('.degree').html(degree);
+                                        $('.weekday-div').eq(i + 1).find('.degree').html(
+                                            degree);
                                         $('.weekday-div').eq(i + 1).find(
                                             '.weekday-weather-icon img').attr('src',
                                             site_url +
@@ -1389,6 +1363,9 @@ date_default_timezone_set('Asia/Hong_Kong');
                                     // $('.musemum-card,.scene-1-txt-1,.scene-1-txt-2').fadeOut(
                                     //     200);
 
+                                    scene2() {
+
+                                    }
 
                                 }, 15000);
 
@@ -1401,88 +1378,92 @@ date_default_timezone_set('Asia/Hong_Kong');
 
 
                         }
-                        //scene2
 
                         function scene2() {
-                            $('.scene-div.scene-div-2').fadeIn(0);
-
-                            console.log('scene2');
-
-                            $('.scene-div-2').css({
-                                'left': '-5760px'
-                            })
-
-
-                            $('.scene-div-2').animate({
-                                'left': '0px'
-                            }, 1000, function() {
-                                $('.iphone-div').removeClass('rotate1');
-                                $('.iphone-div').removeClass('rotate2');
-
-
-                            });
-
-                            $('.scene-2-screen-2-slide').fadeOut(0);
-                            $('.scene-2-screen-2-slide').eq(0).fadeIn(0);
-
-                            $('.scene-2-screen-3-slide').fadeOut(0);
-                            $('.scene-2-screen-3-slide').eq(0).fadeIn(0);
-
-                            var scene_2_screen_2_slide_idx = 0;
-                            var scene_2_screen_3_slide_idx = 0;
-
-                            var scene_2_screen_2_slide_num = $('.scene-2-screen-2-slide').length;
-                            var scene_2_screen_3_slide_num = $('.scene-2-screen-3-slide').length;
-
-                            var interval = setInterval(() => {
-
-                                // console.log(sec);
-                                if (scene_2_screen_2_slide_num > 1) {
-                                    $('.scene-2-screen-2-slide').eq(scene_2_screen_2_slide_idx)
-                                        .fadeOut(
-                                            500);
-                                    if (scene_2_screen_2_slide_idx + 1 >
-                                        scene_2_screen_2_slide_num -
-                                        1) {
-                                        scene_2_screen_2_slide_idx = 0;
-                                    } else {
-                                        scene_2_screen_2_slide_idx++;
-                                    }
-                                    $('.scene-2-screen-2-slide').eq(scene_2_screen_2_slide_idx)
-                                        .fadeIn(
-                                            500);
-                                }
-                                if (scene_2_screen_3_slide_num > 1) {
-
-                                    $('.scene-2-screen-3-slide').eq(scene_2_screen_3_slide_idx)
-                                        .fadeOut(
-                                            500);
-                                    if (scene_2_screen_3_slide_idx + 1 >
-                                        scene_2_screen_3_slide_num -
-                                        1) {
-                                        scene_2_screen_3_slide_idx = 0;
-                                    } else {
-                                        scene_2_screen_3_slide_idx++;
-                                    }
-                                    $('.scene-2-screen-3-slide').eq(scene_2_screen_3_slide_idx)
-                                        .fadeIn(
-                                            500);
-                                }
-
-
-                            }, 10000);
-
-                            setTimeout(() => {
-                                clearInterval(interval);
-                                scene3();
-
-                            }, 40000);
-
-
-
-
 
                         }
+                        //scene2
+
+                        // function scene2() {
+                        //     $('.scene-div.scene-div-2').fadeIn(0);
+
+                        //     console.log('scene2');
+
+                        //     $('.scene-div-2').css({
+                        //         'left': '-5760px'
+                        //     })
+
+
+                        //     $('.scene-div-2').animate({
+                        //         'left': '0px'
+                        //     }, 1000, function() {
+                        //         $('.iphone-div').removeClass('rotate1');
+                        //         $('.iphone-div').removeClass('rotate2');
+
+
+                        //     });
+
+                        //     $('.scene-2-screen-2-slide').fadeOut(0);
+                        //     $('.scene-2-screen-2-slide').eq(0).fadeIn(0);
+
+                        //     $('.scene-2-screen-3-slide').fadeOut(0);
+                        //     $('.scene-2-screen-3-slide').eq(0).fadeIn(0);
+
+                        //     var scene_2_screen_2_slide_idx = 0;
+                        //     var scene_2_screen_3_slide_idx = 0;
+
+                        //     var scene_2_screen_2_slide_num = $('.scene-2-screen-2-slide').length;
+                        //     var scene_2_screen_3_slide_num = $('.scene-2-screen-3-slide').length;
+
+                        //     var interval = setInterval(() => {
+
+                        //         // console.log(sec);
+                        //         if (scene_2_screen_2_slide_num > 1) {
+                        //             $('.scene-2-screen-2-slide').eq(scene_2_screen_2_slide_idx)
+                        //                 .fadeOut(
+                        //                     500);
+                        //             if (scene_2_screen_2_slide_idx + 1 >
+                        //                 scene_2_screen_2_slide_num -
+                        //                 1) {
+                        //                 scene_2_screen_2_slide_idx = 0;
+                        //             } else {
+                        //                 scene_2_screen_2_slide_idx++;
+                        //             }
+                        //             $('.scene-2-screen-2-slide').eq(scene_2_screen_2_slide_idx)
+                        //                 .fadeIn(
+                        //                     500);
+                        //         }
+                        //         if (scene_2_screen_3_slide_num > 1) {
+
+                        //             $('.scene-2-screen-3-slide').eq(scene_2_screen_3_slide_idx)
+                        //                 .fadeOut(
+                        //                     500);
+                        //             if (scene_2_screen_3_slide_idx + 1 >
+                        //                 scene_2_screen_3_slide_num -
+                        //                 1) {
+                        //                 scene_2_screen_3_slide_idx = 0;
+                        //             } else {
+                        //                 scene_2_screen_3_slide_idx++;
+                        //             }
+                        //             $('.scene-2-screen-3-slide').eq(scene_2_screen_3_slide_idx)
+                        //                 .fadeIn(
+                        //                     500);
+                        //         }
+
+
+                        //     }, 10000);
+
+                        //     setTimeout(() => {
+                        //         clearInterval(interval);
+                        //         scene3();
+
+                        //     }, 40000);
+
+
+
+
+
+                        // }
 
                         function scene3() {
                             $('.scene-div.scene-div-3').fadeIn(0);

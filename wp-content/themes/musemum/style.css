@@ -1106,3 +1106,12 @@ body {
     height: 255px;
     display: none;
 }
+
+.scene-2-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #dfdfdf;
+    width: 5760px;
+    height: 1080px;
+}
