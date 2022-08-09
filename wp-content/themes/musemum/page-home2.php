@@ -1394,12 +1394,6 @@ date_default_timezone_set('Asia/Hong_Kong');
 
                             console.log('scene1_5');
 
-                            $('.scene-div-1').animate({
-                                'left': '-5760px'
-                            }, 1000, function() {
-                                // $('.iphone-div').removeClass('rotate1');
-                                // $('.iphone-div').removeClass('rotate2');
-                            });
 
                             $('.scene-div-1_5').animate({
                                 'left': '0px'
