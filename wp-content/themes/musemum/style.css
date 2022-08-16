@@ -1142,3 +1142,13 @@ body {
     top: -1080px;
     left: 70px;
 }
+
+.im-guide-icon-1-5 {
+    height: 246px;
+    position: absolute;
+}
+
+.qr-code-icon-1-5 {
+    height: 336px;
+    position: absolute;
+}
