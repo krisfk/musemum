@@ -1405,7 +1405,7 @@ date_default_timezone_set('Asia/Hong_Kong');
                             }, 1000, function() {
 
                                 $('.hc-img-1-5').animate({
-                                    'top': '0px'
+                                    'top': '500px'
                                 }, 1000);
 
                                 $('.d-img-1-5').animate({
