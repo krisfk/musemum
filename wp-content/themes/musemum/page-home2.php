@@ -1489,6 +1489,10 @@ date_default_timezone_set('Asia/Hong_Kong');
                                     $('.iphone-div').addClass(
                                         'rotate1');
 
+
+                                    $('.iphone-video').trigger('play');
+
+
                                     $('.iphone-div .iphone-video')
                                         .unbind(
                                             'ended')
