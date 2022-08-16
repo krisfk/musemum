@@ -1458,12 +1458,12 @@ date_default_timezone_set('Asia/Hong_Kong');
 
                             $('.bg-behind-phone').animate({
                                 'left': '2235px'
-                            }, 1500);
+                            }, 2000);
 
                             setTimeout(() => {
                                 $('.tag-1-5').fadeIn(500);
 
-                            }, 1500);
+                            }, 2000);
 
 
 
