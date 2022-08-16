@@ -1414,7 +1414,7 @@ date_default_timezone_set('Asia/Hong_Kong');
                                     // $('.musemum-card,.scene-1-txt-1,.scene-1-txt-2').fadeOut(
                                     //     200);
 
-                                    scene1_5();
+                                    // scene1_5();
 
                                 }, 15000);
 
