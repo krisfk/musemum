@@ -273,10 +273,10 @@
 
                             </div>
 
-                            <div class="scene-2-screen scene-2-screen-2">
-                                <div class="screen-2-bg"></div>
-                            </div>
                             <!-- <div class="scene-2-screen scene-2-screen-2">
+                                <div class="screen-2-bg"></div>
+                            </div> -->
+                            <div class="scene-2-screen scene-2-screen-2">
 
                                 <div class="scene-2-screen-2-slide">
                                     <div class="event-div one-col-width">
@@ -381,7 +381,7 @@
                                     </div>
                                 </div>
 
-                            </div> -->
+                            </div>
                             <div class="scene-2-screen scene-2-screen-3">
 
 
