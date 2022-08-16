@@ -201,6 +201,9 @@
 
 
 
+                            <img class="tag-1-5" src="http://64.227.13.14/musemum/wp-content/uploads/2022/08/tag.png"
+                                alt="">
+
                             <img class="bg-behind-phone bg-behind-phone-2"
                                 src="http://64.227.13.14/musemum/wp-content/uploads/2022/08/bg-behind-phone-2.jpg"
                                 alt="">
