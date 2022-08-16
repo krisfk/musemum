@@ -204,14 +204,12 @@
 
 
                             <img class="bg-behind-phone bg-behind-phone-1"
-                                src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/bg-behind-phone-1-scaled.jpg"
+                                src="http://64.227.13.14/musemum/wp-content/uploads/2022/08/bg-behind-phone-1.jpg"
                                 alt="">
 
                             <img class="bg-behind-phone bg-behind-phone-2"
-                                src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/bg-2.jpg" alt="">
-
-                            <img class="bg-behind-phone bg-behind-phone-3"
-                                src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/bg-3.jpg" alt="">
+                                src="http://64.227.13.14/musemum/wp-content/uploads/2022/08/bg-behind-phone-2.jpg"
+                                alt="">
                         </div>
 
                         <!--scene-1_5 end-->
