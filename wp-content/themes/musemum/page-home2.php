@@ -1497,8 +1497,8 @@ date_default_timezone_set('Asia/Hong_Kong');
 
                                     $('.iphone-div').fadeIn(0);
 
-                                    $('.iphone-div').addClass(
-                                        'rotate1');
+                                    // $('.iphone-div').addClass(
+                                    //     'rotate1');
 
 
                                     $('.iphone-video').trigger('play');
