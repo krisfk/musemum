@@ -1141,6 +1141,7 @@ body {
     position: relative;
     top: -1080px;
     left: 70px;
+    z-index: 100;
 }
 
 .im-guide-icon-1-5 {
