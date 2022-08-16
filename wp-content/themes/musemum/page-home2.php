@@ -146,10 +146,72 @@
 
 
 
+                            <!-- <div class="iphone-div">
+
+                                <video class="iphone-video" controls>
+                                    <source
+                                        src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/Checkpoint11_UI_crop.mov"
+                                        type="video/mp4">
+                                </video>
+
+                                <img class="iphone-img"
+                                    src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/iphone.png" alt="">
+                            </div>
+
+                            <div class="ar-videos-div">
+
+                                <video class="ar-video ar-video-1" controls>
+                                    <source
+                                        src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/5_Animation_13_FinalRender-1.mp4"
+                                        type="video/mp4">
+                                </video>
+
+                                <video class="ar-video ar-video-2" controls>
+                                    <source
+                                        src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/video_preview_h264.mp4"
+                                        type="video/mp4">
+                                </video>
+
+                                <video class="ar-video ar-video-3" controls>
+                                    <source
+                                        src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/video_preview_h264-1.mp4"
+                                        type="video/mp4">
+                                </video>
+
+
+
+                            </div> -->
+
+                        </div>
+
+                        <!--scene-1 end-->
+
+                        <!--scene-1_5 start-->
+                        <div class="scene-div scene-div-1_5">
+
+
+                            <img class="im-guide-icon-1-5"
+                                src="http://64.227.13.14/musemum/wp-content/uploads/2022/08/Asset-4@2x.png" alt="">
+                            <img class="qr-code-icon-1-5"
+                                src="http://64.227.13.14/musemum/wp-content/uploads/2022/08/Asset-3@2x.png" alt="">
+                            <img class="hc-img-1-5"
+                                src="http://64.227.13.14/musemum/wp-content/uploads/2022/08/Asset-1@2x-1.png" alt="">
+                            <img class="d-img-1-5" src="http://64.227.13.14/musemum/wp-content/uploads/2022/08/D.png"
+                                alt="">
+
+
+
+                            <img class="bg-behind-phone bg-behind-phone-1"
+                                src="http://64.227.13.14/musemum/wp-content/uploads/2022/08/bg-behind-phone-2.jpg"
+                                alt="">
+
+                            <img class="bg-behind-phone bg-behind-phone-2"
+                                src="http://64.227.13.14/musemum/wp-content/uploads/2022/08/bg-behind-phone-1.jpg"
+                                alt="">
+
+
                             <div class="iphone-div">
-                                <!-- <video class="iphone-video" autoplay muted>
-                <source src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/AR_UI.mp4" type="video/mp4">
-            </video> -->
+
                                 <video class="iphone-video" controls>
                                     <source
                                         src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/Checkpoint11_UI_crop.mov"
@@ -184,32 +246,6 @@
 
                             </div>
 
-                        </div>
-
-                        <!--scene-1 end-->
-
-                        <!--scene-1_5 start-->
-                        <div class="scene-div scene-div-1_5">
-
-
-                            <img class="im-guide-icon-1-5"
-                                src="http://64.227.13.14/musemum/wp-content/uploads/2022/08/Asset-4@2x.png" alt="">
-                            <img class="qr-code-icon-1-5"
-                                src="http://64.227.13.14/musemum/wp-content/uploads/2022/08/Asset-3@2x.png" alt="">
-                            <img class="hc-img-1-5"
-                                src="http://64.227.13.14/musemum/wp-content/uploads/2022/08/Asset-1@2x-1.png" alt="">
-                            <img class="d-img-1-5" src="http://64.227.13.14/musemum/wp-content/uploads/2022/08/D.png"
-                                alt="">
-
-
-
-                            <img class="bg-behind-phone bg-behind-phone-1"
-                                src="http://64.227.13.14/musemum/wp-content/uploads/2022/08/bg-behind-phone-2.jpg"
-                                alt="">
-
-                            <img class="bg-behind-phone bg-behind-phone-2"
-                                src="http://64.227.13.14/musemum/wp-content/uploads/2022/08/bg-behind-phone-1.jpg"
-                                alt="">
                         </div>
 
                         <!--scene-1_5 end-->
@@ -1252,125 +1288,125 @@ date_default_timezone_set('Asia/Hong_Kong');
                                     //     $('.iphone-video').trigger('play');
 
 
-                                    //     $('.app-icon').animate({
-                                    //         'left': '2172px'
-                                    //     }, 500, function() {
+                                    // $('.app-icon').animate({
+                                    //     'left': '2172px'
+                                    // }, 500, function() {
 
 
-                                    //         $('.iphone-div').fadeIn(0);
+                                    //     $('.iphone-div').fadeIn(0);
 
-                                    //         $('.iphone-div').addClass(
-                                    //         'rotate1');
+                                    //     $('.iphone-div').addClass(
+                                    //     'rotate1');
 
-                                    //         $('.iphone-div .iphone-video')
-                                    //             .unbind(
-                                    //                 'ended')
-                                    //             .on('ended',
-                                    //                 function() {
+                                    //     $('.iphone-div .iphone-video')
+                                    //         .unbind(
+                                    //             'ended')
+                                    //         .on('ended',
+                                    //             function() {
 
-                                    //                     if (first) {
-                                    //                         console.log(
-                                    //                         'first');
-                                    //                         first = false;
-                                    //                         $('.iphone-div')
-                                    //                             .removeClass(
-                                    //                                 'rotate1');
-                                    //                         $('.iphone-div')
-                                    //                             .addClass(
-                                    //                                 'rotate2');
-                                    //                         $('.ar-videos-div')
-                                    //                             .delay(
-                                    //                                 500)
-                                    //                             .fadeIn(0);
-                                    //                         $('.ar-video')
-                                    //                             .fadeOut(0);
-                                    //                         $('.ar-video.ar-video-1')
-                                    //                             .fadeIn(0);
+                                    //                 if (first) {
+                                    //                     console.log(
+                                    //                     'first');
+                                    //                     first = false;
+                                    //                     $('.iphone-div')
+                                    //                         .removeClass(
+                                    //                             'rotate1');
+                                    //                     $('.iphone-div')
+                                    //                         .addClass(
+                                    //                             'rotate2');
+                                    //                     $('.ar-videos-div')
+                                    //                         .delay(
+                                    //                             500)
+                                    //                         .fadeIn(0);
+                                    //                     $('.ar-video')
+                                    //                         .fadeOut(0);
+                                    //                     $('.ar-video.ar-video-1')
+                                    //                         .fadeIn(0);
 
-                                    //                         $('.ar-video-1')
-                                    //                             .trigger(
-                                    //                                 'play');
+                                    //                     $('.ar-video-1')
+                                    //                         .trigger(
+                                    //                             'play');
 
 
 
-                                    //                         v_idx = 1;
-                                    //                         var total_video = $(
-                                    //                                 '.bg-behind-phone'
-                                    //                                 )
-                                    //                             .length;
-                                    //                         // console.log('play video' + v_idx);
-                                    //                         console.log(
-                                    //                             'playing video' +
-                                    //                             v_idx);
-                                    //                         $('.ar-videos-div .ar-video')
-                                    //                             .unbind('ended')
-                                    //                             .on(
-                                    //                                 'ended',
-                                    //                                 function() {
+                                    //                     v_idx = 1;
+                                    //                     var total_video = $(
+                                    //                             '.bg-behind-phone'
+                                    //                             )
+                                    //                         .length;
+                                    //                     // console.log('play video' + v_idx);
+                                    //                     console.log(
+                                    //                         'playing video' +
+                                    //                         v_idx);
+                                    //                     $('.ar-videos-div .ar-video')
+                                    //                         .unbind('ended')
+                                    //                         .on(
+                                    //                             'ended',
+                                    //                             function() {
 
+                                    //                                 console
+                                    //                                     .log(
+                                    //                                         'ended'
+                                    //                                         );
+
+                                    //                                 if (v_idx ==
+                                    //                                     total_video
+                                    //                                 ) {
+
+                                    //                                     scene2
+                                    //                                         ();
+                                    //                                 } else {
+
+
+                                    //                                     $('.ar-video-' +
+                                    //                                             v_idx
+                                    //                                         )
+                                    //                                         .fadeOut(
+                                    //                                             500
+                                    //                                         );
+                                    //                                     $('.bg-behind-phone-' +
+                                    //                                             v_idx
+                                    //                                         )
+                                    //                                         .fadeOut(
+                                    //                                             500
+                                    //                                         );
+                                    //                                     v_idx++;
+                                    //                                     $('.ar-video-' +
+                                    //                                             v_idx
+                                    //                                         )
+                                    //                                         .fadeIn(
+                                    //                                             500
+                                    //                                         );
+                                    //                                     $('.ar-video-' +
+                                    //                                             v_idx
+                                    //                                         )
+                                    //                                         .trigger(
+                                    //                                             'play'
+                                    //                                         );
+                                    //                                     $('.bg-behind-phone-' +
+                                    //                                             v_idx
+                                    //                                         )
+                                    //                                         .fadeIn(
+                                    //                                             500
+                                    //                                         );
                                     //                                     console
                                     //                                         .log(
-                                    //                                             'ended'
-                                    //                                             );
+                                    //                                             'playing video' +
+                                    //                                             v_idx
+                                    //                                         );
 
-                                    //                                     if (v_idx ==
-                                    //                                         total_video
-                                    //                                     ) {
-
-                                    //                                         scene2
-                                    //                                             ();
-                                    //                                     } else {
+                                    //                                 }
 
 
-                                    //                                         $('.ar-video-' +
-                                    //                                                 v_idx
-                                    //                                             )
-                                    //                                             .fadeOut(
-                                    //                                                 500
-                                    //                                             );
-                                    //                                         $('.bg-behind-phone-' +
-                                    //                                                 v_idx
-                                    //                                             )
-                                    //                                             .fadeOut(
-                                    //                                                 500
-                                    //                                             );
-                                    //                                         v_idx++;
-                                    //                                         $('.ar-video-' +
-                                    //                                                 v_idx
-                                    //                                             )
-                                    //                                             .fadeIn(
-                                    //                                                 500
-                                    //                                             );
-                                    //                                         $('.ar-video-' +
-                                    //                                                 v_idx
-                                    //                                             )
-                                    //                                             .trigger(
-                                    //                                                 'play'
-                                    //                                             );
-                                    //                                         $('.bg-behind-phone-' +
-                                    //                                                 v_idx
-                                    //                                             )
-                                    //                                             .fadeIn(
-                                    //                                                 500
-                                    //                                             );
-                                    //                                         console
-                                    //                                             .log(
-                                    //                                                 'playing video' +
-                                    //                                                 v_idx
-                                    //                                             );
-
-                                    //                                     }
+                                    //                             })
+                                    //                 }
 
 
-                                    //                                 })
-                                    //                     }
+                                    //             });
 
 
-                                    //                 });
-
-
-                                    //         // iphone-div
-                                    //     });
+                                    //     // iphone-div
+                                    // });
 
 
                                     // });
@@ -1450,6 +1486,118 @@ date_default_timezone_set('Asia/Hong_Kong');
 
                                 setTimeout(() => {
 
+
+
+                                    $('.iphone-div').fadeIn(0);
+
+                                    $('.iphone-div').addClass(
+                                        'rotate1');
+
+                                    $('.iphone-div .iphone-video')
+                                        .unbind(
+                                            'ended')
+                                        .on('ended',
+                                            function() {
+
+                                                if (first) {
+                                                    console.log(
+                                                        'first');
+                                                    first = false;
+                                                    $('.iphone-div')
+                                                        .removeClass(
+                                                            'rotate1');
+                                                    $('.iphone-div')
+                                                        .addClass(
+                                                            'rotate2');
+                                                    $('.ar-videos-div')
+                                                        .delay(
+                                                            500)
+                                                        .fadeIn(0);
+                                                    $('.ar-video')
+                                                        .fadeOut(0);
+                                                    $('.ar-video.ar-video-1')
+                                                        .fadeIn(0);
+
+                                                    $('.ar-video-1')
+                                                        .trigger(
+                                                            'play');
+
+
+
+                                                    v_idx = 1;
+                                                    var total_video = $(
+                                                            '.bg-behind-phone'
+                                                        )
+                                                        .length;
+                                                    // console.log('play video' + v_idx);
+                                                    console.log(
+                                                        'playing video' +
+                                                        v_idx);
+                                                    $('.ar-videos-div .ar-video')
+                                                        .unbind('ended')
+                                                        .on(
+                                                            'ended',
+                                                            function() {
+
+                                                                console
+                                                                    .log(
+                                                                        'ended'
+                                                                    );
+
+                                                                if (v_idx ==
+                                                                    total_video
+                                                                ) {
+
+                                                                    scene2
+                                                                        ();
+                                                                } else {
+
+
+                                                                    $('.ar-video-' +
+                                                                            v_idx
+                                                                        )
+                                                                        .fadeOut(
+                                                                            500
+                                                                        );
+                                                                    $('.bg-behind-phone-' +
+                                                                            v_idx
+                                                                        )
+                                                                        .fadeOut(
+                                                                            500
+                                                                        );
+                                                                    v_idx++;
+                                                                    $('.ar-video-' +
+                                                                            v_idx
+                                                                        )
+                                                                        .fadeIn(
+                                                                            500
+                                                                        );
+                                                                    $('.ar-video-' +
+                                                                            v_idx
+                                                                        )
+                                                                        .trigger(
+                                                                            'play'
+                                                                        );
+                                                                    $('.bg-behind-phone-' +
+                                                                            v_idx
+                                                                        )
+                                                                        .fadeIn(
+                                                                            500
+                                                                        );
+                                                                    console
+                                                                        .log(
+                                                                            'playing video' +
+                                                                            v_idx
+                                                                        );
+
+                                                                }
+
+
+                                                            })
+                                                }
+
+
+                                            });
 
                                 }, 2000);
 
