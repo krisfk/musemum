@@ -1146,9 +1146,15 @@ body {
 .im-guide-icon-1-5 {
     height: 246px;
     position: absolute;
+    top: 137px;
+    left: 207px;
+    display: none;
 }
 
 .qr-code-icon-1-5 {
     height: 336px;
     position: absolute;
+    top: 630px;
+    left: 155px;
+    display: none;
 }
