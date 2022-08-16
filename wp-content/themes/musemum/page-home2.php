@@ -1406,13 +1406,12 @@ date_default_timezone_set('Asia/Hong_Kong');
                                 'left': '5760px'
                             });
 
-                            $('.hc-img-1-5').css({
+                            $('.hc-img-1-5,.d-img-1-5').css({
                                 'top': '-1080px'
                             });
 
-                            $('.d-img-1-5').css({
-                                'top': '-1080px'
-                            });
+
+                            $('.im-guide-icon-1-5,.qr-code-icon-1-5').fadeOut(0);
 
 
                             console.log('scene1_5');
