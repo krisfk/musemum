@@ -1447,6 +1447,8 @@ date_default_timezone_set('Asia/Hong_Kong');
                                 'top': '-1080px'
                             });
 
+                            $('.iphone-border').fadeOut(0);
+
 
                             $('.im-guide-icon-1-5,.qr-code-icon-1-5').fadeOut(0);
 
