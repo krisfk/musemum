@@ -1171,11 +1171,11 @@ body {
 
 .iphone-border {
     position: absolute;
-    top: -2.5%;
-    left: -2.5%;
-    width: 105%;
-    height: 105%;
+    top: -2.4%;
+    left: -3.5%;
+    width: 108%;
+    height: 104%;
     background: url(http://64.227.13.14/musemum/wp-content/uploads/2022/08/phone-border-1.png);
-    background-size: cover;
+    background-size: 100% 100%;
     z-index: 10000;
 }
