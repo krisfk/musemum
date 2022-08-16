@@ -215,6 +215,8 @@
 
                             <div class="iphone-div">
 
+                                <div class="iphone-border"></div>
+
                                 <video class="iphone-video" controls>
                                     <source
                                         src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/Checkpoint11_UI_crop.mov"
