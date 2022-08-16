@@ -219,7 +219,7 @@
 
                                 <video class="iphone-video" controls>
                                     <source
-                                        src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/Checkpoint11_UI_crop.mov"
+                                        src="http://64.227.13.14/musemum/wp-content/uploads/2022/08/ARCheckpoint1_1Vertical.mp4"
                                         type="video/mp4">
                                 </video>
 
@@ -231,13 +231,13 @@
 
                                 <video class="ar-video ar-video-1" controls>
                                     <source
-                                        src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/5_Animation_13_FinalRender-1.mp4"
+                                        src="http://64.227.13.14/musemum/wp-content/uploads/2022/08/ARCheckpoint1_2Horizontal.mp4"
                                         type="video/mp4">
                                 </video>
 
                                 <video class="ar-video ar-video-2" controls>
                                     <source
-                                        src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/video_preview_h264.mp4"
+                                        src="http://64.227.13.14/musemum/wp-content/uploads/2022/08/ARCheckpoint2_2Vectical.mp4"
                                         type="video/mp4">
                                 </video>
 
