@@ -1405,14 +1405,14 @@ date_default_timezone_set('Asia/Hong_Kong');
 
                             console.log('scene1_5');
 
-                            $('.bg-behind-phone').fadeOut(0);
+                            $('.bg-behind-phone').fadeIn(0);
                             $('.bg-behind-phone').css({
                                 'left': '5760px'
                             })
 
                             $('.bg-behind-phone').animate({
                                 'left': '2235px'
-                            }, 1000)
+                            }, 2000)
 
 
                             $('.scene-div-1_5').animate({
