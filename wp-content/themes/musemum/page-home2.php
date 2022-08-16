@@ -1404,6 +1404,13 @@ date_default_timezone_set('Asia/Hong_Kong');
                                 'left': '0px'
                             }, 1000, function() {
 
+                                $('.hc-img-1-5').animate({
+                                    'top': '0px'
+                                }, 1000);
+
+                                $('.d-img-1-5').animate({
+                                    'top': '0px'
+                                }, 1000);
 
                                 // $('.iphone-div').removeClass('rotate1');
                                 // $('.iphone-div').removeClass('rotate2');
