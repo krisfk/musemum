@@ -199,6 +199,11 @@
                         <!--scene-1_5 start-->
                         <div class="scene-div scene-div-1_5">
 
+
+                            <img class="hc-img-1-5"
+                                src="http://64.227.13.14/musemum/wp-content/uploads/2022/08/Asset-2@2x.png" alt="">
+                            <img class="d-img-1-5"
+                                src="http://64.227.13.14/musemum/wp-content/uploads/2022/08/Asset-1@2x.png" alt="">
                         </div>
 
                         <!--scene-1_5 end-->
@@ -1398,6 +1403,8 @@ date_default_timezone_set('Asia/Hong_Kong');
                             $('.scene-div-1_5').animate({
                                 'left': '0px'
                             }, 1000, function() {
+
+
                                 // $('.iphone-div').removeClass('rotate1');
                                 // $('.iphone-div').removeClass('rotate2');
                             });
