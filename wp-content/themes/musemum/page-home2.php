@@ -144,15 +144,7 @@
                                     trip</span>
                             </div>
 
-                            <img class="bg-behind-phone bg-behind-phone-1"
-                                src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/bg-behind-phone-1-scaled.jpg"
-                                alt="">
 
-                            <img class="bg-behind-phone bg-behind-phone-2"
-                                src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/bg-2.jpg" alt="">
-
-                            <img class="bg-behind-phone bg-behind-phone-3"
-                                src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/bg-3.jpg" alt="">
 
                             <div class="iphone-div">
                                 <!-- <video class="iphone-video" autoplay muted>
@@ -208,6 +200,18 @@
                                 src="http://64.227.13.14/musemum/wp-content/uploads/2022/08/Asset-1@2x-1.png" alt="">
                             <img class="d-img-1-5"
                                 src="http://64.227.13.14/musemum/wp-content/uploads/2022/08/Asset-1@2x.png" alt="">
+
+
+
+                            <img class="bg-behind-phone bg-behind-phone-1"
+                                src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/bg-behind-phone-1-scaled.jpg"
+                                alt="">
+
+                            <img class="bg-behind-phone bg-behind-phone-2"
+                                src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/bg-2.jpg" alt="">
+
+                            <img class="bg-behind-phone bg-behind-phone-3"
+                                src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/bg-3.jpg" alt="">
                         </div>
 
                         <!--scene-1_5 end-->
@@ -1417,11 +1421,19 @@ date_default_timezone_set('Asia/Hong_Kong');
                                 }, 1000);
 
 
+
+
                                 setTimeout(() => {
 
                                     $('.im-guide-icon-1-5').fadeIn(500)
                                     $('.qr-code-icon-1-5').fadeIn(500)
                                 }, 800);
+
+
+                                setTimeout(() => {
+
+
+                                }, 2000);
 
                                 // $('.iphone-div').removeClass('rotate1');
                                 // $('.iphone-div').removeClass('rotate2');
