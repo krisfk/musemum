@@ -1458,7 +1458,7 @@ date_default_timezone_set('Asia/Hong_Kong');
 
                             $('.bg-behind-phone').animate({
                                 'left': '2235px'
-                            }, 2000);
+                            }, 1000);
 
                             setTimeout(() => {
                                 $('.tag-1-5').fadeIn(500);
