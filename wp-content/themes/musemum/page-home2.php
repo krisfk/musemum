@@ -1460,8 +1460,12 @@ date_default_timezone_set('Asia/Hong_Kong');
                                 'left': '2235px'
                             }, 2000);
 
+                            setTimeout(() => {
+                                $('.tag-1-5').fadeIn(500);
 
-                            $('.tag-1-5').fadeIn(2000);
+                            }, 2000);
+
+
 
 
 
