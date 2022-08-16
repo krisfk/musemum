@@ -1435,7 +1435,7 @@ date_default_timezone_set('Asia/Hong_Kong');
 
                         function scene1_5() {
 
-
+                            $('.tag-1-5').fadeOut(0);
                             $('.scene-div.scene-div-1_5').fadeIn(0);
                             $('.scene-div-1_5').css({
                                 'left': '5760px'
@@ -1458,7 +1458,11 @@ date_default_timezone_set('Asia/Hong_Kong');
 
                             $('.bg-behind-phone').animate({
                                 'left': '2235px'
-                            }, 2000)
+                            }, 2000);
+
+
+                            $('.tag-1-5').fadeIn(2000);
+
 
 
                             $('.scene-div-1_5').animate({
