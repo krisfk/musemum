@@ -1411,7 +1411,7 @@ date_default_timezone_set('Asia/Hong_Kong');
                             })
 
                             $('.bg-behind-phone').animate({
-                                'left': '1920px'
+                                'left': '2235px'
                             }, 1000)
 
 
