@@ -198,8 +198,8 @@
                                 src="http://64.227.13.14/musemum/wp-content/uploads/2022/08/Asset-3@2x.png" alt="">
                             <img class="hc-img-1-5"
                                 src="http://64.227.13.14/musemum/wp-content/uploads/2022/08/Asset-1@2x-1.png" alt="">
-                            <img class="d-img-1-5"
-                                src="http://64.227.13.14/musemum/wp-content/uploads/2022/08/Asset-1@2x.png" alt="">
+                            <img class="d-img-1-5" src="http://64.227.13.14/musemum/wp-content/uploads/2022/08/D.png"
+                                alt="">
 
 
 
