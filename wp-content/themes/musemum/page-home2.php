@@ -1402,6 +1402,18 @@ date_default_timezone_set('Asia/Hong_Kong');
 
 
                             $('.scene-div.scene-div-1_5').fadeIn(0);
+                            $('.scene-div-1_5').css({
+                                'left': '5760px'
+                            });
+
+                            $('.hc-img-1-5').css({
+                                'top': '-1080px'
+                            });
+
+                            $('.d-img-1-5').css({
+                                'top': '-1080px'
+                            });
+
 
                             console.log('scene1_5');
 
