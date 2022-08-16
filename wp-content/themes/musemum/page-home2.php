@@ -236,11 +236,7 @@
                                         type="video/mp4">
                                 </video>
 
-                                <video class="ar-video ar-video-3" controls>
-                                    <source
-                                        src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/video_preview_h264-1.mp4"
-                                        type="video/mp4">
-                                </video>
+
 
 
 
