@@ -807,8 +807,9 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 }
 
 .weekdays-div {
-    margin: 151px 0 0 0;
+    margin: 150px auto 0 auto;
     text-align: center;
+    display: table;
 }
 
 .weekday-div {
@@ -1228,7 +1229,9 @@ body {
 }
 
 .current-month {
-    font-size: 100px;
+    text-align: right;
+    font-size: 70px;
     color: #fff;
     text-shadow: 3px 5px 2px #474747, 3px 5px 2px #474747, 3px 5px 2px #474747;
+    margin: 0 0 50px 0;
 }
