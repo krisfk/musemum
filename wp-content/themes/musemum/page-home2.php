@@ -693,7 +693,9 @@
                                     <?php 
                                     date_default_timezone_set('Asia/Hong_Kong');
                                     ?>
-                                    <div class="weather-place w-100"><?php echo date('h:i');?>筲箕灣 Shau Kei Wan
+                                    <div class="weather-place w-100">
+                                        <span class="pe-4"><?php echo date('h:i');?></span><span>筲箕灣 Shau Kei Wan</span>
+
                                     </div>
 
                                     <div class="scene-4-screen-2-block scene-4-screen-2-block-1">
