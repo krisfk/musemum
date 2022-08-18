@@ -1220,3 +1220,8 @@ body {
     transform: translate(0, -50%);
     left: 100px;
 }
+
+.now-weather-icon {
+    height: 245px;
+    position: absolute;
+}

@@ -677,11 +677,13 @@
 
 
 
-                                <div class="scene-4-screen-1-txt"> <span style="font-size: 70px;">現在</span><span
+                                <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/08/now-weather-icon.png"
+                                    alt="">
+                                <!-- <div class="scene-4-screen-1-txt"> <span style="font-size: 70px;">現在</span><span
                                         style="font-size: 100px;margin-left: 12px;">天氣</span> <br> <span class="roboto"
                                         style="font-size:50px;margin-left: 200px;">Current</span><span class="roboto"
                                         style="font-size: 60px;margin-left: 10px;">Weather</span>
-                                </div>
+                                </div> -->
 
                             </div>
                             <div class="scene-4-screen scene-4-screen-2">
