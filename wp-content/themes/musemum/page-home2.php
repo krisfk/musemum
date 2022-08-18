@@ -290,17 +290,29 @@
                                             </div>
                                         </div>
                                         <div class="event-content-div" style="background:#dfdfdf">
-                                            <div>
-                                                <div style="font-size: 65px;">09:00 - 13:00AM / <br>
-                                                    18:00 - 20:00PM</div>
-                                                <div style="font-size:65px" class="mt-5">
+                                            <div style="
+    width: 530px;
+">
+                                                <div style="font-size: 65px;font-weight: bold;">09:00 - 13:00<span
+                                                        style="
+    font-size: 32px;
+">AM/</span> <br>
+                                                    18:00 - 20:00<span style="
+    font-size: 32px;
+">PM</span></div>
+                                                <div style="font-size: 28px;color: #808080;margin: 20px 0 0 0;"
+                                                    class="">
                                                     逢周末及公眾假期 <br>
                                                     Weekends &amp; Public Holidays
                                                 </div>
 
-                                                <div style="height: 6px;width: 545px;background:#000;" class="mt-5">
+                                                <div style="height: 6px;/* width: 545px; */background:#000;margin: 25px 0 0 0;"
+                                                    class="">
                                                 </div>
-                                                <div class="mt-5">
+                                                <div class="" style="
+    font-size: 30px;
+    margin: 39px 0 0 0;
+">
                                                     同暢遊 齊共賞 <br>
                                                     Enjoy the visit by inspiring experiences in Art • History • Science
                                                     under the LCSD Museums
