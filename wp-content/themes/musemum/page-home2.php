@@ -696,7 +696,8 @@
                                     <tr>
                                         <td colspan="2">
                                             <div class="weather-place w-100">
-                                                <span class="pe-4">05:07</span><span>筲箕灣 Shau Kei Wan</span>
+                                                <span class="pe-4 current-datetime">05:07</span><span>筲箕灣 Shau Kei
+                                                    Wan</span>
 
                                             </div>
                                         </td>

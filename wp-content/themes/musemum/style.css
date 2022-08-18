@@ -1234,3 +1234,7 @@ body {
     color: #fff;
     margin: 200px auto 0 auto;
 }
+
+.current-datetime {
+    font-size: 20px;
+}
