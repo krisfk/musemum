@@ -444,7 +444,8 @@
                                     src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/publication-left-img-1.jpg"
                                     alt=""> -->
 
-                                <div class="publication-div-bg" style="width:640px"
+                                <div class="publication-div-bg"
+                                    style="width:640px;background:url(http://64.227.13.14/musemum/wp-content/uploads/2022/08/little-plant.jpg)"
                                     style="background:url(http://64.227.13.14/musemum/wp-content/uploads/2022/08/little-plant.jpg)">
 
 
