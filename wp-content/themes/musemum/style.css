@@ -777,7 +777,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 }
 
 .weekday-div .weekday-title-div-wrapper {
-    height: 110px;
+    height: 175px;
     width: 205px;
     float: left;
     display: block;
@@ -786,7 +786,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 .weekday-div .weekday-title-div {
     color: #fff;
     background: rgb(0 0 0 / 10%);
-    height: 110px;
+    height: 175px;
     font-size: 34px;
     /* line-height: 45px; */
     text-align: center;
@@ -796,6 +796,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     text-align: center;
     line-height: 110px;
     overflow: hidden;
+    padding: 2rem 0 0 0;
 }
 
 .weekdays-div {
