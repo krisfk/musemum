@@ -294,7 +294,7 @@
                                                         style=" font-size: 32px; "> PM</span></div>
                                                 <div style="font-size: 28px;color: #808080;margin: 20px 0 0 0;"
                                                     class=""> 逢周末及公眾假期 <br> Weekends &amp; Public Holidays </div>
-                                                <div style="height: 6px;/* width: 545px; */background:#000;margin: 25px 0 0 0;"
+                                                <div style="height: 6px;background:#394d64;margin: 25px 0 0 0;"
                                                     class=""> </div>
                                                 <div class="" style=" font-size: 30px; margin: 39px 0 0 0; "> 同暢遊 齊共賞
                                                     <br> Enjoy the visit by inspiring experiences in Art • History •
@@ -316,7 +316,7 @@
                                                         style=" font-size: 32px; "> PM</span></div>
                                                 <div style="font-size: 28px;color: #808080;margin: 20px 0 0 0;"
                                                     class=""> 逢周末及公眾假期 <br> Weekends &amp; Public Holidays </div>
-                                                <div style="height: 6px;/* width: 545px; */background:#000;margin: 25px 0 0 0;"
+                                                <div style="height: 6px;background:#225580;margin: 25px 0 0 0;"
                                                     class=""> </div>
                                                 <div class="" style=" font-size: 30px; margin: 39px 0 0 0; "> 嘗探索、享體驗
                                                     <br>
@@ -340,7 +340,7 @@
                                                         style=" font-size: 32px; "> PM</span></div>
                                                 <div style="font-size: 28px;color: #808080;margin: 20px 0 0 0;"
                                                     class=""> 逢周末及公眾假期 <br> Weekends &amp; Public Holidays </div>
-                                                <div style="height: 6px;/* width: 545px; */background:#000;margin: 25px 0 0 0;"
+                                                <div style="height: 6px;background:#394d64;margin: 25px 0 0 0;"
                                                     class=""> </div>
                                                 <div class="" style=" font-size: 30px; margin: 39px 0 0 0; "> 同暢遊 齊共賞
                                                     <br> Enjoy the visit by inspiring experiences in Art • History •
@@ -377,50 +377,50 @@
                             </div>
                             <div class="scene-2-screen scene-2-screen-3">
 
-
                                 <div class="scene-2-screen-3-slide">
                                     <div class="event-div one-col-width">
-                                        <div class="event-title-div" style="background:#5ea6a6;">
-                                            <div>
-                                                <span style="font-size: 90px;">公眾活動
-                                                </span> <br>
-                                                <span style="font-size: 70px;">Public Activity
-                                                </span>
-                                            </div>
+                                        <div class="event-title-div" style="background:#5ca8a5;">
+                                            <div> <span style="font-size: 60px;">體驗基地
+                                                </span> <br> <span style="font-size: 50px; font-weight:bold">Experience
+                                                    Base</span> </div>
                                         </div>
-
-
-
-
-                                        <div class="event-content-div" style="background:#dfdfdf">
-                                            <div> <span style="font-size: 55px;">軍事防衛的鯉魚門</span><br> <span
-                                                    style="font-size: 45px;">Liyumen
-                                                    for
-                                                    military defense<br>2022.11.23</span>
-                                                <br><br><br> <span style="font-size: 70px;">15 :00</span><span
-                                                    style="font-size:35px;margin-left:5px;">PM</span>
-                                                <span
-                                                    style="font-size: 50px; margin: 0 10px 0 10px; position: relative; top: -10px;">-</span>
-                                                <span style="font-size:70px;">16:30</span> <span
-                                                    style="font-size:35px;margin-left:5px;">PM</span> </span>
+                                        <div class="event-content-div" style="background:#fff">
+                                            <div style=" width: 530px; ">
+                                                <div style="font-size: 65px;font-weight: bold;">11:00<span
+                                                        style=" font-size: 32px; "> AM /</span> <br>18:00<span
+                                                        style=" font-size: 32px; "> PM</span></div>
+                                                <div style="font-size: 28px;color: #808080;margin: 20px 0 0 0;"
+                                                    class=""> 逢周末及公眾假期 <br> Weekends &amp; Public Holidays </div>
+                                                <div style="height: 6px;background:#5ca8a5;margin: 25px 0 0 0;"
+                                                    class="">
+                                                </div>
+                                                <div class="" style=" font-size: 30px; margin: 39px 0 0 0; "> 同暢遊 齊共賞
+                                                    <br>
+                                                    Enjoy the visit by inspiring experiences in Art • History • Science
+                                                    under the LCSD Museums
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="event-div one-col-width">
-                                        <div class="event-title-div" style="background:#5ea6a6;">
-
+                                        <div class="event-title-div" style="background:#225580;">
+                                            <div> <span style="font-size: 60px;">探索地帶test</span> <br> <span
+                                                    style="font-size: 50px; font-weight:bold">Discovery Zone</span>
+                                            </div>
                                         </div>
-                                        <div class="event-content-div" style="background:#c8d4d4">
-                                            <div> <span style="font-size: 55px;">香港軍事遺蹟考察
-                                                </span><br> <span style="font-size: 45px;">Hong Kong military relics
-                                                    investigation
-                                                    <br>2022.11.20</span>
-                                                <br><br><br> <span style="font-size: 70px;">15 :00</span><span
-                                                    style="font-size:35px;margin-left:5px;">PM</span>
-                                                <span
-                                                    style="font-size: 50px; margin: 0 10px 0 10px; position: relative; top: -10px;">-</span>
-                                                <span style="font-size:70px;">16:30</span> <span
-                                                    style="font-size:35px;margin-left:5px;">PM</span> </span>
+                                        <div class="event-content-div" style="background:#fff">
+                                            <div style=" width: 530px; ">
+                                                <div style="font-size: 65px;font-weight: bold;">10:00<span
+                                                        style=" font-size: 32px; "> AM -</span> <br> 15:00<span
+                                                        style=" font-size: 32px; "> PM</span></div>
+                                                <div style="font-size: 28px;color: #808080;margin: 20px 0 0 0;"
+                                                    class=""> 逢周末及公眾假期 <br> Weekends &amp; Public Holidays </div>
+                                                <div style="height: 6px;/* width: 545px; */background:#000;margin: 25px 0 0 0;"
+                                                    class=""> </div>
+                                                <div class="" style=" font-size: 30px; margin: 39px 0 0 0; "> 嘗探索、享體驗
+                                                    <br>
+                                                    To Explore, To Learnz
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
