@@ -2040,6 +2040,12 @@ function cndate($date){
                                         }, 500);
                                     }
 
+                                    setTimeout(() => {
+                                        $('.current-month').animate({
+                                            'opacity': '1'
+                                        }, 500)
+                                    }, 500);
+
                                     $('.weekday-weather-icon').eq(i).delay(700 + i * 30).fadeIn(400)
                                     $('.degree-div').eq(i).delay(700 + i * 30).fadeIn(400)
 
