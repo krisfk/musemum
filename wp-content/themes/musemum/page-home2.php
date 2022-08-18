@@ -1945,6 +1945,10 @@ function cndate($date){
                                 'opacity': '0'
                             })
 
+                            $('.weekday-div').css({
+                                'top': '-945px'
+                            });
+
                             var slide_idx_1 = 0;
                             var slide_idx_2 = 0;
 
@@ -2025,6 +2029,11 @@ function cndate($date){
                                     //     500);
                                     // $('.weekday-degree-div').eq(i).delay(700 + i * 30).slideDown(
                                     //     500);
+
+                                    $('.weekday-div').eq(i).delay(700 + i * 30).css({
+                                        'top': '0'
+                                    });
+
 
                                     $('.weekday-weather-icon').eq(i).delay(700 + i * 30).fadeIn(400)
                                     $('.degree-div').eq(i).delay(700 + i * 30).fadeIn(400)
