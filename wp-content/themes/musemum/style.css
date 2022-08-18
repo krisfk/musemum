@@ -712,6 +712,8 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     display: block;
     text-align: center;
     margin: 0rem auto 0 auto;
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222);
 }
 
 .weekday-txt {
@@ -770,6 +772,8 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 
 .weather-bottom-icon {
     height: 100px;
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222);
 }
 
 .weekday-div .weekday-title-div-wrapper {
