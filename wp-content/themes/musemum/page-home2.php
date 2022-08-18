@@ -1938,7 +1938,9 @@ function cndate($date){
                             // $('.scene-4-screen-2-block-2 .weather-msg').fadeOut(0);
                             // $('.scene-4-screen-2-block-2 .weather-msg').eq(0).fadeIn(0);
 
-                            $('.current-month').fadeOut(0);
+                            $('.current-month').css({
+                                'opacity': '0'
+                            })
 
                             var slide_idx_1 = 0;
                             var slide_idx_2 = 0;
