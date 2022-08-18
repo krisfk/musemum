@@ -890,10 +890,16 @@ function cndate($date){
     $arr = array('一月','二月','三月','四月','五月','六月','七月','八月','九月','十月','十一月','十二月');
     return $arr[$date-1];
     }
-    
+
+    function endate($date){
+        $arr = array('January','February','March','April','May','June','July','August','September','October','November','December');
+        return $arr[$date-1];
+        }
+        
     
 ?>
-                                    <div class="current-month"><?php echo cndate(date('m',$t));?> December</div>
+                                    <div class="current-month"><?php echo cndate(date('m',$t));?>
+                                        <?php echo endate(date('m',$t));?></div>
                                     <div class="weekday-div">
 
                                         <div class="weekday-title-div-wrapper">
