@@ -284,8 +284,9 @@
                                     <div class="event-div one-col-width">
                                         <div class="event-title-div" style="background:#394d64;">
                                             <div>
-                                                <span style="font-size: 90px;">免費公眾導賞</span> <br>
-                                                <span style="font-size: 70px;">Free Public Guide Tours</span>
+                                                <span style="font-size: 60px;">免費公眾導賞</span> <br>
+                                                <span style="font-size: 50px; font-weight:bold">Free Public Guide
+                                                    Tours</span>
                                             </div>
                                         </div>
                                         <div class="event-content-div" style="background:#dfdfdf">
