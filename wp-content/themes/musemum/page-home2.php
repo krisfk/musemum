@@ -689,6 +689,55 @@
                             </div>
                             <div class="scene-4-screen scene-4-screen-2">
 
+
+
+                                <table>
+
+                                    <tr>
+                                        <td colspan="2">
+                                            <div class="weather-place w-100">
+                                                <span class="pe-4">05:07</span><span>筲箕灣 Shau Kei Wan</span>
+
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="weather-msg roboto"
+                                                style="display: block; width: 100%; text-align: center;">
+                                                <div style=" display: inline-block;  "> <span style="font-size: 290px;"
+                                                        class="current-temperature">27</span><sup
+                                                        style="font-size: 114px;position: relative;top: -194px;">o</sup><span
+                                                        style="font-size: 100px;position: relative;top: -129px;">C</span>
+                                                </div>
+
+                                            </div>
+
+                                            <div class="weather-bottom-div">
+                                                <img class="weather-bottom-icon"
+                                                    src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/wet-icon.png"
+                                                    alt="">
+                                                <span class="current-humidity">94</span>%
+
+
+                                            </div>
+
+
+                                        </td>
+                                        <td>
+
+
+                                            <div class="weather-msg" style=""> <img
+                                                    class="weather-icon today-weather-icon"
+                                                    src="http://64.227.13.14/musemum/weather-icon/_pic62.png" alt="">
+
+
+                                            </div>
+                                            <div>天晴 Fine</div>
+                                        </td>
+
+                                    </tr>
+                                </table>
                                 <div class="weather-center-blk">
                                     <div class="weather-place w-100">
                                         <span class="pe-4">05:07</span><span>筲箕灣 Shau Kei Wan</span>
@@ -1090,9 +1139,7 @@
                     <a href="javascript:void(0);" class="stage-btn stage-btn-5">5</a>
                     <a href="javascript:void(0);" class="stage-btn stage-btn-6">6</a>
 
-                    <!-- 0 (for Sunday) through 6 (for Saturday) -->
-
-                    <!-- <div style="font-size:100px"><?php echo date('w');?></div> -->
+                    -->
                     <?php
 date_default_timezone_set('Asia/Hong_Kong');
 ?>
