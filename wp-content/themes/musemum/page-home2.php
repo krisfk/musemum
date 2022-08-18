@@ -900,10 +900,10 @@ function cndate($date){
 ?>
                                     <div class="current-month"><?php echo cndate(date('m',$t));?>
                                         <?php echo endate(date('m',$t));?></div>
-                                    <div class="weekday-div" style="    position: absolute;
+                                    <div class="weekday-div first" style="position: absolute;
     zoom: 1.2;
     left: 129px;
-    top: 179px;">
+    ">
 
                                         <div class="weekday-title-div-wrapper">
                                             <div class="weekday-title-div">一 MON</div>
