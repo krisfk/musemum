@@ -304,7 +304,7 @@
                                         </div>
                                     </div>
                                     <div class="event-div one-col-width">
-                                        <div class="event-title-div" style="background:#394d64;">
+                                        <div class="event-title-div" style="background:#225580;">
                                             <div> <span style="font-size: 60px;">探索地帶 </span> <br> <span
                                                     style="font-size: 50px; font-weight:bold">Discovery Zone</span>
                                             </div>
