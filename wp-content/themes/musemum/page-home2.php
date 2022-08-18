@@ -1917,11 +1917,11 @@ date_default_timezone_set('Asia/Hong_Kong');
 
                             console.log('scene4');
 
-                            $('.scene-4-screen-2-block-1 .weather-msg').fadeOut(0);
-                            $('.scene-4-screen-2-block-1 .weather-msg').eq(0).fadeIn(0);
+                            // $('.scene-4-screen-2-block-1 .weather-msg').fadeOut(0);
+                            // $('.scene-4-screen-2-block-1 .weather-msg').eq(0).fadeIn(0);
 
-                            $('.scene-4-screen-2-block-2 .weather-msg').fadeOut(0);
-                            $('.scene-4-screen-2-block-2 .weather-msg').eq(0).fadeIn(0);
+                            // $('.scene-4-screen-2-block-2 .weather-msg').fadeOut(0);
+                            // $('.scene-4-screen-2-block-2 .weather-msg').eq(0).fadeIn(0);
 
 
 
@@ -1971,7 +1971,7 @@ date_default_timezone_set('Asia/Hong_Kong');
                                 'transform': 'scale(1)'
                             })
 
-                            $('.scene-4-screen-2-block').fadeOut(0);
+                            // $('.scene-4-screen-2-block').fadeOut(0);
 
 
                             $('.weekday-title-div').fadeOut(0);
@@ -1989,10 +1989,10 @@ date_default_timezone_set('Asia/Hong_Kong');
                             }, 1000, function() {
 
 
-                                $('.scene-4-screen-2-block').eq(0).slideDown(500);
-                                $('.scene-4-screen-2-block').eq(1).slideDown(500);
+                                // $('.scene-4-screen-2-block').eq(0).slideDown(500);
+                                // $('.scene-4-screen-2-block').eq(1).slideDown(500);
 
-                                $('.scene-4-screen-2-block').delay(400).eq(2).slideDown(600);
+                                // $('.scene-4-screen-2-block').delay(400).eq(2).slideDown(600);
 
 
 
