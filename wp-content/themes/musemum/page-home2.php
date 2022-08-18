@@ -1205,7 +1205,7 @@ date_default_timezone_set('Asia/Hong_Kong');
 
 
                                     $('.today-weather-icon').attr('src', site_url +
-                                        '/weather-icon/pic' +
+                                        '/weather-icon/_pic' +
                                         today_weather_icon_idx + '.png');
 
                                     $('.current-temperature').html(current_temperature);
@@ -1217,7 +1217,7 @@ date_default_timezone_set('Asia/Hong_Kong');
                                     $('.weekday-div').eq(0).find('.weekday-weather-icon img')
                                         .attr(
                                             'src', site_url +
-                                            '/weather-icon/pic' +
+                                            '/weather-icon/_pic' +
                                             today_weather_icon_idx + '.png');
                                 })
 
@@ -1247,7 +1247,7 @@ date_default_timezone_set('Asia/Hong_Kong');
                                         $('.weekday-div').eq(i + 1).find(
                                             '.weekday-weather-icon img').attr('src',
                                             site_url +
-                                            '/weather-icon/pic' +
+                                            '/weather-icon/_pic' +
                                             weather_icon_idx + '.png');
 
 
