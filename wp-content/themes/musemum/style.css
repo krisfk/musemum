@@ -1213,4 +1213,6 @@ body {
 
 .musemum-book-title {
     height: 277px;
+    position: absolute;
+    top: 0;
 }
