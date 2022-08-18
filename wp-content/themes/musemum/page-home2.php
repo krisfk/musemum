@@ -1082,6 +1082,10 @@ date_default_timezone_set('Asia/Hong_Kong');
 
 
 
+                        var scene_3_screen_1_book = $('.scene-3-screen-1').find('.publication-div').length;
+                        alert(scene_3_screen_1_book);
+
+
 
                         //WEATHER
 
