@@ -451,7 +451,15 @@
 
                                 </div>
 
-                                <div class="publication-div">
+
+                                <!-- <div class="publication-div"></div> -->
+
+                            </div>
+
+                            <div class="scene-3-screen scene-3-screen-2">
+
+
+                                <div class="publication-div three-books">
 
                                     <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/book-1.png" alt=""
                                         class="book">
@@ -482,11 +490,7 @@
                                     </div>
 
                                 </div>
-                                <!-- <div class="publication-div"></div> -->
 
-                            </div>
-
-                            <div class="scene-3-screen scene-3-screen-2">
                                 <div class="publication-div three-books">
 
                                     <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/book-5.png" alt=""
