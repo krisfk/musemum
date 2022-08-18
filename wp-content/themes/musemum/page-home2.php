@@ -448,7 +448,7 @@
 
                                 </div>
 
-
+                                <!-- 
                                 <div class="publication-div three-books">
 
                                     <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/book-2.png" alt=""
@@ -459,7 +459,6 @@
                                             我武維揚 - <br>
                                             近代中國海軍史新論 </span>
                                         <br><br>
-                                        <!--  -->
                                         <span class="roboto" style="font-size: 30px;"> Modern Chinese Naval History:
                                             New Perspectives
 
@@ -487,7 +486,7 @@
 
                                     </div>
 
-                                </div>
+                                </div> -->
 
                             </div>
 
