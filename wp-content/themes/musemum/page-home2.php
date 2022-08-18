@@ -10,6 +10,7 @@
  */
 
 //get_header();
+date_default_timezone_set('Asia/Hong_Kong');
 
 ?>
 
@@ -697,9 +698,7 @@
                                         <td colspan="3">
                                             <div class="weather-place w-100">
 
-                                                <?php
-date_default_timezone_set('Asia/Hong_Kong');
-?>
+
                                                 <span
                                                     class="pe-5 current-datetime"><?php echo date('h:i');?></span><span>筲箕灣
                                                     Shau Kei
