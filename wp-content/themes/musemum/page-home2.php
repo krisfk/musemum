@@ -448,7 +448,7 @@
 
                                 </div>
 
-                                <!-- 
+
                                 <div class="publication-div three-books">
 
                                     <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/book-2.png" alt=""
@@ -486,7 +486,7 @@
 
                                     </div>
 
-                                </div> -->
+                                </div>
 
                             </div>
 
