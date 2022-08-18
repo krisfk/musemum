@@ -1229,3 +1229,7 @@ body {
     top: 390px;
     left: 1000px;
 }
+
+.weather-table {
+    color: #fff;
+}

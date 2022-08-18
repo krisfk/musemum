@@ -691,7 +691,7 @@
 
 
 
-                                <table>
+                                <table class="weather-table">
 
                                     <tr>
                                         <td colspan="2">
@@ -738,6 +738,8 @@
 
                                     </tr>
                                 </table>
+
+
                                 <div class="weather-center-blk d-none">
                                     <div class="weather-place w-100">
                                         <span class="pe-4">05:07</span><span>筲箕灣 Shau Kei Wan</span>
