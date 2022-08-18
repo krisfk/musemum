@@ -1941,9 +1941,9 @@ function cndate($date){
                             // $('.scene-4-screen-2-block-2 .weather-msg').fadeOut(0);
                             // $('.scene-4-screen-2-block-2 .weather-msg').eq(0).fadeIn(0);
 
-                            $('.current-month').css({
-                                'opacity': '0'
-                            })
+                            // $('.current-month').css({
+                            //     'opacity': '0'
+                            // })
 
                             $('.weekday-div').css({
                                 'top': '-945px'
@@ -2040,11 +2040,11 @@ function cndate($date){
                                         }, 500);
                                     }
 
-                                    setTimeout(() => {
-                                        $('.current-month').animate({
-                                            'opacity': '1'
-                                        }, 500)
-                                    }, 1200);
+                                    // setTimeout(() => {
+                                    //     $('.current-month').animate({
+                                    //         'opacity': '1'
+                                    //     }, 500);
+                                    // }, 1200);
 
                                     $('.weekday-weather-icon').eq(i).delay(700 + i * 30).fadeIn(400)
                                     $('.degree-div').eq(i).delay(700 + i * 30).fadeIn(400)
