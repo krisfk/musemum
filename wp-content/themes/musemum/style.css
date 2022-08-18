@@ -1215,4 +1215,8 @@ body {
     height: 277px;
     position: absolute;
     top: 0;
+    z-index: 100;
+    top: 50%;
+    transform: translate(0, -50%);
+    left: 100px;
 }
