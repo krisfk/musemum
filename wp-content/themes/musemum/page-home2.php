@@ -1219,9 +1219,9 @@ date_default_timezone_set('Asia/Hong_Kong');
                                         "星期五",
                                         "星期六"
                                     ];
-                                    const weekday_display = ["日 SUN", "一 MON", "二 TUE", "三 WED",
-                                        "四 THUR", "五 FRI",
-                                        "六 SAT"
+                                    const weekday_display = ["日 Sun", "一 Mon", "二 Tue", "三 Wed",
+                                        "四 Thur", "五 Fri",
+                                        "六 Sat"
                                     ];
 
                                     const d = new Date();
