@@ -1082,11 +1082,13 @@ date_default_timezone_set('Asia/Hong_Kong');
 
 
 
-                        var scene_3_screen_1_book = $('.scene-3-screen-1').find('.publication-div').length;
-                        alert(scene_3_screen_1_book);
+                        var scene_3_screen_1_book_num = $('.scene-3-screen-1').find('.publication-div').length;
 
+                        var scene_3_screen_1_bg_size = 3 - scene_3_screen_1_book_num;
 
-
+                        $('.publication-div-bg').css({
+                            'width': scene_3_screen_1_bg_size * 640 + 'px'
+                        });
                         //WEATHER
 
                         var first = true;
