@@ -2030,9 +2030,9 @@ function cndate($date){
                                     // $('.weekday-degree-div').eq(i).delay(700 + i * 30).slideDown(
                                     //     500);
 
-                                    $('.weekday-div').eq(i).delay(700 + i * 30).css({
+                                    $('.weekday-div').eq(i).delay(700 + i * 30).animate({
                                         'top': '0'
-                                    });
+                                    }, 500);
 
 
                                     $('.weekday-weather-icon').eq(i).delay(700 + i * 30).fadeIn(400)
