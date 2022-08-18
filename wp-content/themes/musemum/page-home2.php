@@ -677,7 +677,8 @@
 
 
 
-                                <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/08/now-weather-icon.png"
+                                <img class="now-weather-icon"
+                                    src="http://64.227.13.14/musemum/wp-content/uploads/2022/08/now-weather-icon.png"
                                     alt="">
                                 <!-- <div class="scene-4-screen-1-txt"> <span style="font-size: 70px;">現在</span><span
                                         style="font-size: 100px;margin-left: 12px;">天氣</span> <br> <span class="roboto"
