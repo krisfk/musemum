@@ -473,7 +473,8 @@
                                                 <td style="color:#808080;" class="pe-3"> <span style="font-size:20px;">
                                                         港幣 <br> HK
                                                     </span></td>
-                                                <td style="color:#35475d;font-weight:bold;">
+                                                <td
+                                                    style="color:#35475d;font-weight:bold;position: relative;top: -1px;">
                                                     <span style="font-size:50px;">$165</span>
                                                     <span style="font-size:30px;position:relative;top:-14px">.00</span>
                                                 </td>
