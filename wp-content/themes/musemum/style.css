@@ -1224,4 +1224,6 @@ body {
 .now-weather-icon {
     height: 245px;
     position: absolute;
+    top: 390px;
+    left: 1000px;
 }
