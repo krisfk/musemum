@@ -457,12 +457,13 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 }
 
 .event-title-div {
-    display: block;
+    display: table-cell;
     height: 288px;
-    width: 100%;
     color: #fff;
     line-height: normal;
-    padding: 4.5rem 0 0 4.5rem;
+    width: 960px;
+    vertical-align: middle;
+    padding: 0 0 0 7.5rem;
 }
 
 .event-content-div {
