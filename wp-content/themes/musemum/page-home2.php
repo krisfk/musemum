@@ -913,6 +913,8 @@ date_default_timezone_set('Asia/Hong_Kong');
                                         <div class="weekday-title-div-wrapper">
 
                                             <div class="weekday-title-div">二 TUE</div>
+                                            <div class="weekday-day">10</div>
+
                                         </div>
                                         <div class="weekday-degree-div-wrapper">
 
@@ -938,6 +940,8 @@ date_default_timezone_set('Asia/Hong_Kong');
                                         <div class="weekday-title-div-wrapper">
 
                                             <div class="weekday-title-div">三 WED</div>
+                                            <div class="weekday-day">10</div>
+
                                         </div>
                                         <div class="weekday-degree-div-wrapper">
                                             <div class="weekday-degree-div">
@@ -961,6 +965,10 @@ date_default_timezone_set('Asia/Hong_Kong');
                                         <div class="weekday-title-div-wrapper">
 
                                             <div class="weekday-title-div">四 THU</div>
+                                            <div class="weekday-day">10</div>
+
+
+
                                         </div>
                                         <div class="weekday-degree-div-wrapper">
 
@@ -986,6 +994,8 @@ date_default_timezone_set('Asia/Hong_Kong');
                                         <div class="weekday-title-div-wrapper">
 
                                             <div class="weekday-title-div">五 FRI</div>
+                                            <div class="weekday-day">10</div>
+
                                         </div>
                                         <div class="weekday-degree-div-wrapper">
 
@@ -1010,6 +1020,8 @@ date_default_timezone_set('Asia/Hong_Kong');
                                         <div class="weekday-title-div-wrapper">
 
                                             <div class="weekday-title-div">六 SAT</div>
+                                            <div class="weekday-day">10</div>
+
                                         </div>
                                         <div class="weekday-degree-div-wrapper">
 
