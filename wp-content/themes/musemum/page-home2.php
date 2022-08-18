@@ -269,7 +269,7 @@
                                         programmes</span>
                                 </div> -->
 
-                                <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/inside-1.jpg" alt="">
+                                <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/08/wall.jpg" alt="">
 
                             </div>
 
