@@ -1938,7 +1938,7 @@ function cndate($date){
                             // $('.scene-4-screen-2-block-2 .weather-msg').fadeOut(0);
                             // $('.scene-4-screen-2-block-2 .weather-msg').eq(0).fadeIn(0);
 
-
+                            $('.current-month').fadeOut(0);
 
                             var slide_idx_1 = 0;
                             var slide_idx_2 = 0;
@@ -2004,6 +2004,9 @@ function cndate($date){
                             }, 1000, function() {
 
 
+                                // $('.current-month').fadeOut(0);
+
+
                                 // $('.scene-4-screen-2-block').eq(0).slideDown(500);
                                 // $('.scene-4-screen-2-block').eq(1).slideDown(500);
 
@@ -2027,7 +2030,7 @@ function cndate($date){
 
 
                                 setTimeout(() => {
-                                    clearInterval(weather_interval);
+                                    // clearInterval(weather_interval);
                                     // scene5();
                                 }, 20000);
 
