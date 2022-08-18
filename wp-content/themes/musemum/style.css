@@ -522,7 +522,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     display: block;
     width: 640px;
     height: 100%;
-    background: #dadcde;
+    background: #c9dcd9;
 }
 
 .scene-3-screen-1 .publication-div:nth-child(2n-1) {
@@ -530,7 +530,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     display: block;
     width: 640px;
     height: 100%;
-    background: #ececec;
+    background: #fff;
 }
 
 .scene-3-screen {
@@ -587,14 +587,14 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     float: right;
     display: block;
     height: 100%;
-    background: #dadcde;
+    background: #c9dcd9;
 }
 
 .scene-3-screen-2 .publication-div:nth-child(2n-1) {
     float: right;
     display: block;
     height: 100%;
-    background: #ececec;
+    background: #ffffff;
 }
 
 .scene-3-screen-right-img {
