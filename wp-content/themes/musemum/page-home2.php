@@ -646,11 +646,14 @@
                             <div class="scene-3-screen scene-3-screen-3">
 
 
-                                <div class="scene-3-screen-3-txt"> <span style=" font-size: 120px; ">好書</span> <span
+                                <img class="musemum-book-title"
+                                    src="http://64.227.13.14/musemum/wp-content/uploads/2022/08/musemum-book-title.png"
+                                    alt="">
+                                <!-- <div class="scene-3-screen-3-txt"> <span style=" font-size: 120px; ">好書</span> <span
                                         style=" font-size: 70px; margin-left: 20px; ">伴回家</span> <br> <span
                                         class="roboto" style=" font-size: 50px; margin-left: 158px; ">Joyful</span>
                                     <span class="roboto" style=" font-size: 80px; margin-left: 20px; ">Readings</span>
-                                </div>
+                                </div> -->
 
                                 <img class="scene-3-screen-right-img"
                                     src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/publication-right-img-1.png"
