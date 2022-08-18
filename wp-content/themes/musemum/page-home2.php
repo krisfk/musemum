@@ -1656,42 +1656,42 @@ date_default_timezone_set('Asia/Hong_Kong');
                             var scene_2_screen_2_slide_num = $('.scene-2-screen-2-slide').length;
                             var scene_2_screen_3_slide_num = $('.scene-2-screen-3-slide').length;
 
-                            // var interval = setInterval(() => {
+                            var interval = setInterval(() => {
 
-                            //     if (scene_2_screen_2_slide_num > 1) {
-                            //         $('.scene-2-screen-2-slide').eq(scene_2_screen_2_slide_idx)
-                            //             .fadeOut(
-                            //                 500);
-                            //         if (scene_2_screen_2_slide_idx + 1 >
-                            //             scene_2_screen_2_slide_num -
-                            //             1) {
-                            //             scene_2_screen_2_slide_idx = 0;
-                            //         } else {
-                            //             scene_2_screen_2_slide_idx++;
-                            //         }
-                            //         $('.scene-2-screen-2-slide').eq(scene_2_screen_2_slide_idx)
-                            //             .fadeIn(
-                            //                 500);
-                            //     }
-                            //     if (scene_2_screen_3_slide_num > 1) {
+                                if (scene_2_screen_2_slide_num > 1) {
+                                    $('.scene-2-screen-2-slide').eq(scene_2_screen_2_slide_idx)
+                                        .fadeOut(
+                                            500);
+                                    if (scene_2_screen_2_slide_idx + 1 >
+                                        scene_2_screen_2_slide_num -
+                                        1) {
+                                        scene_2_screen_2_slide_idx = 0;
+                                    } else {
+                                        scene_2_screen_2_slide_idx++;
+                                    }
+                                    $('.scene-2-screen-2-slide').eq(scene_2_screen_2_slide_idx)
+                                        .fadeIn(
+                                            500);
+                                }
+                                if (scene_2_screen_3_slide_num > 1) {
 
-                            //         $('.scene-2-screen-3-slide').eq(scene_2_screen_3_slide_idx)
-                            //             .fadeOut(
-                            //                 500);
-                            //         if (scene_2_screen_3_slide_idx + 1 >
-                            //             scene_2_screen_3_slide_num -
-                            //             1) {
-                            //             scene_2_screen_3_slide_idx = 0;
-                            //         } else {
-                            //             scene_2_screen_3_slide_idx++;
-                            //         }
-                            //         $('.scene-2-screen-3-slide').eq(scene_2_screen_3_slide_idx)
-                            //             .fadeIn(
-                            //                 500);
-                            //     }
+                                    $('.scene-2-screen-3-slide').eq(scene_2_screen_3_slide_idx)
+                                        .fadeOut(
+                                            500);
+                                    if (scene_2_screen_3_slide_idx + 1 >
+                                        scene_2_screen_3_slide_num -
+                                        1) {
+                                        scene_2_screen_3_slide_idx = 0;
+                                    } else {
+                                        scene_2_screen_3_slide_idx++;
+                                    }
+                                    $('.scene-2-screen-3-slide').eq(scene_2_screen_3_slide_idx)
+                                        .fadeIn(
+                                            500);
+                                }
 
 
-                            // }, 10000);
+                            }, 10000);
 
                             setTimeout(() => {
                                 clearInterval(interval);
