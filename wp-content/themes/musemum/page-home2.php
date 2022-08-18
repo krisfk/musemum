@@ -469,7 +469,7 @@
                                         <br><br>
                                         <span>
                                             <span style="font-size:25px;">
-                                                港幣HK
+                                                港幣 <br> HK
                                             </span>
                                             <span style="font-size:50px;">$165</span>
                                         </span>
