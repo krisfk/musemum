@@ -1169,6 +1169,14 @@ body {
     display: none;
 }
 
+.tag2 {
+    position: absolute;
+    z-index: 100;
+    height: 278px;
+    left: 0;
+    top: 655px;
+}
+
 .iphone-border {
     position: absolute;
     top: -2.4%;

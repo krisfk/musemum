@@ -268,6 +268,8 @@
                                     <span class="roboto" style="font-size: 84px;margin: 0 0 0 124px;"> through the
                                         programmes</span>
                                 </div> -->
+                                <img class="tag2" src="http://64.227.13.14/musemum/wp-content/uploads/2022/08/tag2.png"
+                                    alt="">
 
                                 <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/08/wall.jpg" alt="">
 
