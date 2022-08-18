@@ -694,7 +694,7 @@
                                 <table class="weather-table">
 
                                     <tr>
-                                        <td colspan="2">
+                                        <td colspan="3">
                                             <div class="weather-place w-100">
 
                                                 <?php
@@ -741,6 +741,10 @@ date_default_timezone_set('Asia/Hong_Kong');
 
                                             </div>
                                             <div class="weather-bottom-div text-center">天晴 Fine</div>
+                                        </td>
+                                        <td>
+
+                                            fds
                                         </td>
 
                                     </tr>
