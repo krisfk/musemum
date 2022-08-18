@@ -885,6 +885,9 @@ date_default_timezone_set('Asia/Hong_Kong');
 
                                 <div class="weekdays-div">
 
+
+
+                                    <div class="current-month">十二月 December</div>
                                     <div class="weekday-div">
 
                                         <div class="weekday-title-div-wrapper">
