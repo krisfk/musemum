@@ -465,13 +465,13 @@
 
                                     <div class="publication-div-text-content">
                                         <span style="font-size:35px;">
-                                            香港在英治時期的海防歷史111： <br>
-                                            鯉魚門的防禦工事 </span>
+                                            香港抗戰 — <br>
+                                            東江縱隊港九獨立大隊論文集
+                                        </span>
                                         <br><br>
 
-                                        <span class="roboto" style="font-size: 30px;"> The Defence of Hong Kong -
-                                            Collected Essays on the Hong Kong-Kowloon Brigade of the East River
-                                            Column
+                                        <span class="roboto" style="font-size: 30px;"> The Defence of Hong Kong： <br>
+                                            Collected Essays on the Hong Kong-Kowloon Brigade of the East River Column
                                         </span>
 
                                         <br><br>
