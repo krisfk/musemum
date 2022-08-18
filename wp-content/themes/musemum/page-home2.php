@@ -458,6 +458,34 @@
 
                             <div class="scene-3-screen scene-3-screen-2">
 
+                                <div class="publication-div three-books">
+
+                                    <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/book-5.png" alt=""
+                                        class="book">
+
+                                    <div class="publication-div-text-content">
+                                        <span style="font-size:35px;">
+                                            香港在英治時期的海防歷史： <br>
+                                            鯉魚門的防禦工事 </span>
+                                        <br><br>
+
+                                        <span class="roboto" style="font-size: 30px;"> The Defence of Hong Kong -
+                                            Collected Essays on the Hong Kong-Kowloon Brigade of the East River
+                                            Column
+                                        </span>
+
+                                        <br><br>
+                                        <span>
+                                            <span style="font-size:25px;">
+                                                港幣HK
+                                            </span>
+                                            <span style="font-size:50px;">$130</span>
+                                        </span>
+
+                                    </div>
+
+                                </div>
+
 
                                 <div class="publication-div three-books">
 
@@ -532,33 +560,7 @@
                                     </div>
 
                                 </div>
-                                <div class="publication-div three-books">
 
-                                    <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/book-5.png" alt=""
-                                        class="book">
-
-                                    <div class="publication-div-text-content">
-                                        <span style="font-size:35px;">
-                                            香港在英治時期的海防歷史： <br>
-                                            鯉魚門的防禦工事 </span>
-                                        <br><br>
-
-                                        <span class="roboto" style="font-size: 30px;"> The Defence of Hong Kong -
-                                            Collected Essays on the Hong Kong-Kowloon Brigade of the East River
-                                            Column
-                                        </span>
-
-                                        <br><br>
-                                        <span>
-                                            <span style="font-size:25px;">
-                                                港幣HK
-                                            </span>
-                                            <span style="font-size:50px;">$130</span>
-                                        </span>
-
-                                    </div>
-
-                                </div>
 
                                 <!-- <div class="publication-div three-books">
 
