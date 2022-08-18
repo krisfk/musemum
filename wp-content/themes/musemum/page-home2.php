@@ -900,7 +900,10 @@ function cndate($date){
 ?>
                                     <div class="current-month"><?php echo cndate(date('m',$t));?>
                                         <?php echo endate(date('m',$t));?></div>
-                                    <div class="weekday-div">
+                                    <div class="weekday-div" style="position: absolute;
+    zoom: 1.2;
+    left: 159px;
+    top: 179px;">
 
                                         <div class="weekday-title-div-wrapper">
                                             <div class="weekday-title-div">一 MON</div>
@@ -924,7 +927,7 @@ function cndate($date){
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="weekday-div">
+                                    <div class="weekday-div" style="margin:0 8px 0 355px;">
                                         <div class="weekday-title-div-wrapper">
 
                                             <div class="weekday-title-div">二 TUE</div>
