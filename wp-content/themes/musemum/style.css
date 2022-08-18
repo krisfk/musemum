@@ -221,6 +221,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     position: absolute;
     top: 0;
     left: -5760px;
+    background: #b4c9ca;
     /* left: 0; */
     display: block;
     width: 5760px;
@@ -423,12 +424,18 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     top: 0;
     left: 1920px;
     background: #fff;
+    border-radius: 0 0 0 200px;
+    overflow: hidden;
+    display: block;
 }
 
 .scene-2-screen-3 {
     top: 0;
     left: 3840px;
     background: #095353;
+    border-radius: 0 0 200px 0;
+    display: block;
+    overflow: hidden;
 }
 
 .scene-2-txt-1 {
