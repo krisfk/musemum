@@ -289,7 +289,7 @@
                                                     Tours</span>
                                             </div>
                                         </div>
-                                        <div class="event-content-div" style="background:#dfdfdf">
+                                        <div class="event-content-div" style="background:#fff">
                                             <div style="
     width: 530px;
 ">
