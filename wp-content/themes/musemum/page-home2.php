@@ -733,7 +733,7 @@
 
 
                                             </div>
-                                            <div>天晴 Fine</div>
+                                            <div class="weather-bottom-div text-center">天晴 Fine</div>
                                         </td>
 
                                     </tr>
