@@ -329,54 +329,50 @@
                                 <div class="scene-2-screen-2-slide">
                                     <div class="event-div one-col-width">
                                         <div class="event-title-div" style="background:#394d64;">
-                                            <div>
-                                                <span style="font-size: 90px;">免費公眾導賞testing</span> <br>
-                                                <span style="font-size: 70px;">Free Public Guide Tours</span>
-                                            </div>
+                                            <div> <span style="font-size: 60px;">免費公眾導賞test</span> <br> <span
+                                                    style="font-size: 50px; font-weight:bold">Free Public Guide
+                                                    Tours</span> </div>
                                         </div>
-                                        <div class="event-content-div" style="background:#dfdfdf">
-                                            <div> <span style="font-size: 55px;">同暢遊 齊共賞testing</span><br> <span
-                                                    style="font-size: 45px;">Enjoy the
-                                                    visit by inspiring experiences in Art • History • Science under the
-                                                    LCSD Museums </span>
-                                                <br><br><br> <span style="font-size: 70px;">11 :00</span><span
-                                                    style="font-size:35px;margin-left:5px;">AM</span>
-                                                <span
-                                                    style="font-size: 50px; margin: 0 10px 0 10px; position: relative; top: -10px;">|</span>
-                                                <span style="font-size:70px;">15:00</span> <span
-                                                    style="font-size:35px;margin-left:5px;">PM</span> </span>
-                                                <br><br><br> <span style="font-size: 45px;">逢周末及公眾假期 <br> Weekends &amp;
-                                                    Public
-                                                    Holidays</span>
+                                        <div class="event-content-div" style="background:#fff">
+                                            <div style=" width: 530px; ">
+                                                <div style="font-size: 65px;font-weight: bold;">09:00 - 13:00<span
+                                                        style=" font-size: 32px; "> AM /</span> <br> 18:00 - 20:00<span
+                                                        style=" font-size: 32px; "> PM</span></div>
+                                                <div style="font-size: 28px;color: #808080;margin: 20px 0 0 0;"
+                                                    class=""> 逢周末及公眾假期 <br> Weekends &amp; Public Holidays </div>
+                                                <div style="height: 6px;/* width: 545px; */background:#000;margin: 25px 0 0 0;"
+                                                    class=""> </div>
+                                                <div class="" style=" font-size: 30px; margin: 39px 0 0 0; "> 同暢遊 齊共賞
+                                                    <br> Enjoy the visit by inspiring experiences in Art • History •
+                                                    Science under the LCSD Museums
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-
                                     <div class="event-div one-col-width">
-                                        <div class="event-title-div" style="background:#313e4e;">
-                                            <div>
-                                                <span style="font-size: 90px;">海防角樂testing</span> <br>
-                                                <span style="font-size: 70px;">Fun Corner</span>
+                                        <div class="event-title-div" style="background:#225580;">
+                                            <div> <span style="font-size: 60px;">探索地帶test</span> <br> <span
+                                                    style="font-size: 50px; font-weight:bold">Discovery Zone</span>
                                             </div>
                                         </div>
-
-
-
-                                        <div class="event-content-div" style="background:#ced0d3">
-                                            <div> <span style="font-size: 55px;">嘗探索、享體驗testing</span><br> <span
-                                                    style="font-size: 45px;">To
-                                                    Explore,
-                                                    To Learn</span>
-                                                <br><br><br> <span style="font-size: 70px;">10:00</span><span
-                                                    style="font-size:35px;margin-left:5px;">AM</span>
-                                                <span
-                                                    style="font-size: 50px; margin: 0 10px 0 10px; position: relative; top: -10px;">-</span>
-                                                <span style="font-size:70px;">18:00</span> <span
-                                                    style="font-size:35px;margin-left:5px;">PM</span> </span>
+                                        <div class="event-content-div" style="background:#fff">
+                                            <div style=" width: 530px; ">
+                                                <div style="font-size: 65px;font-weight: bold;">10:00<span
+                                                        style=" font-size: 32px; "> AM -</span> <br> 15:00<span
+                                                        style=" font-size: 32px; "> PM</span></div>
+                                                <div style="font-size: 28px;color: #808080;margin: 20px 0 0 0;"
+                                                    class=""> 逢周末及公眾假期 <br> Weekends &amp; Public Holidays </div>
+                                                <div style="height: 6px;/* width: 545px; */background:#000;margin: 25px 0 0 0;"
+                                                    class=""> </div>
+                                                <div class="" style=" font-size: 30px; margin: 39px 0 0 0; "> 嘗探索、享體驗
+                                                    <br>
+                                                    To Explore, To Learnz
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+
 
                             </div>
                             <div class="scene-2-screen scene-2-screen-3">
