@@ -904,7 +904,6 @@ date_default_timezone_set('Asia/Hong_Kong');
                                                 <div class="degree-div roboto">
                                                     <span class="degree">24</span>
                                                     <sup style="font-size: 43px;position: relative;top: 31px;">o</sup>
-                                                    <!-- <span>C</span> -->
                                                 </div>
 
                                             </div>
@@ -928,7 +927,7 @@ date_default_timezone_set('Asia/Hong_Kong');
                                                 <div class="degree-div roboto">
                                                     <span class="degree">18</span>
                                                     <sup style="font-size: 43px;position: relative;top: 31px;">o</sup>
-                                                    <span>C</span>
+
                                                 </div>
 
                                             </div>
@@ -952,7 +951,7 @@ date_default_timezone_set('Asia/Hong_Kong');
                                                 <div class="degree-div roboto">
                                                     <span class="degree">18</span>
                                                     <sup style="font-size: 43px;position: relative;top: 31px;">o</sup>
-                                                    <span>C</span>
+
                                                 </div>
 
                                             </div>
@@ -976,7 +975,7 @@ date_default_timezone_set('Asia/Hong_Kong');
                                                 <div class="degree-div roboto">
                                                     <span class="degree">18</span>
                                                     <sup style="font-size: 43px;position: relative;top: 31px;">o</sup>
-                                                    <span>C</span>
+
                                                 </div>
 
                                             </div>
@@ -1001,7 +1000,7 @@ date_default_timezone_set('Asia/Hong_Kong');
                                                 <div class="degree-div roboto">
                                                     <span class="degree">18</span>
                                                     <sup style="font-size: 43px;position: relative;top: 31px;">o</sup>
-                                                    <span>C</span>
+
                                                 </div>
 
                                             </div>
@@ -1025,7 +1024,7 @@ date_default_timezone_set('Asia/Hong_Kong');
                                                 <div class="degree-div roboto">
                                                     <span class="degree">18</span>
                                                     <sup style="font-size: 43px;position: relative;top: 31px;">o</sup>
-                                                    <span>C</span>
+
                                                 </div>
 
                                             </div>
@@ -1049,7 +1048,7 @@ date_default_timezone_set('Asia/Hong_Kong');
                                                 <div class="degree-div roboto">
                                                     <span class="degree">18</span>
                                                     <sup style="font-size: 43px;position: relative;top: 31px;">o</sup>
-                                                    <span>C</span>
+
                                                 </div>
 
                                             </div>
