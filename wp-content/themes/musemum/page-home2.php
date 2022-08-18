@@ -1657,7 +1657,6 @@ date_default_timezone_set('Asia/Hong_Kong');
                             var scene_2_screen_3_slide_num = $('.scene-2-screen-3-slide').length;
 
                             var interval = setInterval(() => {
-                                console.log(999);
                                 if (scene_2_screen_2_slide_num > 1) {
                                     $('.scene-2-screen-2-slide').eq(scene_2_screen_2_slide_idx)
                                         .fadeOut(
