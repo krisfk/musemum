@@ -701,7 +701,7 @@
 date_default_timezone_set('Asia/Hong_Kong');
 ?>
                                                 <span
-                                                    class="pe-4 current-datetime"><?php echo date('h:i');?></span><span>筲箕灣
+                                                    class="pe-5 current-datetime"><?php echo date('h:i');?></span><span>筲箕灣
                                                     Shau Kei
                                                     Wan</span>
 
