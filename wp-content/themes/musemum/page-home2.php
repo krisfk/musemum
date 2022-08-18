@@ -696,9 +696,12 @@
                                     <tr>
                                         <td colspan="2">
                                             <div class="weather-place w-100">
-                                                <span <?php
+
+                                                <?php
 date_default_timezone_set('Asia/Hong_Kong');
-?> class="pe-4 current-datetime"><?php echo date('h:i');?></span><span>筲箕灣
+?>
+                                                <span
+                                                    class="pe-4 current-datetime"><?php echo date('h:i');?></span><span>筲箕灣
                                                     Shau Kei
                                                     Wan</span>
 
