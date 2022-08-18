@@ -439,10 +439,10 @@
                         <div class="scene-div scene-div-3">
 
                             <div class="scene-3-screen scene-3-screen-1">
-
-                                <img class="scene-3-screen-left-img"
+                                <!-- http://64.227.13.14/musemum/wp-content/uploads/2022/08/little-plant.jpg -->
+                                <!-- <img class="scene-3-screen-left-img"
                                     src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/publication-left-img-1.jpg"
-                                    alt="">
+                                    alt=""> -->
 
                                 <div class="publication-div">
 
