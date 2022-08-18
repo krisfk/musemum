@@ -690,47 +690,45 @@
                             <div class="scene-4-screen scene-4-screen-2">
 
                                 <div class="weather-center-blk">
-                                    <?php 
-                                    date_default_timezone_set('Asia/Hong_Kong');
-                                    ?>
                                     <div class="weather-place w-100">
-                                        <span class="pe-4"><?php echo date('h:i');?></span><span>筲箕灣 Shau Kei Wan</span>
+                                        <span class="pe-4">05:07</span><span>筲箕灣 Shau Kei Wan</span>
 
                                     </div>
 
-                                    <div class="scene-4-screen-2-block scene-4-screen-2-block-1">
+                                    <div class="scene-4-screen-2-block scene-4-screen-2-block-1" style="">
 
                                         <div class="weather-msg roboto"
-                                            style=" display: block; width: 100%; text-align: center; ">
-                                            <div style=" display: inline-block;  "> <span style="font-size: 400px;"
-                                                    class="current-temperature"></span><sup
-                                                    style="font-size: 114px;position: relative;top: -264px;">o</sup><span
-                                                    style="font-size: 400px;">C</span> </div>
+                                            style="display: block; width: 100%; text-align: center;">
+                                            <div style=" display: inline-block;  "> <span style="font-size: 290px;"
+                                                    class="current-temperature">27</span><sup
+                                                    style="font-size: 114px;position: relative;top: -194px;">o</sup><span
+                                                    style="font-size: 100px;position: relative;top: -129px;">C</span>
+                                            </div>
 
                                         </div>
 
 
                                         <!--  -->
                                         <div class="weather-msg roboto"
-                                            style="left: 0;transform: translate(0px, -50%);padding: 0 77px;top: 50%;">
+                                            style="left: 0px; transform: translate(0px, -50%); padding: 0px 77px; top: 50%; display: none;">
                                             <!-- <span style="font-size:50px">
-                                                史蹟徑暫時關閉 <br>
-                                                Historic Trail is temporarily closed
-                                            </span> -->
+                史蹟徑暫時關閉 <br>
+                Historic Trail is temporarily closed
+            </span> -->
                                         </div>
                                     </div>
 
-                                    <div class="scene-4-screen-2-block scene-4-screen-2-block-2">
+                                    <div class="scene-4-screen-2-block scene-4-screen-2-block-2" style="">
 
-                                        <div class="weather-msg"> <img class="weather-icon today-weather-icon" src=""
-                                                alt="">
+                                        <div class="weather-msg" style=""> <img class="weather-icon today-weather-icon"
+                                                src="http://64.227.13.14/musemum/weather-icon/_pic62.png" alt="">
 
                                             <!-- <div class="weekday-txt">
-                                            </div> -->
+            </div> -->
                                         </div>
 
                                         <div class="weather-msg roboto"
-                                            style="left: 50%;transform: translate(-50%, -50%);padding: 0 77px;top: 50%;">
+                                            style="left: 50%; transform: translate(-50%, -50%); padding: 0px 77px; top: 50%; display: none;">
                                             <span style="font-size:50px">
 
                                                 <table>
@@ -754,15 +752,15 @@
                                         </div>
 
                                     </div>
-                                    <div class="scene-4-screen-2-block scene-4-screen-2-block-3 text-start">
+                                    <div class="scene-4-screen-2-block scene-4-screen-2-block-3 text-start" style="">
 
 
                                         <!-- <div class="weather-bottom-div" style="margin-right: 62px;">
-                                            <img class="weather-bottom-icon"
-                                                src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/wind-icon.png"
-                                                alt="">
-                                            XX mph
-                                        </div> -->
+            <img class="weather-bottom-icon"
+                src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/wind-icon.png"
+                alt="">
+            XX mph
+        </div> -->
 
                                         <!-- <div class="weather-sep">|</div> -->
 
@@ -770,7 +768,7 @@
                                             <img class="weather-bottom-icon"
                                                 src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/wet-icon.png"
                                                 alt="">
-                                            <span class="current-humidity"></span>%
+                                            <span class="current-humidity">94</span>%
 
 
                                         </div>
@@ -778,12 +776,12 @@
                                         <!-- <div class="weather-sep">|</div> -->
 
                                         <!-- <div class="weather-bottom-div">
-                                            <img class="weather-bottom-icon"
-                                                src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/umbrella-icon.png"
-                                                alt="">
+            <img class="weather-bottom-icon"
+                src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/umbrella-icon.png"
+                alt="">
 
-                                            XX%
-                                        </div> -->
+            XX%
+        </div> -->
 
 
 
