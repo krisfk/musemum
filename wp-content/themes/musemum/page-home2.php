@@ -748,7 +748,7 @@ date_default_timezone_set('Asia/Hong_Kong');
                                                 <tr>
                                                     <td>
                                                         <div class="warning-icon"
-                                                            style="width:100px;height:100px;background:url(http://64.227.13.14/musemum/weather-icon/_WL.png)">
+                                                            style="width: 200px; height: 200px; background: url(http://64.227.13.14/musemum/weather-icon/_WL.png) #fff; display: block; border-radius: 30px; background-size: 100%;">
 
                                                         </div>
                                                     </td>
