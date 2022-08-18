@@ -693,22 +693,7 @@
                                     <div class="weather-place">筲箕灣 Shau Kei Wan </div>
 
                                     <div class="scene-4-screen-2-block scene-4-screen-2-block-1">
-                                        <div class="weather-msg"> <img class="weather-icon today-weather-icon" src=""
-                                                alt="">
 
-                                            <!-- <div class="weekday-txt">
-                                            </div> -->
-                                        </div>
-                                        <!--  -->
-                                        <div class="weather-msg roboto"
-                                            style="left: 0;transform: translate(0px, -50%);padding: 0 77px;top: 50%;">
-                                            <!-- <span style="font-size:50px">
-                                                史蹟徑暫時關閉 <br>
-                                                Historic Trail is temporarily closed
-                                            </span> -->
-                                        </div>
-                                    </div>
-                                    <div class="scene-4-screen-2-block scene-4-screen-2-block-2">
                                         <div class="weather-msg roboto"
                                             style=" display: block; width: 100%; text-align: center; ">
                                             <div style=" display: inline-block;  "> <span style="font-size: 400px;"
@@ -718,6 +703,25 @@
 
                                         </div>
 
+
+                                        <!--  -->
+                                        <div class="weather-msg roboto"
+                                            style="left: 0;transform: translate(0px, -50%);padding: 0 77px;top: 50%;">
+                                            <!-- <span style="font-size:50px">
+                                                史蹟徑暫時關閉 <br>
+                                                Historic Trail is temporarily closed
+                                            </span> -->
+                                        </div>
+                                    </div>
+
+                                    <div class="scene-4-screen-2-block scene-4-screen-2-block-2">
+
+                                        <div class="weather-msg"> <img class="weather-icon today-weather-icon" src=""
+                                                alt="">
+
+                                            <!-- <div class="weekday-txt">
+                                            </div> -->
+                                        </div>
 
                                         <div class="weather-msg roboto"
                                             style="left: 50%;transform: translate(-50%, -50%);padding: 0 77px;top: 50%;">
