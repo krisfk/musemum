@@ -785,9 +785,22 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     background: rgb(49 71 95 / 55%);
 }
 
+.weekday-div.first .weekday-title-div-wrapper {
+    height: 175px;
+    width: 205px;
+    float: left;
+    color: #fff;
+    display: block;
+    background: rgb(49 71 95 / 88%);
+}
+
 .weekday-div .weekday-title-div-wrapper .weekday-day {
     font-size: 40px;
     height: 60px;
+}
+
+.weekday-div.first .weekday-title-div-wrapper .weekday-day {
+    color: #5ca8a5;
 }
 
 .weekday-div .weekday-title-div {
@@ -804,6 +817,10 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     line-height: 110px;
     overflow: hidden;
     padding: 2rem 0 0 0;
+}
+
+.weekday-div.first .weekday-title-div {
+    color: #5ca8a5;
 }
 
 .weekdays-div {
@@ -833,6 +850,13 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     background: rgb(49 71 95 / 55%);
 }
 
+.weekday-div.first .weekday-degree-div {
+    /* background: rgb(0 0 0 / 10%); */
+    height: 500px;
+    overflow: hidden;
+    background: rgb(49 71 95 / 88%);
+}
+
 .weekday-div .weekday-degree-div .weekday-weather-icon {
     position: absolute;
     bottom: 227px;
@@ -850,6 +874,10 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     width: 205px;
     display: flex;
     justify-content: center;
+}
+
+.weekday-div.first .degree-div {
+    color: #5ca8a5;
 }
 
 .weekday-degree-div-wrapper {
