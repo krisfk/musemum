@@ -824,6 +824,10 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 
 .weekday-div:first-child {}
 
+.weekday-div:first-child .weekday-degree-div {
+    background: rgb(49 71 95 / 80%);
+}
+
 .weekday-div .weekday-degree-div {
     /* background: rgb(0 0 0 / 10%); */
     height: 500px;
