@@ -307,7 +307,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="event-div one-col-width">
+                                    <!-- <div class="event-div one-col-width">
                                         <div class="event-title-div" style="background:#313e4e;">
                                             <div>
                                                 <span style="font-size: 90px;">海防角樂</span> <br>
@@ -330,7 +330,7 @@
                                                     style="font-size:35px;margin-left:5px;">PM</span> </span>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> -->
                                 </div>
                                 <div class="scene-2-screen-2-slide">
                                     <div class="event-div one-col-width">
