@@ -290,8 +290,8 @@
                                         <div class="event-content-div" style="background:#fff">
                                             <div style=" width: 530px; ">
                                                 <div style="font-size: 65px;font-weight: bold;">09:00 - 13:00<span
-                                                        style=" font-size: 32px; ">AM /</span> <br> 18:00 - 20:00<span
-                                                        style=" font-size: 32px; ">PM</span></div>
+                                                        style=" font-size: 32px; "> AM /</span> <br> 18:00 - 20:00<span
+                                                        style=" font-size: 32px; "> PM</span></div>
                                                 <div style="font-size: 28px;color: #808080;margin: 20px 0 0 0;"
                                                     class=""> 逢周末及公眾假期 <br> Weekends &amp; Public Holidays </div>
                                                 <div style="height: 6px;/* width: 545px; */background:#000;margin: 25px 0 0 0;"
