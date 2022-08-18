@@ -1197,3 +1197,10 @@ body {
     scale: 1.01;
     display: none;
 }
+
+.publication-div-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 1080px;
+}
