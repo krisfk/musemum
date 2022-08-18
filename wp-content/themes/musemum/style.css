@@ -822,9 +822,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     overflow: hidden;
 }
 
-.weekday-div:first-child {}
-
-.weekday-div:first-child .weekday-degree-div {
+.weekday-div:nth-of-type(1) .weekday-degree-div {
     background: rgb(49 71 95 / 80%);
 }
 
