@@ -687,7 +687,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 }
 
 .scene-4-screen-2-block.scene-4-screen-2-block-1 {
-    width: 429px;
+    width: 417px;
     height: 500px;
 }
 
@@ -760,6 +760,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     display: inline-block;
     font-size: 68px;
     margin: -63px 0 0 0;
+    padding: 0 0 0 1rem;
 }
 
 .weather-sep {
