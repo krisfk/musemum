@@ -403,23 +403,24 @@
                                         </div>
                                     </div>
                                     <div class="event-div one-col-width">
-                                        <div class="event-title-div" style="background:#225580;">
-                                            <div> <span style="font-size: 60px;">探索地帶test</span> <br> <span
-                                                    style="font-size: 50px; font-weight:bold">Discovery Zone</span>
+                                        <div class="event-title-div" style="background:#2e7c76;">
+                                            <div> <span style="font-size: 60px;">公眾活動</span> <br> <span
+                                                    style="font-size: 50px; font-weight:bold">Public Programmes</span>
                                             </div>
                                         </div>
                                         <div class="event-content-div" style="background:#fff">
                                             <div style=" width: 530px; ">
-                                                <div style="font-size: 65px;font-weight: bold;">10:00<span
-                                                        style=" font-size: 32px; "> AM -</span> <br> 15:00<span
+                                                <div style="font-size: 65px;font-weight: bold;">15:00<span
+                                                        style=" font-size: 32px; "> PM -</span> <br> 16:30<span
                                                         style=" font-size: 32px; "> PM</span></div>
                                                 <div style="font-size: 28px;color: #808080;margin: 20px 0 0 0;"
-                                                    class=""> 逢周末及公眾假期 <br> Weekends &amp; Public Holidays </div>
-                                                <div style="height: 6px;/* width: 545px; */background:#000;margin: 25px 0 0 0;"
+                                                    class=""> 逢星期三 <br>
+                                                    Every Wednesday</div>
+                                                <div style="height: 6px;background:#2e7c76;margin: 25px 0 0 0;"
                                                     class=""> </div>
-                                                <div class="" style=" font-size: 30px; margin: 39px 0 0 0; "> 嘗探索、享體驗
+                                                <div class="" style=" font-size: 30px; margin: 39px 0 0 0; ">軍事防衛的鯉魚門
                                                     <br>
-                                                    To Explore, To Learnz
+                                                    Liyumen for Military Defense
                                                 </div>
                                             </div>
                                         </div>
