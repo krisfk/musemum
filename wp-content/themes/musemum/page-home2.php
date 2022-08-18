@@ -475,7 +475,7 @@
                                                     </span></td>
                                                 <td style="color:#35475d;font-weight:bold;">
                                                     <span style="font-size:50px;">$165</span>
-                                                    <span style="font-size:50px;">.00</span>
+                                                    <span style="font-size:30px;position:relative;top:-14px">.00</span>
                                                 </td>
                                             </tr>
                                         </table>
