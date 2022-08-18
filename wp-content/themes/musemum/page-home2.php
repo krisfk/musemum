@@ -554,32 +554,7 @@
                                     </div>
 
                                 </div>
-                                <!-- <div class="publication-div three-books">
 
-                                    <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/book-4.png" alt=""
-                                        class="book">
-
-                                    <div class="publication-div-text-content">
-                                        <span style="font-size:35px;">
-                                            我的海防手帳
-                                        </span>
-                                        <br><br>
-
-                                        <span class="roboto" style="font-size: 30px;"> My Coastal Defence Notes
-
-                                        </span>
-
-                                        <br><br>
-                                        <span>
-                                            <span style="font-size:25px;">
-                                                港幣HK
-                                            </span>
-                                            <span style="font-size:50px;">$88</span>
-                                        </span>
-
-                                    </div>
-
-                                </div> -->
                                 <div class="publication-div three-books">
 
                                     <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/book-3.png" alt=""
