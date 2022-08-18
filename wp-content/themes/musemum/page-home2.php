@@ -467,11 +467,20 @@
                                         </span>
 
                                         <br><br>
+
+                                        <table>
+                                            <tr>
+                                                <td> <span style="font-size:25px;">
+                                                        港幣 <br> HK
+                                                    </span></td>
+                                                <td> <span style="font-size:50px;">$165</span>
+                                                </td>
+                                            </tr>
+                                        </table>
                                         <span>
-                                            <span style="font-size:25px;">
-                                                港幣 <br> HK
-                                            </span>
-                                            <span style="font-size:50px;">$165</span>
+
+
+
                                         </span>
 
                                     </div>
