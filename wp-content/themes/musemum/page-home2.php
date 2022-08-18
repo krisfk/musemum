@@ -291,8 +291,21 @@
                                         </div>
                                         <div class="event-content-div" style="background:#dfdfdf">
                                             <div>
-                                                <div>09:00 - 13:00AM / <br>
+                                                <div style="font-size: 65px;">09:00 - 13:00AM / <br>
                                                     18:00 - 20:00PM</div>
+                                                <div style="font-size:65px" class="mt-5">
+                                                    逢周末及公眾假期 <br>
+                                                    Weekends &amp; Public Holidays
+                                                </div>
+
+                                                <div style="height: 6px;width: 545px;background:#000;" class="mt-5">
+                                                </div>
+                                                <div class="mt-5">
+                                                    同暢遊 齊共賞 <br>
+                                                    Enjoy the visit by inspiring experiences in Art • History • Science
+                                                    under the LCSD Museums
+                                                </div>
+
                                             </div>
                                         </div>
                                     </div>
