@@ -889,6 +889,7 @@ date_default_timezone_set('Asia/Hong_Kong');
 
                                         <div class="weekday-title-div-wrapper">
                                             <div class="weekday-title-div">一 MON</div>
+                                            <div class="weekday-day">10</div>
                                         </div>
                                         <div class="weekday-degree-div-wrapper">
 
