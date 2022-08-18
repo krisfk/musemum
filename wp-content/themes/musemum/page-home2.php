@@ -470,7 +470,7 @@
 
                                         <table>
                                             <tr>
-                                                <td style="color:#808080;" class="pe-3"> <span style="font-size:20px;">
+                                                <td style="color:#808080;" class="pe-1"> <span style="font-size:20px;">
                                                         港幣 <br> HK
                                                     </span></td>
                                                 <td style="color:#35475d;font-weight:bold;"> <span
