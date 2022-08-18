@@ -782,7 +782,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     float: left;
     color: #fff;
     display: block;
-    background: rgb(0 0 0 / 10%);
+    background: rgb(49 71 95 / 55%);
 }
 
 .weekday-div .weekday-title-div-wrapper .weekday-day {
@@ -824,7 +824,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     /* background: rgb(0 0 0 / 10%); */
     height: 500px;
     overflow: hidden;
-    background: rgb(0 0 0 / 10%);
+    background: rgb(49 71 95 / 55%);
 }
 
 .weekday-div .weekday-degree-div .weekday-weather-icon {
