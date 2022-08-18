@@ -473,7 +473,7 @@
                                             </span>
                                             <span style="font-size:50px;">$165</span>
                                         </span>
-                                        <!--  -->
+
                                     </div>
 
                                 </div>
