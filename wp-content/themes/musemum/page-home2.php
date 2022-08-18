@@ -696,7 +696,10 @@
                                     <tr>
                                         <td colspan="2">
                                             <div class="weather-place w-100">
-                                                <span class="pe-4 current-datetime">05:07</span><span>筲箕灣 Shau Kei
+                                                <span <?php
+date_default_timezone_set('Asia/Hong_Kong');
+?> class="pe-4 current-datetime"><?php echo date('h:i');?></span><span>筲箕灣
+                                                    Shau Kei
                                                     Wan</span>
 
                                             </div>
@@ -1142,10 +1145,7 @@
                     <a href="javascript:void(0);" class="stage-btn stage-btn-5">5</a>
                     <a href="javascript:void(0);" class="stage-btn stage-btn-6">6</a>
 
-                    -->
-                    <?php
-date_default_timezone_set('Asia/Hong_Kong');
-?>
+
                     <script type="text/javascript">
                     $(function() {
 
