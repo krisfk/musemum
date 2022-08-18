@@ -1269,7 +1269,7 @@ date_default_timezone_set('Asia/Hong_Kong');
                                         $('.weekday-title-div').eq(i).html(
                                             display_day_chi_order[
                                                 i]);
-                                        $('.weekday-title-div').eq(i).html(1);
+                                        $('.weekday-day').eq(i).html(1);
                                     }
 
                                     $('.weekday-txt').html('<span>' + day_chi +
