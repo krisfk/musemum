@@ -690,31 +690,32 @@
                             <div class="scene-4-screen scene-4-screen-2">
 
                                 <div class="weather-center-blk">
+                                    <div class="weather-place">筲箕灣 <br> Shau Kei Wan </div>
+
                                     <div class="scene-4-screen-2-block scene-4-screen-2-block-1">
                                         <div class="weather-msg"> <img class="weather-icon today-weather-icon" src=""
                                                 alt="">
 
-                                            <div class="weekday-txt">
-                                                <!-- <span>星期一</span> <br> <span class="roboto">MONDAY</span>  -->
-                                            </div>
+                                            <!-- <div class="weekday-txt">
+                                            </div> -->
                                         </div>
                                         <!--  -->
                                         <div class="weather-msg roboto"
                                             style="left: 0;transform: translate(0px, -50%);padding: 0 77px;top: 50%;">
-                                            <span style="font-size:50px">
+                                            <!-- <span style="font-size:50px">
                                                 史蹟徑暫時關閉 <br>
                                                 Historic Trail is temporarily closed
-                                            </span>
+                                            </span> -->
                                         </div>
                                     </div>
                                     <div class="scene-4-screen-2-block scene-4-screen-2-block-2">
                                         <div class="weather-msg roboto"
                                             style=" display: block; width: 100%; text-align: center; ">
-                                            <div style=" display: inline-block; /* text-align: left; */ "> <span
-                                                    style="font-size: 400px;" class="current-temperature"></span><sup
+                                            <div style=" display: inline-block;  "> <span style="font-size: 400px;"
+                                                    class="current-temperature"></span><sup
                                                     style="font-size: 114px;position: relative;top: -264px;">o</sup><span
                                                     style="font-size: 400px;">C</span> </div>
-                                            <div class="weather-place">筲箕灣 <br> Shau Kei Wan </div>
+
                                         </div>
 
 

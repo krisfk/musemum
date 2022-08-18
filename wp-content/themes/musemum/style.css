@@ -682,7 +682,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 .scene-4-screen-2-block {
     float: left;
     position: relative;
-    background: url(./assets/images/weather-gradient-bg.png);
+    /* background: url(./assets/images/weather-gradient-bg.png); */
     background-size: 100% 100%;
 }
 
