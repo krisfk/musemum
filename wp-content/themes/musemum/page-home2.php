@@ -704,7 +704,7 @@
                                     <tr>
                                         <td>
                                             <div class="weather-msg roboto"
-                                                style="display: block; width: 100%; text-align: center;">
+                                                style="display: block; width: 100%; text-align: left;">
                                                 <div style=" display: inline-block;  "> <span style="font-size: 290px;"
                                                         class="current-temperature">27</span><sup
                                                         style="font-size: 114px;position: relative;top: -194px;">o</sup><span
