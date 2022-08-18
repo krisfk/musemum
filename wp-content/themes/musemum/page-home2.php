@@ -1977,7 +1977,7 @@ date_default_timezone_set('Asia/Hong_Kong');
                             // $('.weekday-title-div').fadeOut(0);
                             // $('.weekday-degree-div').fadeOut(0);
                             // $('.weekday-weather-icon').fadeOut(0);
-                            $('.degree-div').fadeOut(0);
+                            // $('.degree-div').fadeOut(0);
 
                             $('.scene-div-4').css({
                                 'left': '-5760px'
