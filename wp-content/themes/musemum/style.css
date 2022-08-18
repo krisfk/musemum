@@ -750,6 +750,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     font-size: 40px;
     display: inline-block;
     text-align: left;
+    color: #fff;
     margin-left: 64px;
     line-height: normal;
 }
