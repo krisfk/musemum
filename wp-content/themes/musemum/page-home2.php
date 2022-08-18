@@ -1974,9 +1974,9 @@ date_default_timezone_set('Asia/Hong_Kong');
                             // $('.scene-4-screen-2-block').fadeOut(0);
 
 
-                            $('.weekday-title-div').fadeOut(0);
-                            $('.weekday-degree-div').fadeOut(0);
-                            $('.weekday-weather-icon').fadeOut(0);
+                            // $('.weekday-title-div').fadeOut(0);
+                            // $('.weekday-degree-div').fadeOut(0);
+                            // $('.weekday-weather-icon').fadeOut(0);
                             $('.degree-div').fadeOut(0);
 
                             $('.scene-div-4').css({
