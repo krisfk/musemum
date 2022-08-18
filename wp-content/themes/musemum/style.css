@@ -569,8 +569,8 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 }
 
 .publication-div-text-content {
-    padding: 2rem 3rem 3rem 3rem;
-    width: 560px;
+    padding: 2rem 0 3rem 0;
+    width: 460px;
     margin: 0 auto;
 }
 
