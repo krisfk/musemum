@@ -450,45 +450,7 @@
 
 
                                 </div>
-                                <div class="publication-div">
 
-                                    <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/book-2.png" alt=""
-                                        class="book">
-
-                                    <div class="publication-div-text-content">
-                                        <span style="font-size:35px;">
-                                            我武維揚 - <br>
-                                            近代中國海軍史新論 </span>
-                                        <br><br>
-
-                                        <span class="roboto" style="font-size: 30px;"> Modern Chinese Naval History:
-                                            New Perspectives
-
-                                        </span>
-
-                                        <br><br>
-
-                                        <table>
-                                            <tr>
-                                                <td style="color:#808080;" class="pe-3"> <span style="font-size:20px;">
-                                                        港幣 <br> HK
-                                                    </span></td>
-                                                <td
-                                                    style="color:#35475d;font-weight:bold;position: relative;top: -1px;">
-                                                    <span style="font-size:50px;">$165</span>
-                                                    <span style="font-size:30px;position:relative;top:-14px">.00</span>
-                                                </td>
-                                            </tr>
-                                        </table>
-                                        <span>
-
-
-
-                                        </span>
-
-                                    </div>
-
-                                </div>
                                 <div class="publication-div">
 
                                     <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/book-1.png" alt=""
@@ -552,7 +514,47 @@
                                     </div>
 
                                 </div>
-                                <div class="publication-div three-books">
+
+                                <div class="publication-div">
+
+                                    <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/book-2.png" alt=""
+                                        class="book">
+
+                                    <div class="publication-div-text-content">
+                                        <span style="font-size:35px;">
+                                            我武維揚 - <br>
+                                            近代中國海軍史新論 </span>
+                                        <br><br>
+
+                                        <span class="roboto" style="font-size: 30px;"> Modern Chinese Naval History:
+                                            New Perspectives
+
+                                        </span>
+
+                                        <br><br>
+
+                                        <table>
+                                            <tr>
+                                                <td style="color:#808080;" class="pe-3"> <span style="font-size:20px;">
+                                                        港幣 <br> HK
+                                                    </span></td>
+                                                <td
+                                                    style="color:#35475d;font-weight:bold;position: relative;top: -1px;">
+                                                    <span style="font-size:50px;">$165</span>
+                                                    <span style="font-size:30px;position:relative;top:-14px">.00</span>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <span>
+
+
+
+                                        </span>
+
+                                    </div>
+
+                                </div>
+                                <!-- <div class="publication-div three-books">
 
                                     <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/book-4.png" alt=""
                                         class="book">
@@ -577,7 +579,7 @@
 
                                     </div>
 
-                                </div>
+                                </div> -->
                                 <div class="publication-div three-books">
 
                                     <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/book-3.png" alt=""
