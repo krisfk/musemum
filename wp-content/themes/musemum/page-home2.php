@@ -2030,10 +2030,15 @@ function cndate($date){
                                     // $('.weekday-degree-div').eq(i).delay(700 + i * 30).slideDown(
                                     //     500);
 
-                                    $('.weekday-div').eq(i).delay(700 + i * 30).animate({
-                                        'top': '0'
-                                    }, 500);
-
+                                    if (i > 0) {
+                                        $('.weekday-div').eq(i).delay(700 + i * 30).animate({
+                                            'top': '0'
+                                        }, 500);
+                                    } else {
+                                        $('.weekday-div').eq(i).delay(700 + i * 30).animate({
+                                            'top': '179px'
+                                        }, 500);
+                                    }
 
                                     $('.weekday-weather-icon').eq(i).delay(700 + i * 30).fadeIn(400)
                                     $('.degree-div').eq(i).delay(700 + i * 30).fadeIn(400)
