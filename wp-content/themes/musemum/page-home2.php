@@ -1715,7 +1715,7 @@ date_default_timezone_set('Asia/Hong_Kong');
                                 'left': '0px'
                             }, 1000);
                             setTimeout(() => {
-                                scene4();
+                                // scene4();
                             }, 20000);
                         }
 
