@@ -754,7 +754,7 @@
                                         </div>
 
                                     </div>
-                                    <div class="scene-4-screen-2-block scene-4-screen-2-block-3">
+                                    <div class="scene-4-screen-2-block scene-4-screen-2-block-3 text-start">
 
 
                                         <!-- <div class="weather-bottom-div" style="margin-right: 62px;">
