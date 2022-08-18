@@ -824,45 +824,23 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     display: inline-block;
 }
 
-.weekday-div:nth-child(2n-1) .weekday-degree-div {
+.weekday-div .weekday-degree-div {
     /* background: rgb(0 0 0 / 10%); */
     height: 640px;
     overflow: hidden;
     background: rgb(0 0 0 / 10%);
 }
 
-.weekday-div:nth-child(2n) .weekday-degree-div {
-    /* background: rgb(0 0 0 / 10%); */
-    height: 640px;
-    overflow: hidden;
-    background: rgb(0 0 0 / 20%);
-}
-
-.weekday-div:nth-child(2n-1) .weekday-degree-div .weekday-weather-icon {
+.weekday-div .weekday-degree-div .weekday-weather-icon {
     position: absolute;
     bottom: 250px;
 }
 
-.weekday-div:nth-child(2n) .weekday-degree-div .weekday-weather-icon {
-    position: absolute;
-    top: 228px;
-}
-
-.weekday-div:nth-child(2n-1) .degree-div {
+.weekday-div .degree-div {
     color: #fff;
     font-size: 79px;
     position: absolute;
     bottom: 100px;
-    width: 205px;
-    display: flex;
-    justify-content: center;
-}
-
-.weekday-div:nth-child(2n) .degree-div {
-    color: #fff;
-    font-size: 100px;
-    position: absolute;
-    top: 123px;
     width: 205px;
     display: flex;
     justify-content: center;
