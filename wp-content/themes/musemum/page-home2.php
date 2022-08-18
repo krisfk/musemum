@@ -742,9 +742,33 @@ date_default_timezone_set('Asia/Hong_Kong');
                                             </div>
                                             <div class="weather-bottom-div text-center">天晴 Fine</div>
                                         </td>
-                                        <td>
+                                        <td class="align-top">
 
-                                            fds
+                                            <table>
+                                                <tr>
+                                                    <td>
+                                                        <div class="warning-icon"
+                                                            style="width:100px;height:100px;background:url(http://64.227.13.14/musemum/weather-icon/_WL.png)">
+
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="warning-icon"></div>
+
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="warning-icon"></div>
+
+                                                    </td>
+                                                    <td>
+                                                        <div class="warning-icon"></div>
+
+                                                    </td>
+                                                </tr>
+                                            </table>
+
                                         </td>
 
                                     </tr>
