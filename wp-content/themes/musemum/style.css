@@ -1310,23 +1310,32 @@ body {
 
 .scene-5-screen-1-bg.scene-5-screen-1-bg-1 {
     left: -470px;
-    background: #31475f;
+    /* background: #31475f; */
     z-index: 200;
 }
 
 .scene-5-screen-1-bg.scene-5-screen-1-bg-2 {
     left: 200px;
-    background: #5ca8a5;
+    /* background: #5ca8a5; */
     z-index: 100;
 }
 
 .scene-5-screen-1-bg.scene-5-screen-1-bg-3 {
     left: 840px;
-    background: #31475f;
+    /* background: #31475f; */
 }
 
-.scene-5-screen-1-bg.scene-5-screen-1-bg-1 img {}
+.scene-5-screen-1-bg.scene-5-screen-1-bg-1 img {
+    -webkit-filter: drop-shadow(5px 5px 5px #31475f);
+    filter: drop-shadow(5px 5px 5px #31475f);
+}
 
-.scene-5-screen-1-bg.scene-5-screen-1-bg-2 img {}
+.scene-5-screen-1-bg.scene-5-screen-1-bg-2 img {
+    -webkit-filter: drop-shadow(5px 5px 5px #5ca8a5);
+    filter: drop-shadow(5px 5px 5px #5ca8a5);
+}
 
-.scene-5-screen-1-bg.scene-5-screen-1-bg-3 img {}
+.scene-5-screen-1-bg.scene-5-screen-1-bg-3 img {
+    -webkit-filter: drop-shadow(5px 5px 5px #31475f);
+    filter: drop-shadow(5px 5px 5px #31475f);
+}
