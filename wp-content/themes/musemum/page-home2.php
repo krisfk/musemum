@@ -2017,7 +2017,7 @@ function cndate($date){
 
                             setTimeout(() => {
                                 clearInterval(interval);
-                                // scene3();
+                                scene3();
 
                             }, 40000);
 
@@ -2038,7 +2038,7 @@ function cndate($date){
                                 'left': '0px'
                             }, 1000);
                             setTimeout(() => {
-                                // scene4();
+                                scene4();
                             }, 20000);
                         }
 
@@ -2171,7 +2171,7 @@ function cndate($date){
 
                                 setTimeout(() => {
                                     // clearInterval(weather_interval);
-                                    // scene5();
+                                    scene5();
                                 }, 20000);
 
                             });
@@ -2294,7 +2294,7 @@ function cndate($date){
 
                                     setTimeout(() => {
                                         // clearInterval(interval2);
-                                        // scene6();
+                                        scene6();
                                     }, 20000);
 
 
@@ -2325,6 +2325,10 @@ function cndate($date){
 
 
                                 setTimeout(() => {
+
+                                    $('.scene-div-6').fadeOut(500, function() {
+                                        scene1();
+                                    })
                                     // scene1();
                                 }, 20000);
                             })
