@@ -1172,6 +1172,26 @@ function cndate($date){
 
 
 
+                                <div class="scene-6-screen-3-txt">
+                                    <ul>
+                                        <li>預防新型冠狀病毒在社區傳播</li>
+                                        <li>本博物館採取以下防疫措施以保障公眾健康</li>
+                                        <li>訪客進館前須佩戴口罩，以保障公眾及員工健康</li>
+                                        <li>我們為所有進入博物館的人士及工作人員量度體溫，多謝合作</li>
+                                        <li>Help prevent the Novel Coronavirus from spreading in the community</li>
+                                        <li>Our museum implements the following precaution measures</li>
+                                        <li>It is essential for visitor to wear masks upon entry the museum to
+                                            safeguard
+                                            the health of
+                                            visitors
+                                            and staff members</li>
+                                        <li>We arrange temperature check for all visitors and staff who enter the
+                                            museum
+                                            Thank you for your cooperation</li>
+                                    </ul>
+                                </div>
+
+
                                 <!-- <div class="scene-6-screen-3-txt"> <span style="font-size: 70px;">防疫</span><span
                                         style="font-size: 130px;margin-left: 20px;">資訊</span> <br> <span class="roboto"
                                         style="font-size: 60px;margin-left: 74px;">Epidemic
