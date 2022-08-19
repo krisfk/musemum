@@ -1314,9 +1314,9 @@ function cndate($date){
                                         );
 
                                     var warning_arr = Object.keys(result);
-                                    console.log(warning_arr);
+                                    console.log(result);
                                     delete result['WTS'];
-                                    console.log(warning_arr);
+                                    console.log(result);
 
                                     var show_icon_arr = [];
                                     var icon = '';
