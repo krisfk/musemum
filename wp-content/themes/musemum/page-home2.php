@@ -1007,9 +1007,7 @@ function cndate($date){
                         <!--scene-5-start-->
                         <div class="scene-div scene-div-5">
 
-                            <img class="white-big-mcd-logo h-100"
-                                src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/white-big-mcd-logo.png"
-                                alt="">
+
 
 
                             <img class="scene-5-right-img-bg"
