@@ -1301,6 +1301,13 @@ body {
     border-radius: 0 0 100px 0;
 }
 
+.scene-5-screen-1-bg img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 810px;
+}
+
 .scene-5-screen-1-bg.scene-5-screen-1-bg-1 {
     left: -470px;
     background: #31475f;
