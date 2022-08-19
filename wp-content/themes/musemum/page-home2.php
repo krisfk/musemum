@@ -1034,7 +1034,7 @@ function cndate($date){
                                             <img class="food-icon"
                                                 src="http://64.227.13.14/musemum/wp-content/uploads/2022/08/food-icon-1.png"
                                                 alt="">
-                                                <img class="food-icon"
+                                            <img class="food-icon"
                                                 src="http://64.227.13.14/musemum/wp-content/uploads/2022/08/food-icon-2.png"
                                                 alt="">
 
@@ -1129,9 +1129,6 @@ function cndate($date){
                         <div class="scene-div scene-div-6">
 
 
-                            <img class="white-big-mcd-logo h-100" class="h-100"
-                                src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/white-big-mcd-logo.png"
-                                alt="">
 
 
                             <div class="scene-6-screen scene-6-screen-1">
@@ -1142,7 +1139,7 @@ function cndate($date){
                             </div>
                             <div class="scene-6-screen scene-6-screen-2">
 
-
+                                <!-- 
                                 <div class="scene-6-screen-2-txt">
                                     <ul>
                                         <li>預防新型冠狀病毒在社區傳播</li>
@@ -1160,19 +1157,19 @@ function cndate($date){
                                             museum
                                             Thank you for your cooperation</li>
                                     </ul>
-                                </div>
+                                </div> -->
 
-                                <img class="scene-6-screen-2-img"
-                                    src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/mask-img.png" alt="">
+                                <!-- <img class="scene-6-screen-2-img"
+                                    src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/mask-img.png" alt=""> -->
                             </div>
                             <div class="scene-6-screen scene-6-screen-3">
 
-                                <div class="scene-6-screen-3-txt"> <span style="font-size: 70px;">防疫</span><span
+                                <!-- <div class="scene-6-screen-3-txt"> <span style="font-size: 70px;">防疫</span><span
                                         style="font-size: 130px;margin-left: 20px;">資訊</span> <br> <span class="roboto"
                                         style="font-size: 60px;margin-left: 74px;">Epidemic
                                         Prevention</span> <span style="font-size: 80px;margin-left: 20px;"
                                         class="roboto">Information</span>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                         <!--scene-6-end-->
