@@ -1007,13 +1007,46 @@ function cndate($date){
                         <!--scene-5-start-->
                         <div class="scene-div scene-div-5">
 
+                            <img class="white-big-mcd-logo h-100"
+                                src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/white-big-mcd-logo.png"
+                                alt="">
+
 
                             <img class="scene-5-right-img-bg"
                                 src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/scene-5-right-bg.jpg"
                                 alt="">
 
+                            <div class="scene-5-screen scene-5-screen-1">
 
+                                <div class="disc-c-div">
+                                    <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/disc-c.png" alt="">
+                                    <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/disc-a.png" alt="">
+                                    <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/disc-b.png" alt="">
 
+                                </div>
+                                <div class="disc-b-div">
+                                    <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/disc-b.png" alt="">
+                                    <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/disc-c.png" alt="">
+                                    <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/disc-a.png" alt="">
+                                </div>
+                            </div>
+                            <div class="scene-5-screen scene-5-screen-2">
+
+                                <div class="disc-a-div">
+                                    <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/disc-a.png" alt="">
+                                    <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/disc-b.png" alt="">
+                                    <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/disc-c.png" alt="">
+
+                                </div>
+                            </div>
+                            <div class="scene-5-screen scene-5-screen-3">
+
+                                <div class="scene-5-screen-3-txt"> <span style="font-size: 84px;">博物館</span> <span
+                                        style="font-size: 150px;margin-left: 19px;">餐廳</span> <br> <span class="roboto"
+                                        style="font-size: 92px;margin-left: 308px;">Museum</span><span class="roboto"
+                                        style="font-size: 128px;margin-left: 15px;">Cafe</span>
+                                </div>
+                            </div>
 
                         </div>
                         <!--scene-5-end-->
@@ -2054,30 +2087,119 @@ function cndate($date){
                             console.log('scene5');
 
 
+                            $('.disc-a-div img').fadeOut(0);
+                            $('.disc-a-div img').eq(0).fadeIn(0);
 
+                            $('.disc-b-div img').fadeOut(0);
+                            $('.disc-b-div img').eq(0).fadeIn(0);
+
+                            $('.disc-c-div img').fadeOut(0);
+                            $('.disc-c-div img').eq(0).fadeIn(0);
+
+                            $('.scene-div-5 .white-big-mcd-logo').css({
+                                'left': '901px'
+                            });
 
                             $('.scene-div-5').css({
                                 'left': '-5760px'
                             })
+                            $('.disc-a-div').removeClass('bounce');
+                            $('.disc-a-div').removeClass('rotatemove');
+                            $('.disc-b-div').removeClass('bounce');
+                            $('.disc-c-div').removeClass('bounce');
+
 
                             $('.scene-div-5').animate({
                                 'left': '0px'
                             }, 1000, function() {
 
 
+                                setTimeout(() => {
+                                    $('.disc-a-div').addClass('bounce');
 
-
+                                    setTimeout(() => {
+                                        $('.disc-a-div').addClass('rotatemove');
+                                    }, 500);
+                                }, 500);
 
 
                                 setTimeout(() => {
-                                    // clearInterval(interval2);
-                                    // scene6();
-                                }, 20000);
+                                    $('.disc-b-div').addClass('bounce')
+                                }, 1700);
 
 
-                            }, 2000);
+                                setTimeout(() => {
+                                    $('.disc-c-div').addClass('bounce')
 
-                            // })
+
+                                    var sec = 1000;
+
+                                    idx_a = 0;
+                                    idx_b = 0;
+                                    idx_c = 0;
+
+                                    var interval2 = setInterval(() => {
+                                        sec += 1000;
+
+                                        console.log(sec);
+                                        console.log('sec/1000' + Number.isInteger(
+                                            sec /
+                                            1000));
+                                        if (Number.isInteger(sec / 1000)) {
+                                            idx_a++;
+                                            if (idx_a >= $('.disc-a-div img')
+                                                .length) {
+                                                idx_a = 0;
+                                            }
+                                            $('.disc-a-div img').fadeOut(0);
+                                            $('.disc-a-div img').eq(idx_a).fadeIn(
+                                                0);
+                                        }
+                                        console.log('sec/2000' + Number.isInteger(
+                                            sec /
+                                            2000));
+                                        if (Number.isInteger(sec / 2000)) {
+                                            idx_b++;
+                                            if (idx_b >= $('.disc-b-div img')
+                                                .length) {
+                                                idx_b = 0;
+                                            }
+                                            $('.disc-b-div img').fadeOut(0);
+                                            $('.disc-b-div img').eq(idx_b).fadeIn(
+                                                0);
+                                        }
+                                        console.log('sec/3000' + Number.isInteger(
+                                            sec /
+                                            3000));
+
+                                        if (Number.isInteger(sec / 3000)) {
+                                            idx_c++;
+                                            if (idx_c >= $('.disc-c-div img')
+                                                .length) {
+                                                idx_c = 0;
+                                            }
+                                            $('.disc-c-div img').fadeOut(0);
+                                            $('.disc-c-div img').eq(idx_c).fadeIn(
+                                                0);
+                                        }
+
+
+
+
+                                    }, 1000);
+
+
+
+
+                                    setTimeout(() => {
+                                        // clearInterval(interval2);
+                                        // scene6();
+                                    }, 20000);
+
+
+                                }, 2000);
+
+                            })
                         }
 
 
