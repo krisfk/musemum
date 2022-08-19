@@ -1534,6 +1534,11 @@ function cndate($date){
                                 'top': '100%'
                             })
 
+                            $('.scene-div-1 .white-big-mcd-logo').css({
+                                'bottom': '-857px'
+                            });
+
+
                             // .page-1-bg {
                             //     position: relative;
                             //     top: 100%;
@@ -1553,10 +1558,7 @@ function cndate($date){
                             $('.app-icon').fadeIn(0);
                             $('.qr-code-group-1,.qr-code-group-2').fadeIn(0);
                             $('.qr-code-group-1,.qr-code-group-2,.scene-1-txt-3,.scene-1-txt-4').fadeOut(0);
-                            $('.app-icon').fadeOut(0);
-                            $('.app-icon').css({
-                                'left': '1463px'
-                            });
+
                             // left: 1463px;
                             // 
                             //scene1
