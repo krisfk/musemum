@@ -1171,6 +1171,9 @@ function cndate($date){
                             <div class="scene-6-screen scene-6-screen-3">
 
 
+                                <img class="preventation-icon-txt"
+                                    src="http://64.227.13.14/musemum/wp-content/uploads/2022/08/preventation-icon-txt.png"
+                                    alt="">
 
                                 <div class="scene-6-screen-3-txt">
                                     <ul>
