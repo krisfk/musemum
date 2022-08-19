@@ -1527,6 +1527,9 @@ function cndate($date){
                             // });
                             // $('.scene-1-green-bg').fadeOut(0);
 
+                            $('.scene-1-green-bg').css({
+                                'height': '1080px'
+                            });
 
                             $('.bg-behind-phone').fadeOut(0);
                             $('.iphone-div').fadeOut(0);
