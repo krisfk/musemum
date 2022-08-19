@@ -1147,7 +1147,7 @@ function cndate($date){
                             </div>
                             <div class="scene-6-screen scene-6-screen-2">
 
-                                <video class="mcd-logo-video" controls>
+                                <video class="mcd-logo-video" loop>
                                     <source
                                         src="http://64.227.13.14/musemum/wp-content/uploads/2022/08/MCD_Logo_Intro_v4.mp4"
                                         type="video/mp4">
@@ -2384,15 +2384,15 @@ function cndate($date){
                             })
 
 
-                            $('.mcd-logo-video')
-                                .unbind(
-                                    'ended')
-                                .on('ended',
-                                    function() {
-                                        $('.mcd-logo-video').trigger('play');
+                            // $('.mcd-logo-video')
+                            //     .unbind(
+                            //         'ended')
+                            //     .on('ended',
+                            //         function() {
+                            //             $('.mcd-logo-video').trigger('play');
 
-                                    }
-                                )
+                            //         }
+                            //     )
 
                         }
 
