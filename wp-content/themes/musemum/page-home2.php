@@ -2373,7 +2373,7 @@ function cndate($date){
                                     $('.scene-div-4').fadeOut(0);
                                     $('.scene-div-3').fadeOut(0);
                                     $('.scene-div-2').fadeOut(0);
-                                    $('.scene-div-1_5').fadeIn(0);
+                                    $('.scene-div-1_5').fadeOut(0);
 
 
                                     $('.scene-div-6').fadeOut(500, function() {
