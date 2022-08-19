@@ -1586,24 +1586,24 @@ function cndate($date){
 
                             $('.scene-1-green-bg').animate({
                                 'height': '100%'
-                            }, 1000, function() {
+                            }, 500, function() {
 
 
                                 $('.page-1-bg').animate({
                                     'top': '0'
-                                }, 1000);
+                                }, 800);
 
                                 $('.scene-div-1 .white-big-mcd-logo').animate({
                                     'bottom': '0px'
-                                }, 1000);
+                                }, 800);
                                 $('.scene-div-1 .musemum-card').animate({
                                     'top': '0px'
-                                }, 1000);
+                                }, 800);
 
                                 setTimeout(() => {
                                     $('.scene-1-txt-1').fadeIn(500);
                                     $('.scene-1-musemum-pass-txt').fadeIn(500);
-                                }, 1000);
+                                }, 800);
 
 
 
