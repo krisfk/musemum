@@ -1349,4 +1349,9 @@ body {
     left: 530px;
 }
 
-.food-icon {}
+.food-icon {
+    width: 100px;
+    height: auto !important;
+    position: relative !important;
+    filter: none !important;
+}
