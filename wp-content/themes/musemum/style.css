@@ -1092,12 +1092,12 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 }
 
 .scene-6-screen-3-txt {
-    color: #394d64;
+    color: #fff;
     position: absolute;
-    top: 139px;
-    left: 642px;
+    top: 290px;
+    left: 120px;
     font-size: 30px;
-    width: 654px;
+    width: 868px;
     z-index: 200;
 }
 
