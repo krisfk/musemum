@@ -1020,7 +1020,7 @@ function cndate($date){
                                     <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/08/scene5-leftscreen-img-1.png"
                                         alt="">
 
-                                    <div>
+                                    <div class="food-info-div">
 
                                         <span>野營三文治</span>
                                         <br>
