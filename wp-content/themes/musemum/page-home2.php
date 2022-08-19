@@ -1016,10 +1016,21 @@ function cndate($date){
                             <div class="scene-5-screen scene-5-screen-1">
 
 
-                                <div class="scene-5-screen-1-bg scene-5-screen-1-bg-1"></div>
-                                <div class="scene-5-screen-1-bg scene-5-screen-1-bg-2"></div>
+                                <div class="scene-5-screen-1-bg scene-5-screen-1-bg-1">
+                                    <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/08/scene5-leftscreen-img-1.png"
+                                        alt="">
 
-                                <div class="scene-5-screen-1-bg scene-5-screen-1-bg-3"></div>
+                                </div>
+                                <div class="scene-5-screen-1-bg scene-5-screen-1-bg-2">
+                                    <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/08/scene5-leftscreen-img-2.png"
+                                        alt="">
+
+                                </div>
+
+                                <div class="scene-5-screen-1-bg scene-5-screen-1-bg-3">
+                                    <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/08/scene5-leftscreen-img-3.png"
+                                        alt="">
+                                </div>
 
                                 <!-- <div class="disc-c-div">
                                     <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/disc-c.png" alt="">
