@@ -1313,8 +1313,8 @@ function cndate($date){
                                             '{"WTS":{"name":"雷暴警告","code":"WTS","actionCode":"EXTEND","issueTime":"2022-08-09T06:30:00+08:00","expireTime":"2022-08-09T21:30:00+08:00","updateTime":"2022-08-09T19:20:00+08:00"},"WTCSGNL":{"name":"熱帶氣旋警告信號","code":"TC3","actionCode":"ISSUE","type":"三號強風信號","issueTime":"2022-08-09T11:25:00+08:00","updateTime":"2022-08-09T11:25:00+08:00"}}'
                                         );
 
-                                    // console.log(Object.keys(result));
-                                    console.log(result['WTS']['code']);
+                                    console.log(Object.keys(result));
+                                    // console.log(result['WTS']['code']);
 
                                     // for (let key of Object.keys(result)) {
                                     //     // console.log(key);
