@@ -1537,7 +1537,11 @@ function cndate($date){
                             $('.scene-div-1 .white-big-mcd-logo').css({
                                 'bottom': '-857px'
                             });
+                            // top: -1056px;
 
+                            $('.musemum-card').css({
+                                'top': '-1056px'
+                            });
 
                             // .page-1-bg {
                             //     position: relative;
