@@ -1350,8 +1350,9 @@ body {
 }
 
 .food-icon {
-    width: 100px;
-    height: auto !important;
+    height: 100px !important;
+    width: auto !important;
     position: relative !important;
     filter: none !important;
+    margin: 0 2rem 0 0;
 }
