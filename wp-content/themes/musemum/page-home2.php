@@ -1018,7 +1018,7 @@ function cndate($date){
 
                             <div class="scene-5-screen scene-5-screen-1">
 
-                                <div class="disc-c-div">
+                                <!-- <div class="disc-c-div">
                                     <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/disc-c.png" alt="">
                                     <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/disc-a.png" alt="">
                                     <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/disc-b.png" alt="">
@@ -1028,24 +1028,24 @@ function cndate($date){
                                     <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/disc-b.png" alt="">
                                     <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/disc-c.png" alt="">
                                     <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/disc-a.png" alt="">
-                                </div>
+                                </div> -->
                             </div>
                             <div class="scene-5-screen scene-5-screen-2">
 
-                                <div class="disc-a-div">
+                                <!-- <div class="disc-a-div">
                                     <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/disc-a.png" alt="">
                                     <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/disc-b.png" alt="">
                                     <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/disc-c.png" alt="">
 
-                                </div>
+                                </div> -->
                             </div>
                             <div class="scene-5-screen scene-5-screen-3">
 
-                                <div class="scene-5-screen-3-txt"> <span style="font-size: 84px;">博物館</span> <span
+                                <!-- <div class="scene-5-screen-3-txt"> <span style="font-size: 84px;">博物館</span> <span
                                         style="font-size: 150px;margin-left: 19px;">餐廳</span> <br> <span class="roboto"
                                         style="font-size: 92px;margin-left: 308px;">Museum</span><span class="roboto"
                                         style="font-size: 128px;margin-left: 15px;">Cafe</span>
-                                </div>
+                                </div> -->
                             </div>
 
                         </div>
