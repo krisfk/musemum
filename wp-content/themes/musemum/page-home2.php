@@ -1022,10 +1022,12 @@ function cndate($date){
 
                                     <div class="food-info-div">
 
-                                        <span>野營三文治</span>
-                                        <br>
-                                        <span>It’s Picnic Time Sandwich</span>
 
+                                        <div>
+                                            <span>野營三文治</span>
+                                            <br>
+                                            <span>It’s Picnic Time Sandwich</span>
+                                        </div>
                                         <div>
                                             <img class="food-icon"
                                                 src="http://64.227.13.14/musemum/wp-content/uploads/2022/08/food-icon-1.png"
