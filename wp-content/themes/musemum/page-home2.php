@@ -107,8 +107,8 @@ date_default_timezone_set('Asia/Hong_Kong');
                             <div class="scene-1-green-bg">
 
                             </div>
-                            <img class="app-icon"
-                                src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/app-icon.png" alt="">
+                            <!-- <img class="app-icon"
+                                src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/app-icon.png" alt=""> -->
 
                             <div class="qr-code-group-1">
 
@@ -1559,7 +1559,7 @@ function cndate($date){
                             // $('.musemum-card,.scene-1-txt-1,.scene-1-txt-2').fadeIn(0);
 
                             $('.scene-div').fadeOut(0);
-                            $('.app-icon').fadeIn(0);
+                            // $('.app-icon').fadeIn(0);
                             $('.qr-code-group-1,.qr-code-group-2').fadeIn(0);
                             $('.qr-code-group-1,.qr-code-group-2,.scene-1-txt-3,.scene-1-txt-4').fadeOut(0);
 
