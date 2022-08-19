@@ -2306,6 +2306,17 @@ function cndate($date){
                                 }, 20000);
                             })
 
+
+                            $('.mcd-logo-video')
+                                .unbind(
+                                    'ended')
+                                .on('ended',
+                                    function() {
+                                        $('.mcd-logo-video').trigger('play');
+
+                                    }
+                                )
+
                         }
 
 
