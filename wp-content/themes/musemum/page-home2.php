@@ -1534,6 +1534,10 @@ function cndate($date){
                                 'top': '100%'
                             })
 
+
+                            $('.scene-1-txt-1').fadeOut(0);
+                            $('.scene-1-musemum-pass-txt').fadeOut(0);
+
                             $('.scene-div-1 .white-big-mcd-logo').css({
                                 'bottom': '-857px'
                             });
