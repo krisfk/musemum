@@ -789,7 +789,7 @@ date_default_timezone_set('Asia/Hong_Kong');
                                             <div class="content">因惡劣天氣影響，史蹟徑暫時關閉 Due to the
                                                 warning, Historic Trail is
                                                 temporarily
-                                                closed</div>
+                                                closed </div>
                                         </div>
                                     </div>
 
@@ -2214,7 +2214,7 @@ function cndate($date){
 
                                 setTimeout(() => {
                                     // clearInterval(weather_interval);
-                                    scene5();
+                                    // scene5();
                                 }, 20000);
 
                             });
