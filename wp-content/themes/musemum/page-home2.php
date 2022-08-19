@@ -747,13 +747,13 @@ date_default_timezone_set('Asia/Hong_Kong');
                                                 <tr>
                                                     <td>
                                                         <div class="warning-icon warning-icon-1"
-                                                            style="width: 200px; height: 200px; background: url(http://64.227.13.14/musemum/weather-icon/_WL.png) #fff; display: block; border-radius: 30px; background-size: 100%;">
+                                                            style="display: block; border-radius: 30px; background-size: 100%;">
 
                                                         </div>
                                                     </td>
                                                     <td>
                                                         <div class="warning-icon warning-icon-3"
-                                                            style="width: 200px; height: 200px; background: url(http://64.227.13.14/musemum/weather-icon/_WL.png) #fff; display: block; border-radius: 30px; background-size: 100%;">
+                                                            style="display: block; border-radius: 30px; background-size: 100%;">
 
                                                         </div>
                                                     </td>
@@ -761,13 +761,13 @@ date_default_timezone_set('Asia/Hong_Kong');
                                                 <tr>
                                                     <td>
                                                         <div class="warning-icon warning-icon-2"
-                                                            style="width: 200px; height: 200px; background: url(http://64.227.13.14/musemum/weather-icon/_WL.png) #fff; display: block; border-radius: 30px; background-size: 100%;">
+                                                            style="display: block; border-radius: 30px; background-size: 100%;">
 
                                                         </div>
                                                     </td>
                                                     <td>
                                                         <div class="warning-icon warning-icon-4"
-                                                            style="width: 200px; height: 200px; background: url(http://64.227.13.14/musemum/weather-icon/_WL.png) #fff; display: block; border-radius: 30px; background-size: 100%;">
+                                                            style="display: block; border-radius: 30px; background-size: 100%;">
 
                                                         </div>
                                                     </td>
@@ -1370,6 +1370,12 @@ function cndate($date){
                                         })
                                         $('.warning-icon-' + (i + 1)).css({
                                             'background-size': '100% 100%'
+                                        })
+                                        $('.warning-icon-' + (i + 1)).css({
+                                            'height': '200px'
+                                        })
+                                        $('.warning-icon-' + (i + 1)).css({
+                                            'width': '200px'
                                         })
                                     }
                                     // WRAIN
