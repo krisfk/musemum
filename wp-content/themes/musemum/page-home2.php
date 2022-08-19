@@ -1314,9 +1314,9 @@ function cndate($date){
                                         );
 
                                     var warning_arr = Object.keys(result);
-                                    console.log(result);
-                                    delete result['WTS'];
-                                    console.log(result);
+                                    // console.log(result);
+                                    // delete result['WTS'];
+                                    // console.log(result);
 
                                     var show_icon_arr = [];
                                     var icon = '';
@@ -1326,12 +1326,10 @@ function cndate($date){
                                         show_icon_arr.push(icon);
                                     }
 
-
                                     if (warning_arr.includes('WTS')) {
                                         icon = '_WTS' + '.png';
                                         show_icon_arr.push(icon);
                                     }
-
 
                                     if (warning_arr.includes('WL')) {
                                         icon = '_WL' + '.png';
@@ -1343,6 +1341,25 @@ function cndate($date){
                                         icon = '_WTCSGNL_' + result['WTCSGNL']['code'] + '.png';
                                         show_icon_arr.push(icon);
                                     }
+
+                                    delete(result['WRAIN']);
+                                    delete(result['WTS']);
+                                    delete(result['WL']);
+                                    delete(result['WTCSGNL']);
+
+
+                                    for (let key of Object.keys(result)) {
+
+                                        if (result[key]['code'] == key) {
+                                            icon = '_' + key + '.png';
+                                            show_icon_arr.push(icon);
+                                        } else {
+                                            icon = '_' + key + '_' + result[key]['code'] + '.png';
+                                            show_icon_arr.push(icon);
+                                        }
+                                    }
+
+                                    console.log(show_icon_arr);
 
 
 
