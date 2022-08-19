@@ -1314,6 +1314,10 @@ function cndate($date){
                                         );
 
                                     var warning_arr = Object.keys(result);
+                                    console.log(warning_arr);
+                                    delete result['WTS'];
+                                    console.log(warning_arr);
+
                                     var show_icon_arr = [];
                                     var icon = '';
 
@@ -1339,6 +1343,8 @@ function cndate($date){
                                         icon = '_WTCSGNL_' + result['WTCSGNL']['code'] + '.png';
                                         show_icon_arr.push(icon);
                                     }
+
+
 
                                     // WRAIN
                                     // WTS
