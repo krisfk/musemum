@@ -1317,11 +1317,24 @@ function cndate($date){
 
 
                                     // weather-bg
-                                    const dark_bg_idx_arr = [53, 54, 62, 63, 64, 65];
+
+                                    //dark
+                                    const dark_bg_idx_arr = [60, 61];
+
+                                    //rain
+                                    const rain_bg_idx_arr = [53, 54, 62, 63, 64, 65];
+
+
                                     if (dark_bg_idx_arr.includes(today_weather_icon_idx)) {
                                         $('.weather-bg').attr('src', site_url +
                                             '/weather-icon/dark-bg.jpg');
-                                    } else {
+                                    } else
+                                    if (rain_bg_idx_arr.includes(today_weather_icon_idx)) {
+                                        $('.weather-bg').attr('src', site_url +
+                                            '/weather-icon/rainy-bg.jpg');
+                                    } else
+
+                                    {
                                         $('.weather-bg').attr('src', site_url +
                                             '/weather-icon/sunny-bg.jpg');
                                     }
