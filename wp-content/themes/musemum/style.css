@@ -1343,6 +1343,10 @@ body {
     filter: drop-shadow(-5px 18px 0px #31475f);
 }
 
-.food-info-div {}
+.food-info-div {
+    position: absolute;
+    top: 827px;
+    left: 530px;
+}
 
 .food-icon {}
