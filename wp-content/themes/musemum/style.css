@@ -1320,9 +1320,13 @@ body {
     z-index: 100;
 }
 
-.scene-5-screen-1-bg.scene-5-screen-1-bg-2 {}
-
 .scene-5-screen-1-bg.scene-5-screen-1-bg-3 {
     left: 840px;
     background: #31475f;
 }
+
+.scene-5-screen-1-bg.scene-5-screen-1-bg-1 img {}
+
+.scene-5-screen-1-bg.scene-5-screen-1-bg-2 img {}
+
+.scene-5-screen-1-bg.scene-5-screen-1-bg-3 img {}
