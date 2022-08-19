@@ -2214,7 +2214,7 @@ function cndate($date){
 
                                 setTimeout(() => {
                                     // clearInterval(weather_interval);
-                                    // scene5();
+                                    scene5();
                                 }, 20000);
 
                             });
