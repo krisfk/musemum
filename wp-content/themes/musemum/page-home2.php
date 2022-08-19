@@ -1368,6 +1368,9 @@ function cndate($date){
                                             'background': 'url(http://64.227.13.14/musemum/weather-icon/' +
                                                 show_icon_arr[i] + ') #fff'
                                         })
+                                        $('.warning-icon-' + (i + 1)).css({
+                                            'background-size': '100% 100%'
+                                        })
                                     }
                                     // WRAIN
                                     // WTS
