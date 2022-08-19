@@ -1313,7 +1313,39 @@ function cndate($date){
                                             '{"WTS":{"name":"雷暴警告","code":"WTS","actionCode":"EXTEND","issueTime":"2022-08-09T06:30:00+08:00","expireTime":"2022-08-09T21:30:00+08:00","updateTime":"2022-08-09T19:20:00+08:00"},"WTCSGNL":{"name":"熱帶氣旋警告信號","code":"TC3","actionCode":"ISSUE","type":"三號強風信號","issueTime":"2022-08-09T11:25:00+08:00","updateTime":"2022-08-09T11:25:00+08:00"}}'
                                         );
 
-                                    console.log(Object.keys(result));
+                                    var warning_arr = Object.keys(result);
+                                    var show_icon_arr = [];
+                                    var icon = '';
+
+                                    if (warning_arr.includes('WRAIN')) {
+                                        icon = '_WRAIN_' + result['WRAIN']['code'] + '.png';
+                                        show_icon_arr.push(icon);
+                                    }
+
+
+                                    if (warning_arr.includes('WTS')) {
+                                        icon = '_WTS' + '.png';
+                                        show_icon_arr.push(icon);
+                                    }
+
+
+                                    if (warning_arr.includes('WL')) {
+                                        icon = '_WL' + '.png';
+                                        show_icon_arr.push(icon);
+
+                                    }
+
+                                    if (warning_arr.includes('WTCSGNL')) {
+                                        icon = '_WTCSGNL_' + result['WTCSGNL']['code'] + '.png';
+                                        show_icon_arr.push(icon);
+                                    }
+
+                                    // WRAIN
+                                    // WTS
+                                    // WL
+                                    // WTCSGNL
+
+                                    // console.log(Object.keys(result));
                                     // console.log(result['WTS']['code']);
 
                                     // for (let key of Object.keys(result)) {
