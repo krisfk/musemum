@@ -1028,7 +1028,7 @@ function cndate($date){
                                             <br>
                                             <span style="font-size:30px;">It’s Picnic Time Sandwich</span>
                                         </div>
-                                        <div class="mt-5">
+                                        <div class="mt-3">
                                             <img class="food-icon"
                                                 src="http://64.227.13.14/musemum/wp-content/uploads/2022/08/food-icon-1.png"
                                                 alt="">
