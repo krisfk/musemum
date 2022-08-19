@@ -1024,6 +1024,33 @@ function cndate($date){
 
 
                                         <div>
+                                            <span style="font-size:40px;">野營三文治
+
+                                            </span>
+                                            <br>
+                                            <span style="font-size:30px;">It’s Picnic Time Sandwich </span>
+                                        </div>
+                                        <div class="mt-3">
+                                            <img class="food-icon"
+                                                src="http://64.227.13.14/musemum/wp-content/uploads/2022/08/food-icon-1.png"
+                                                alt="">
+                                                <img class="food-icon"
+                                                src="http://64.227.13.14/musemum/wp-content/uploads/2022/08/food-icon-2.png"
+                                                alt="">
+
+                                        </div>
+                                    </div>
+
+
+
+                                </div>
+                                <div class="scene-5-screen-1-bg scene-5-screen-1-bg-2">
+                                    <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/08/scene5-leftscreen-img-2.png"
+                                        alt="">
+                                    <div class="food-info-div">
+
+
+                                        <div>
                                             <span style="font-size:40px;">海防漢堡</span>
                                             <br>
                                             <span style="font-size:30px;">MCD </span>
@@ -1037,8 +1064,9 @@ function cndate($date){
                                     </div>
 
                                 </div>
-                                <div class="scene-5-screen-1-bg scene-5-screen-1-bg-2">
-                                    <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/08/scene5-leftscreen-img-2.png"
+
+                                <div class="scene-5-screen-1-bg scene-5-screen-1-bg-3">
+                                    <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/08/scene5-leftscreen-img-3.png"
                                         alt="">
                                     <div class="food-info-div">
 
@@ -1056,11 +1084,6 @@ function cndate($date){
 
                                         </div>
                                     </div>
-                                </div>
-
-                                <div class="scene-5-screen-1-bg scene-5-screen-1-bg-3">
-                                    <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/08/scene5-leftscreen-img-3.png"
-                                        alt="">
                                 </div>
 
                                 <!-- <div class="disc-c-div">
