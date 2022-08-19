@@ -782,10 +782,17 @@ date_default_timezone_set('Asia/Hong_Kong');
 
                                 <div class="lantern-div">
 
-                                    <marquee scrollamount="10" loop="999999999999999">因惡劣天氣影響，史蹟徑暫時關閉 Due to the
-                                        warning, Historic Trail is
-                                        temporarily
-                                        closed</marquee>
+
+
+                                    <div class="marquee">
+                                        <div class="track">
+                                            <div class="content">因惡劣天氣影響，史蹟徑暫時關閉 Due to the
+                                                warning, Historic Trail is
+                                                temporarily
+                                                closed</div>
+                                        </div>
+                                    </div>
+
                                 </div>
 
 
