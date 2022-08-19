@@ -1374,15 +1374,16 @@ body {
     position: relative;
     width: 1500px;
     max-width: 100%;
-    height: 200px;
+    height: 110px;
     overflow-x: hidden;
+    line-height: 110px;
 }
 
 .track {
     position: absolute;
     white-space: nowrap;
     will-change: transform;
-    animation: marquee 10s linear infinite;
+    animation: marquee 20s linear infinite;
 }
 
 @keyframes marquee {
