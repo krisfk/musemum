@@ -1015,6 +1015,12 @@ function cndate($date){
 
                             <div class="scene-5-screen scene-5-screen-1">
 
+
+                                <div class="scene-5-screen-1-bg scene-5-screen-1-bg-1"></div>
+                                <div class="scene-5-screen-1-bg scene-5-screen-1-bg-2"></div>
+
+                                <div class="scene-5-screen-1-bg scene-5-screen-1-bg-3"></div>
+
                                 <!-- <div class="disc-c-div">
                                     <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/disc-c.png" alt="">
                                     <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/disc-a.png" alt="">
