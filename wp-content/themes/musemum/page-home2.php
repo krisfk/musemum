@@ -1007,46 +1007,13 @@ function cndate($date){
                         <!--scene-5-start-->
                         <div class="scene-div scene-div-5">
 
-                            <img class="white-big-mcd-logo h-100"
-                                src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/white-big-mcd-logo.png"
-                                alt="">
-
 
                             <img class="scene-5-right-img-bg"
                                 src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/scene-5-right-bg.jpg"
                                 alt="">
 
-                            <div class="scene-5-screen scene-5-screen-1">
 
-                                <div class="disc-c-div">
-                                    <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/disc-c.png" alt="">
-                                    <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/disc-a.png" alt="">
-                                    <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/disc-b.png" alt="">
 
-                                </div>
-                                <div class="disc-b-div">
-                                    <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/disc-b.png" alt="">
-                                    <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/disc-c.png" alt="">
-                                    <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/disc-a.png" alt="">
-                                </div>
-                            </div>
-                            <div class="scene-5-screen scene-5-screen-2">
-
-                                <div class="disc-a-div">
-                                    <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/disc-a.png" alt="">
-                                    <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/disc-b.png" alt="">
-                                    <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/disc-c.png" alt="">
-
-                                </div>
-                            </div>
-                            <div class="scene-5-screen scene-5-screen-3">
-
-                                <div class="scene-5-screen-3-txt"> <span style="font-size: 84px;">博物館</span> <span
-                                        style="font-size: 150px;margin-left: 19px;">餐廳</span> <br> <span class="roboto"
-                                        style="font-size: 92px;margin-left: 308px;">Museum</span><span class="roboto"
-                                        style="font-size: 128px;margin-left: 15px;">Cafe</span>
-                                </div>
-                            </div>
 
                         </div>
                         <!--scene-5-end-->
@@ -1131,1134 +1098,1045 @@ function cndate($date){
 
 
 
-                        var scene_3_screen_1_book_num = $('.scene-3-screen-1').find('.publication-div').length;
+                            var scene_3_screen_1_book_num = $('.scene-3-screen-1').find('.publication-div').length;
 
-                        var scene_3_screen_1_bg_size = 3 - scene_3_screen_1_book_num;
+                            var scene_3_screen_1_bg_size = 3 - scene_3_screen_1_book_num;
 
-                        $('.publication-div-bg').css({
-                            'width': scene_3_screen_1_bg_size * 640 + 'px'
-                        });
-                        //WEATHER
+                            $('.publication-div-bg').css({
+                                'width': scene_3_screen_1_bg_size * 640 + 'px'
+                            });
+                            //WEATHER
 
-                        var first = true;
-                        var v_idx = 1;
-                        var site_url = '<?php echo get_site_url();?>';
-                        var main_sec = 0;
-                        //    var current_week_day_num = <?php //echo date('w');?>;
-
-
-                        setInterval(() => {
-
-                            $.get("https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=fnd&lang=tc",
-                                function(result) {
-                                    // console.log(result);
-
-                                    const weekday = ["SUNDAY", "MONDAY", "TUESDAY", "WEDNESDAY",
-                                        "THURSDAY", "FRIDAY",
-                                        "SATURDAY"
-                                    ];
-                                    const weekday_chi = ["星期日", "星期一", "星期二", "星期三", "星期四",
-                                        "星期五",
-                                        "星期六"
-                                    ];
-                                    const weekday_display = ["日 Sun", "一 Mon", "二 Tue", "三 Wed",
-                                        "四 Thur", "五 Fri",
-                                        "六 Sat"
-                                    ];
-
-                                    const d = new Date();
-                                    let day = weekday[d.getDay()];
-                                    let day_chi = weekday_chi[d.getDay()];
-
-                                    var display_day_num_order = [];
-                                    var display_day_chi_order = [];
+                            var first = true;
+                            var v_idx = 1;
+                            var site_url = '<?php echo get_site_url();?>';
+                            var main_sec = 0;
+                            //    var current_week_day_num = <?php //echo date('w');?>;
 
 
-                                    var idx = d.getDay();
-                                    var total_display_day = 7;
-                                    display_day_num_order.push(d.getDay());
+                            setInterval(() => {
 
-                                    while (display_day_num_order.length < total_display_day) {
-                                        idx++;
-                                        if (idx > total_display_day - 1) {
-                                            idx = 0;
+                                $.get("https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=fnd&lang=tc",
+                                    function(result) {
+                                        // console.log(result);
+
+                                        const weekday = ["SUNDAY", "MONDAY", "TUESDAY", "WEDNESDAY",
+                                            "THURSDAY", "FRIDAY",
+                                            "SATURDAY"
+                                        ];
+                                        const weekday_chi = ["星期日", "星期一", "星期二", "星期三", "星期四",
+                                            "星期五",
+                                            "星期六"
+                                        ];
+                                        const weekday_display = ["日 Sun", "一 Mon", "二 Tue", "三 Wed",
+                                            "四 Thur", "五 Fri",
+                                            "六 Sat"
+                                        ];
+
+                                        const d = new Date();
+                                        let day = weekday[d.getDay()];
+                                        let day_chi = weekday_chi[d.getDay()];
+
+                                        var display_day_num_order = [];
+                                        var display_day_chi_order = [];
+
+
+                                        var idx = d.getDay();
+                                        var total_display_day = 7;
+                                        display_day_num_order.push(d.getDay());
+
+                                        while (display_day_num_order.length < total_display_day) {
+                                            idx++;
+                                            if (idx > total_display_day - 1) {
+                                                idx = 0;
+                                            }
+                                            display_day_num_order.push(idx);
                                         }
-                                        display_day_num_order.push(idx);
-                                    }
-                                    // console.log(display_day_num_order);
+                                        // console.log(display_day_num_order);
 
-                                    for (i = 0; i < display_day_num_order.length; i++) {
-                                        display_day_chi_order[i] = weekday_display[
-                                            display_day_num_order[i]];
-                                    }
+                                        for (i = 0; i < display_day_num_order.length; i++) {
+                                            display_day_chi_order[i] = weekday_display[
+                                                display_day_num_order[i]];
+                                        }
 
-                                    // console.log(display_day_chi_order);
-                                    for (i = 0; i < display_day_num_order.length; i++) {
-                                        $('.weekday-title-div').eq(i).html(
-                                            display_day_chi_order[
-                                                i]);
+                                        // console.log(display_day_chi_order);
+                                        for (i = 0; i < display_day_num_order.length; i++) {
+                                            $('.weekday-title-div').eq(i).html(
+                                                display_day_chi_order[
+                                                    i]);
 
-                                        var weekday_day = new Date();
-                                        weekday_day.setDate(weekday_day.getDate() + i);
+                                            var weekday_day = new Date();
+                                            weekday_day.setDate(weekday_day.getDate() + i);
 
-                                        $('.weekday-day').eq(i).html(weekday_day.getDate());
-                                    }
+                                            $('.weekday-day').eq(i).html(weekday_day.getDate());
+                                        }
 
-                                    $('.weekday-txt').html('<span>' + day_chi +
-                                        '</span> <br> <span class="roboto">' +
-                                        day + '</span>');
+                                        $('.weekday-txt').html('<span>' + day_chi +
+                                            '</span> <br> <span class="roboto">' +
+                                            day + '</span>');
 
 
-                                });
+                                    });
 
 
-                            //warning
+                                //warning
 
 
-                            $.get("https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=warnsum&lang=tc",
-                                function(result) {
+                                $.get("https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=warnsum&lang=tc",
+                                    function(result) {
 
-                                    // var result =
-                                    //     JSON.parse(
-                                    //         '{"WTS":{"name":"雷暴警告","code":"WTS","actionCode":"EXTEND","issueTime":"2022-08-09T06:30:00+08:00","expireTime":"2022-08-09T21:30:00+08:00","updateTime":"2022-08-09T19:20:00+08:00"},"WTCSGNL":{"name":"熱帶氣旋警告信號","code":"TC3","actionCode":"ISSUE","type":"三號強風信號","issueTime":"2022-08-09T11:25:00+08:00","updateTime":"2022-08-09T11:25:00+08:00"},"WFIRE": { "name": "火災危險警告", "code": "WFIRER", "type": "紅色", "actionCode": "ISSUE", "issueTime": "2020-09-24T11:15:00+08:00", "updateTime": "2020-09-24T11:15:00+08:00" }}'
-                                    //     );
+                                        // var result =
+                                        //     JSON.parse(
+                                        //         '{"WTS":{"name":"雷暴警告","code":"WTS","actionCode":"EXTEND","issueTime":"2022-08-09T06:30:00+08:00","expireTime":"2022-08-09T21:30:00+08:00","updateTime":"2022-08-09T19:20:00+08:00"},"WTCSGNL":{"name":"熱帶氣旋警告信號","code":"TC3","actionCode":"ISSUE","type":"三號強風信號","issueTime":"2022-08-09T11:25:00+08:00","updateTime":"2022-08-09T11:25:00+08:00"},"WFIRE": { "name": "火災危險警告", "code": "WFIRER", "type": "紅色", "actionCode": "ISSUE", "issueTime": "2020-09-24T11:15:00+08:00", "updateTime": "2020-09-24T11:15:00+08:00" }}'
+                                        //     );
 
-                                    var warning_arr = Object.keys(result);
-                                    // console.log(result);
-                                    // delete result['WTS'];
-                                    // console.log(result);
+                                        var warning_arr = Object.keys(result);
+                                        // console.log(result);
+                                        // delete result['WTS'];
+                                        // console.log(result);
 
-                                    var show_icon_arr = [];
-                                    var icon = '';
+                                        var show_icon_arr = [];
+                                        var icon = '';
 
-                                    if (warning_arr.includes('WRAIN')) {
-                                        icon = '_WRAIN_' + result['WRAIN']['code'] + '.png';
-                                        show_icon_arr.push(icon);
-                                    }
-
-                                    if (warning_arr.includes('WTS')) {
-                                        icon = '_WTS' + '.png';
-                                        show_icon_arr.push(icon);
-                                    }
-
-                                    if (warning_arr.includes('WL')) {
-                                        icon = '_WL' + '.png';
-                                        show_icon_arr.push(icon);
-
-                                    }
-
-                                    if (warning_arr.includes('WTCSGNL')) {
-                                        icon = '_WTCSGNL_' + result['WTCSGNL']['code'] + '.png';
-                                        show_icon_arr.push(icon);
-                                    }
-
-                                    delete(result['WRAIN']);
-                                    delete(result['WTS']);
-                                    delete(result['WL']);
-                                    delete(result['WTCSGNL']);
-
-
-                                    for (let key of Object.keys(result)) {
-
-                                        if (result[key]['code'] == key) {
-                                            icon = '_' + key + '.png';
-                                            show_icon_arr.push(icon);
-                                        } else {
-                                            icon = '_' + key + '_' + result[key]['code'] + '.png';
+                                        if (warning_arr.includes('WRAIN')) {
+                                            icon = '_WRAIN_' + result['WRAIN']['code'] + '.png';
                                             show_icon_arr.push(icon);
                                         }
-                                    }
 
-                                    console.log(show_icon_arr);
+                                        if (warning_arr.includes('WTS')) {
+                                            icon = '_WTS' + '.png';
+                                            show_icon_arr.push(icon);
+                                        }
 
+                                        if (warning_arr.includes('WL')) {
+                                            icon = '_WL' + '.png';
+                                            show_icon_arr.push(icon);
 
-                                    var num_of_icon = Math.min(4, show_icon_arr.length);
-                                    for (i = 0; i < num_of_icon; i++) {
-                                        $('.warning-icon-' + (i + 1)).css({
-                                            'background': 'url(http://64.227.13.14/musemum/weather-icon/' +
-                                                show_icon_arr[i] + ') #fff'
-                                        })
-                                        $('.warning-icon-' + (i + 1)).css({
-                                            'background-size': '100% 100%'
-                                        })
-                                        $('.warning-icon-' + (i + 1)).css({
-                                            'height': '200px'
-                                        })
-                                        $('.warning-icon-' + (i + 1)).css({
-                                            'width': '200px'
-                                        })
-                                    }
-                                    // WRAIN
-                                    // WTS
-                                    // WL
-                                    // WTCSGNL
+                                        }
 
-                                    // console.log(Object.keys(result));
-                                    // console.log(result['WTS']['code']);
+                                        if (warning_arr.includes('WTCSGNL')) {
+                                            icon = '_WTCSGNL_' + result['WTCSGNL']['code'] + '.png';
+                                            show_icon_arr.push(icon);
+                                        }
 
-                                    // for (let key of Object.keys(result)) {
-                                    //     // console.log(key);
-                                    // }
-
-                                });
-
-                            $.get("https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=rhrread&lang=tc",
-                                function(result) {
-
-                                    // var result = JSON.parse(
-                                    //     '{"rainfall":{"data":[{"unit":"mm","place":"中西區","max":0,"main":"FALSE"},{"unit":"mm","place":"東區","max":0,"main":"FALSE"},{"unit":"mm","place":"葵青","max":0,"main":"FALSE"},{"unit":"mm","place":"離島區","max":0,"main":"FALSE"},{"unit":"mm","place":"北區","max":0,"main":"FALSE"},{"unit":"mm","place":"西貢","max":3,"main":"FALSE","min":0},{"unit":"mm","place":"沙田","max":1,"main":"FALSE","min":0},{"unit":"mm","place":"南區","max":0,"main":"FALSE"},{"unit":"mm","place":"大埔","max":4,"main":"FALSE","min":0},{"unit":"mm","place":"荃灣","max":0,"main":"FALSE"},{"unit":"mm","place":"屯門","max":0,"main":"FALSE"},{"unit":"mm","place":"灣仔","max":0,"main":"FALSE"},{"unit":"mm","place":"元朗","max":0,"main":"FALSE"},{"unit":"mm","place":"油尖旺","max":0,"main":"FALSE"},{"unit":"mm","place":"深水埗","max":0,"main":""},{"unit":"mm","place":"九龍城","max":0,"main":""},{"unit":"mm","place":"黃大仙","max":0,"main":"FALSE"},{"unit":"mm","place":"觀塘","max":0,"main":"FALSE"}],"startTime":"2022-08-19T04:45:00+08:00","endTime":"2022-08-19T05:45:00+08:00"},"warningMessage":"","icon":[62],"iconUpdateTime":"2022-08-19T06:00:00+08:00","uvindex":"","updateTime":"2022-08-19T06:02:00+08:00","temperature":{"data":[{"place":"京士柏","value":26,"unit":"C"},{"place":"香港天文台","value":99,"unit":"C"},{"place":"黃竹坑","value":26,"unit":"C"},{"place":"打鼓嶺","value":26,"unit":"C"},{"place":"大埔","value":26,"unit":"C"},{"place":"沙田","value":26,"unit":"C"},{"place":"屯門","value":26,"unit":"C"},{"place":"將軍澳","value":26,"unit":"C"},{"place":"西貢","value":27,"unit":"C"},{"place":"長洲","value":25,"unit":"C"},{"place":"赤鱲角","value":27,"unit":"C"},{"place":"青衣","value":26,"unit":"C"},{"place":"石崗","value":26,"unit":"C"},{"place":"荃灣可觀","value":25,"unit":"C"},{"place":"荃灣城門谷","value":25,"unit":"C"},{"place":"香港公園","value":26,"unit":"C"},{"place":"筲箕灣","value":26,"unit":"C"},{"place":"九龍城","value":26,"unit":"C"},{"place":"跑馬地","value":26,"unit":"C"},{"place":"黃大仙","value":26,"unit":"C"},{"place":"赤柱","value":26,"unit":"C"},{"place":"觀塘","value":26,"unit":"C"},{"place":"深水埗","value":26,"unit":"C"},{"place":"啟德跑道公園","value":27,"unit":"C"},{"place":"元朗公園","value":26,"unit":"C"},{"place":"大美督","value":27,"unit":"C"}],"recordTime":"2022-08-19T06:00:00+08:00"},"tcmessage":"","mintempFrom00To09":"","rainfallFrom00To12":"","rainfallLastMonth":"","rainfallJanuaryToLastMonth":"","humidity":{"recordTime":"2022-08-19T06:00:00+08:00","data":[{"unit":"percent","value":94,"place":"香港天文台"}]}}'
-                                    // );
-                                    // console.log('result2' + result2.icon[0])
-                                    var today_weather_icon_idx = result.icon[0];
-                                    var current_temperature = result.temperature.data[1].value;
-                                    var current_humidity = result.humidity.data[0].value;
-                                    // console.log(current_humidity);
-                                    // console.log(55);
+                                        delete(result['WRAIN']);
+                                        delete(result['WTS']);
+                                        delete(result['WL']);
+                                        delete(result['WTCSGNL']);
 
 
-                                    // weather-bg
+                                        for (let key of Object.keys(result)) {
 
-                                    //dark
-                                    const dark_bg_idx_arr = [60, 61];
+                                            if (result[key]['code'] == key) {
+                                                icon = '_' + key + '.png';
+                                                show_icon_arr.push(icon);
+                                            } else {
+                                                icon = '_' + key + '_' + result[key]['code'] + '.png';
+                                                show_icon_arr.push(icon);
+                                            }
+                                        }
 
-                                    //rain
-                                    const rain_bg_idx_arr = [53, 54, 62, 63, 64, 65];
-
-
-                                    if (dark_bg_idx_arr.includes(today_weather_icon_idx)) {
-                                        $('.weather-bg').attr('src', site_url +
-                                            '/weather-icon/dark-bg.jpg');
-                                    } else
-                                    if (rain_bg_idx_arr.includes(today_weather_icon_idx)) {
-                                        $('.weather-bg').attr('src', site_url +
-                                            '/weather-icon/rainy-bg.jpg');
-                                    } else
-
-                                    {
-                                        $('.weather-bg').attr('src', site_url +
-                                            '/weather-icon/sunny-bg.jpg');
-                                    }
+                                        console.log(show_icon_arr);
 
 
-                                    // if (today_weather_icon_idx)
-                                    // $('.weather-bg').attr('src', site_url + '/weather-icon/pic/sunny-bg.png');
+                                        var num_of_icon = Math.min(4, show_icon_arr.length);
+                                        for (i = 0; i < num_of_icon; i++) {
+                                            $('.warning-icon-' + (i + 1)).css({
+                                                'background': 'url(http://64.227.13.14/musemum/weather-icon/' +
+                                                    show_icon_arr[i] + ') #fff'
+                                            })
+                                            $('.warning-icon-' + (i + 1)).css({
+                                                'background-size': '100% 100%'
+                                            })
+                                            $('.warning-icon-' + (i + 1)).css({
+                                                'height': '200px'
+                                            })
+                                            $('.warning-icon-' + (i + 1)).css({
+                                                'width': '200px'
+                                            })
+                                        }
+                                        // WRAIN
+                                        // WTS
+                                        // WL
+                                        // WTCSGNL
+
+                                        // console.log(Object.keys(result));
+                                        // console.log(result['WTS']['code']);
+
+                                        // for (let key of Object.keys(result)) {
+                                        //     // console.log(key);
+                                        // }
+
+                                    });
+
+                                $.get("https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=rhrread&lang=tc",
+                                    function(result) {
+
+                                        // var result = JSON.parse(
+                                        //     '{"rainfall":{"data":[{"unit":"mm","place":"中西區","max":0,"main":"FALSE"},{"unit":"mm","place":"東區","max":0,"main":"FALSE"},{"unit":"mm","place":"葵青","max":0,"main":"FALSE"},{"unit":"mm","place":"離島區","max":0,"main":"FALSE"},{"unit":"mm","place":"北區","max":0,"main":"FALSE"},{"unit":"mm","place":"西貢","max":3,"main":"FALSE","min":0},{"unit":"mm","place":"沙田","max":1,"main":"FALSE","min":0},{"unit":"mm","place":"南區","max":0,"main":"FALSE"},{"unit":"mm","place":"大埔","max":4,"main":"FALSE","min":0},{"unit":"mm","place":"荃灣","max":0,"main":"FALSE"},{"unit":"mm","place":"屯門","max":0,"main":"FALSE"},{"unit":"mm","place":"灣仔","max":0,"main":"FALSE"},{"unit":"mm","place":"元朗","max":0,"main":"FALSE"},{"unit":"mm","place":"油尖旺","max":0,"main":"FALSE"},{"unit":"mm","place":"深水埗","max":0,"main":""},{"unit":"mm","place":"九龍城","max":0,"main":""},{"unit":"mm","place":"黃大仙","max":0,"main":"FALSE"},{"unit":"mm","place":"觀塘","max":0,"main":"FALSE"}],"startTime":"2022-08-19T04:45:00+08:00","endTime":"2022-08-19T05:45:00+08:00"},"warningMessage":"","icon":[62],"iconUpdateTime":"2022-08-19T06:00:00+08:00","uvindex":"","updateTime":"2022-08-19T06:02:00+08:00","temperature":{"data":[{"place":"京士柏","value":26,"unit":"C"},{"place":"香港天文台","value":99,"unit":"C"},{"place":"黃竹坑","value":26,"unit":"C"},{"place":"打鼓嶺","value":26,"unit":"C"},{"place":"大埔","value":26,"unit":"C"},{"place":"沙田","value":26,"unit":"C"},{"place":"屯門","value":26,"unit":"C"},{"place":"將軍澳","value":26,"unit":"C"},{"place":"西貢","value":27,"unit":"C"},{"place":"長洲","value":25,"unit":"C"},{"place":"赤鱲角","value":27,"unit":"C"},{"place":"青衣","value":26,"unit":"C"},{"place":"石崗","value":26,"unit":"C"},{"place":"荃灣可觀","value":25,"unit":"C"},{"place":"荃灣城門谷","value":25,"unit":"C"},{"place":"香港公園","value":26,"unit":"C"},{"place":"筲箕灣","value":26,"unit":"C"},{"place":"九龍城","value":26,"unit":"C"},{"place":"跑馬地","value":26,"unit":"C"},{"place":"黃大仙","value":26,"unit":"C"},{"place":"赤柱","value":26,"unit":"C"},{"place":"觀塘","value":26,"unit":"C"},{"place":"深水埗","value":26,"unit":"C"},{"place":"啟德跑道公園","value":27,"unit":"C"},{"place":"元朗公園","value":26,"unit":"C"},{"place":"大美督","value":27,"unit":"C"}],"recordTime":"2022-08-19T06:00:00+08:00"},"tcmessage":"","mintempFrom00To09":"","rainfallFrom00To12":"","rainfallLastMonth":"","rainfallJanuaryToLastMonth":"","humidity":{"recordTime":"2022-08-19T06:00:00+08:00","data":[{"unit":"percent","value":94,"place":"香港天文台"}]}}'
+                                        // );
+                                        // console.log('result2' + result2.icon[0])
+                                        var today_weather_icon_idx = result.icon[0];
+                                        var current_temperature = result.temperature.data[1].value;
+                                        var current_humidity = result.humidity.data[0].value;
+                                        // console.log(current_humidity);
+                                        // console.log(55);
 
 
-                                    $('.today-weather-icon').attr('src', site_url +
-                                        '/weather-icon/_pic' +
-                                        today_weather_icon_idx + '.png');
+                                        // weather-bg
 
-                                    $('.current-temperature').html(current_temperature);
-                                    $('.current-humidity').html(current_humidity);
+                                        //dark
+                                        const dark_bg_idx_arr = [60, 61];
+
+                                        //rain
+                                        const rain_bg_idx_arr = [53, 54, 62, 63, 64, 65];
 
 
-                                    $('.weekday-div').eq(0).find('.degree').html(
-                                        current_temperature);
-                                    $('.weekday-div').eq(0).find('.weekday-weather-icon img')
-                                        .attr(
-                                            'src', site_url +
+                                        if (dark_bg_idx_arr.includes(today_weather_icon_idx)) {
+                                            $('.weather-bg').attr('src', site_url +
+                                                '/weather-icon/dark-bg.jpg');
+                                        } else
+                                        if (rain_bg_idx_arr.includes(today_weather_icon_idx)) {
+                                            $('.weather-bg').attr('src', site_url +
+                                                '/weather-icon/rainy-bg.jpg');
+                                        } else
+
+                                        {
+                                            $('.weather-bg').attr('src', site_url +
+                                                '/weather-icon/sunny-bg.jpg');
+                                        }
+
+
+                                        // if (today_weather_icon_idx)
+                                        // $('.weather-bg').attr('src', site_url + '/weather-icon/pic/sunny-bg.png');
+
+
+                                        $('.today-weather-icon').attr('src', site_url +
                                             '/weather-icon/_pic' +
                                             today_weather_icon_idx + '.png');
+
+                                        $('.current-temperature').html(current_temperature);
+                                        $('.current-humidity').html(current_humidity);
+
+
+                                        $('.weekday-div').eq(0).find('.degree').html(
+                                            current_temperature);
+                                        $('.weekday-div').eq(0).find('.weekday-weather-icon img')
+                                            .attr(
+                                                'src', site_url +
+                                                '/weather-icon/_pic' +
+                                                today_weather_icon_idx + '.png');
+                                    })
+
+
+                                // https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=fnd&lang=tc
+
+
+
+                                $.get("https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=fnd&lang=tc",
+                                    function(result) {
+
+                                        for (i = 0; i < 7; i++) {
+
+                                            var degree = Math.floor((result.weatherForecast[i]
+                                                    .forecastMaxtemp.value +
+                                                    result
+                                                    .weatherForecast[i].forecastMintemp.value) /
+                                                2);
+
+                                            var weather_icon_idx = result.weatherForecast[i]
+                                                .ForecastIcon;
+                                            // 
+
+                                            // console.log(degree);
+                                            $('.weekday-div').eq(i + 1).find('.degree').html(
+                                                degree);
+                                            $('.weekday-div').eq(i + 1).find(
+                                                '.weekday-weather-icon img').attr('src',
+                                                site_url +
+                                                '/weather-icon/_pic' +
+                                                weather_icon_idx + '.png');
+
+
+                                        }
+
+
+                                    });
+                                main_sec++;
+                                console.log('second:' + main_sec);
+
+
+
+                            }, 1000);
+
+
+
+
+
+
+
+
+                            $('.start-btn').click(function() {
+                                $('#test-video').fadeOut(0);
+                                $(this).fadeOut(0);
+                                $('.start-panel').fadeOut(0);
+                                scene1();
+                            });
+                            //scene1
+                            function scene1() {
+
+
+                                first = true;
+                                // $('.scene-div-1 .white-big-mcd-logo').css({
+                                //     'left': '1920px'
+                                // });
+                                // $('.scene-1-green-bg').fadeOut(0);
+
+
+                                $('.bg-behind-phone').fadeOut(0);
+                                $('.iphone-div').fadeOut(0);
+
+                                $('.scene-1-txt-5').fadeOut(0);
+                                $('.ar-videos-div').fadeOut(0);
+
+                                // $('.musemum-card,.scene-1-txt-1,.scene-1-txt-2').fadeIn(0);
+
+                                $('.scene-div').fadeOut(0);
+                                $('.app-icon').fadeIn(0);
+                                $('.qr-code-group-1,.qr-code-group-2').fadeIn(0);
+                                $('.qr-code-group-1,.qr-code-group-2,.scene-1-txt-3,.scene-1-txt-4').fadeOut(0);
+                                $('.app-icon').fadeOut(0);
+                                $('.app-icon').css({
+                                    'left': '1463px'
+                                });
+                                // left: 1463px;
+                                // 
+                                //scene1
+                                $('.scene-div.scene-div-1').fadeIn(0);
+
+
+
+                                $('.scene-1-green-bg').animate({
+                                    'height': '100%'
+                                }, 500, function() {
+
+
+                                    $('.page-1-bg').animate({
+                                        'top': '0'
+                                    }, 500);
+
+                                    $('.scene-div-1 .white-big-mcd-logo').animate({
+                                        'bottom': '0px'
+                                    }, 500);
+                                    $('.scene-div-1 .musemum-card').animate({
+                                        'top': '0px'
+                                    }, 500);
+
+                                    setTimeout(() => {
+                                        $('.scene-1-txt-1').fadeIn(500);
+                                        $('.scene-1-musemum-pass-txt').fadeIn(500);
+                                    }, 500);
+
+
+
+
+                                    // setTimeout(() => {
+                                    //     $('.scene-1-txt-5').fadeIn(500);
+                                    // }, 500);
+
+
+                                    setTimeout(() => {
+
+
+
+
+
+
+                                        // $('.app-icon').fadeOut(0);
+                                        // $('.qr-code-group-1,.qr-code-group-2').fadeOut(0);
+                                        // setTimeout(() => {
+                                        //     $('.qr-code-group-1,.qr-code-group-2,.scene-1-txt-3,.scene-1-txt-4')
+                                        //         .fadeIn(
+                                        //             200);
+                                        // }, 800);
+
+
+                                        // setTimeout(() => {
+                                        //     $('.app-icon').fadeIn(0);
+                                        // }, 800);
+
+                                        // $('.white-big-mcd-logo').animate({
+                                        //     'left': '202px'
+                                        // }, 1000, function() {
+
+                                        //     $('.iphone-video').trigger('play');
+
+
+                                        // $('.app-icon').animate({
+                                        //     'left': '2172px'
+                                        // }, 500, function() {
+
+
+                                        //     $('.iphone-div').fadeIn(0);
+
+                                        //     $('.iphone-div').addClass(
+                                        //     'rotate1');
+
+                                        //     $('.iphone-div .iphone-video')
+                                        //         .unbind(
+                                        //             'ended')
+                                        //         .on('ended',
+                                        //             function() {
+
+                                        //                 if (first) {
+                                        //                     console.log(
+                                        //                     'first');
+                                        //                     first = false;
+                                        //                     $('.iphone-div')
+                                        //                         .removeClass(
+                                        //                             'rotate1');
+                                        //                     $('.iphone-div')
+                                        //                         .addClass(
+                                        //                             'rotate2');
+                                        //                     $('.ar-videos-div')
+                                        //                         .delay(
+                                        //                             500)
+                                        //                         .fadeIn(0);
+                                        //                     $('.ar-video')
+                                        //                         .fadeOut(0);
+                                        //                     $('.ar-video.ar-video-1')
+                                        //                         .fadeIn(0);
+
+                                        //                     $('.ar-video-1')
+                                        //                         .trigger(
+                                        //                             'play');
+
+
+
+                                        //                     v_idx = 1;
+                                        //                     var total_video = $(
+                                        //                             '.bg-behind-phone'
+                                        //                             )
+                                        //                         .length;
+                                        //                     // console.log('play video' + v_idx);
+                                        //                     console.log(
+                                        //                         'playing video' +
+                                        //                         v_idx);
+                                        //                     $('.ar-videos-div .ar-video')
+                                        //                         .unbind('ended')
+                                        //                         .on(
+                                        //                             'ended',
+                                        //                             function() {
+
+                                        //                                 console
+                                        //                                     .log(
+                                        //                                         'ended'
+                                        //                                         );
+
+                                        //                                 if (v_idx ==
+                                        //                                     total_video
+                                        //                                 ) {
+
+                                        //                                     scene2
+                                        //                                         ();
+                                        //                                 } else {
+
+
+                                        //                                     $('.ar-video-' +
+                                        //                                             v_idx
+                                        //                                         )
+                                        //                                         .fadeOut(
+                                        //                                             500
+                                        //                                         );
+                                        //                                     $('.bg-behind-phone-' +
+                                        //                                             v_idx
+                                        //                                         )
+                                        //                                         .fadeOut(
+                                        //                                             500
+                                        //                                         );
+                                        //                                     v_idx++;
+                                        //                                     $('.ar-video-' +
+                                        //                                             v_idx
+                                        //                                         )
+                                        //                                         .fadeIn(
+                                        //                                             500
+                                        //                                         );
+                                        //                                     $('.ar-video-' +
+                                        //                                             v_idx
+                                        //                                         )
+                                        //                                         .trigger(
+                                        //                                             'play'
+                                        //                                         );
+                                        //                                     $('.bg-behind-phone-' +
+                                        //                                             v_idx
+                                        //                                         )
+                                        //                                         .fadeIn(
+                                        //                                             500
+                                        //                                         );
+                                        //                                     console
+                                        //                                         .log(
+                                        //                                             'playing video' +
+                                        //                                             v_idx
+                                        //                                         );
+
+                                        //                                 }
+
+
+                                        //                             })
+                                        //                 }
+
+
+                                        //             });
+
+
+                                        //     // iphone-div
+                                        // });
+
+
+                                        // });
+                                        // $('.scene-1-green-bg').fadeIn(500);
+                                        // $('.bg-behind-phone-1').fadeIn(500);
+                                        // $('.scene-1-txt-5').fadeIn(500);
+
+
+                                        // $('.musemum-card,.scene-1-txt-1,.scene-1-txt-2').fadeOut(
+                                        //     200);
+
+                                        scene1_5();
+
+                                    }, 15000);
+
                                 })
 
 
-                            // https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=fnd&lang=tc
 
 
 
-                            $.get("https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=fnd&lang=tc",
-                                function(result) {
-
-                                    for (i = 0; i < 7; i++) {
-
-                                        var degree = Math.floor((result.weatherForecast[i]
-                                                .forecastMaxtemp.value +
-                                                result
-                                                .weatherForecast[i].forecastMintemp.value) /
-                                            2);
-
-                                        var weather_icon_idx = result.weatherForecast[i]
-                                            .ForecastIcon;
-                                        // 
-
-                                        // console.log(degree);
-                                        $('.weekday-div').eq(i + 1).find('.degree').html(
-                                            degree);
-                                        $('.weekday-div').eq(i + 1).find(
-                                            '.weekday-weather-icon img').attr('src',
-                                            site_url +
-                                            '/weather-icon/_pic' +
-                                            weather_icon_idx + '.png');
 
 
-                                    }
+                            }
 
+                            //scene1_5
 
+                            function scene1_5() {
+
+                                $('.tag-1-5').fadeOut(0);
+                                $('.scene-div.scene-div-1_5').fadeIn(0);
+                                $('.scene-div-1_5').css({
+                                    'left': '5760px'
                                 });
-                            main_sec++;
-                            console.log('second:' + main_sec);
+
+                                $('.hc-img-1-5,.d-img-1-5').css({
+                                    'top': '-1080px'
+                                });
+
+                                $('.iphone-border').fadeOut(0);
 
 
-
-                        }, 1000);
-
+                                $('.im-guide-icon-1-5,.qr-code-icon-1-5').fadeOut(0);
 
 
+                                console.log('scene1_5');
 
+                                $('.bg-behind-phone').fadeIn(0);
+                                $('.bg-behind-phone').css({
+                                    'left': '5760px'
+                                })
 
-
-
-
-                        $('.start-btn').click(function() {
-                            $('#test-video').fadeOut(0);
-                            $(this).fadeOut(0);
-                            $('.start-panel').fadeOut(0);
-                            scene1();
-                        });
-                        //scene1
-                        function scene1() {
-
-
-                            first = true;
-                            // $('.scene-div-1 .white-big-mcd-logo').css({
-                            //     'left': '1920px'
-                            // });
-                            // $('.scene-1-green-bg').fadeOut(0);
-
-
-                            $('.bg-behind-phone').fadeOut(0);
-                            $('.iphone-div').fadeOut(0);
-
-                            $('.scene-1-txt-5').fadeOut(0);
-                            $('.ar-videos-div').fadeOut(0);
-
-                            // $('.musemum-card,.scene-1-txt-1,.scene-1-txt-2').fadeIn(0);
-
-                            $('.scene-div').fadeOut(0);
-                            $('.app-icon').fadeIn(0);
-                            $('.qr-code-group-1,.qr-code-group-2').fadeIn(0);
-                            $('.qr-code-group-1,.qr-code-group-2,.scene-1-txt-3,.scene-1-txt-4').fadeOut(0);
-                            $('.app-icon').fadeOut(0);
-                            $('.app-icon').css({
-                                'left': '1463px'
-                            });
-                            // left: 1463px;
-                            // 
-                            //scene1
-                            $('.scene-div.scene-div-1').fadeIn(0);
-
-
-
-                            $('.scene-1-green-bg').animate({
-                                'height': '100%'
-                            }, 500, function() {
-
-
-                                $('.page-1-bg').animate({
-                                    'top': '0'
-                                }, 500);
-
-                                $('.scene-div-1 .white-big-mcd-logo').animate({
-                                    'bottom': '0px'
-                                }, 500);
-                                $('.scene-div-1 .musemum-card').animate({
-                                    'top': '0px'
-                                }, 500);
+                                $('.bg-behind-phone').animate({
+                                    'left': '2235px'
+                                }, 2000);
 
                                 setTimeout(() => {
-                                    $('.scene-1-txt-1').fadeIn(500);
-                                    $('.scene-1-musemum-pass-txt').fadeIn(500);
-                                }, 500);
-
-
-
-
-                                // setTimeout(() => {
-                                //     $('.scene-1-txt-5').fadeIn(500);
-                                // }, 500);
-
-
-                                setTimeout(() => {
-
-
-
-
-
-
-                                    // $('.app-icon').fadeOut(0);
-                                    // $('.qr-code-group-1,.qr-code-group-2').fadeOut(0);
-                                    // setTimeout(() => {
-                                    //     $('.qr-code-group-1,.qr-code-group-2,.scene-1-txt-3,.scene-1-txt-4')
-                                    //         .fadeIn(
-                                    //             200);
-                                    // }, 800);
-
-
-                                    // setTimeout(() => {
-                                    //     $('.app-icon').fadeIn(0);
-                                    // }, 800);
-
-                                    // $('.white-big-mcd-logo').animate({
-                                    //     'left': '202px'
-                                    // }, 1000, function() {
-
-                                    //     $('.iphone-video').trigger('play');
-
-
-                                    // $('.app-icon').animate({
-                                    //     'left': '2172px'
-                                    // }, 500, function() {
-
-
-                                    //     $('.iphone-div').fadeIn(0);
-
-                                    //     $('.iphone-div').addClass(
-                                    //     'rotate1');
-
-                                    //     $('.iphone-div .iphone-video')
-                                    //         .unbind(
-                                    //             'ended')
-                                    //         .on('ended',
-                                    //             function() {
-
-                                    //                 if (first) {
-                                    //                     console.log(
-                                    //                     'first');
-                                    //                     first = false;
-                                    //                     $('.iphone-div')
-                                    //                         .removeClass(
-                                    //                             'rotate1');
-                                    //                     $('.iphone-div')
-                                    //                         .addClass(
-                                    //                             'rotate2');
-                                    //                     $('.ar-videos-div')
-                                    //                         .delay(
-                                    //                             500)
-                                    //                         .fadeIn(0);
-                                    //                     $('.ar-video')
-                                    //                         .fadeOut(0);
-                                    //                     $('.ar-video.ar-video-1')
-                                    //                         .fadeIn(0);
-
-                                    //                     $('.ar-video-1')
-                                    //                         .trigger(
-                                    //                             'play');
-
-
-
-                                    //                     v_idx = 1;
-                                    //                     var total_video = $(
-                                    //                             '.bg-behind-phone'
-                                    //                             )
-                                    //                         .length;
-                                    //                     // console.log('play video' + v_idx);
-                                    //                     console.log(
-                                    //                         'playing video' +
-                                    //                         v_idx);
-                                    //                     $('.ar-videos-div .ar-video')
-                                    //                         .unbind('ended')
-                                    //                         .on(
-                                    //                             'ended',
-                                    //                             function() {
-
-                                    //                                 console
-                                    //                                     .log(
-                                    //                                         'ended'
-                                    //                                         );
-
-                                    //                                 if (v_idx ==
-                                    //                                     total_video
-                                    //                                 ) {
-
-                                    //                                     scene2
-                                    //                                         ();
-                                    //                                 } else {
-
-
-                                    //                                     $('.ar-video-' +
-                                    //                                             v_idx
-                                    //                                         )
-                                    //                                         .fadeOut(
-                                    //                                             500
-                                    //                                         );
-                                    //                                     $('.bg-behind-phone-' +
-                                    //                                             v_idx
-                                    //                                         )
-                                    //                                         .fadeOut(
-                                    //                                             500
-                                    //                                         );
-                                    //                                     v_idx++;
-                                    //                                     $('.ar-video-' +
-                                    //                                             v_idx
-                                    //                                         )
-                                    //                                         .fadeIn(
-                                    //                                             500
-                                    //                                         );
-                                    //                                     $('.ar-video-' +
-                                    //                                             v_idx
-                                    //                                         )
-                                    //                                         .trigger(
-                                    //                                             'play'
-                                    //                                         );
-                                    //                                     $('.bg-behind-phone-' +
-                                    //                                             v_idx
-                                    //                                         )
-                                    //                                         .fadeIn(
-                                    //                                             500
-                                    //                                         );
-                                    //                                     console
-                                    //                                         .log(
-                                    //                                             'playing video' +
-                                    //                                             v_idx
-                                    //                                         );
-
-                                    //                                 }
-
-
-                                    //                             })
-                                    //                 }
-
-
-                                    //             });
-
-
-                                    //     // iphone-div
-                                    // });
-
-
-                                    // });
-                                    // $('.scene-1-green-bg').fadeIn(500);
-                                    // $('.bg-behind-phone-1').fadeIn(500);
-                                    // $('.scene-1-txt-5').fadeIn(500);
-
-
-                                    // $('.musemum-card,.scene-1-txt-1,.scene-1-txt-2').fadeOut(
-                                    //     200);
-
-                                    scene1_5();
-
-                                }, 15000);
-
-                            })
-
-
-
-
-
-
-
-                        }
-
-                        //scene1_5
-
-                        function scene1_5() {
-
-                            $('.tag-1-5').fadeOut(0);
-                            $('.scene-div.scene-div-1_5').fadeIn(0);
-                            $('.scene-div-1_5').css({
-                                'left': '5760px'
-                            });
-
-                            $('.hc-img-1-5,.d-img-1-5').css({
-                                'top': '-1080px'
-                            });
-
-                            $('.iphone-border').fadeOut(0);
-
-
-                            $('.im-guide-icon-1-5,.qr-code-icon-1-5').fadeOut(0);
-
-
-                            console.log('scene1_5');
-
-                            $('.bg-behind-phone').fadeIn(0);
-                            $('.bg-behind-phone').css({
-                                'left': '5760px'
-                            })
-
-                            $('.bg-behind-phone').animate({
-                                'left': '2235px'
-                            }, 2000);
-
-                            setTimeout(() => {
-                                $('.tag-1-5').fadeIn(500);
-
-                            }, 2000);
-
-
-
-
-
-                            $('.scene-div-1_5').animate({
-                                'left': '0px'
-                            }, 1000, function() {
-
-                                $('.hc-img-1-5').animate({
-                                    'top': '500px'
-                                }, 1000);
-
-                                $('.d-img-1-5').animate({
-                                    'top': '0px'
-                                }, 1000);
-
-
-
-
-                                setTimeout(() => {
-
-                                    $('.im-guide-icon-1-5').fadeIn(500)
-                                    $('.qr-code-icon-1-5').fadeIn(500)
-                                }, 800);
-
-
-                                setTimeout(() => {
-
-
-
-                                    $('.iphone-div').fadeIn(0);
-
-                                    $('.iphone-div').addClass(
-                                        'rotate1');
-
-                                    setTimeout(() => {
-                                        $('.iphone-border').fadeIn(500)
-
-                                    }, 500);
-
-
-                                    $('.iphone-video').trigger('play');
-
-
-                                    $('.iphone-div .iphone-video')
-                                        .unbind(
-                                            'ended')
-                                        .on('ended',
-                                            function() {
-
-                                                if (first) {
-                                                    console.log(
-                                                        'first');
-                                                    first = false;
-                                                    $('.iphone-div')
-                                                        .removeClass(
-                                                            'rotate1');
-                                                    $('.iphone-div')
-                                                        .addClass(
-                                                            'rotate2');
-                                                    $('.ar-videos-div')
-                                                        .delay(
-                                                            500)
-                                                        .fadeIn(0);
-                                                    $('.ar-video')
-                                                        .fadeOut(0);
-                                                    $('.ar-video.ar-video-1')
-                                                        .fadeIn(0);
-
-                                                    $('.ar-video-1')
-                                                        .trigger(
-                                                            'play');
-
-
-
-                                                    v_idx = 1;
-                                                    var total_video = $(
-                                                            '.bg-behind-phone'
-                                                        )
-                                                        .length;
-                                                    // console.log('play video' + v_idx);
-                                                    console.log(
-                                                        'playing video' +
-                                                        v_idx);
-                                                    $('.ar-videos-div .ar-video')
-                                                        .unbind('ended')
-                                                        .on(
-                                                            'ended',
-                                                            function() {
-
-                                                                console
-                                                                    .log(
-                                                                        'ended'
-                                                                    );
-
-                                                                if (v_idx ==
-                                                                    total_video
-                                                                ) {
-
-                                                                    scene2();
-                                                                } else {
-
-
-                                                                    $('.ar-video-' +
-                                                                            v_idx
-                                                                        )
-                                                                        .fadeOut(
-                                                                            500
-                                                                        );
-                                                                    $('.bg-behind-phone-' +
-                                                                            v_idx
-                                                                        )
-                                                                        .fadeOut(
-                                                                            500
-                                                                        );
-                                                                    v_idx++;
-                                                                    $('.ar-video-' +
-                                                                            v_idx
-                                                                        )
-                                                                        .fadeIn(
-                                                                            500
-                                                                        );
-                                                                    $('.ar-video-' +
-                                                                            v_idx
-                                                                        )
-                                                                        .trigger(
-                                                                            'play'
-                                                                        );
-                                                                    $('.bg-behind-phone-' +
-                                                                            v_idx
-                                                                        )
-                                                                        .fadeIn(
-                                                                            500
-                                                                        );
-                                                                    console
-                                                                        .log(
-                                                                            'playing video' +
-                                                                            v_idx
-                                                                        );
-
-                                                                }
-
-
-                                                            })
-                                                }
-
-
-                                            });
+                                    $('.tag-1-5').fadeIn(500);
 
                                 }, 2000);
 
-                                // $('.iphone-div').removeClass('rotate1');
-                                // $('.iphone-div').removeClass('rotate2');
-                            });
 
-                            // $('.scene-div-2').css({
-                            //     'left': '-5760px'
-                            // })
 
-                        }
 
-                        //scene2
-                        function scene2() {
-                            $('.scene-div.scene-div-2').fadeIn(0);
 
-                            console.log('scene2');
+                                $('.scene-div-1_5').animate({
+                                    'left': '0px'
+                                }, 1000, function() {
 
-                            $('.scene-div-2').css({
-                                'left': '-5760px'
-                            })
+                                    $('.hc-img-1-5').animate({
+                                        'top': '500px'
+                                    }, 1000);
 
-
-                            $('.scene-div-2').animate({
-                                'left': '0px'
-                            }, 1000, function() {
-                                $('.iphone-div').removeClass('rotate1');
-                                $('.iphone-div').removeClass('rotate2');
-
-
-                            });
-
-                            $('.scene-2-screen-2-slide').fadeOut(0);
-                            $('.scene-2-screen-2-slide').eq(0).fadeIn(0);
-
-                            $('.scene-2-screen-3-slide').fadeOut(0);
-                            $('.scene-2-screen-3-slide').eq(0).fadeIn(0);
-
-                            var scene_2_screen_2_slide_idx = 0;
-                            var scene_2_screen_3_slide_idx = 0;
-
-                            var scene_2_screen_2_slide_num = $('.scene-2-screen-2-slide').length;
-                            var scene_2_screen_3_slide_num = $('.scene-2-screen-3-slide').length;
-
-                            var interval = setInterval(() => {
-                                if (scene_2_screen_2_slide_num > 1) {
-                                    $('.scene-2-screen-2-slide').eq(scene_2_screen_2_slide_idx)
-                                        .fadeOut(
-                                            500);
-                                    if (scene_2_screen_2_slide_idx + 1 >
-                                        scene_2_screen_2_slide_num -
-                                        1) {
-                                        scene_2_screen_2_slide_idx = 0;
-                                    } else {
-                                        scene_2_screen_2_slide_idx++;
-                                    }
-                                    $('.scene-2-screen-2-slide').eq(scene_2_screen_2_slide_idx)
-                                        .fadeIn(
-                                            500);
-                                }
-                                if (scene_2_screen_3_slide_num > 1) {
-
-                                    $('.scene-2-screen-3-slide').eq(scene_2_screen_3_slide_idx)
-                                        .fadeOut(
-                                            500);
-                                    if (scene_2_screen_3_slide_idx + 1 >
-                                        scene_2_screen_3_slide_num -
-                                        1) {
-                                        scene_2_screen_3_slide_idx = 0;
-                                    } else {
-                                        scene_2_screen_3_slide_idx++;
-                                    }
-                                    $('.scene-2-screen-3-slide').eq(scene_2_screen_3_slide_idx)
-                                        .fadeIn(
-                                            500);
-                                }
-
-
-                            }, 10000);
-
-                            setTimeout(() => {
-                                clearInterval(interval);
-                                // scene3();
-
-                            }, 40000);
-
-
-
-
-
-                        }
-
-                        function scene3() {
-                            $('.scene-div.scene-div-3').fadeIn(0);
-
-                            console.log('scene3');
-                            $('.scene-div-3').css({
-                                'left': '-5760px'
-                            })
-                            $('.scene-div-3').animate({
-                                'left': '0px'
-                            }, 1000);
-                            setTimeout(() => {
-                                // scene4();
-                            }, 20000);
-                        }
-
-                        function scene4() {
-                            $('.scene-div.scene-div-4').fadeIn(0);
-
-                            $('.weather-bg').removeClass('scaling');
-
-
-                            console.log('scene4');
-
-                            // $('.scene-4-screen-2-block-1 .weather-msg').fadeOut(0);
-                            // $('.scene-4-screen-2-block-1 .weather-msg').eq(0).fadeIn(0);
-
-                            // $('.scene-4-screen-2-block-2 .weather-msg').fadeOut(0);
-                            // $('.scene-4-screen-2-block-2 .weather-msg').eq(0).fadeIn(0);
-
-                            // $('.current-month').css({
-                            //     'opacity': '0'
-                            // })
-
-                            $('.weekday-div').css({
-                                'top': '-945px'
-                            });
-
-                            var slide_idx_1 = 0;
-                            var slide_idx_2 = 0;
-
-                            var slide_num_1 = $('.scene-4-screen-2-block-1 .weather-msg').length;
-                            var slide_num_2 = $('.scene-4-screen-2-block-2 .weather-msg').length;
-
-                            // var weather_interval = setInterval(() => {
-
-                            //     // console.log(sec);
-                            //     if (slide_num_1 > 1) {
-                            //         $('.scene-4-screen-2-block-1 .weather-msg').eq(slide_idx_1)
-                            //             .fadeOut(
-                            //                 500);
-                            //         if (slide_idx_1 + 1 > slide_num_1 - 1) {
-                            //             slide_idx_1 = 0;
-                            //         } else {
-                            //             slide_idx_1++;
-                            //         }
-                            //         $('.scene-4-screen-2-block-1 .weather-msg').eq(slide_idx_1)
-                            //             .fadeIn(
-                            //                 500);
-                            //     }
-                            //     if (slide_num_2 > 1) {
-
-                            //         $('.scene-4-screen-2-block-2 .weather-msg').eq(slide_idx_2)
-                            //             .fadeOut(
-                            //                 500);
-                            //         if (slide_idx_2 + 1 > slide_num_2 - 1) {
-                            //             slide_idx_2 = 0;
-                            //         } else {
-                            //             slide_idx_2++;
-                            //         }
-                            //         $('.scene-4-screen-2-block-2 .weather-msg').eq(slide_idx_2)
-                            //             .fadeIn(
-                            //                 500);
-                            //     }
-
-
-                            // }, 10000);
-
-
-
-                            $('.weather-bg').css({
-                                'transform': 'scale(1)'
-                            })
-
-                            // $('.scene-4-screen-2-block').fadeOut(0);
-
-
-                            // $('.weekday-title-div').fadeOut(0);
-                            // $('.weekday-degree-div').fadeOut(0);
-                            // $('.weekday-weather-icon').fadeOut(0);
-                            // $('.degree-div').fadeOut(0);
-
-                            $('.scene-div-4').css({
-                                'left': '-5760px'
-                            })
-
-
-                            $('.scene-div-4').animate({
-                                'left': '0px'
-                            }, 1000, function() {
-
-
-                                // $('.current-month').fadeOut(0);
-
-
-                                // $('.scene-4-screen-2-block').eq(0).slideDown(500);
-                                // $('.scene-4-screen-2-block').eq(1).slideDown(500);
-
-                                // $('.scene-4-screen-2-block').delay(400).eq(2).slideDown(600);
-
-
-
-                                for (i = 0; i < $('.degree-div').length; i++) {
-
-                                    // $('.weekday-title-div').eq(i).delay(100 + i * 30).slideDown(
-                                    //     500);
-                                    // $('.weekday-degree-div').eq(i).delay(700 + i * 30).slideDown(
-                                    //     500);
-
-                                    if (i > 0) {
-                                        $('.weekday-div').eq(i).delay(700 + i * 30).animate({
-                                            'top': '0'
-                                        }, 500);
-                                    } else {
-                                        $('.weekday-div').eq(i).delay(700 + i * 30).animate({
-                                            'top': '179px'
-                                        }, 500);
-                                    }
-
-                                    // setTimeout(() => {
-                                    //     $('.current-month').animate({
-                                    //         'opacity': '1'
-                                    //     }, 500);
-                                    // }, 1200);
-
-                                    $('.weekday-weather-icon').eq(i).delay(700 + i * 30).fadeIn(400)
-                                    $('.degree-div').eq(i).delay(700 + i * 30).fadeIn(400)
-
-                                }
-
-                                $('.weather-bg').addClass('scaling');
-
-
-                                setTimeout(() => {
-                                    // clearInterval(weather_interval);
-                                    // scene5();
-                                }, 20000);
-
-                            });
-
-
-
-
-
-                        }
-
-                        function scene5() {
-                            $('.scene-div.scene-div-5').fadeIn(0);
-
-                            console.log('scene5');
-
-
-                            $('.disc-a-div img').fadeOut(0);
-                            $('.disc-a-div img').eq(0).fadeIn(0);
-
-                            $('.disc-b-div img').fadeOut(0);
-                            $('.disc-b-div img').eq(0).fadeIn(0);
-
-                            $('.disc-c-div img').fadeOut(0);
-                            $('.disc-c-div img').eq(0).fadeIn(0);
-
-                            $('.scene-div-5 .white-big-mcd-logo').css({
-                                'left': '901px'
-                            });
-
-                            $('.scene-div-5').css({
-                                'left': '-5760px'
-                            })
-                            $('.disc-a-div').removeClass('bounce');
-                            $('.disc-a-div').removeClass('rotatemove');
-                            $('.disc-b-div').removeClass('bounce');
-                            $('.disc-c-div').removeClass('bounce');
-
-
-                            $('.scene-div-5').animate({
-                                'left': '0px'
-                            }, 1000, function() {
-
-
-                                setTimeout(() => {
-                                    $('.disc-a-div').addClass('bounce');
-
-                                    setTimeout(() => {
-                                        $('.disc-a-div').addClass('rotatemove');
-                                    }, 500);
-                                }, 500);
-
-
-                                setTimeout(() => {
-                                    $('.disc-b-div').addClass('bounce')
-                                }, 1700);
-
-
-                                setTimeout(() => {
-                                    $('.disc-c-div').addClass('bounce')
-
-
-                                    var sec = 1000;
-
-                                    idx_a = 0;
-                                    idx_b = 0;
-                                    idx_c = 0;
-
-                                    var interval2 = setInterval(() => {
-                                        sec += 1000;
-
-                                        console.log(sec);
-                                        console.log('sec/1000' + Number.isInteger(
-                                            sec /
-                                            1000));
-                                        if (Number.isInteger(sec / 1000)) {
-                                            idx_a++;
-                                            if (idx_a >= $('.disc-a-div img')
-                                                .length) {
-                                                idx_a = 0;
-                                            }
-                                            $('.disc-a-div img').fadeOut(0);
-                                            $('.disc-a-div img').eq(idx_a).fadeIn(
-                                                0);
-                                        }
-                                        console.log('sec/2000' + Number.isInteger(
-                                            sec /
-                                            2000));
-                                        if (Number.isInteger(sec / 2000)) {
-                                            idx_b++;
-                                            if (idx_b >= $('.disc-b-div img')
-                                                .length) {
-                                                idx_b = 0;
-                                            }
-                                            $('.disc-b-div img').fadeOut(0);
-                                            $('.disc-b-div img').eq(idx_b).fadeIn(
-                                                0);
-                                        }
-                                        console.log('sec/3000' + Number.isInteger(
-                                            sec /
-                                            3000));
-
-                                        if (Number.isInteger(sec / 3000)) {
-                                            idx_c++;
-                                            if (idx_c >= $('.disc-c-div img')
-                                                .length) {
-                                                idx_c = 0;
-                                            }
-                                            $('.disc-c-div img').fadeOut(0);
-                                            $('.disc-c-div img').eq(idx_c).fadeIn(
-                                                0);
-                                        }
-
-
-
-
+                                    $('.d-img-1-5').animate({
+                                        'top': '0px'
                                     }, 1000);
 
 
 
 
                                     setTimeout(() => {
-                                        clearInterval(interval2);
-                                        scene6();
+
+                                        $('.im-guide-icon-1-5').fadeIn(500)
+                                        $('.qr-code-icon-1-5').fadeIn(500)
+                                    }, 800);
+
+
+                                    setTimeout(() => {
+
+
+
+                                        $('.iphone-div').fadeIn(0);
+
+                                        $('.iphone-div').addClass(
+                                            'rotate1');
+
+                                        setTimeout(() => {
+                                            $('.iphone-border').fadeIn(500)
+
+                                        }, 500);
+
+
+                                        $('.iphone-video').trigger('play');
+
+
+                                        $('.iphone-div .iphone-video')
+                                            .unbind(
+                                                'ended')
+                                            .on('ended',
+                                                function() {
+
+                                                    if (first) {
+                                                        console.log(
+                                                            'first');
+                                                        first = false;
+                                                        $('.iphone-div')
+                                                            .removeClass(
+                                                                'rotate1');
+                                                        $('.iphone-div')
+                                                            .addClass(
+                                                                'rotate2');
+                                                        $('.ar-videos-div')
+                                                            .delay(
+                                                                500)
+                                                            .fadeIn(0);
+                                                        $('.ar-video')
+                                                            .fadeOut(0);
+                                                        $('.ar-video.ar-video-1')
+                                                            .fadeIn(0);
+
+                                                        $('.ar-video-1')
+                                                            .trigger(
+                                                                'play');
+
+
+
+                                                        v_idx = 1;
+                                                        var total_video = $(
+                                                                '.bg-behind-phone'
+                                                            )
+                                                            .length;
+                                                        // console.log('play video' + v_idx);
+                                                        console.log(
+                                                            'playing video' +
+                                                            v_idx);
+                                                        $('.ar-videos-div .ar-video')
+                                                            .unbind('ended')
+                                                            .on(
+                                                                'ended',
+                                                                function() {
+
+                                                                    console
+                                                                        .log(
+                                                                            'ended'
+                                                                        );
+
+                                                                    if (v_idx ==
+                                                                        total_video
+                                                                    ) {
+
+                                                                        scene2();
+                                                                    } else {
+
+
+                                                                        $('.ar-video-' +
+                                                                                v_idx
+                                                                            )
+                                                                            .fadeOut(
+                                                                                500
+                                                                            );
+                                                                        $('.bg-behind-phone-' +
+                                                                                v_idx
+                                                                            )
+                                                                            .fadeOut(
+                                                                                500
+                                                                            );
+                                                                        v_idx++;
+                                                                        $('.ar-video-' +
+                                                                                v_idx
+                                                                            )
+                                                                            .fadeIn(
+                                                                                500
+                                                                            );
+                                                                        $('.ar-video-' +
+                                                                                v_idx
+                                                                            )
+                                                                            .trigger(
+                                                                                'play'
+                                                                            );
+                                                                        $('.bg-behind-phone-' +
+                                                                                v_idx
+                                                                            )
+                                                                            .fadeIn(
+                                                                                500
+                                                                            );
+                                                                        console
+                                                                            .log(
+                                                                                'playing video' +
+                                                                                v_idx
+                                                                            );
+
+                                                                    }
+
+
+                                                                })
+                                                    }
+
+
+                                                });
+
+                                    }, 2000);
+
+                                    // $('.iphone-div').removeClass('rotate1');
+                                    // $('.iphone-div').removeClass('rotate2');
+                                });
+
+                                // $('.scene-div-2').css({
+                                //     'left': '-5760px'
+                                // })
+
+                            }
+
+                            //scene2
+                            function scene2() {
+                                $('.scene-div.scene-div-2').fadeIn(0);
+
+                                console.log('scene2');
+
+                                $('.scene-div-2').css({
+                                    'left': '-5760px'
+                                })
+
+
+                                $('.scene-div-2').animate({
+                                    'left': '0px'
+                                }, 1000, function() {
+                                    $('.iphone-div').removeClass('rotate1');
+                                    $('.iphone-div').removeClass('rotate2');
+
+
+                                });
+
+                                $('.scene-2-screen-2-slide').fadeOut(0);
+                                $('.scene-2-screen-2-slide').eq(0).fadeIn(0);
+
+                                $('.scene-2-screen-3-slide').fadeOut(0);
+                                $('.scene-2-screen-3-slide').eq(0).fadeIn(0);
+
+                                var scene_2_screen_2_slide_idx = 0;
+                                var scene_2_screen_3_slide_idx = 0;
+
+                                var scene_2_screen_2_slide_num = $('.scene-2-screen-2-slide').length;
+                                var scene_2_screen_3_slide_num = $('.scene-2-screen-3-slide').length;
+
+                                var interval = setInterval(() => {
+                                    if (scene_2_screen_2_slide_num > 1) {
+                                        $('.scene-2-screen-2-slide').eq(scene_2_screen_2_slide_idx)
+                                            .fadeOut(
+                                                500);
+                                        if (scene_2_screen_2_slide_idx + 1 >
+                                            scene_2_screen_2_slide_num -
+                                            1) {
+                                            scene_2_screen_2_slide_idx = 0;
+                                        } else {
+                                            scene_2_screen_2_slide_idx++;
+                                        }
+                                        $('.scene-2-screen-2-slide').eq(scene_2_screen_2_slide_idx)
+                                            .fadeIn(
+                                                500);
+                                    }
+                                    if (scene_2_screen_3_slide_num > 1) {
+
+                                        $('.scene-2-screen-3-slide').eq(scene_2_screen_3_slide_idx)
+                                            .fadeOut(
+                                                500);
+                                        if (scene_2_screen_3_slide_idx + 1 >
+                                            scene_2_screen_3_slide_num -
+                                            1) {
+                                            scene_2_screen_3_slide_idx = 0;
+                                        } else {
+                                            scene_2_screen_3_slide_idx++;
+                                        }
+                                        $('.scene-2-screen-3-slide').eq(scene_2_screen_3_slide_idx)
+                                            .fadeIn(
+                                                500);
+                                    }
+
+
+                                }, 10000);
+
+                                setTimeout(() => {
+                                    clearInterval(interval);
+                                    // scene3();
+
+                                }, 40000);
+
+
+
+
+
+                            }
+
+                            function scene3() {
+                                $('.scene-div.scene-div-3').fadeIn(0);
+
+                                console.log('scene3');
+                                $('.scene-div-3').css({
+                                    'left': '-5760px'
+                                })
+                                $('.scene-div-3').animate({
+                                    'left': '0px'
+                                }, 1000);
+                                setTimeout(() => {
+                                    // scene4();
+                                }, 20000);
+                            }
+
+                            function scene4() {
+                                $('.scene-div.scene-div-4').fadeIn(0);
+
+                                $('.weather-bg').removeClass('scaling');
+
+
+                                console.log('scene4');
+
+                                // $('.scene-4-screen-2-block-1 .weather-msg').fadeOut(0);
+                                // $('.scene-4-screen-2-block-1 .weather-msg').eq(0).fadeIn(0);
+
+                                // $('.scene-4-screen-2-block-2 .weather-msg').fadeOut(0);
+                                // $('.scene-4-screen-2-block-2 .weather-msg').eq(0).fadeIn(0);
+
+                                // $('.current-month').css({
+                                //     'opacity': '0'
+                                // })
+
+                                $('.weekday-div').css({
+                                    'top': '-945px'
+                                });
+
+                                var slide_idx_1 = 0;
+                                var slide_idx_2 = 0;
+
+                                var slide_num_1 = $('.scene-4-screen-2-block-1 .weather-msg').length;
+                                var slide_num_2 = $('.scene-4-screen-2-block-2 .weather-msg').length;
+
+                                // var weather_interval = setInterval(() => {
+
+                                //     // console.log(sec);
+                                //     if (slide_num_1 > 1) {
+                                //         $('.scene-4-screen-2-block-1 .weather-msg').eq(slide_idx_1)
+                                //             .fadeOut(
+                                //                 500);
+                                //         if (slide_idx_1 + 1 > slide_num_1 - 1) {
+                                //             slide_idx_1 = 0;
+                                //         } else {
+                                //             slide_idx_1++;
+                                //         }
+                                //         $('.scene-4-screen-2-block-1 .weather-msg').eq(slide_idx_1)
+                                //             .fadeIn(
+                                //                 500);
+                                //     }
+                                //     if (slide_num_2 > 1) {
+
+                                //         $('.scene-4-screen-2-block-2 .weather-msg').eq(slide_idx_2)
+                                //             .fadeOut(
+                                //                 500);
+                                //         if (slide_idx_2 + 1 > slide_num_2 - 1) {
+                                //             slide_idx_2 = 0;
+                                //         } else {
+                                //             slide_idx_2++;
+                                //         }
+                                //         $('.scene-4-screen-2-block-2 .weather-msg').eq(slide_idx_2)
+                                //             .fadeIn(
+                                //                 500);
+                                //     }
+
+
+                                // }, 10000);
+
+
+
+                                $('.weather-bg').css({
+                                    'transform': 'scale(1)'
+                                })
+
+                                // $('.scene-4-screen-2-block').fadeOut(0);
+
+
+                                // $('.weekday-title-div').fadeOut(0);
+                                // $('.weekday-degree-div').fadeOut(0);
+                                // $('.weekday-weather-icon').fadeOut(0);
+                                // $('.degree-div').fadeOut(0);
+
+                                $('.scene-div-4').css({
+                                    'left': '-5760px'
+                                })
+
+
+                                $('.scene-div-4').animate({
+                                    'left': '0px'
+                                }, 1000, function() {
+
+
+                                    // $('.current-month').fadeOut(0);
+
+
+                                    // $('.scene-4-screen-2-block').eq(0).slideDown(500);
+                                    // $('.scene-4-screen-2-block').eq(1).slideDown(500);
+
+                                    // $('.scene-4-screen-2-block').delay(400).eq(2).slideDown(600);
+
+
+
+                                    for (i = 0; i < $('.degree-div').length; i++) {
+
+                                        // $('.weekday-title-div').eq(i).delay(100 + i * 30).slideDown(
+                                        //     500);
+                                        // $('.weekday-degree-div').eq(i).delay(700 + i * 30).slideDown(
+                                        //     500);
+
+                                        if (i > 0) {
+                                            $('.weekday-div').eq(i).delay(700 + i * 30).animate({
+                                                'top': '0'
+                                            }, 500);
+                                        } else {
+                                            $('.weekday-div').eq(i).delay(700 + i * 30).animate({
+                                                'top': '179px'
+                                            }, 500);
+                                        }
+
+                                        // setTimeout(() => {
+                                        //     $('.current-month').animate({
+                                        //         'opacity': '1'
+                                        //     }, 500);
+                                        // }, 1200);
+
+                                        $('.weekday-weather-icon').eq(i).delay(700 + i * 30).fadeIn(400)
+                                        $('.degree-div').eq(i).delay(700 + i * 30).fadeIn(400)
+
+                                    }
+
+                                    $('.weather-bg').addClass('scaling');
+
+
+                                    setTimeout(() => {
+                                        // clearInterval(weather_interval);
+                                        // scene5();
+                                    }, 20000);
+
+                                });
+
+
+
+
+
+                            }
+
+                            function scene5() {
+                                $('.scene-div.scene-div-5').fadeIn(0);
+
+                                console.log('scene5');
+
+
+
+
+                                $('.scene-div-5').css({
+                                    'left': '-5760px'
+                                })
+
+                                $('.scene-div-5').animate({
+                                    'left': '0px'
+                                }, 1000, function() {
+
+
+
+
+
+
+                                    setTimeout(() => {
+                                        // clearInterval(interval2);
+                                        // scene6();
                                     }, 20000);
 
 
                                 }, 2000);
 
                             })
-                        }
+                    }
 
 
-                        function scene6() {
-                            $('.scene-div.scene-div-6').fadeIn(0);
+                    function scene6() {
+                        $('.scene-div.scene-div-6').fadeIn(0);
 
-                            $('.scene-div-6').css({
-                                'left': '-5760px'
-                            })
-                            $('.scene-div-6 .white-big-mcd-logo').css({
-                                'left': '1920px'
-                            });
-
-                            $('.scene-div-6').animate({
-                                'left': '0px'
-                            }, 1000, function() {
-
-
-
-
-                                setTimeout(() => {
-                                    scene1();
-                                }, 20000);
-                            })
-
-                        }
-
-
-                        $('.stage-btn-1').click(function() {
-                            scene1();
+                        $('.scene-div-6').css({
+                            'left': '-5760px'
                         })
-                        $('.stage-btn-1_5').click(function() {
-                            scene1_5();
+                        $('.scene-div-6 .white-big-mcd-logo').css({
+                            'left': '1920px'
+                        });
+
+                        $('.scene-div-6').animate({
+                            'left': '0px'
+                        }, 1000, function() {
+
+
+
+
+                            setTimeout(() => {
+                                scene1();
+                            }, 20000);
                         })
 
-                        $('.stage-btn-2').click(function() {
-                            scene2();
+                    }
 
-                        })
 
-                        $('.stage-btn-3').click(function() {
-                            scene3();
+                    $('.stage-btn-1').click(function() {
+                        scene1();
+                    })
+                    $('.stage-btn-1_5').click(function() {
+                        scene1_5();
+                    })
 
-                        })
+                    $('.stage-btn-2').click(function() {
+                        scene2();
 
-                        $('.stage-btn-4').click(function() {
-                            scene4();
+                    })
 
-                        })
+                    $('.stage-btn-3').click(function() {
+                        scene3();
 
-                        $('.stage-btn-5').click(function() {
-                            scene5();
+                    })
 
-                        })
+                    $('.stage-btn-4').click(function() {
+                        scene4();
 
-                        $('.stage-btn-6').click(function() {
-                            scene6();
+                    })
 
-                        })
+                    $('.stage-btn-5').click(function() {
+                        scene5();
+
+                    })
+
+                    $('.stage-btn-6').click(function() {
+                    scene6();
+
+                    })
 
 
 
