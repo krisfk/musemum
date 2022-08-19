@@ -1296,22 +1296,26 @@ body {
 .scene-5-screen-1-bg {
     position: absolute;
     top: 0;
-    height: 810px;
+    height: 703px;
     width: 1080px;
     border-radius: 0 0 100px 0;
 }
 
 .scene-5-screen-1-bg.scene-5-screen-1-bg-1 {
-    left: 0px;
+    left: -470px;
     background: #31475f;
+    z-index: 200;
 }
 
 .scene-5-screen-1-bg.scene-5-screen-1-bg-2 {
-    left: 360px;
+    left: 200px;
     background: #5ca8a5;
+    z-index: 100;
 }
 
+.scene-5-screen-1-bg.scene-5-screen-1-bg-2 {}
+
 .scene-5-screen-1-bg.scene-5-screen-1-bg-3 {
-    left: 720px;
+    left: 840px;
     background: #31475f;
 }
