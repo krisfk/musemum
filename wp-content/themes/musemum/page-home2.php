@@ -2279,9 +2279,9 @@ function cndate($date){
                             $('.scene-div-6').css({
                                 'left': '-5760px'
                             })
-                            $('.scene-div-6 .white-big-mcd-logo').css({
-                                'left': '1920px'
-                            });
+                            // $('.scene-div-6 .white-big-mcd-logo').css({
+                            //     'left': '1920px'
+                            // });
 
                             $('.scene-div-6').animate({
                                 'left': '0px'
@@ -2291,7 +2291,7 @@ function cndate($date){
 
 
                                 setTimeout(() => {
-                                    scene1();
+                                    // scene1();
                                 }, 20000);
                             })
 
