@@ -2306,7 +2306,7 @@ function cndate($date){
 
                         function scene6() {
                             $('.scene-div.scene-div-6').fadeIn(0);
-
+                            $('.scene-div-6').fadeIn(0);
                             $('.scene-div-6').css({
                                 'left': '-5760px'
                             })
