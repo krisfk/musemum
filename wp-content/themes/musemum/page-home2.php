@@ -1362,7 +1362,13 @@ function cndate($date){
                                     console.log(show_icon_arr);
 
 
-
+                                    var num_of_icon = Math.min(4, show_icon_arr.length);
+                                    for (i = 0; i < num_of_icon; i++) {
+                                        $('.warning-icon-' + (i + 1)).css({
+                                            'background': 'url(http://64.227.13.14/musemum/weather-icon/' +
+                                                show_icon_arr[i] + '.png) #fff'
+                                        })
+                                    }
                                     // WRAIN
                                     // WTS
                                     // WL
