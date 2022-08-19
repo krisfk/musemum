@@ -1527,6 +1527,9 @@ function cndate($date){
                             // });
                             // $('.scene-1-green-bg').fadeOut(0);
 
+                            $('.scene-div-1').fadeIn(0);
+
+
                             $('.scene-1-green-bg').css({
                                 'height': '80%'
                             });
@@ -1777,6 +1780,7 @@ function cndate($date){
                         //scene1_5
 
                         function scene1_5() {
+                            $('.scene-div-1_5').fadeIn(0);
 
                             $('.tag-1-5').fadeOut(0);
                             $('.scene-div.scene-div-1_5').fadeIn(0);
@@ -1973,6 +1977,8 @@ function cndate($date){
 
                         //scene2
                         function scene2() {
+                            $('.scene-div-2').fadeIn(0);
+
                             $('.scene-div.scene-div-2').fadeIn(0);
 
                             console.log('scene2');
@@ -2052,6 +2058,8 @@ function cndate($date){
                         }
 
                         function scene3() {
+                            $('.scene-div-3').fadeIn(0);
+
                             $('.scene-div.scene-div-3').fadeIn(0);
 
                             console.log('scene3');
@@ -2067,6 +2075,10 @@ function cndate($date){
                         }
 
                         function scene4() {
+
+                            $('.scene-div-4').fadeIn(0);
+
+
                             $('.scene-div.scene-div-4').fadeIn(0);
 
                             $('.weather-bg').removeClass('scaling');
@@ -2349,6 +2361,13 @@ function cndate($date){
 
 
                                 setTimeout(() => {
+
+                                    $('.scene-div-5').fadeOut(0);
+                                    $('.scene-div-4').fadeOut(0);
+                                    $('.scene-div-3').fadeOut(0);
+                                    $('.scene-div-2').fadeOut(0);
+                                    $('.scene-div-1_5').fadeIn(0);
+
 
                                     $('.scene-div-6').fadeOut(500, function() {
                                         scene1();
