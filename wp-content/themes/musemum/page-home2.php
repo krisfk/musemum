@@ -1314,7 +1314,7 @@ function cndate($date){
                                         );
 
                                     // console.log(Object.keys(result));
-                                    console.log(result['WTS']);
+                                    console.log(result['WTS']['code']);
 
                                     // for (let key of Object.keys(result)) {
                                     //     // console.log(key);
