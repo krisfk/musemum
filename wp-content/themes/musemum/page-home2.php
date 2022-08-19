@@ -1164,6 +1164,12 @@ function cndate($date){
                             </div>
                             <div class="scene-6-screen scene-6-screen-3">
 
+                                <video class="mcd-logo-video" controls>
+                                    <source
+                                        src="http://64.227.13.14/musemum/wp-content/uploads/2022/08/MCD_Logo_Intro_v4.mp4"
+                                        type="video/mp4">
+                                </video>
+
                                 <!-- <div class="scene-6-screen-3-txt"> <span style="font-size: 70px;">防疫</span><span
                                         style="font-size: 130px;margin-left: 20px;">資訊</span> <br> <span class="roboto"
                                         style="font-size: 60px;margin-left: 74px;">Epidemic

@@ -1356,3 +1356,8 @@ body {
     filter: none !important;
     margin: 0 2rem 0 0;
 }
+
+.mcd-logo-video {
+    width: 1920px;
+    height: 1080px;
+}
