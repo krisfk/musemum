@@ -1038,6 +1038,11 @@ function cndate($date){
                             </div>
                             <div class="scene-5-screen scene-5-screen-3">
 
+
+                                <img class="restaurant-icon-txt"
+                                    src="http://64.227.13.14/musemum/wp-content/uploads/2022/08/restaurant-icon-txt.png"
+                                    alt="">
+
                                 <!-- <div class="scene-5-screen-3-txt"> <span style="font-size: 84px;">博物館</span> <span
                                         style="font-size: 150px;margin-left: 19px;">餐廳</span> <br> <span class="roboto"
                                         style="font-size: 92px;margin-left: 308px;">Museum</span><span class="roboto"

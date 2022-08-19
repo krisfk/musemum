@@ -1284,3 +1284,10 @@ body {
     position: relative;
     top: 10px;
 }
+
+.restaurant-icon-txt {
+    position: absolute;
+    top: 100px;
+    right: 100px;
+    height: 245px;
+}
