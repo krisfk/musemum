@@ -1528,8 +1528,18 @@ function cndate($date){
                             // $('.scene-1-green-bg').fadeOut(0);
 
                             $('.scene-1-green-bg').css({
-                                'height': '1080px'
+                                'height': '80%'
                             });
+                            $('.page-1-bg').css({
+                                'top': '100%'
+                            })
+
+                            // .page-1-bg {
+                            //     position: relative;
+                            //     top: 100%;
+                            //     z-index: 100;
+                            // }
+
 
                             $('.bg-behind-phone').fadeOut(0);
                             $('.iphone-div').fadeOut(0);
