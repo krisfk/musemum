@@ -2296,6 +2296,9 @@ function cndate($date){
                             }, 1000, function() {
 
 
+                                $('.mcd-logo-video').trigger('play');
+
+
 
 
                                 setTimeout(() => {
