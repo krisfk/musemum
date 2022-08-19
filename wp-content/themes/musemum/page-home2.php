@@ -1269,7 +1269,7 @@ function cndate($date){
                                         }
                                     }
 
-                                    console.log(show_icon_arr);
+                                    // console.log(show_icon_arr);
 
 
                                     var num_of_icon = Math.min(4, show_icon_arr.length);
