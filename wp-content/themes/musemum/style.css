@@ -1248,7 +1248,7 @@ body {
 
 .weather-table {
     color: #fff;
-    margin: 200px auto 0 auto;
+    margin: 147px auto 0 auto;
     text-shadow: 3px 5px 2px #474747, 3px 5px 2px #474747, 3px 5px 2px #474747;
 }
 
@@ -1271,10 +1271,16 @@ body {
 .lantern-div {
     display: block;
     /* height: 60px; */
-    width: 1000px;
+    width: 1500px;
     background: url(http://64.227.13.14/musemum/wp-content/uploads/2022/08/lantern-bg.png);
     background-size: 100% 100%;
     color: #fff;
-    font-size: 40px;
-    margin: 40px auto;
+    font-size: 50px;
+    margin: 80px auto;
+    position: relative;
+}
+
+.lantern-div marquee {
+    position: relative;
+    top: 10px;
 }
