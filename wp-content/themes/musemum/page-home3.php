@@ -475,7 +475,6 @@ date_default_timezone_set('Asia/Hong_Kong');
                                                 <td
                                                     style="color:#35475d;font-weight:bold;position: relative;top: -1px;">
                                                     <span style="font-size:50px;">$100</span>
-                                                    <span style="font-size:30px;position:relative;top:-14px">.00</span>
                                                 </td>
                                             </tr>
                                         </table>
@@ -560,7 +559,6 @@ date_default_timezone_set('Asia/Hong_Kong');
                                                 <td
                                                     style="color:#35475d;font-weight:bold;position: relative;top: -1px;">
                                                     <span style="font-size:50px;">$100</span>
-                                                    <span style="font-size:30px;position:relative;top:-14px">.00</span>
                                                 </td>
                                             </tr>
                                         </table>
@@ -603,7 +601,6 @@ date_default_timezone_set('Asia/Hong_Kong');
                                                 <td
                                                     style="color:#35475d;font-weight:bold;position: relative;top: -1px;">
                                                     <span style="font-size:50px;">$165</span>
-                                                    <span style="font-size:30px;position:relative;top:-14px">.00</span>
                                                 </td>
                                             </tr>
                                         </table>
