@@ -2304,11 +2304,6 @@ function cndate($date){
 
                             console.log('scene5');
 
-
-                            $('.scene-div-5 .white-big-mcd-logo').css({
-                                'left': '901px'
-                            });
-
                             $('.scene-div-5').css({
                                 'left': '-5760px'
                             })
