@@ -1145,8 +1145,17 @@ function cndate($date){
                                         type="video/mp4">
                                 </video>
 
-                                <!-- 
-                                <div class="scene-6-screen-2-txt">
+
+
+                            </div>
+                            <div class="scene-6-screen scene-6-screen-3">
+
+
+                                <!-- <img class="preventation-icon-txt"
+                                    src="http://64.227.13.14/musemum/wp-content/uploads/2022/08/preventation-icon-txt.png"
+                                    alt=""> -->
+
+                                <!-- <div class="scene-6-screen-3-txt">
                                     <ul>
                                         <li>預防新型冠狀病毒在社區傳播</li>
                                         <li>本博物館採取以下防疫措施以保障公眾健康</li>
@@ -1164,35 +1173,6 @@ function cndate($date){
                                             Thank you for your cooperation</li>
                                     </ul>
                                 </div> -->
-
-                                <!-- <img class="scene-6-screen-2-img"
-                                    src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/mask-img.png" alt=""> -->
-                            </div>
-                            <div class="scene-6-screen scene-6-screen-3">
-
-
-                                <img class="preventation-icon-txt"
-                                    src="http://64.227.13.14/musemum/wp-content/uploads/2022/08/preventation-icon-txt.png"
-                                    alt="">
-
-                                <div class="scene-6-screen-3-txt">
-                                    <ul>
-                                        <li>預防新型冠狀病毒在社區傳播</li>
-                                        <li>本博物館採取以下防疫措施以保障公眾健康</li>
-                                        <li>訪客進館前須佩戴口罩，以保障公眾及員工健康</li>
-                                        <li>我們為所有進入博物館的人士及工作人員量度體溫，多謝合作</li>
-                                        <li>Help prevent the Novel Coronavirus from spreading in the community</li>
-                                        <li>Our museum implements the following precaution measures</li>
-                                        <li>It is essential for visitor to wear masks upon entry the museum to
-                                            safeguard
-                                            the health of
-                                            visitors
-                                            and staff members</li>
-                                        <li>We arrange temperature check for all visitors and staff who enter the
-                                            museum
-                                            Thank you for your cooperation</li>
-                                    </ul>
-                                </div>
 
 
                                 <!-- <div class="scene-6-screen-3-txt"> <span style="font-size: 70px;">防疫</span><span
