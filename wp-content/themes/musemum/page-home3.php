@@ -1208,6 +1208,7 @@ function cndate($date){
                     <a href="javascript:void(0);" class="stage-btn stage-btn-4">4</a>
                     <a href="javascript:void(0);" class="stage-btn stage-btn-5">5</a>
                     <a href="javascript:void(0);" class="stage-btn stage-btn-6">6</a>
+                    <a href="javascript:void(0);" class="stage-btn stage-btn-7">7</a>
 
 
                     <script type="text/javascript">
@@ -2356,11 +2357,15 @@ function cndate($date){
 
 
                                     $('.scene-div-6').fadeOut(500, function() {
-                                        scene1();
+
+                                        scene7();
+                                        // scene1();
                                     })
                                     // scene1();
-                                }, 20000);
+                                }, 10000);
                             })
+
+
 
 
                             // $('.mcd-logo-video')
@@ -2373,6 +2378,11 @@ function cndate($date){
                             //         }
                             //     )
 
+                        }
+
+                        function scene7() {
+                            $('.scene-div.scene-div-7').fadeIn(0);
+                            $('.scene-div-7').fadeIn(0);
                         }
 
 
@@ -2404,6 +2414,11 @@ function cndate($date){
                         })
 
                         $('.stage-btn-6').click(function() {
+                            scene6();
+
+                        })
+
+                        $('.stage-btn-7').click(function() {
                             scene6();
 
                         })
