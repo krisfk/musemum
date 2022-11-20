@@ -1225,7 +1225,7 @@ function cndate($date){
                         <a href="javascript:void(0);" class="start-btn">START</a>
                     </div>
                     <a href="javascript:void(0);" class="stage-btn stage-btn-1">1</a>
-                    <a href="javascript:void(0);" class="stage-btn stage-btn-1_5">1.5</a>
+                    <!-- <a href="javascript:void(0);" class="stage-btn stage-btn-1_5">1.5</a> -->
 
                     <a href="javascript:void(0);" class="stage-btn stage-btn-2">2</a>
                     <a href="javascript:void(0);" class="stage-btn stage-btn-3">3</a>
@@ -1770,7 +1770,9 @@ function cndate($date){
                                     // $('.musemum-card,.scene-1-txt-1,.scene-1-txt-2').fadeOut(
                                     //     200);
 
-                                    scene1_5();
+                                    // scene1_5();
+
+                                    scene2();
 
                                 }, 15000);
 
