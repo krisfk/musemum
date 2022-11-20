@@ -2451,11 +2451,11 @@ function cndate($date){
                                     $('.scene-div-1').fadeOut(0);
 
 
-                                    $('.scene-div-6').fadeOut(0, function() {
+                                    // $('.scene-div-6').fadeOut(0, function() {
 
-                                        scene7();
-                                        // scene1();
-                                    })
+                                    scene7();
+                                    // scene1();
+                                    // })
                                     // scene1();
                                 }, 10000);
                             })
@@ -2476,12 +2476,12 @@ function cndate($date){
                         }
 
                         function scene7() {
-                            $('.scene-div.scene-div-7').fadeIn(500);
-                            $('.scene-div-7').fadeIn(500);
+                            $('.scene-div.scene-div-7').fadeIn(0);
+                            $('.scene-div-7').fadeIn(0);
 
-                            // $('.scene-div-7').css({
-                            //     'left': '-5760px'
-                            // })
+                            $('.scene-div-7').css({
+                                'left': '-5760px'
+                            })
                             // $('.scene-div-6 .white-big-mcd-logo').css({
                             //     'left': '1920px'
                             // });
