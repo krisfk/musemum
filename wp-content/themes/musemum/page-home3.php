@@ -1150,6 +1150,10 @@ function cndate($date){
                             </div>
                             <div class="scene-6-screen scene-6-screen-3">
 
+                                <img class="scene-6-right-bg"
+                                    src="http://64.227.13.14/musemum/wp-content/uploads/2022/11/scene-6-right-bg.jpg"
+                                    alt="">
+
 
                                 <!-- <img class="preventation-icon-txt"
                                     src="http://64.227.13.14/musemum/wp-content/uploads/2022/08/preventation-icon-txt.png"
