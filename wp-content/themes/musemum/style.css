@@ -1449,6 +1449,23 @@ body {
     height: 310px;
 }
 
+.last-page-points {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 40px;
+    color: #fff;
+}
+
+.last-page-points img {
+    height: 196px;
+}
+
+.last-page-points li {
+    display: inline-block;
+    list-style-type: none;
+}
+
 @keyframes marquee {
     from {
         transform: translateX(100%);
