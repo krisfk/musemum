@@ -1198,7 +1198,7 @@ function cndate($date){
 
                             <div class="scene-7-screen scene-7-screen-1">
 
-                                <img class="scene-6-left-bg"
+                                <img class="scene-7-left-bg"
                                     src="http://64.227.13.14/musemum/wp-content/uploads/2022/11/last-scene-bg-1.jpg"
                                     alt="">
                             </div>
@@ -2305,15 +2305,6 @@ function cndate($date){
                             console.log('scene5');
 
 
-                            $('.disc-a-div img').fadeOut(0);
-                            $('.disc-a-div img').eq(0).fadeIn(0);
-
-                            $('.disc-b-div img').fadeOut(0);
-                            $('.disc-b-div img').eq(0).fadeIn(0);
-
-                            $('.disc-c-div img').fadeOut(0);
-                            $('.disc-c-div img').eq(0).fadeIn(0);
-
                             $('.scene-div-5 .white-big-mcd-logo').css({
                                 'left': '901px'
                             });
@@ -2321,10 +2312,6 @@ function cndate($date){
                             $('.scene-div-5').css({
                                 'left': '-5760px'
                             })
-                            $('.disc-a-div').removeClass('bounce');
-                            $('.disc-a-div').removeClass('rotatemove');
-                            $('.disc-b-div').removeClass('bounce');
-                            $('.disc-c-div').removeClass('bounce');
 
 
                             $('.scene-div-5').animate({
@@ -2332,91 +2319,10 @@ function cndate($date){
                             }, 1000, function() {
 
 
-                                setTimeout(() => {
-                                    $('.disc-a-div').addClass('bounce');
-
-                                    setTimeout(() => {
-                                        $('.disc-a-div').addClass('rotatemove');
-                                    }, 500);
-                                }, 500);
-
 
                                 setTimeout(() => {
-                                    $('.disc-b-div').addClass('bounce')
-                                }, 1700);
-
-
-                                setTimeout(() => {
-                                    $('.disc-c-div').addClass('bounce')
-
-
-                                    var sec = 1000;
-
-                                    idx_a = 0;
-                                    idx_b = 0;
-                                    idx_c = 0;
-
-                                    // var interval2 = setInterval(() => {
-                                    //     sec += 1000;
-
-                                    //     console.log(sec);
-                                    //     // console.log('sec/1000' + Number.isInteger(
-                                    //     //     sec /
-                                    //     //     1000));
-                                    //     if (Number.isInteger(sec / 1000)) {
-                                    //         idx_a++;
-                                    //         if (idx_a >= $('.disc-a-div img')
-                                    //             .length) {
-                                    //             idx_a = 0;
-                                    //         }
-                                    //         $('.disc-a-div img').fadeOut(0);
-                                    //         $('.disc-a-div img').eq(idx_a).fadeIn(
-                                    //             0);
-                                    //     }
-                                    //     console.log('sec/2000' + Number.isInteger(
-                                    //         sec /
-                                    //         2000));
-                                    //     if (Number.isInteger(sec / 2000)) {
-                                    //         idx_b++;
-                                    //         if (idx_b >= $('.disc-b-div img')
-                                    //             .length) {
-                                    //             idx_b = 0;
-                                    //         }
-                                    //         $('.disc-b-div img').fadeOut(0);
-                                    //         $('.disc-b-div img').eq(idx_b).fadeIn(
-                                    //             0);
-                                    //     }
-                                    //     console.log('sec/3000' + Number.isInteger(
-                                    //         sec /
-                                    //         3000));
-
-                                    //     if (Number.isInteger(sec / 3000)) {
-                                    //         idx_c++;
-                                    //         if (idx_c >= $('.disc-c-div img')
-                                    //             .length) {
-                                    //             idx_c = 0;
-                                    //         }
-                                    //         $('.disc-c-div img').fadeOut(0);
-                                    //         $('.disc-c-div img').eq(idx_c).fadeIn(
-                                    //             0);
-                                    //     }
-
-
-
-
-                                    // }, 1000);
-
-
-
-
-                                    setTimeout(() => {
-                                        // clearInterval(interval2);
-                                        scene6();
-                                    }, 20000);
-
-
-                                }, 2000);
-
+                                    scene6();
+                                }, 10000)
                             })
                         }
 
