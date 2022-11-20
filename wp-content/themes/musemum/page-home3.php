@@ -2490,6 +2490,27 @@ function cndate($date){
                                 'left': '0px'
                             }, 1000, function() {
 
+
+
+                                setTimeout(() => {
+                                    $('.scene-div-6').fadeOut(0);
+                                    $('.scene-div-5').fadeOut(0);
+                                    $('.scene-div-4').fadeOut(0);
+                                    $('.scene-div-3').fadeOut(0);
+                                    $('.scene-div-2').fadeOut(0);
+                                    $('.scene-div-1_5').fadeOut(0);
+                                    $('.scene-div-1').fadeOut(0);
+
+
+                                    $('.scene-div-7').fadeOut(500, function() {
+
+                                        scene1();
+                                        // scene1();
+                                    })
+                                    // scene1();
+                                }, 10000);
+
+
                             })
                         }
 
