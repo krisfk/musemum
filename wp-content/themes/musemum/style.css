@@ -1057,7 +1057,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     left: 0;
     /* left: -5760px; */
     /* left: 0; */
-    display: block;
+    display: none;
     width: 5760px;
     height: 1080px;
     /* background: #000000; */
