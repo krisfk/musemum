@@ -1444,9 +1444,9 @@ body {
 
 .last-page-icon {
     position: absolute;
-    top: 0;
-    left: 0;
-    height: 311px;
+    top: 150px;
+    right: 150px;
+    height: 310px;
 }
 
 @keyframes marquee {
