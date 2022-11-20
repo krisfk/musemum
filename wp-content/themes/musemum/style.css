@@ -1347,9 +1347,9 @@ body {
 }
 
 .food-info-div {
-    position: absolute;
-    top: 827px;
-    left: 530px;
+    /* position: absolute; */
+    /* top: 827px; */
+    /* left: 530px; */
 }
 
 .food-icon {
