@@ -1199,7 +1199,7 @@ function cndate($date){
                             <div class="scene-7-screen scene-7-screen-1">
 
                                 <img class="scene-6-left-bg"
-                                    src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/scene-6-left-bg.jpg"
+                                    src="http://64.227.13.14/musemum/wp-content/uploads/2022/11/last-scene-bg-1.jpg"
                                     alt="">
                             </div>
                             <div class="scene-7-screen scene-7-screen-2">
