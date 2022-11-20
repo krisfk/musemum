@@ -1202,12 +1202,12 @@ function cndate($date){
                                     src="http://64.227.13.14/musemum/wp-content/uploads/2022/11/last-scene-bg-1.jpg"
                                     alt="">
                             </div>
-                            <div class="scene-7-screen scene-7-screen-2">
+                            <!-- <div class="scene-7-screen scene-7-screen-2">
 
 
 
 
-                            </div>
+                            </div> -->
                             <div class="scene-7-screen scene-7-screen-3">
 
 
