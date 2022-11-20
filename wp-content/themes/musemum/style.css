@@ -1296,10 +1296,11 @@ body {
 }
 
 .scene-5-screen-1-bg {
-    position: absolute;
-    top: 0;
+    /* position: absolute; */
+    /* top: 0; */
     height: 750px;
-    width: 1080px;
+    width: 640px;
+    float: left;
     /* border-radius: 0 0 100px 0; */
 }
 
@@ -1311,22 +1312,22 @@ body {
 }
 
 .scene-5-screen-1-bg.scene-5-screen-1-bg-1 {
-    left: -470px;
+    /* left: -470px; */
     /* background: #31475f; */
     z-index: 200;
-    color: #31475f;
+    /* color: #31475f; */
 }
 
 .scene-5-screen-1-bg.scene-5-screen-1-bg-2 {
-    left: 200px;
+    /* left: 200px; */
     /* background: #5ca8a5; */
-    color: #5ca8a5;
+    /* color: #5ca8a5; */
     z-index: 100;
 }
 
 .scene-5-screen-1-bg.scene-5-screen-1-bg-3 {
-    left: 840px;
-    color: #31475f;
+    /* left: 840px; */
+    /* color: #31475f; */
     /* background: #31475f; */
 }
 
