@@ -1332,18 +1332,18 @@ body {
 }
 
 .scene-5-screen-1-bg.scene-5-screen-1-bg-1 img {
-    -webkit-filter: drop-shadow(-5px 18px 0px #31475f);
-    filter: drop-shadow(-5px 18px 0px #31475f);
+    /* -webkit-filter: drop-shadow(-5px 18px 0px #31475f);
+    filter: drop-shadow(-5px 18px 0px #31475f); */
 }
 
 .scene-5-screen-1-bg.scene-5-screen-1-bg-2 img {
-    -webkit-filter: drop-shadow(-5px 18px 0px #5ca8a5);
-    filter: drop-shadow(-5px 18px 0px #5ca8a5);
+    /* -webkit-filter: drop-shadow(-5px 18px 0px #5ca8a5);
+    filter: drop-shadow(-5px 18px 0px #5ca8a5); */
 }
 
 .scene-5-screen-1-bg.scene-5-screen-1-bg-3 img {
-    -webkit-filter: drop-shadow(-5px 18px 0px #31475f);
-    filter: drop-shadow(-5px 18px 0px #31475f);
+    /* -webkit-filter: drop-shadow(-5px 18px 0px #31475f);
+    filter: drop-shadow(-5px 18px 0px #31475f); */
 }
 
 .food-info-div {
