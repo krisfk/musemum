@@ -2451,7 +2451,7 @@ function cndate($date){
                                     $('.scene-div-1').fadeOut(0);
 
 
-                                    $('.scene-div-6').fadeOut(500, function() {
+                                    $('.scene-div-6').fadeOut(0, function() {
 
                                         scene7();
                                         // scene1();
@@ -2476,7 +2476,7 @@ function cndate($date){
                         }
 
                         function scene7() {
-                            $('.scene-div.scene-div-7').fadeIn(0);
+                            $('.scene-div.scene-div-7').fadeIn(500);
                             $('.scene-div-7').fadeIn(0);
 
                             // $('.scene-div-7').css({
