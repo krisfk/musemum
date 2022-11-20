@@ -1190,6 +1190,63 @@ function cndate($date){
                         <!--scene-6-end-->
 
 
+                        <!--scene-7-start-->
+                        <div class="scene-div scene-div-7">
+
+
+
+
+                            <div class="scene-7-screen scene-7-screen-1">
+
+                                <img class="scene-6-left-bg"
+                                    src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/scene-6-left-bg.jpg"
+                                    alt="">
+                            </div>
+                            <div class="scene-7-screen scene-7-screen-2">
+
+
+
+
+                            </div>
+                            <div class="scene-7-screen scene-7-screen-3">
+
+
+                                <!-- <img class="preventation-icon-txt"
+        src="http://64.227.13.14/musemum/wp-content/uploads/2022/08/preventation-icon-txt.png"
+        alt=""> -->
+
+                                <!-- <div class="scene-6-screen-3-txt">
+        <ul>
+            <li>預防新型冠狀病毒在社區傳播</li>
+            <li>本博物館採取以下防疫措施以保障公眾健康</li>
+            <li>訪客進館前須佩戴口罩，以保障公眾及員工健康</li>
+            <li>我們為所有進入博物館的人士及工作人員量度體溫，多謝合作</li>
+            <li>Help prevent the Novel Coronavirus from spreading in the community</li>
+            <li>Our museum implements the following precaution measures</li>
+            <li>It is essential for visitor to wear masks upon entry the museum to
+                safeguard
+                the health of
+                visitors
+                and staff members</li>
+            <li>We arrange temperature check for all visitors and staff who enter the
+                museum
+                Thank you for your cooperation</li>
+        </ul>
+    </div> -->
+
+
+                                <!-- <div class="scene-6-screen-3-txt"> <span style="font-size: 70px;">防疫</span><span
+            style="font-size: 130px;margin-left: 20px;">資訊</span> <br> <span class="roboto"
+            style="font-size: 60px;margin-left: 74px;">Epidemic
+            Prevention</span> <span style="font-size: 80px;margin-left: 20px;"
+            class="roboto">Information</span>
+    </div> -->
+                            </div>
+                        </div>
+                        <!--scene-7-end-->
+
+
+
                     </div>
 
                     <div class="start-panel">
@@ -2383,6 +2440,19 @@ function cndate($date){
                         function scene7() {
                             $('.scene-div.scene-div-7').fadeIn(0);
                             $('.scene-div-7').fadeIn(0);
+
+                            $('.scene-div-7').css({
+                                'left': '-5760px'
+                            })
+                            // $('.scene-div-6 .white-big-mcd-logo').css({
+                            //     'left': '1920px'
+                            // });
+
+                            $('.scene-div-7').animate({
+                                'left': '0px'
+                            }, 1000, function() {
+
+                            })
                         }
 
 
