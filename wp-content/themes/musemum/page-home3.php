@@ -1769,7 +1769,7 @@ function cndate($date){
 
                                     // scene1_5();
 
-                                    scene2();
+                                    // scene2();
 
                                 }, 15000);
 
