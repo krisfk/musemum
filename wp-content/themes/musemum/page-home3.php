@@ -1769,7 +1769,7 @@ function cndate($date){
 
                                     // scene1_5();
 
-                                    // scene2();
+                                    scene2();
 
                                 }, 15000);
 
@@ -2336,7 +2336,7 @@ function cndate($date){
 
                                     setTimeout(() => {
                                         // clearInterval(interval2);
-                                        // scene6();
+                                        scene6();
                                     }, 20000);
 
 
