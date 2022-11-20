@@ -1451,21 +1451,21 @@ body {
 
 .last-page-points {
     position: absolute;
-    bottom: 0;
-    left: 0;
-    font-size: 40px;
+    bottom: 100px;
+    left: 30px;
+    font-size: 35px;
     color: #fff;
 }
 
 .last-page-points img {
-    height: 196px;
+    height: 180px;
 }
 
 .last-page-points li {
     display: inline-block;
     text-align: center;
     list-style-type: none;
-    padding: 0 20px;
+    padding: 0 30px;
 }
 
 .last-page-points li.blue-line {
