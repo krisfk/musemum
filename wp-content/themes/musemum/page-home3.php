@@ -1214,6 +1214,38 @@ function cndate($date){
                                 <img class="last-page-icon"
                                     src="http://64.227.13.14/musemum/wp-content/uploads/2022/11/last-page-icon.png"
                                     alt="">
+
+
+                                <div class="last-page-points">
+
+
+                                    <ul>
+
+                                        <li><img src="http://64.227.13.14/musemum/wp-content/uploads/2022/11/last-page-icon-1-1.png"
+                                                alt="">
+
+                                            <div>請佩戴口罩</div>
+                                            <div>Please wear masks</div>
+                                        </li>
+                                        <li><img src="http://64.227.13.14/musemum/wp-content/uploads/2022/11/last-page-icon-2-1.png"
+                                                alt="">
+
+                                            <div>請保持安全社交距離
+                                            </div>
+                                            <div>Please keep a safe
+                                                social distance</div>
+
+                                        </li>
+                                        <li><img src="http://64.227.13.14/musemum/wp-content/uploads/2022/11/last-page-icon-3-1.png"
+                                                alt="">
+
+                                            <div>請消毒雙手
+                                            </div>
+                                            <div>Sanitize your hands</div>
+                                        </li>
+                                    </ul>
+
+                                </div>
                                 <!-- <img class="preventation-icon-txt"
         src="http://64.227.13.14/musemum/wp-content/uploads/2022/08/preventation-icon-txt.png"
         alt=""> -->
