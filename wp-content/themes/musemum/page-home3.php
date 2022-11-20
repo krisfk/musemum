@@ -1677,13 +1677,16 @@ function cndate($date){
                                     $('.scene-1-musemum-pass-txt').fadeIn(500);
                                 }, 800);
 
-                                setTimeout(() => {
 
-                                    scene2();
-                                    console.log('fff');
-                                }, 15000);
 
                             })
+
+
+                            setTimeout(() => {
+
+                                scene2();
+                            }, 15000);
+
 
 
 
