@@ -1398,6 +1398,7 @@ body {
     white-space: nowrap;
     will-change: transform;
     animation: marquee 20s linear infinite;
+    color: #d1b618;
 }
 
 @keyframes marquee {
