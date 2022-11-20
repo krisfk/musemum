@@ -424,7 +424,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     top: 0;
     left: 1920px;
     background: #fff;
-    border-radius: 0 0 0 200px;
+    /* border-radius: 0 0 0 200px; */
     overflow: hidden;
     display: block;
 }
@@ -433,7 +433,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
     top: 0;
     left: 3840px;
     background: #095353;
-    border-radius: 0 0 200px 0;
+    /* border-radius: 0 0 200px 0; */
     display: block;
     overflow: hidden;
 }
