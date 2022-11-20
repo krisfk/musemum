@@ -1442,6 +1442,13 @@ body {
     color: #d1b618;
 }
 
+.last-page-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 311px;
+}
+
 @keyframes marquee {
     from {
         transform: translateX(100%);
