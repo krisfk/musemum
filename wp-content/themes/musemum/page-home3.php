@@ -1022,7 +1022,7 @@ function cndate($date){
 
 
                                 <div class="scene-5-screen-1-bg scene-5-screen-1-bg-1">
-                                    <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/08/scene5-leftscreen-img-1.png"
+                                    <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/11/scene5-leftscreen-img-1.jpg"
                                         alt="">
 
                                     <div class="food-info-div">
@@ -1050,7 +1050,7 @@ function cndate($date){
 
                                 </div>
                                 <div class="scene-5-screen-1-bg scene-5-screen-1-bg-2">
-                                    <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/08/scene5-leftscreen-img-2.png"
+                                    <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/11/scene5-leftscreen-img-2.jpg"
                                         alt="">
                                     <div class="food-info-div">
 
@@ -1071,7 +1071,7 @@ function cndate($date){
                                 </div>
 
                                 <div class="scene-5-screen-1-bg scene-5-screen-1-bg-3">
-                                    <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/08/scene5-leftscreen-img-3.png"
+                                    <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/11/scene5-leftscreen-img-3.jpg"
                                         alt="">
                                     <div class="food-info-div">
 
