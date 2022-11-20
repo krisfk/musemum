@@ -1680,7 +1680,7 @@ function cndate($date){
                                 setTimeout(() => {
 
                                     scene2();
-
+                                    console.log('fff');
                                 }, 15000);
 
                             })
