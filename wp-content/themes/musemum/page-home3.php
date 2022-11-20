@@ -2336,7 +2336,7 @@ function cndate($date){
 
                                     setTimeout(() => {
                                         // clearInterval(interval2);
-                                        scene6();
+                                        // scene6();
                                     }, 20000);
 
 
