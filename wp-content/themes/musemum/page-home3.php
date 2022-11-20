@@ -1227,6 +1227,7 @@ function cndate($date){
                                             <div>請佩戴口罩</div>
                                             <div>Please wear masks</div>
                                         </li>
+                                        <li class="blue-line"></li>
                                         <li><img src="http://64.227.13.14/musemum/wp-content/uploads/2022/11/last-page-icon-2-1.png"
                                                 alt="">
 
@@ -1236,6 +1237,8 @@ function cndate($date){
                                                 social distance</div>
 
                                         </li>
+                                        <li class="blue-line"></li>
+
                                         <li><img src="http://64.227.13.14/musemum/wp-content/uploads/2022/11/last-page-icon-3-1.png"
                                                 alt="">
 

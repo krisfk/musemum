@@ -1466,7 +1466,6 @@ body {
     text-align: center;
     list-style-type: none;
     padding: 0 20px;
-    border-right: 1px solid #fff;
 }
 
 @keyframes marquee {
