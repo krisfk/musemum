@@ -1470,10 +1470,11 @@ body {
 
 .last-page-points li.blue-line {
     background: #31475f;
-    display: inline-block;
-    height: 40px;
+    display: inline-block !important;
+    height: 250px;
     display: block;
-    width: 10px;
+    width: 1px;
+    padding: 0;
 }
 
 @keyframes marquee {
