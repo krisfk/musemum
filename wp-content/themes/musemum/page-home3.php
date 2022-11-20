@@ -2489,7 +2489,7 @@ function cndate($date){
                         })
 
                         $('.stage-btn-7').click(function() {
-                            scene6();
+                            scene7();
 
                         })
 
