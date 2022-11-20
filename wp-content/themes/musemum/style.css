@@ -779,9 +779,12 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 }
 
 .weather-bottom-icon {
-    height: 100px;
+    height: 80px;
+    width: 43px;
     -webkit-filter: drop-shadow(5px 5px 5px #222);
     filter: drop-shadow(5px 5px 5px #222);
+    position: relative;
+    top: -10px;
 }
 
 .weekday-div .weekday-title-div-wrapper {
