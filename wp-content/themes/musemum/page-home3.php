@@ -509,7 +509,7 @@ date_default_timezone_set('Asia/Hong_Kong');
 
 
                                 <div class="publication-div-bg"
-                                    style="width:640px;background:url(<?php echo wp_get_attachment_image_src(get_field('content_1',233),'full')[0];?>)">
+                                    style="width:640px;background:url(<?php echo wp_get_attachment_image_src(get_field('screen_1_image_background',233),'full')[0];?>)">
 
 
                                 </div>
