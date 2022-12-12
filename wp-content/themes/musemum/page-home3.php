@@ -1058,7 +1058,7 @@ function cndate($date){
                                 </div>
 
                                 <div class="scene-5-screen-1-bg scene-5-screen-1-bg-3">
-                                    <?php echo get_field('food_content_3',187);?>
+                                    <?php //echo get_field('food_content_3',187);?>
 
                                 </div>
 
