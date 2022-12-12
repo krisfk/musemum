@@ -367,7 +367,7 @@ date_default_timezone_set('Asia/Hong_Kong');
 
                                 <?php
                             
-                            if(get_field('screen_3_mode')=='event slides')
+                            if(get_field('screen_3_mode',208)=='event slides')
                             {
                                 while( have_rows('screen_3_event_slides',208) )
                                 {
@@ -410,7 +410,7 @@ date_default_timezone_set('Asia/Hong_Kong');
                             }
 
 
-                            if(get_field('screen_3_mode')=='image background')
+                            if(get_field('screen_3_mode',208)=='image background')
                             {
                             ?>
                                 <img class="" class="h-100"
@@ -421,7 +421,7 @@ date_default_timezone_set('Asia/Hong_Kong');
                             }
                           
 
-                            if(get_field('screen_3_mode')=='video background')
+                            if(get_field('screen_3_mode',208)=='video background')
                             {
                                 ?>
 
