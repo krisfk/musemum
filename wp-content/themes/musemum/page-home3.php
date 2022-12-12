@@ -1226,7 +1226,10 @@ function cndate($date){
                                 <div class="last-page-points">
 
 
-
+                                    <?php 
+                                             echo get_field('content_2',203);
+                                    //echo wp_get_attachment_image_src(get_field('content_2',203),'full')[0];
+                                    ?>
 
                                 </div>
                                 <!-- <img class="preventation-icon-txt"
