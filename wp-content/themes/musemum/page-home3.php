@@ -404,8 +404,40 @@ date_default_timezone_set('Asia/Hong_Kong');
                                 } 
                                 
                             }
-                          
+
+
+                            if(get_field('screen_3_mode')=='image background')
+                            {
                             ?>
+                                <img class="" class="h-100"
+                                    src="<?php echo wp_get_attachment_image_src(get_field('screen_3_background_image',208),'full')[0];?>"
+                                    alt="">
+
+                                <?php
+                            }
+                          
+
+                            if(get_field('screen_3_mode')=='video background')
+                            {
+                                ?>
+
+
+
+                                <video style="width: 1920px;height:1080px;" loop>
+                                    <source
+                                        src="<?php echo wp_get_attachment_url(get_field('screen_3_video_background',208));?>"
+                                        type="video/mp4">
+                                </video>
+
+                                <?php
+
+
+                            }
+                            ?>
+
+
+
+
 
 
                                 <!-- <div class="scene-2-screen-3-slide">
