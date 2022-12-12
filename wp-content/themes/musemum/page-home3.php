@@ -335,7 +335,7 @@ date_default_timezone_set('Asia/Hong_Kong');
                                     </div>
                                     <div class="event-div one-col-width">
                                         <div class="event-title-div"
-                                            style="<?php echo get_sub_field('screen_2_right_event_title_background_color');?>">
+                                            style="background:<?php echo get_sub_field('screen_2_right_event_title_background_color');?>">
                                             <div>
                                                 <?php echo get_sub_field('screen_2_right_event_title_txt');?>
                                             </div>
