@@ -111,9 +111,12 @@ date_default_timezone_set('Asia/Hong_Kong');
                                 alt="">
 
                             <div class="scene-1-txt-1" style="color: #fff;font-size: 42px;">
-                                帶你體驗康文署博物館精彩的藝術 • 歷史 • <br>科學旅程！<br>
+                                <?php
+                            echo get_field('content_4');
+                            ?>
+                                <!-- 帶你體驗康文署博物館精彩的藝術 • 歷史 • <br>科學旅程！<br>
                                 <span class="roboto">Enjoy the visit by inspiring experiences in Art • History • <br>
-                                    Science under the LCSD Museums</span>
+                                    Science under the LCSD Museums</span> -->
                             </div>
 
                             <img class="scene-1-musemum-pass-txt"
