@@ -697,9 +697,9 @@ date_default_timezone_set('Asia/Hong_Kong');
                                     <span class="roboto" style=" font-size: 80px; margin-left: 20px; ">Readings</span>
                                 </div> -->
 
-                                <img class="scene-3-screen-right-img"
+                                <!-- <img class="scene-3-screen-right-img"
                                     src="<?php echo wp_get_attachment_image_src(get_field('screen_3_background_image',233),'full')[0];?>"
-                                    alt="">
+                                    alt=""> -->
                             </div>
 
 
