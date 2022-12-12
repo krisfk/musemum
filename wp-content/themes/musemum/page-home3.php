@@ -523,7 +523,7 @@ date_default_timezone_set('Asia/Hong_Kong');
 
                                     <div class="publication-div-text-content">
                                         <span style="font-size:35px;">
-                                            我武維揚 -! <br>
+                                            我武維揚 - <br>
                                             近代中國海軍史新論 </span>
                                         <br><br>
                                         <span class="roboto" style="font-size: 30px;"> Modern Chinese Naval History:
@@ -593,7 +593,7 @@ date_default_timezone_set('Asia/Hong_Kong');
 
                                     <div class="publication-div-text-content">
                                         <span style="font-size:35px;">
-                                            香港抗戰 — <br>
+                                            香港抗戰 —! <br>
                                             東江縱隊港九獨立大隊論文集
                                         </span>
                                         <br><br>
