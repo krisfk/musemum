@@ -301,10 +301,10 @@ date_default_timezone_set('Asia/Hong_Kong');
 
 
                                 <img class="tag2"
-                                    src="<?php echo wp_get_attachment_image_src(get_field('screen_1_title_image',186),'full')[0];?>"
+                                    src="<?php echo wp_get_attachment_image_src(get_field('screen_1_title_image',208),'full')[0];?>"
                                     alt="">
 
-                                <img src="<?php echo wp_get_attachment_image_src(get_field('screen_1_bg_image',186),'full')[0];?>"
+                                <img src="<?php echo wp_get_attachment_image_src(get_field('screen_1_bg_image',208),'full')[0];?>"
                                     alt="">
 
                             </div>
