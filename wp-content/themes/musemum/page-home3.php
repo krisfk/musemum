@@ -1144,6 +1144,8 @@ function cndate($date){
                             </div>
                             <div class="scene-6-screen scene-6-screen-2">
 
+                                <?php echo get_field('content_2',199);?>
+
                                 <video class="mcd-logo-video" loop>
                                     <source
                                         src="http://64.227.13.14/musemum/wp-content/uploads/2022/08/MCD_Logo_Intro_v4.mp4"
