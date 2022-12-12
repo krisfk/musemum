@@ -323,7 +323,8 @@ date_default_timezone_set('Asia/Hong_Kong');
                                 ?>
                                 <div class="scene-2-screen-2-slide">
                                     <div class="event-div one-col-width">
-                                        <div class="event-title-div" style="background:#394d64;">
+                                        <div class="event-title-div"
+                                            style="background:#<?php echo get_sub_field('screen_2_left_event_title_background_color');?>;">
                                             <div><?php echo get_sub_field('screen_2_left_event_title_txt');?></div>
                                         </div>
                                         <div class="event-content-div" style="background:#fff">
