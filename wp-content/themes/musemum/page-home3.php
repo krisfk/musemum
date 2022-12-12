@@ -1049,73 +1049,17 @@ function cndate($date){
 
 
                                 <div class="scene-5-screen-1-bg scene-5-screen-1-bg-1">
-                                    <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/11/scene5-leftscreen-img-1.jpg"
-                                        alt="">
 
-                                    <div class="food-info-div">
-
-
-                                        <div>
-                                            <span style="font-size:40px;">野營三文治
-
-                                            </span>
-                                            <br>
-                                            <span style="font-size:30px;">It’s Picnic Time Sandwich </span>
-                                        </div>
-                                        <div class="mt-3">
-                                            <img class="food-icon"
-                                                src="http://64.227.13.14/musemum/wp-content/uploads/2022/08/food-icon-1.png"
-                                                alt="">
-                                            <img class="food-icon"
-                                                src="http://64.227.13.14/musemum/wp-content/uploads/2022/08/food-icon-2.png"
-                                                alt="">
-
-                                        </div>
-                                    </div>
-
-
-
+                                    <?php echo get_field('food_content_1',187);?>
                                 </div>
                                 <div class="scene-5-screen-1-bg scene-5-screen-1-bg-2">
-                                    <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/11/scene5-leftscreen-img-2.jpg"
-                                        alt="">
-                                    <div class="food-info-div">
-
-
-                                        <div>
-                                            <span style="font-size:40px;">海防漢堡</span>
-                                            <br>
-                                            <span style="font-size:30px;">MCD </span>
-                                        </div>
-                                        <div class="mt-3">
-                                            <img class="food-icon"
-                                                src="http://64.227.13.14/musemum/wp-content/uploads/2022/08/food-icon-3.png"
-                                                alt="">
-
-                                        </div>
-                                    </div>
+                                    <?php echo get_field('food_content_2',187);?>
 
                                 </div>
 
                                 <div class="scene-5-screen-1-bg scene-5-screen-1-bg-3">
-                                    <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/11/scene5-leftscreen-img-3.jpg"
-                                        alt="">
-                                    <div class="food-info-div">
+                                    <?php echo get_field('food_content_3',187);?>
 
-
-                                        <div>
-                                            <span style="font-size:40px;">檸檬梳打水
-                                            </span>
-                                            <br>
-                                            <span style="font-size:30px;">Summer Lemonade </span>
-                                        </div>
-                                        <div class="mt-3">
-                                            <img class="food-icon"
-                                                src="http://64.227.13.14/musemum/wp-content/uploads/2022/08/food-icon-1.png"
-                                                alt="">
-
-                                        </div>
-                                    </div>
                                 </div>
 
                                 <!-- <div class="disc-c-div">
