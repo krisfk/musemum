@@ -73,6 +73,28 @@ date_default_timezone_set('Asia/Hong_Kong');
                             </div> -->
 
 
+                            <?php
+                            $query_args = array(
+                                'post_type' => 'musemum_billboard',
+                            );
+                            
+                            // The Query
+                            $the_query = new WP_Query( $query_args );
+                            
+                            // The Loop
+                            // if ( $the_query->have_posts() ) {
+                                // while ( $the_query->have_posts() ) {
+                                    $the_query->the_post();
+                                    
+                                // }
+                                /* Restore original Post Data */
+                                // wp_reset_postdata();
+                            // } else {
+                                // no posts found
+                            // }
+                            echo 423432432423423;
+                            ?>
+
                             <img class="page-1-bg" class="h-100"
                                 src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/page-1-bg.jpg" alt="">
 
