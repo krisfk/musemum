@@ -22,6 +22,9 @@
 /** The name of the database for WordPress */
 define( 'DB_NAME', 'musemum_db' );
 
+define('FS_METHOD', 'direct');
+
+
 /** Database username */
 define( 'DB_USER', 'ip_db_user' );
 
@@ -55,42 +58,13 @@ define( 'NONCE_KEY',        'SCiFNm^#Nq?3X>hzUo:`f@QIv[D<X+Jn>wm0IhX1>.IR@D.KY6<
 define( 'AUTH_SALT',        'ec:%y`lsP!Pn0]2#C 4ie@Q}YqM-,kD.riOuW2`)3cc#FJlbq}$<V6rXl9cau#Hb' );
 define( 'SECURE_AUTH_SALT', '(gK()3>._kzoBv;ZN4!ST%P7sRBW]FIdR*iwFx@`f_+kS0 GK~$kw]%}>GmrXXM5' );
 define( 'LOGGED_IN_SALT',   'XUNLgI=XgkIC[7XIaZ^-.tz#q)Oc<0!S`hK0:5UM{2~Tp<!C7y!dRw_5[iI.j>{.' );
-define( 'NONCE_SALT',       '_gy(*D!W|OF=LW+ga_y6kT$?>mPjx`Tn;R.f*it=8^D#crw!Hz8ItX <JzfN2rkg' );
-
-/**#@-*/
-
-/**
- * WordPress database table prefix.
- *
- * You can have multiple installations in one database if you give each
- * a unique prefix. Only numbers, letters, and underscores please!
- */
-$table_prefix = 'wp_';
-
-/**
- * For developers: WordPress debugging mode.
- *
- * Change this to true to enable the display of notices during development.
- * It is strongly recommended that plugin and theme developers use WP_DEBUG
- * in their development environments.
- *
- * For information on other constants that can be used for debugging,
- * visit the documentation.
- *
- * @link https://wordpress.org/support/article/debugging-in-wordpress/
- */
-define( 'WP_DEBUG', false );
-
-/* Add any custom values between this line and the "stop editing" line. */
-
-
-
-/* That's all, stop editing! Happy publishing. */
-
-/** Absolute path to the WordPress directory. */
-if ( ! defined( 'ABSPATH' ) ) {
-	define( 'ABSPATH', __DIR__ . '/' );
-}
-
-/** Sets up WordPress vars and included files. */
-require_once ABSPATH . 'wp-settings.php';
+define( 'NONCE_SALT',       '_gy(*D!W|OF=LW+ga_y6kT$?>mPjx`Tn;R.f*it=8^D#crw!Hz8ItX <JzfN2rkg' ); /**#@-*/ /** *
+    WordPress database table prefix. * * You can have multiple installations in one database if you give each * a unique
+    prefix. Only numbers, letters, and underscores please! */ $table_prefix='wp_' ; /** * For developers: WordPress
+    debugging mode. * * Change this to true to enable the display of notices during development. * It is strongly
+    recommended that plugin and theme developers use WP_DEBUG * in their development environments. * * For information
+    on other constants that can be used for debugging, * visit the documentation. * * @link
+    https://wordpress.org/support/article/debugging-in-wordpress/ */ define( 'WP_DEBUG' , false ); /* Add any custom
+    values between this line and the "stop editing" line. */ /* That's all, stop editing! Happy publishing. */ /**
+    Absolute path to the WordPress directory. */ if ( ! defined( 'ABSPATH' ) ) { define( 'ABSPATH' , __DIR__ . '/' ); }
+    /** Sets up WordPress vars and included files. */ require_once ABSPATH . 'wp-settings.php' ;
