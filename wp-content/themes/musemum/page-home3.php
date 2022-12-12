@@ -1206,7 +1206,7 @@ function cndate($date){
                             <div class="scene-7-screen scene-7-screen-1">
 
                                 <img class="scene-7-left-bg"
-                                    src="http://64.227.13.14/musemum/wp-content/uploads/2022/11/last-scene-bg-1.jpg"
+                                    src="<?php echo wp_get_attachment_image_src(get_field('content_1',203),'full')[0];?>"
                                     alt="">
                             </div>
                             <!-- <div class="scene-7-screen scene-7-screen-2">
@@ -1219,41 +1219,14 @@ function cndate($date){
 
 
                                 <img class="last-page-icon"
-                                    src="http://64.227.13.14/musemum/wp-content/uploads/2022/11/last-page-icon.png"
+                                    src="<?php echo wp_get_attachment_image_src(get_field('content_3',203),'full')[0];?>"
                                     alt="">
 
 
                                 <div class="last-page-points">
 
 
-                                    <ul>
 
-                                        <li><img src="http://64.227.13.14/musemum/wp-content/uploads/2022/11/last-page-icon-1-1.png"
-                                                alt="">
-
-                                            <div class="mt-4">請佩戴口罩</div>
-                                            <div>Please wear masks</div>
-                                        </li>
-                                        <li class="blue-line"></li>
-                                        <li><img src="http://64.227.13.14/musemum/wp-content/uploads/2022/11/last-page-icon-2-1.png"
-                                                alt="">
-
-                                            <div class="mt-4">請保持安全社交距離
-                                            </div>
-                                            <div>Please keep a safe
-                                                social distance</div>
-
-                                        </li>
-                                        <li class="blue-line"></li>
-
-                                        <li><img src="http://64.227.13.14/musemum/wp-content/uploads/2022/11/last-page-icon-3-1.png"
-                                                alt="">
-
-                                            <div class="mt-4">請消毒雙手
-                                            </div>
-                                            <div>Sanitize your hands</div>
-                                        </li>
-                                    </ul>
 
                                 </div>
                                 <!-- <img class="preventation-icon-txt"
