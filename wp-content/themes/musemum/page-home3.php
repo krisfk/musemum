@@ -509,7 +509,7 @@ date_default_timezone_set('Asia/Hong_Kong');
 
 
                                 <div class="publication-div-bg"
-                                    style="width:640px;background:url(<?php echo wp_get_attachment_image_src(get_field('screen_1_image_background',233),'full')[0];?>)">
+                                    style="width:640px;background:url(<?php echo wp_get_attachment_image_src(get_field('content_1',186),'full')[0];?>)">
 
 
                                 </div>
@@ -517,38 +517,9 @@ date_default_timezone_set('Asia/Hong_Kong');
 
 
 
-                                <div class="publication-div three-books">
-
-                                    <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/book-3.png" alt=""
-                                        class="book">
-
-                                    <div class="publication-div-text-content">
-                                        <span style="font-size:35px;">
-                                            我武維揚 - <br>
-                                            近代中國海軍史新論 </span>
-                                        <br><br>
-                                        <span class="roboto" style="font-size: 30px;"> Modern Chinese Naval History:
-                                            New Perspectives
-
-                                        </span>
-
-                                    </div>
-
-                                    <div class="publication-div-text-content publication-div-text-content-price">
-                                        <table>
-                                            <tr>
-                                                <td style="color:#808080;" class="pe-3"> <span style="font-size:20px;">
-                                                        港幣 <br> HK
-                                                    </span></td>
-                                                <td
-                                                    style="color:#35475d;font-weight:bold;position: relative;top: -1px;">
-                                                    <span style="font-size:50px;">$100</span>
-                                                </td>
-                                            </tr>
-                                        </table>
-
-                                    </div>
-                                </div>
+                                <?php echo get_field('screen_1_book_3',233);?>
+                                <?php echo get_field('screen_1_book_2',233);?>
+                                <?php echo get_field('screen_1_book_1',233);?>
 
                             </div>
 
