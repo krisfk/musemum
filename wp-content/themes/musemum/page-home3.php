@@ -1069,6 +1069,20 @@ function cndate($date){
                                 </div>
                                 <?php
                             }
+
+
+                            if(get_field('left_screen_mode')=='image background')
+                            {
+                                ?>
+
+                                <img class="" class="h-100"
+                                    src="<?php echo wp_get_attachment_image_src(get_field('left_screen_image_background',187),'full')[0];?>"
+                                    alt="">
+
+
+                                <?php
+                            }
+                            
                             
                             ?>
 
