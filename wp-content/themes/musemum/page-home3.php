@@ -103,11 +103,12 @@ date_default_timezone_set('Asia/Hong_Kong');
 
 
                             <img class="white-big-mcd-logo"
-                                src="http://64.227.13.14/musemum/wp-content/uploads/2022/07/scene-1-mcd-logo.png"
+                                src="<?php echo wp_get_attachment_image_src(get_field('content_3',179),'full')[0];?>"
                                 alt="">
 
                             <img class="musemum-card"
-                                src="http://64.227.13.14/musemum/wp-content/uploads/2022/07/scene-1-card.png" alt="">
+                                src="<?php echo wp_get_attachment_image_src(get_field('content_2',179),'full')[0];?>"
+                                alt="">
 
                             <div class="scene-1-txt-1" style="color: #fff;font-size: 42px;">
                                 帶你體驗康文署博物館精彩的藝術 • 歷史 • <br>科學旅程！<br>
