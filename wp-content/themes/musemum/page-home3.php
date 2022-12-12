@@ -423,7 +423,7 @@ date_default_timezone_set('Asia/Hong_Kong');
 
 
 
-                                <video style="width: 1920px;height:1080px;" loop>
+                                <video class="scene2-video" style="width: 1920px;height:1080px;" loop>
                                     <source
                                         src="<?php echo wp_get_attachment_url(get_field('screen_3_video_background',208));?>"
                                         type="video/mp4">
@@ -1719,6 +1719,9 @@ function cndate($date){
                             $('.scene-div.scene-div-2').fadeIn(0);
 
                             console.log('scene2');
+
+                            $('.scene2-video').trigger('play');
+
 
                             $('.scene-div-2').css({
                                 'left': '-5760px'
