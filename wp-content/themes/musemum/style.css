@@ -1170,7 +1170,7 @@ p {
 
 .stage-btn {
     /* display: inline-block; */
-    /* display: none; */
+    display: none;
     background: #5ea6a6;
     color: #fff;
     padding: 2rem;
