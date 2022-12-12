@@ -1049,7 +1049,7 @@ function cndate($date){
 
 
                                 <div class="scene-5-screen-1-bg scene-5-screen-1-bg-1">
-
+                                    <?php echo get_field('left_screen_mode');?>
                                     <?php echo get_field('food_content_1',187);?>
                                 </div>
                                 <div class="scene-5-screen-1-bg scene-5-screen-1-bg-2">
