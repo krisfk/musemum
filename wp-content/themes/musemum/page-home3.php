@@ -807,10 +807,13 @@ date_default_timezone_set('Asia/Hong_Kong');
 
                                     <div class="marquee">
                                         <div class="track">
-                                            <div class="content">因惡劣天氣影響，史蹟徑暫時關閉 Due to the
-                                                warning, Historic Trail is
-                                                temporarily
-                                                closed </div>
+                                            <div class="content">
+                                                <?php
+                                            echo get_field('content_2',186);
+                                            // 186
+                                            ?>
+
+                                            </div>
                                         </div>
                                     </div>
 
