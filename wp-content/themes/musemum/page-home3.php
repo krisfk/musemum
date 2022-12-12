@@ -1051,7 +1051,7 @@ function cndate($date){
                                 <?php
                             
                             
-                            if(get_field('left_screen_mode')=='3 columns')
+                            if(get_field('left_screen_mode',187)=='3 columns')
                             {
 
                                 ?>
