@@ -329,17 +329,20 @@ date_default_timezone_set('Asia/Hong_Kong');
                                         </div>
                                         <div class="event-content-div" style="background:#fff">
                                             <div style=" width: 530px; ">
-
+                                                <?php echo get_sub_field('screen_2_left_event_content');?>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="event-div one-col-width">
-                                        <div class="event-title-div" style="background:#225580;">
+                                        <div class="event-title-div"
+                                            style="<?php echo get_sub_field('screen_2_right_event_title_background_color');?>">
                                             <div>
+                                                <?php echo get_sub_field('screen_2_right_event_title_txt');?>
                                             </div>
                                         </div>
                                         <div class="event-content-div" style="background:#fff">
                                             <div style=" width: 530px; ">
+                                                <?php echo get_sub_field('screen_2_right_event_content');?>
 
                                             </div>
                                         </div>
