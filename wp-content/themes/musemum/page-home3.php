@@ -379,7 +379,8 @@ date_default_timezone_set('Asia/Hong_Kong');
                                             style="background:<?php echo get_sub_field('screen_3_left_event_title_background_color');?>;">
                                             <div><?php echo get_sub_field('screen_3_left_event_title_txt');?></div>
                                         </div>
-                                        <div class="event-content-div" style="background:#fff">
+                                        <div class="event-content-div"
+                                            style="background:<?php echo get_sub_field('screen_3_left_event_content_background_color');?>;">
                                             <div style=" width: 530px; ">
                                                 <?php echo get_sub_field('screen_3_left_event_content');?>
                                             </div>
@@ -392,7 +393,8 @@ date_default_timezone_set('Asia/Hong_Kong');
                                                 <?php echo get_sub_field('screen_3_right_event_title_txt');?>
                                             </div>
                                         </div>
-                                        <div class="event-content-div" style="background:#fff">
+                                        <div class="event-content-div"
+                                            style="background:<?php echo get_sub_field('screen_3_right_event_content_background_color');?>;">
                                             <div style=" width: 530px; ">
                                                 <?php echo get_sub_field('screen_3_right_event_content');?>
 
