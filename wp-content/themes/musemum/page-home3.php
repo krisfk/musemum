@@ -1072,7 +1072,7 @@ function cndate($date){
                             }
 
 
-                            if(get_field('left_screen_mode')=='image background')
+                            if(get_field('left_screen_mode',187)=='image background')
                             {
                                 ?>
 
