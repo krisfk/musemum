@@ -98,7 +98,7 @@ date_default_timezone_set('Asia/Hong_Kong');
                             ?>
 
                             <img class="page-1-bg" class="h-100"
-                                src="<?php echo wp_get_attachment_image_src(get_field('icon',get_field('content_1',179)),'full')[0];?>"
+                                src="<?php echo wp_get_attachment_image_src(get_field('content_1',179),'full')[0];?>"
                                 alt="">
 
 
