@@ -593,7 +593,7 @@ date_default_timezone_set('Asia/Hong_Kong');
 
                                     <div class="publication-div-text-content">
                                         <span style="font-size:35px;">
-                                            香港抗戰 —! <br>
+                                            香港抗戰 — <br>
                                             東江縱隊港九獨立大隊論文集
                                         </span>
                                         <br><br>
