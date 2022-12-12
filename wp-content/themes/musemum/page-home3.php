@@ -525,7 +525,12 @@ date_default_timezone_set('Asia/Hong_Kong');
 
                             <div class="scene-3-screen scene-3-screen-2">
 
-                                <div class="publication-div three-books">
+                                <?php echo get_field('screen_2_book_3',233);?>
+                                <?php echo get_field('screen_2_book_2',233);?>
+                                <?php echo get_field('screen_2_book_1',233);?>
+
+
+                                <!-- <div class="publication-div three-books">
 
                                     <img src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/book-5.png" alt=""
                                         class="book">
@@ -639,7 +644,7 @@ date_default_timezone_set('Asia/Hong_Kong');
                                         </table>
                                     </div>
 
-                                </div>
+                                </div> -->
 
 
 
