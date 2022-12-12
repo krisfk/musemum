@@ -92,13 +92,14 @@ date_default_timezone_set('Asia/Hong_Kong');
                             // } else {
                                 // no posts found
                             // }
-                            echo 423432432423423;
-                            echo get_field('content_1',179);
+                            // echo 423432432423423;
+                            // echo get_field('content_1',179);
                             
                             ?>
 
                             <img class="page-1-bg" class="h-100"
-                                src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/page-1-bg.jpg" alt="">
+                                src="<?php echo wp_get_attachment_image_src(get_field('icon',get_field('content_1',179)),'full')[0];?>"
+                                alt="">
 
 
                             <img class="white-big-mcd-logo"
