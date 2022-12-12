@@ -1144,7 +1144,7 @@ function cndate($date){
                             </div>
                             <div class="scene-6-screen scene-6-screen-2">
 
-                                <?php echo get_field('content_2',199);?>
+                                <?php echo wp_get_attachment_url(get_field('content_2',199));?>
 
                                 <video class="mcd-logo-video" loop>
                                     <source
