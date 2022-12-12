@@ -120,7 +120,7 @@ date_default_timezone_set('Asia/Hong_Kong');
                             </div>
 
                             <img class="scene-1-musemum-pass-txt"
-                                src="http://64.227.13.14/musemum/wp-content/uploads/2022/07/scene-1-pass-txt.png"
+                                src="<?php echo wp_get_attachment_image_src(get_field('content_5',179),'full')[0];?>"
                                 alt="">
 
                             <!-- <div class="scene-1-txt-2" style="color: #394d64;font-size: 66px;">
