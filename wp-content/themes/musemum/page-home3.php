@@ -1134,9 +1134,13 @@ function cndate($date){
 
                             <div class="scene-6-screen scene-6-screen-1">
 
-                                <img class="scene-6-left-bg"
-                                    src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/scene-6-left-bg.jpg"
+
+
+
+                                <img class="scene-6-left-bg" class="h-100"
+                                    src="<?php echo wp_get_attachment_image_src(get_field('content_1',199),'full')[0];?>"
                                     alt="">
+
                             </div>
                             <div class="scene-6-screen scene-6-screen-2">
 
@@ -1151,8 +1155,9 @@ function cndate($date){
                             </div>
                             <div class="scene-6-screen scene-6-screen-3">
 
-                                <img class="scene-6-right-bg"
-                                    src="http://64.227.13.14/musemum/wp-content/uploads/2022/11/scene-6-right-bg.jpg"
+
+                                <img class="scene-6-right-bg" class="h-100"
+                                    src="<?php echo wp_get_attachment_image_src(get_field('content_3',199),'full')[0];?>"
                                     alt="">
 
 
