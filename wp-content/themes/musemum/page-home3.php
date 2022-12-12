@@ -689,7 +689,7 @@ date_default_timezone_set('Asia/Hong_Kong');
 
 
                                 <img class="musemum-book-title"
-                                    src="http://64.227.13.14/musemum/wp-content/uploads/2022/08/musemum-book-title.png"
+                                    src="<?php echo wp_get_attachment_image_src(get_field('screen_3_title_image',233),'full')[0];?>"
                                     alt="">
                                 <!-- <div class="scene-3-screen-3-txt"> <span style=" font-size: 120px; ">好書</span> <span
                                         style=" font-size: 70px; margin-left: 20px; ">伴回家</span> <br> <span
@@ -698,7 +698,7 @@ date_default_timezone_set('Asia/Hong_Kong');
                                 </div> -->
 
                                 <img class="scene-3-screen-right-img"
-                                    src="http://64.227.13.14/musemum/wp-content/uploads/2022/05/publication-right-img-1.png"
+                                    src="<?php echo wp_get_attachment_image_src(get_field('screen_3_background_image',233),'full')[0];?>"
                                     alt="">
                             </div>
 
