@@ -700,7 +700,7 @@ date_default_timezone_set('Asia/Hong_Kong');
 
 
                                 <img class="now-weather-icon"
-                                    src="<?php echo wp_get_attachment_image_src(get_field('content_1',173),'full')[0];?>"
+                                    src="<?php echo wp_get_attachment_image_src(get_field('content_1',186),'full')[0];?>"
                                     alt="">
                                 <!-- <div class="scene-4-screen-1-txt"> <span style="font-size: 70px;">現在</span><span
                                         style="font-size: 100px;margin-left: 12px;">天氣</span> <br> <span class="roboto"
